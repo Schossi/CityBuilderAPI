@@ -1,0 +1,26 @@
+var class_city_builder_core_1_1_default_game_manager =
+[
+    [ "ExtraSaveData", "class_city_builder_core_1_1_default_game_manager_1_1_extra_save_data.html", null ],
+    [ "SaveData", "class_city_builder_core_1_1_default_game_manager_1_1_save_data.html", null ],
+    [ "SaveDataMeta", "class_city_builder_core_1_1_default_game_manager_1_1_save_data_meta.html", null ],
+    [ "DeregisterDifficultyFactor", "class_city_builder_core_1_1_default_game_manager.html#a28003154849c92789738677bf8e72256", null ],
+    [ "Load", "class_city_builder_core_1_1_default_game_manager.html#a10bb4bc541c273ac3d90627e3a50e3da", null ],
+    [ "LoadNamed", "class_city_builder_core_1_1_default_game_manager.html#abe8cbdc9ea83496c5e98c9650e892d20", null ],
+    [ "Pause", "class_city_builder_core_1_1_default_game_manager.html#a75b8ee8bf88568c4ecdfded9da680689", null ],
+    [ "RegisterDifficultyFactor", "class_city_builder_core_1_1_default_game_manager.html#a8e75933cfbdfb1aaff24aa67b12bffd9", null ],
+    [ "Resume", "class_city_builder_core_1_1_default_game_manager.html#a97b4c4249a60db871581a247084e9b3b", null ],
+    [ "Save", "class_city_builder_core_1_1_default_game_manager.html#a2d3fe7e3a4f4b01b5dd880b6348bb0b9", null ],
+    [ "SaveNamed", "class_city_builder_core_1_1_default_game_manager.html#a74032330890fe6279a109262d2778087", null ],
+    [ "SetMissionParameters", "class_city_builder_core_1_1_default_game_manager.html#a716f4f30ba7f1e651db66975a482a7de", null ],
+    [ "SetSpeed", "class_city_builder_core_1_1_default_game_manager.html#a7c04c67b874a903befda7ef103f9e5bc", null ],
+    [ "Finished", "class_city_builder_core_1_1_default_game_manager.html#a833836c521cf0668f41151dad538c197", null ],
+    [ "HappeningStateChanged", "class_city_builder_core_1_1_default_game_manager.html#aad1392d297cf4f958a65a53b52cd6e4b", null ],
+    [ "IsLoadingChanged", "class_city_builder_core_1_1_default_game_manager.html#a87937ed69cb7a966da0fad59fe99b350", null ],
+    [ "IsSavingChanged", "class_city_builder_core_1_1_default_game_manager.html#a7d831958c5e6ade7836cad35632cbde2", null ],
+    [ "Started", "class_city_builder_core_1_1_default_game_manager.html#af048291950c8c2dd5fb24414e6ba2ca4", null ],
+    [ "IsFinished", "class_city_builder_core_1_1_default_game_manager.html#a874570520d013cd280b0a5bfeaae060b", null ],
+    [ "IsLoading", "class_city_builder_core_1_1_default_game_manager.html#a15d468a55942b8135a30522baf18d759", null ],
+    [ "IsSaving", "class_city_builder_core_1_1_default_game_manager.html#a9986575128d4027ec128bb525886f0e6", null ],
+    [ "MissionParameters", "class_city_builder_core_1_1_default_game_manager.html#a62794d609f10242318eda5c741e9f456", null ],
+    [ "Playtime", "class_city_builder_core_1_1_default_game_manager.html#af38ea9cfdbd5335cdd051bdadb336eb0", null ]
+];
