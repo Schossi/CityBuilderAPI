@@ -110,19 +110,19 @@ $(function(){initNavTree('class_city_builder_core_1_1_walker.html',''); initResi
   <div class="headertitle"><div class="title">CityBuilderCore.Walker Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
 <div class="contents">
-
-<p>base class for entites moving about the map<br  />
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>base class for entites moving about the map<br  />
  typically created by some kind of WalkerSpawner&lt;T&gt; on a building<br  />
  some other ways to create walkers are having spawners on a global manager(urban, town)<br  />
- or even instantiating and managing the walker save data yourself(<a class="el" href="class_city_builder_core_1_1_tilemap_spawner.html" title="spawns instances of a prefab up to a maximum number  spawn position is randomly selected either from ...">TilemapSpawner</a> used in defense)  
- <a href="#details">More...</a></p>
-<div class="dynheader">
+ or even instantiating and managing the walker save data yourself(<a class="el" href="class_city_builder_core_1_1_tilemap_spawner.html" title="spawns instances of a prefab up to a maximum number  spawn position is randomly selected either from ...">TilemapSpawner</a> used in defense) </p>
+<p><a href="https://citybuilder.softleitner.com/manual/walkers">https://citybuilder.softleitner.com/manual/walkers</a></p>
+</div><div class="dynheader">
 Inheritance diagram for CityBuilderCore.Walker:</div>
 <div class="dyncontent">
  <div class="center">
   <img src="class_city_builder_core_1_1_walker.png" usemap="#CityBuilderCore.Walker_map" alt=""/>
   <map id="CityBuilderCore.Walker_map" name="CityBuilderCore.Walker_map">
-<area href="class_city_builder_core_1_1_message_receiver.html" alt="CityBuilderCore.MessageReceiver" shape="rect" coords="0,56,307,80"/>
+<area href="class_city_builder_core_1_1_message_receiver.html" title="behaviour that can receive and pass simple string messages  events allow attaching actions to certain..." alt="CityBuilderCore.MessageReceiver" shape="rect" coords="0,56,307,80"/>
 <area href="interface_city_builder_core_1_1_i_save_data.html" title="interface for all kinds of components that contain state that needs saving" alt="CityBuilderCore.ISaveData" shape="rect" coords="317,56,624,80"/>
 <area href="interface_city_builder_core_1_1_i_override_height.html" title="interface for entities that can have their height overridden(walkers)  typically this is set for obst..." alt="CityBuilderCore.IOverrideHeight" shape="rect" coords="634,56,941,80"/>
 <area href="class_city_builder_core_1_1_attack_walker.html" title="walks to the closest attackable and attacks it periodically until it is dead, rinse and repeat" alt="CityBuilderCore.AttackWalker" shape="rect" coords="634,168,941,192"/>
@@ -136,12 +136,12 @@ Inheritance diagram for CityBuilderCore.Walker:</div>
 <area href="class_city_builder_core_1_1_storage_walker.html" title="walker for storage functions:  Supplies IItemReceiver | Gets items from IItemGiver | empties items in..." alt="CityBuilderCore.StorageWalker" shape="rect" coords="634,616,941,640"/>
 <area href="class_city_builder_core_1_1_tests_1_1_debug_walker.html" alt="CityBuilderCore.Tests.DebugWalker" shape="rect" coords="634,672,941,696"/>
 <area href="class_city_builder_core_1_1_wandering_walker.html" title="walker that randomly wanders in any direction one unit at a time for a set number of steps" alt="CityBuilderCore.WanderingWalker" shape="rect" coords="634,728,941,752"/>
-<area href="class_city_builder_core_1_1_worker_walker.html" alt="CityBuilderCore.WorkerWalker" shape="rect" coords="634,784,941,808"/>
-<area href="class_city_builder_manual_1_1_custom_1_1_custom_destination_walker.html" alt="CityBuilderManual.Custom.CustomDestinationWalker" shape="rect" coords="634,840,941,864"/>
+<area href="class_city_builder_core_1_1_worker_walker.html" title="walks from worker provider to worker user, picks up needed items first if required by the user" alt="CityBuilderCore.WorkerWalker" shape="rect" coords="634,784,941,808"/>
+<area href="class_city_builder_manual_1_1_custom_1_1_custom_destination_walker.html" title="walks along a passed path and then signals its target" alt="CityBuilderManual.Custom.CustomDestinationWalker" shape="rect" coords="634,840,941,864"/>
 <area href="class_city_builder_town_1_1_town_walker.html" title="town walkers are the only kind of walker in the town demo and are managed by the TownManager  they ha..." alt="CityBuilderTown.TownWalker" shape="rect" coords="634,896,941,920"/>
-<area href="class_city_builder_urban_1_1_pickup_walker.html" alt="CityBuilderUrban.PickupWalker" shape="rect" coords="634,952,941,976"/>
-<area href="class_city_builder_urban_1_1_tornado_walker.html" alt="CityBuilderUrban.TornadoWalker" shape="rect" coords="634,1008,941,1032"/>
-<area href="class_city_builder_urban_1_1_train_walker.html" alt="CityBuilderUrban.TrainWalker" shape="rect" coords="634,1064,941,1088"/>
+<area href="class_city_builder_urban_1_1_pickup_walker.html" title="can be spawned from a house to drive directly to a shop, purchase and then drive back" alt="CityBuilderUrban.PickupWalker" shape="rect" coords="634,952,941,976"/>
+<area href="class_city_builder_urban_1_1_tornado_walker.html" title="walks across the map along the y axis and destroys any structure it passes over" alt="CityBuilderUrban.TornadoWalker" shape="rect" coords="634,1008,941,1032"/>
+<area href="class_city_builder_urban_1_1_train_walker.html" title="drives to the trains station, signals the station to spawn trucks and then drives to the exit" alt="CityBuilderUrban.TrainWalker" shape="rect" coords="634,1064,941,1088"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -496,12 +496,7 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
 <tr class="memdesc:afc94fcc5f160876d55b95b443fd9bc8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">fired whenever the walker has moved to a 'corner' in its path, for every point when roaming <br /></td></tr>
 <tr class="separator:afc94fcc5f160876d55b95b443fd9bc8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>base class for entites moving about the map<br  />
- typically created by some kind of WalkerSpawner&lt;T&gt; on a building<br  />
- some other ways to create walkers are having spawners on a global manager(urban, town)<br  />
- or even instantiating and managing the walker save data yourself(<a class="el" href="class_city_builder_core_1_1_tilemap_spawner.html" title="spawns instances of a prefab up to a maximum number  spawn position is randomly selected either from ...">TilemapSpawner</a> used in defense) </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="aa022e472b625abb54c85fb353f949aad" name="aa022e472b625abb54c85fb353f949aad"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa022e472b625abb54c85fb353f949aad">&#9670;&#160;</a></span>AddAddon&lt; T &gt;()</h2>
 
@@ -2376,9 +2371,6 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li>C:/Projects/CityBuilder/CityBuilder/Assets/SoftLeitner/CityBuilderCore/Movements/Walking/<b>Walker.cs</b></li>
-</ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

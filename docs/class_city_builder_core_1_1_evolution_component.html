@@ -107,10 +107,14 @@ $(function(){initNavTree('class_city_builder_core_1_1_evolution_component.html',
   <div class="headertitle"><div class="title">CityBuilderCore.EvolutionComponent Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p>default building component for handling evolution  
- <a href="#details">More...</a></p>
-<div class="dynheader">
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>default building component for handling evolution </p>
+<p>determines the current evolution stage inside its sequence based on layers, services and items<br  />
+ if the stage changes it waits for the delay specified in <a class="el" href="interface_city_builder_core_1_1_i_building_manager.html" title="the component that tracks all the buildings in the game">IBuildingManager</a> before replacing the building<br  />
+ evolution components on lower buildings also need the recipients for higher ones in order to evolve<br  />
+ </p>
+<p><a href="https://citybuilder.softleitner.com/manual/buildings">https://citybuilder.softleitner.com/manual/buildings</a></p>
+</div><div class="dynheader">
 Inheritance diagram for CityBuilderCore.EvolutionComponent:</div>
 <div class="dyncontent">
  <div class="center">
@@ -266,13 +270,7 @@ Additional Inherited Members</h2></td></tr>
  usually when a building is removed which calls <a class="el" href="class_city_builder_core_1_1_building_component.html#aaebe423811f5c184d9582658cff7b75e" title="termination is performed when the building is destroyed  use to deregister traits,...">TerminateComponent</a>  <br /></td></tr>
 <tr class="separator:ac6be13cf8e5596085d10c57416257738 inherit pro_methods_class_city_builder_core_1_1_building_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>default building component for handling evolution </p>
-<p>determines the current evolution stage inside its sequence based on layers, services and items<br  />
- if the stage changes it waits for the delay specified in <a class="el" href="interface_city_builder_core_1_1_i_building_manager.html" title="the component that tracks all the buildings in the game">IBuildingManager</a> before replacing the building<br  />
- evolution components on lower buildings also need the recipients for higher ones in order to evolve<br  />
- </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a5e7203ead4bf2866836b9cadcc9691c6" name="a5e7203ead4bf2866836b9cadcc9691c6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5e7203ead4bf2866836b9cadcc9691c6">&#9670;&#160;</a></span>CheckEvolution()</h2>
 
@@ -706,9 +704,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li>C:/Projects/CityBuilder/CityBuilder/Assets/SoftLeitner/CityBuilderCore/Buildings/Evolution/<b>EvolutionComponent.cs</b></li>
-</ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

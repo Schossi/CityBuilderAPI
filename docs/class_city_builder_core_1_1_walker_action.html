@@ -104,13 +104,12 @@ $(function(){initNavTree('class_city_builder_core_1_1_walker_action.html',''); i
   <div class="headertitle"><div class="title">CityBuilderCore.WalkerAction Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
 <div class="contents">
-
-<p>encapsulated action a walker can perform, started as part of a <a class="el" href="class_city_builder_core_1_1_process_state.html" title="helper class for Walker that holds the current status of a running process  a process is a series of ...">ProcessState</a> in <a class="el" href="class_city_builder_core_1_1_walker.html#ab84152aaea3315c65daebb66c081986c" title="starts a series of WalkerActions as a process  the actions will be executed in order until the end is...">Walker.StartProcess(WalkerAction[], string)</a><br  />
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>encapsulated action a walker can perform, started as part of a <a class="el" href="class_city_builder_core_1_1_process_state.html" title="helper class for Walker that holds the current status of a running process  a process is a series of ...">ProcessState</a> in <a class="el" href="class_city_builder_core_1_1_walker.html#ab84152aaea3315c65daebb66c081986c" title="starts a series of WalkerActions as a process  the actions will be executed in order until the end is...">Walker.StartProcess(WalkerAction[], string)</a><br  />
  this enables easier higher level walker control, the walker no longer has to directly hold all the state of the different actions it can perform<br  />
  instead it can just start a process that does multiple things in series(walk somewhere&gt;pick up item&gt;walk back&gt;deposit item)<br  />
- these are directly serialized, if they contain state that is not directly serializable use ISerializationCallbackReceiver  
- <a href="#details">More...</a></p>
-<div class="dynheader">
+ these are directly serialized, if they contain state that is not directly serializable use ISerializationCallbackReceiver </p>
+</div><div class="dynheader">
 Inheritance diagram for CityBuilderCore.WalkerAction:</div>
 <div class="dyncontent">
  <div class="center">
@@ -152,12 +151,7 @@ Public Member Functions</h2></td></tr>
  do not call this directly, to end an action call <a class="el" href="class_city_builder_core_1_1_walker.html#aed80334188b206c2b59794bfc897efc8" title="mvoes the process to the next action or finishes it when the last action is finished">Walker.AdvanceProcess</a>  <br /></td></tr>
 <tr class="separator:a110cd9a598d08c6a1a82625302c6d58f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>encapsulated action a walker can perform, started as part of a <a class="el" href="class_city_builder_core_1_1_process_state.html" title="helper class for Walker that holds the current status of a running process  a process is a series of ...">ProcessState</a> in <a class="el" href="class_city_builder_core_1_1_walker.html#ab84152aaea3315c65daebb66c081986c" title="starts a series of WalkerActions as a process  the actions will be executed in order until the end is...">Walker.StartProcess(WalkerAction[], string)</a><br  />
- this enables easier higher level walker control, the walker no longer has to directly hold all the state of the different actions it can perform<br  />
- instead it can just start a process that does multiple things in series(walk somewhere&gt;pick up item&gt;walk back&gt;deposit item)<br  />
- these are directly serialized, if they contain state that is not directly serializable use ISerializationCallbackReceiver </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="ab0d4a405e17477cd6374ae6afc683575" name="ab0d4a405e17477cd6374ae6afc683575"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab0d4a405e17477cd6374ae6afc683575">&#9670;&#160;</a></span>Cancel()</h2>
 
@@ -299,9 +293,6 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li>C:/Projects/CityBuilder/CityBuilder/Assets/SoftLeitner/CityBuilderCore/Movements/Walking/<b>WalkerAction.cs</b></li>
-</ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
