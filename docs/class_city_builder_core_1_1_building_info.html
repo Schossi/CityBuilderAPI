@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.7</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.8</span>
    </div>
   </td>
  </tr>
@@ -132,12 +132,18 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>GetPrefabIndex</b> (Mo
 <tr class="memitem:a8ad820959e6bdf04c55c9fc4f4a6cc1b" id="r_a8ad820959e6bdf04c55c9fc4f4a6cc1b"><td class="memItemLeft" align="right" valign="top"><a id="a8ad820959e6bdf04c55c9fc4f4a6cc1b" name="a8ad820959e6bdf04c55c9fc4f4a6cc1b"></a>
 GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>GetGhost</b> (int index)</td></tr>
 <tr class="separator:a8ad820959e6bdf04c55c9fc4f4a6cc1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7059ab53bc3dd5fead3c5eacea760b71" id="r_a7059ab53bc3dd5fead3c5eacea760b71"><td class="memItemLeft" align="right" valign="top"><a id="a7059ab53bc3dd5fead3c5eacea760b71" name="a7059ab53bc3dd5fead3c5eacea760b71"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>CheckRequirements</b> (Vector2Int point, <a class="el" href="class_city_builder_core_1_1_building_rotation.html">BuildingRotation</a> rotation)</td></tr>
+<tr class="separator:a7059ab53bc3dd5fead3c5eacea760b71"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad953600ad7b4bf34798be97a02702cec" id="r_ad953600ad7b4bf34798be97a02702cec"><td class="memItemLeft" align="right" valign="top"><a id="ad953600ad7b4bf34798be97a02702cec" name="ad953600ad7b4bf34798be97a02702cec"></a>
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>CheckBuildingRequirements</b> (Vector2Int point, <a class="el" href="class_city_builder_core_1_1_building_rotation.html">BuildingRotation</a> rotation)</td></tr>
 <tr class="separator:ad953600ad7b4bf34798be97a02702cec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4220a6222807438458e7300eed7de461" id="r_a4220a6222807438458e7300eed7de461"><td class="memItemLeft" align="right" valign="top"><a id="a4220a6222807438458e7300eed7de461" name="a4220a6222807438458e7300eed7de461"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>CheckBuildingAvailability</b> (Vector2Int point)</td></tr>
-<tr class="separator:a4220a6222807438458e7300eed7de461"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62e27b9a582ba0e258ec30e35d370150" id="r_a62e27b9a582ba0e258ec30e35d370150"><td class="memItemLeft" align="right" valign="top"><a id="a62e27b9a582ba0e258ec30e35d370150" name="a62e27b9a582ba0e258ec30e35d370150"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>CheckRoadRequirements</b> (Vector2Int point, <a class="el" href="class_city_builder_core_1_1_building_rotation.html">BuildingRotation</a> rotation)</td></tr>
+<tr class="separator:a62e27b9a582ba0e258ec30e35d370150"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fbae94241497730e22a87f36a8af014" id="r_a6fbae94241497730e22a87f36a8af014"><td class="memItemLeft" align="right" valign="top"><a id="a6fbae94241497730e22a87f36a8af014" name="a6fbae94241497730e22a87f36a8af014"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>CheckAvailability</b> (Vector2Int point)</td></tr>
+<tr class="separator:a6fbae94241497730e22a87f36a8af014"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad519aed7aae981ff333c92b6271f9eba" id="r_ad519aed7aae981ff333c92b6271f9eba"><td class="memItemLeft" align="right" valign="top"><a id="ad519aed7aae981ff333c92b6271f9eba" name="ad519aed7aae981ff333c92b6271f9eba"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Prepare</b> (Vector2Int point, <a class="el" href="class_city_builder_core_1_1_building_rotation.html">BuildingRotation</a> rotation)</td></tr>
 <tr class="separator:ad519aed7aae981ff333c92b6271f9eba"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -159,6 +165,9 @@ Vector2Int&#160;</td><td class="memItemRight" valign="bottom"><b>Size</b></td></
 <tr class="memitem:af26143706becd773341d5996d23b5277" id="r_af26143706becd773341d5996d23b5277"><td class="memItemLeft" align="right" valign="top"><a id="af26143706becd773341d5996d23b5277" name="af26143706becd773341d5996d23b5277"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsDestructible</b> = true</td></tr>
 <tr class="separator:af26143706becd773341d5996d23b5277"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2896b600ce1e5305d9c7cfba304624e1" id="r_a2896b600ce1e5305d9c7cfba304624e1"><td class="memItemLeft" align="right" valign="top"><a id="a2896b600ce1e5305d9c7cfba304624e1" name="a2896b600ce1e5305d9c7cfba304624e1"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsMovable</b> = true</td></tr>
+<tr class="separator:a2896b600ce1e5305d9c7cfba304624e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af452f1f7f20c508ca1cfd7f0166b92e9" id="r_af452f1f7f20c508ca1cfd7f0166b92e9"><td class="memItemLeft" align="right" valign="top"><a id="af452f1f7f20c508ca1cfd7f0166b92e9" name="af452f1f7f20c508ca1cfd7f0166b92e9"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsWalkable</b> = false</td></tr>
 <tr class="separator:af452f1f7f20c508ca1cfd7f0166b92e9"><td class="memSeparator" colspan="2">&#160;</td></tr>

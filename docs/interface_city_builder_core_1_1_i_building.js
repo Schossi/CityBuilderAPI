@@ -15,6 +15,7 @@ var interface_city_builder_core_1_1_i_building =
     [ "HasBuildingComponent< T >", "interface_city_builder_core_1_1_i_building.html#acc62caef01b826c5134c5ede6c7a32a2", null ],
     [ "HasBuildingPart< T >", "interface_city_builder_core_1_1_i_building.html#a3b9d7b17fd89c72f060377cc7d5b4d53", null ],
     [ "Initialize", "interface_city_builder_core_1_1_i_building.html#acdb1b0995d58a168505bd6df58a6bd29", null ],
+    [ "Move", "interface_city_builder_core_1_1_i_building.html#ad599d888b32e9791ec77da2df649e92d", null ],
     [ "RemoveAddon", "interface_city_builder_core_1_1_i_building.html#ac80aa49be5abacc72fcbf0ed5c7d9608", null ],
     [ "RemoveAddon", "interface_city_builder_core_1_1_i_building.html#a2ee83fea2c466e95746cfe22c8ac01f8", null ],
     [ "Replace< T >", "interface_city_builder_core_1_1_i_building.html#aa232fc72bd5caacfc756e9f3245d9bec", null ],

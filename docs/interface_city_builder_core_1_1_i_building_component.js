@@ -3,6 +3,8 @@ var interface_city_builder_core_1_1_i_building_component =
     [ "GetDebugText", "interface_city_builder_core_1_1_i_building_component.html#a87248e9b2c060b323d5bb706130da3e8", null ],
     [ "GetDescription", "interface_city_builder_core_1_1_i_building_component.html#ac50db0aaf12023dfcd94c2334f8c5a9a", null ],
     [ "InitializeComponent", "interface_city_builder_core_1_1_i_building_component.html#a0c12ded20535f1d167cfb1bd5c1d9989", null ],
+    [ "OnMoved", "interface_city_builder_core_1_1_i_building_component.html#a41b286aef92c4f6708a3711dd5c350e5", null ],
+    [ "OnMoving", "interface_city_builder_core_1_1_i_building_component.html#a950a09bf8a9f59231c8b14c01d19c727", null ],
     [ "OnReplacing", "interface_city_builder_core_1_1_i_building_component.html#a1c340830b0c012c06ce6338e966e8b35", null ],
     [ "ResumeComponent", "interface_city_builder_core_1_1_i_building_component.html#a11e3d4130b86c0c9e0629ac83cbec5d1", null ],
     [ "SetupComponent", "interface_city_builder_core_1_1_i_building_component.html#ab027a3bc00659cab0f99583c4bcf79a6", null ],

@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.7</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.8</span>
    </div>
   </td>
  </tr>
@@ -192,6 +192,9 @@ IEnumerable&lt; <a class="el" href="interface_city_builder_core_1_1_i_housing.ht
 <tr class="memitem:a239f1ac73d1d7ce98e1be750b6400d00" id="r_a239f1ac73d1d7ce98e1be750b6400d00"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_city_builder_core_1_1_worker_path.html">WorkerPath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a239f1ac73d1d7ce98e1be750b6400d00">GetWorkerPath</a> (<a class="el" href="interface_city_builder_core_1_1_i_building.html">IBuilding</a> building, Vector2Int? currentPoint, <a class="el" href="class_city_builder_core_1_1_worker.html">Worker</a> worker, <a class="el" href="class_city_builder_core_1_1_item_storage.html">ItemStorage</a> storage, float maxDistance, <a class="el" href="namespace_city_builder_core.html#a19f9a2748f73f3b90d6ba96447987553">PathType</a> pathType, object pathTag)</td></tr>
 <tr class="memdesc:a239f1ac73d1d7ce98e1be750b6400d00"><td class="mdescLeft">&#160;</td><td class="mdescRight">attempts to find a worker path for a worker  <br /></td></tr>
 <tr class="separator:a239f1ac73d1d7ce98e1be750b6400d00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2767ac126620454e3ba432dab7dc1191" id="r_a2767ac126620454e3ba432dab7dc1191"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_city_builder_core_1_1_worker_path_query.html">WorkerPathQuery</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2767ac126620454e3ba432dab7dc1191">GetWorkerPathQuery</a> (<a class="el" href="interface_city_builder_core_1_1_i_building.html">IBuilding</a> building, Vector2Int? currentPoint, <a class="el" href="class_city_builder_core_1_1_worker.html">Worker</a> worker, <a class="el" href="class_city_builder_core_1_1_item_storage.html">ItemStorage</a> storage, float maxDistance, <a class="el" href="namespace_city_builder_core.html#a19f9a2748f73f3b90d6ba96447987553">PathType</a> pathType, object pathTag)</td></tr>
+<tr class="memdesc:a2767ac126620454e3ba432dab7dc1191"><td class="mdescLeft">&#160;</td><td class="mdescRight">attempts to find a worker path for a worker  <br /></td></tr>
+<tr class="separator:a2767ac126620454e3ba432dab7dc1191"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -630,7 +633,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> ()<
         <tr>
           <td class="memname"><a class="el" href="class_city_builder_core_1_1_worker_path.html">WorkerPath</a> CityBuilderCore.DefaultPopulationManager.GetWorkerPath </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="interface_city_builder_core_1_1_i_building.html">IBuilding</a></td>          <td class="paramname"><span class="paramname"><em>structure</em></span>, </td>
+          <td class="paramtype"><a class="el" href="interface_city_builder_core_1_1_i_building.html">IBuilding</a></td>          <td class="paramname"><span class="paramname"><em>building</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -673,7 +676,7 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> ()<
 <p>attempts to find a worker path for a worker </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">structure</td><td>the structure the worker hails from</td></tr>
+    <tr><td class="paramname">building</td><td>the structure the worker hails from</td></tr>
     <tr><td class="paramname">currentPoint</td><td>the current position of the worker</td></tr>
     <tr><td class="paramname">worker</td><td>the type of worker(mason, carpenter, ...)</td></tr>
     <tr><td class="paramname">storage</td><td>the storage the worker has available to carry supply to its workplace</td></tr>
@@ -685,7 +688,78 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> ()<
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>if found, a workplace and a path to get there(possibly a path to some items the worker needs to pick up beforehand)</dd></dl>
 
-<p>Implements <a class="el" href="interface_city_builder_core_1_1_i_workplace_finder.html#a58e8c027a8521212d8e950c61cc576a6">CityBuilderCore.IWorkplaceFinder</a>.</p>
+<p>Implements <a class="el" href="interface_city_builder_core_1_1_i_workplace_finder.html#a2e5a8286b3e8447cfcfffdf107547289">CityBuilderCore.IWorkplaceFinder</a>.</p>
+
+</div>
+</div>
+<a id="a2767ac126620454e3ba432dab7dc1191" name="a2767ac126620454e3ba432dab7dc1191"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2767ac126620454e3ba432dab7dc1191">&#9670;&#160;</a></span>GetWorkerPathQuery()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_city_builder_core_1_1_worker_path_query.html">WorkerPathQuery</a> CityBuilderCore.DefaultPopulationManager.GetWorkerPathQuery </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interface_city_builder_core_1_1_i_building.html">IBuilding</a></td>          <td class="paramname"><span class="paramname"><em>building</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector2Int?</td>          <td class="paramname"><span class="paramname"><em>currentPoint</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_city_builder_core_1_1_worker.html">Worker</a></td>          <td class="paramname"><span class="paramname"><em>worker</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_city_builder_core_1_1_item_storage.html">ItemStorage</a></td>          <td class="paramname"><span class="paramname"><em>storage</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>maxDistance</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespace_city_builder_core.html#a19f9a2748f73f3b90d6ba96447987553">PathType</a></td>          <td class="paramname"><span class="paramname"><em>pathType</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">object</td>          <td class="paramname"><span class="paramname"><em>pathTag</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>attempts to find a worker path for a worker </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">building</td><td>the structure the worker hails from</td></tr>
+    <tr><td class="paramname">currentPoint</td><td>the current position of the worker</td></tr>
+    <tr><td class="paramname">worker</td><td>the type of worker(mason, carpenter, ...)</td></tr>
+    <tr><td class="paramname">storage</td><td>the storage the worker has available to carry supply to its workplace</td></tr>
+    <tr><td class="paramname">maxDistance</td><td>maximum distance to workplace</td></tr>
+    <tr><td class="paramname">pathType</td><td>the type of pathing the worker uses to get around</td></tr>
+    <tr><td class="paramname">pathTag</td><td>additional parameter for pathfinding</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>a query that on completion may return, if found, a workplace and a path to get there(possibly a path to some items the worker needs to pick up beforehand)</dd></dl>
+
+<p>Implements <a class="el" href="interface_city_builder_core_1_1_i_workplace_finder.html#aa62c3728d0f38c30f999e8dca1fdc882">CityBuilderCore.IWorkplaceFinder</a>.</p>
 
 </div>
 </div>

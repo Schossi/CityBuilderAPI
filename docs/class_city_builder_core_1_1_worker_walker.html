@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.7</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.8</span>
    </div>
   </td>
  </tr>
@@ -155,17 +155,26 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a186f7a63ba8b13df1eaa1b72c9cfb9dc" id="r_a186f7a63ba8b13df1eaa1b72c9cfb9dc"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a186f7a63ba8b13df1eaa1b72c9cfb9dc">Initialize</a> (<a class="el" href="class_city_builder_core_1_1_building_reference.html">BuildingReference</a> home, Vector2Int start)</td></tr>
 <tr class="memdesc:a186f7a63ba8b13df1eaa1b72c9cfb9dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">called right after instantiating or reactivating a walker<br  />
  buildings have not had a chance to interact with the walker<br  />
- when your logic needs something from outside first override <a class="el" href="class_city_builder_core_1_1_walker.html#ad8f8874d75895d1bdab2a3eabd48d5f5" title="called after the walker is fully initialized and its spawning has been signaled to the owner">Spawned</a> instead  <br /></td></tr>
+ when your logic needs something from outside first override <a class="el" href="#a1a2c1c21523a4442687d95fc7b7330b5" title="called after the walker is fully initialized and its spawning has been signaled to the owner">Spawned</a> instead  <br /></td></tr>
 <tr class="separator:a186f7a63ba8b13df1eaa1b72c9cfb9dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a332e9815ffcfc964a2a4de6df168778f" id="r_a332e9815ffcfc964a2a4de6df168778f"><td class="memItemLeft" align="right" valign="top"><a id="a332e9815ffcfc964a2a4de6df168778f" name="a332e9815ffcfc964a2a4de6df168778f"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>StartWorking</b> (<a class="el" href="class_city_builder_core_1_1_worker_path.html">WorkerPath</a> workerPath=null)</td></tr>
-<tr class="separator:a332e9815ffcfc964a2a4de6df168778f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a2c1c21523a4442687d95fc7b7330b5" id="r_a1a2c1c21523a4442687d95fc7b7330b5"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a2c1c21523a4442687d95fc7b7330b5">Spawned</a> ()</td></tr>
+<tr class="memdesc:a1a2c1c21523a4442687d95fc7b7330b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">called after the walker is fully initialized and its spawning has been signaled to the owner  <br /></td></tr>
+<tr class="separator:a1a2c1c21523a4442687d95fc7b7330b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e011c4705ad5a557c96dbb9a41f4d20" id="r_a6e011c4705ad5a557c96dbb9a41f4d20"><td class="memItemLeft" align="right" valign="top"><a id="a6e011c4705ad5a557c96dbb9a41f4d20" name="a6e011c4705ad5a557c96dbb9a41f4d20"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>StartWorking</b> (<a class="el" href="class_city_builder_core_1_1_worker_path.html">WorkerPath</a> workerPath)</td></tr>
+<tr class="separator:a6e011c4705ad5a557c96dbb9a41f4d20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd803292a0562a5948043b5e5473be17" id="r_abd803292a0562a5948043b5e5473be17"><td class="memItemLeft" align="right" valign="top"><a id="abd803292a0562a5948043b5e5473be17" name="abd803292a0562a5948043b5e5473be17"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Work</b> (float progress)</td></tr>
 <tr class="separator:abd803292a0562a5948043b5e5473be17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d691e33c7c188eeaf06aebbed3f3af8" id="r_a0d691e33c7c188eeaf06aebbed3f3af8"><td class="memItemLeft" align="right" valign="top"><a id="a0d691e33c7c188eeaf06aebbed3f3af8" name="a0d691e33c7c188eeaf06aebbed3f3af8"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>FinishWorking</b> (IEnumerable&lt; Vector3 &gt; exitPath=null)</td></tr>
 <tr class="separator:a0d691e33c7c188eeaf06aebbed3f3af8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9640943d93c1236b078f94dc36756e5a" id="r_a9640943d93c1236b078f94dc36756e5a"><td class="memItemLeft" align="right" valign="top"><a id="a9640943d93c1236b078f94dc36756e5a" name="a9640943d93c1236b078f94dc36756e5a"></a>
+<a class="el" href="class_city_builder_core_1_1_worker_path.html">WorkerPath</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetWorkerPath</b> (<a class="el" href="interface_city_builder_core_1_1_i_building.html">IBuilding</a> building, Vector2Int? start=null)</td></tr>
+<tr class="separator:a9640943d93c1236b078f94dc36756e5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae04c93177d9344f88665b834aaacda92" id="r_ae04c93177d9344f88665b834aaacda92"><td class="memItemLeft" align="right" valign="top"><a id="ae04c93177d9344f88665b834aaacda92" name="ae04c93177d9344f88665b834aaacda92"></a>
+<a class="el" href="class_city_builder_core_1_1_worker_path_query.html">WorkerPathQuery</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetWorkerPathQuery</b> (<a class="el" href="interface_city_builder_core_1_1_i_building.html">IBuilding</a> building, Vector2Int? start=null)</td></tr>
+<tr class="separator:ae04c93177d9344f88665b834aaacda92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f5255d698ba22f2889e5dedf1b4834e" id="r_a8f5255d698ba22f2889e5dedf1b4834e"><td class="memItemLeft" align="right" valign="top">override string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f5255d698ba22f2889e5dedf1b4834e">SaveData</a> ()</td></tr>
 <tr class="memdesc:a8f5255d698ba22f2889e5dedf1b4834e"><td class="mdescLeft">&#160;</td><td class="mdescRight">serializes the objects state(usually to json) and returns it  <br /></td></tr>
 <tr class="separator:a8f5255d698ba22f2889e5dedf1b4834e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -173,9 +182,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>FinishWorking</b> (IE
 <tr class="memdesc:a5c72730c35ceb038678b7042b8f4f206"><td class="mdescLeft">&#160;</td><td class="mdescRight">deserializes the serialized json data and loads the data as its new state  <br /></td></tr>
 <tr class="separator:a5c72730c35ceb038678b7042b8f4f206"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_city_builder_core_1_1_walker"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_class_city_builder_core_1_1_walker')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_city_builder_core_1_1_walker.html">CityBuilderCore.Walker</a></td></tr>
-<tr class="memitem:ad8f8874d75895d1bdab2a3eabd48d5f5 inherit pub_methods_class_city_builder_core_1_1_walker" id="r_ad8f8874d75895d1bdab2a3eabd48d5f5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_walker.html#ad8f8874d75895d1bdab2a3eabd48d5f5">Spawned</a> ()</td></tr>
-<tr class="memdesc:ad8f8874d75895d1bdab2a3eabd48d5f5 inherit pub_methods_class_city_builder_core_1_1_walker"><td class="mdescLeft">&#160;</td><td class="mdescRight">called after the walker is fully initialized and its spawning has been signaled to the owner  <br /></td></tr>
-<tr class="separator:ad8f8874d75895d1bdab2a3eabd48d5f5 inherit pub_methods_class_city_builder_core_1_1_walker"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab84152aaea3315c65daebb66c081986c inherit pub_methods_class_city_builder_core_1_1_walker" id="r_ab84152aaea3315c65daebb66c081986c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_walker.html#ab84152aaea3315c65daebb66c081986c">StartProcess</a> (<a class="el" href="class_city_builder_core_1_1_walker_action.html">WalkerAction</a>[] actions, string key=null)</td></tr>
 <tr class="memdesc:ab84152aaea3315c65daebb66c081986c inherit pub_methods_class_city_builder_core_1_1_walker"><td class="mdescLeft">&#160;</td><td class="mdescRight">starts a series of <a class="el" href="class_city_builder_core_1_1_walker_action.html" title="encapsulated action a walker can perform, started as part of a ProcessState in Walker....">WalkerAction</a>s as a process<br  />
  the actions will be executed in order until the end is reached if another process is already running it is cancelled<br  />
@@ -397,6 +403,24 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnDestroy</b>
 <tr class="memitem:acd3457890b27c600f02f070701ac5f47 inherit pro_methods_class_city_builder_core_1_1_walker" id="r_acd3457890b27c600f02f070701ac5f47"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_walker.html#acd3457890b27c600f02f070701ac5f47">tryWalk</a> (Func&lt; <a class="el" href="class_city_builder_core_1_1_walking_path.html">WalkingPath</a> &gt; pathGetter, Action planned=null, Action finished=null, Action canceled=null)</td></tr>
 <tr class="memdesc:acd3457890b27c600f02f070701ac5f47 inherit pro_methods_class_city_builder_core_1_1_walker"><td class="mdescLeft">&#160;</td><td class="mdescRight">tries to walk a path that is calculated externaly, if no path is found the walker waits a second and retries until WalkerInfo.MaxWait times it out  <br /></td></tr>
 <tr class="separator:acd3457890b27c600f02f070701ac5f47 inherit pro_methods_class_city_builder_core_1_1_walker"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23ac643420e61e3663b767aec726116a inherit pro_methods_class_city_builder_core_1_1_walker" id="r_a23ac643420e61e3663b767aec726116a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_walker.html#a23ac643420e61e3663b767aec726116a">tryWalk</a> (Func&lt; <a class="el" href="class_city_builder_core_1_1_path_query.html">PathQuery</a> &gt; queryGetter, Action planned=null, Action finished=null, Action canceled=null)</td></tr>
+<tr class="memdesc:a23ac643420e61e3663b767aec726116a inherit pro_methods_class_city_builder_core_1_1_walker"><td class="mdescLeft">&#160;</td><td class="mdescRight">tries to walk a path that is calculated externaly using a query, if no path is found the walker waits a second and retries until WalkerInfo.MaxWait times it out  <br /></td></tr>
+<tr class="separator:a23ac643420e61e3663b767aec726116a inherit pro_methods_class_city_builder_core_1_1_walker"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa30a884d6f9fbf216203e316a8ef1bb3 inherit pro_methods_class_city_builder_core_1_1_walker" id="r_aa30a884d6f9fbf216203e316a8ef1bb3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_walker.html#aa30a884d6f9fbf216203e316a8ef1bb3">tryWalk</a> (Func&lt; <a class="el" href="class_city_builder_core_1_1_path_query.html">PathQuery</a> &gt; queryGetter, float <a class="el" href="class_city_builder_core_1_1_walker.html#ab0fa025eb4c53faf3c1026381c11cf62">delay</a>, Action planned=null, Action finished=null, Action canceled=null)</td></tr>
+<tr class="memdesc:aa30a884d6f9fbf216203e316a8ef1bb3 inherit pro_methods_class_city_builder_core_1_1_walker"><td class="mdescLeft">&#160;</td><td class="mdescRight">tries to walk a path that is calculated externaly using a query, if no path is found the walker waits a second and retries until WalkerInfo.MaxWait times it out  <br /></td></tr>
+<tr class="separator:aa30a884d6f9fbf216203e316a8ef1bb3 inherit pro_methods_class_city_builder_core_1_1_walker"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5550823229789a15a1dc04e1f8bd441a inherit pro_methods_class_city_builder_core_1_1_walker" id="r_a5550823229789a15a1dc04e1f8bd441a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_walker.html#a5550823229789a15a1dc04e1f8bd441a">tryWalk&lt; T &gt;</a> (Func&lt; <a class="el" href="class_city_builder_core_1_1_building_component_path_query.html">BuildingComponentPathQuery</a>&lt; T &gt; &gt; queryGetter, Action&lt; <a class="el" href="class_city_builder_core_1_1_building_component_path.html">BuildingComponentPath</a>&lt; T &gt; &gt; planned=null, Action finished=null, Action canceled=null)</td></tr>
+<tr class="memdesc:a5550823229789a15a1dc04e1f8bd441a inherit pro_methods_class_city_builder_core_1_1_walker"><td class="mdescLeft">&#160;</td><td class="mdescRight">tries to walk a path to a component that is calculated externaly using a query, if no path is found the walker waits a second and retries until WalkerInfo.MaxWait times it out  <br /></td></tr>
+<tr class="separator:a5550823229789a15a1dc04e1f8bd441a inherit pro_methods_class_city_builder_core_1_1_walker"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a647a2456b6037add4587212024fe9cfd inherit pro_methods_class_city_builder_core_1_1_walker" id="r_a647a2456b6037add4587212024fe9cfd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_walker.html#a647a2456b6037add4587212024fe9cfd">tryWalk&lt; T &gt;</a> (Func&lt; <a class="el" href="class_city_builder_core_1_1_building_component_path_query.html">BuildingComponentPathQuery</a>&lt; T &gt; &gt; queryGetter, float <a class="el" href="class_city_builder_core_1_1_walker.html#ab0fa025eb4c53faf3c1026381c11cf62">delay</a>, Action&lt; <a class="el" href="class_city_builder_core_1_1_building_component_path.html">BuildingComponentPath</a>&lt; T &gt; &gt; planned=null, Action finished=null, Action canceled=null)</td></tr>
+<tr class="memdesc:a647a2456b6037add4587212024fe9cfd inherit pro_methods_class_city_builder_core_1_1_walker"><td class="mdescLeft">&#160;</td><td class="mdescRight">tries to walk a path to a component that is calculated externaly using a query, if no path is found the walker waits a second and retries until WalkerInfo.MaxWait times it out  <br /></td></tr>
+<tr class="separator:a647a2456b6037add4587212024fe9cfd inherit pro_methods_class_city_builder_core_1_1_walker"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6102ef454344e9b58b315157758c71f0 inherit pro_methods_class_city_builder_core_1_1_walker" id="r_a6102ef454344e9b58b315157758c71f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_walker.html#a6102ef454344e9b58b315157758c71f0">tryWalk&lt; Q, P &gt;</a> (Func&lt; Q &gt; preparer, Func&lt; Q, P &gt; planner, Func&lt; P, <a class="el" href="class_city_builder_core_1_1_walking_path.html">WalkingPath</a> &gt; planned, Action finished=null, Action canceled=null)</td></tr>
+<tr class="memdesc:a6102ef454344e9b58b315157758c71f0 inherit pro_methods_class_city_builder_core_1_1_walker"><td class="mdescLeft">&#160;</td><td class="mdescRight">tries to walk a path that created in a two step process, if no path is found the walker waits a second and retries until WalkerInfo.MaxWait times it out  <br /></td></tr>
+<tr class="separator:a6102ef454344e9b58b315157758c71f0 inherit pro_methods_class_city_builder_core_1_1_walker"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ee4e0a1326bbf8faef55e9ea5859ed8 inherit pro_methods_class_city_builder_core_1_1_walker" id="r_a1ee4e0a1326bbf8faef55e9ea5859ed8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_walker.html#a1ee4e0a1326bbf8faef55e9ea5859ed8">tryWalk&lt; Q, P &gt;</a> (Func&lt; Q &gt; preparer, Func&lt; Q, P &gt; planner, Func&lt; P, <a class="el" href="class_city_builder_core_1_1_walking_path.html">WalkingPath</a> &gt; planned, float <a class="el" href="class_city_builder_core_1_1_walker.html#ab0fa025eb4c53faf3c1026381c11cf62">delay</a>, Action finished=null, Action canceled=null)</td></tr>
+<tr class="memdesc:a1ee4e0a1326bbf8faef55e9ea5859ed8 inherit pro_methods_class_city_builder_core_1_1_walker"><td class="mdescLeft">&#160;</td><td class="mdescRight">tries to walk a path that created in a two step process, if no path is found the walker waits a second and retries until WalkerInfo.MaxWait times it out  <br /></td></tr>
+<tr class="separator:a1ee4e0a1326bbf8faef55e9ea5859ed8 inherit pro_methods_class_city_builder_core_1_1_walker"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f4f0afab259c90907d6f2f65029b91b inherit pro_methods_class_city_builder_core_1_1_walker" id="r_a4f4f0afab259c90907d6f2f65029b91b"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_walker.html#a4f4f0afab259c90907d6f2f65029b91b">getDescription</a> (int index)</td></tr>
 <tr class="memdesc:a4f4f0afab259c90907d6f2f65029b91b inherit pro_methods_class_city_builder_core_1_1_walker"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a specific description that may explain the current walker status  <br /></td></tr>
 <tr class="separator:a4f4f0afab259c90907d6f2f65029b91b inherit pro_methods_class_city_builder_core_1_1_walker"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -564,7 +588,7 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
 
 <p>called right after instantiating or reactivating a walker<br  />
  buildings have not had a chance to interact with the walker<br  />
- when your logic needs something from outside first override <a class="el" href="class_city_builder_core_1_1_walker.html#ad8f8874d75895d1bdab2a3eabd48d5f5" title="called after the walker is fully initialized and its spawning has been signaled to the owner">Spawned</a> instead </p>
+ when your logic needs something from outside first override <a class="el" href="#a1a2c1c21523a4442687d95fc7b7330b5" title="called after the walker is fully initialized and its spawning has been signaled to the owner">Spawned</a> instead </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">home</td><td></td></tr>
@@ -668,6 +692,35 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
 <dl class="section return"><dt>Returns</dt><dd>serialized save data</dd></dl>
 
 <p>Reimplemented from <a class="el" href="class_city_builder_core_1_1_walker.html#af47b4381e1a0a643d6ab697e5eef768f">CityBuilderCore.Walker</a>.</p>
+
+</div>
+</div>
+<a id="a1a2c1c21523a4442687d95fc7b7330b5" name="a1a2c1c21523a4442687d95fc7b7330b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a2c1c21523a4442687d95fc7b7330b5">&#9670;&#160;</a></span>Spawned()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void CityBuilderCore.WorkerWalker.Spawned </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>called after the walker is fully initialized and its spawning has been signaled to the owner </p>
+
+<p>Reimplemented from <a class="el" href="class_city_builder_core_1_1_walker.html#ad8f8874d75895d1bdab2a3eabd48d5f5">CityBuilderCore.Walker</a>.</p>
 
 </div>
 </div>

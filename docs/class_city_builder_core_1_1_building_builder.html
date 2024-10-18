@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.7</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.8</span>
    </div>
   </td>
  </tr>
@@ -102,6 +102,7 @@ $(function(){initNavTree('class_city_builder_core_1_1_building_builder.html','')
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="class_city_builder_core_1_1_building_builder-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">CityBuilderCore.BuildingBuilder Class Reference</div></div>
@@ -116,10 +117,12 @@ Inheritance diagram for CityBuilderCore.BuildingBuilder:</div>
  <div class="center">
   <img src="class_city_builder_core_1_1_building_builder.png" usemap="#CityBuilderCore.BuildingBuilder_map" alt=""/>
   <map id="CityBuilderCore.BuildingBuilder_map" name="CityBuilderCore.BuildingBuilder_map">
-<area href="class_city_builder_core_1_1_pointer_tool_base.html" title="special base class for tools that use the pointer  handles differences between mouse/touch  manages m..." alt="CityBuilderCore.PointerToolBase" shape="rect" coords="328,168,537,192"/>
-<area href="class_city_builder_core_1_1_base_tool.html" title="base class for tools that are managed by ToolsManager  gets activated, deactivated,..." alt="CityBuilderCore.BaseTool" shape="rect" coords="328,112,537,136"/>
-<area href="class_city_builder_core_1_1_tooltip_owner_base.html" title="base class for ui behaviours that display tooltips" alt="CityBuilderCore.TooltipOwnerBase" shape="rect" coords="328,56,537,80"/>
-<area href="interface_city_builder_core_1_1_i_tooltip_owner.html" title="any object that has a tooltip" alt="CityBuilderCore.ITooltipOwner" shape="rect" coords="657,0,866,24"/>
+<area href="class_city_builder_core_1_1_pointer_tool_base.html" title="special base class for tools that use the pointer  handles differences between mouse/touch  manages m..." alt="CityBuilderCore.PointerToolBase" shape="rect" coords="391,168,642,192"/>
+<area href="class_city_builder_core_1_1_base_tool.html" title="base class for tools that are managed by ToolsManager  gets activated, deactivated,..." alt="CityBuilderCore.BaseTool" shape="rect" coords="391,112,642,136"/>
+<area href="class_city_builder_core_1_1_tooltip_owner_base.html" title="base class for ui behaviours that display tooltips" alt="CityBuilderCore.TooltipOwnerBase" shape="rect" coords="391,56,642,80"/>
+<area href="interface_city_builder_core_1_1_i_tooltip_owner.html" title="any object that has a tooltip" alt="CityBuilderCore.ITooltipOwner" shape="rect" coords="783,0,1034,24"/>
+<area href="class_city_builder_core_1_1_connection_feeder_builder.html" title="special building builder that registers as a preview feeder with its view connection this allows show..." alt="CityBuilderCore.ConnectionFeederBuilder" shape="rect" coords="261,280,512,304"/>
+<area href="class_city_builder_core_1_1_layer_building_builder.html" title="special building builder that also highlights points around the building  these points follow the sam..." alt="CityBuilderCore.LayerBuildingBuilder" shape="rect" coords="522,280,773,304"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -177,6 +180,24 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:aab6db67cf575e432c8a052939780d82a" id="r_aab6db67cf575e432c8a052939780d82a"><td class="memItemLeft" align="right" valign="top"><a id="aab6db67cf575e432c8a052939780d82a" name="aab6db67cf575e432c8a052939780d82a"></a>
 override void&#160;</td><td class="memItemRight" valign="bottom"><b>updatePointer</b> (Vector2Int mousePoint, Vector2Int dragStart, bool isDown, bool isApply)</td></tr>
 <tr class="separator:aab6db67cf575e432c8a052939780d82a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a481ce991326551d3f3c06b13ba835a1b" id="r_a481ce991326551d3f3c06b13ba835a1b"><td class="memItemLeft" align="right" valign="top"><a id="a481ce991326551d3f3c06b13ba835a1b" name="a481ce991326551d3f3c06b13ba835a1b"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>recreatePreview</b> ()</td></tr>
+<tr class="separator:a481ce991326551d3f3c06b13ba835a1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa579e4d33d237e4be6afc0ae4f6bf1c3" id="r_aa579e4d33d237e4be6afc0ae4f6bf1c3"><td class="memItemLeft" align="right" valign="top"><a id="aa579e4d33d237e4be6afc0ae4f6bf1c3" name="aa579e4d33d237e4be6afc0ae4f6bf1c3"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>createPreview</b> ()</td></tr>
+<tr class="separator:aa579e4d33d237e4be6afc0ae4f6bf1c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b9becd057b2dc2aada548d583fb7b5c" id="r_a2b9becd057b2dc2aada548d583fb7b5c"><td class="memItemLeft" align="right" valign="top"><a id="a2b9becd057b2dc2aada548d583fb7b5c" name="a2b9becd057b2dc2aada548d583fb7b5c"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>updatePreview</b> (List&lt; Vector2Int &gt; buildPoints, Vector2Int size, Func&lt; Vector2Int, bool &gt; validityChecker)</td></tr>
+<tr class="separator:a2b9becd057b2dc2aada548d583fb7b5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e94b4a2ce838c3b5c0ffdf37753ffc7" id="r_a6e94b4a2ce838c3b5c0ffdf37753ffc7"><td class="memItemLeft" align="right" valign="top"><a id="a6e94b4a2ce838c3b5c0ffdf37753ffc7" name="a6e94b4a2ce838c3b5c0ffdf37753ffc7"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>destroyPreview</b> ()</td></tr>
+<tr class="separator:a6e94b4a2ce838c3b5c0ffdf37753ffc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80823560f792ccde6f1a6d973db73b55" id="r_a80823560f792ccde6f1a6d973db73b55"><td class="memItemLeft" align="right" valign="top"><a id="a80823560f792ccde6f1a6d973db73b55" name="a80823560f792ccde6f1a6d973db73b55"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>checkCost</b> (int count)</td></tr>
+<tr class="separator:a80823560f792ccde6f1a6d973db73b55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cfe548202ee2581b67c18aafaa4f56a" id="r_a9cfe548202ee2581b67c18aafaa4f56a"><td class="memItemLeft" align="right" valign="top"><a id="a9cfe548202ee2581b67c18aafaa4f56a" name="a9cfe548202ee2581b67c18aafaa4f56a"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>build</b> (IEnumerable&lt; Vector2Int &gt; points)</td></tr>
+<tr class="separator:a9cfe548202ee2581b67c18aafaa4f56a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_city_builder_core_1_1_pointer_tool_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_class_city_builder_core_1_1_pointer_tool_base')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_city_builder_core_1_1_pointer_tool_base.html">CityBuilderCore.PointerToolBase</a></td></tr>
 <tr class="memitem:ad561a72ae345f3c00e97b11f46798b06 inherit pro_methods_class_city_builder_core_1_1_pointer_tool_base" id="r_ad561a72ae345f3c00e97b11f46798b06"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_pointer_tool_base.html#ad561a72ae345f3c00e97b11f46798b06">updateTool</a> ()</td></tr>
 <tr class="separator:ad561a72ae345f3c00e97b11f46798b06 inherit pro_methods_class_city_builder_core_1_1_pointer_tool_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -197,6 +218,43 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>enter</b> ()</td></tr
 <tr class="memitem:a011f12d5b4d195f67daa1d34058f1109 inherit pro_methods_class_city_builder_core_1_1_tooltip_owner_base" id="r_a011f12d5b4d195f67daa1d34058f1109"><td class="memItemLeft" align="right" valign="top">
 void&#160;</td><td class="memItemRight" valign="bottom"><b>exit</b> ()</td></tr>
 <tr class="separator:a011f12d5b4d195f67daa1d34058f1109 inherit pro_methods_class_city_builder_core_1_1_tooltip_owner_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a06a5c5346a20848c00d1718dfbb6468e" id="r_a06a5c5346a20848c00d1718dfbb6468e"><td class="memItemLeft" align="right" valign="top"><a id="a06a5c5346a20848c00d1718dfbb6468e" name="a06a5c5346a20848c00d1718dfbb6468e"></a>
+<a class="el" href="class_city_builder_core_1_1_building_rotation.html">BuildingRotation</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_rotation</b></td></tr>
+<tr class="separator:a06a5c5346a20848c00d1718dfbb6468e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad24e48def4259f34693532fa7c8e647d" id="r_ad24e48def4259f34693532fa7c8e647d"><td class="memItemLeft" align="right" valign="top"><a id="ad24e48def4259f34693532fa7c8e647d" name="ad24e48def4259f34693532fa7c8e647d"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>_index</b></td></tr>
+<tr class="separator:ad24e48def4259f34693532fa7c8e647d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a768b339e168079178e119054851d22be" id="r_a768b339e168079178e119054851d22be"><td class="memItemLeft" align="right" valign="top"><a id="a768b339e168079178e119054851d22be" name="a768b339e168079178e119054851d22be"></a>
+GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>_ghost</b></td></tr>
+<tr class="separator:a768b339e168079178e119054851d22be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcec930dbde30a721368eee053fec7cd" id="r_afcec930dbde30a721368eee053fec7cd"><td class="memItemLeft" align="right" valign="top"><a id="afcec930dbde30a721368eee053fec7cd" name="afcec930dbde30a721368eee053fec7cd"></a>
+List&lt; <a class="el" href="class_city_builder_core_1_1_item_quantity.html">ItemQuantity</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>_costs</b> = new List&lt;<a class="el" href="class_city_builder_core_1_1_item_quantity.html">ItemQuantity</a>&gt;()</td></tr>
+<tr class="separator:afcec930dbde30a721368eee053fec7cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a535828e5dbf39353f45c08c95590e3f6" id="r_a535828e5dbf39353f45c08c95590e3f6"><td class="memItemLeft" align="right" valign="top"><a id="a535828e5dbf39353f45c08c95590e3f6" name="a535828e5dbf39353f45c08c95590e3f6"></a>
+<a class="el" href="interface_city_builder_core_1_1_i_global_storage.html">IGlobalStorage</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_globalStorage</b></td></tr>
+<tr class="separator:a535828e5dbf39353f45c08c95590e3f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad4e75e7ab12aaa669f9e8dddc0a4ef6" id="r_aad4e75e7ab12aaa669f9e8dddc0a4ef6"><td class="memItemLeft" align="right" valign="top"><a id="aad4e75e7ab12aaa669f9e8dddc0a4ef6" name="aad4e75e7ab12aaa669f9e8dddc0a4ef6"></a>
+<a class="el" href="interface_city_builder_core_1_1_i_highlight_manager.html">IHighlightManager</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_highlighting</b></td></tr>
+<tr class="separator:aad4e75e7ab12aaa669f9e8dddc0a4ef6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a383ec7096ad8a9545ed7143079736624" id="r_a383ec7096ad8a9545ed7143079736624"><td class="memItemLeft" align="right" valign="top"><a id="a383ec7096ad8a9545ed7143079736624" name="a383ec7096ad8a9545ed7143079736624"></a>
+<a class="el" href="interface_city_builder_core_1_1_i_map.html">IMap</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_map</b></td></tr>
+<tr class="separator:a383ec7096ad8a9545ed7143079736624"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44df9f1e6238eb99daf554416fa06b26" id="r_a44df9f1e6238eb99daf554416fa06b26"><td class="memItemLeft" align="right" valign="top"><a id="a44df9f1e6238eb99daf554416fa06b26" name="a44df9f1e6238eb99daf554416fa06b26"></a>
+<a class="el" href="interface_city_builder_core_1_1_i_main_camera.html">IMainCamera</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_mainCamera</b></td></tr>
+<tr class="separator:a44df9f1e6238eb99daf554416fa06b26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab94e8fa2917d4f1a050abd2b580b4bd5" id="r_ab94e8fa2917d4f1a050abd2b580b4bd5"><td class="memItemLeft" align="right" valign="top"><a id="ab94e8fa2917d4f1a050abd2b580b4bd5" name="ab94e8fa2917d4f1a050abd2b580b4bd5"></a>
+<a class="el" href="interface_city_builder_core_1_1_i_grid_positions.html">IGridPositions</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_gridPositions</b></td></tr>
+<tr class="separator:ab94e8fa2917d4f1a050abd2b580b4bd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ed7541d2ef48042ad86694a15c3dba3" id="r_a7ed7541d2ef48042ad86694a15c3dba3"><td class="memItemLeft" align="right" valign="top"><a id="a7ed7541d2ef48042ad86694a15c3dba3" name="a7ed7541d2ef48042ad86694a15c3dba3"></a>
+<a class="el" href="interface_city_builder_core_1_1_i_grid_heights.html">IGridHeights</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_gridHeights</b></td></tr>
+<tr class="separator:a7ed7541d2ef48042ad86694a15c3dba3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_city_builder_core_1_1_tooltip_owner_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_class_city_builder_core_1_1_tooltip_owner_base')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_city_builder_core_1_1_tooltip_owner_base.html">CityBuilderCore.TooltipOwnerBase</a></td></tr>
+<tr class="memitem:a4b350f279e531aeb99c7f61aa2cf7e61 inherit pro_attribs_class_city_builder_core_1_1_tooltip_owner_base" id="r_a4b350f279e531aeb99c7f61aa2cf7e61"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_isPointerInside</b></td></tr>
+<tr class="separator:a4b350f279e531aeb99c7f61aa2cf7e61 inherit pro_attribs_class_city_builder_core_1_1_tooltip_owner_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -233,13 +291,6 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsTouchActivated</b><
 <tr class="memdesc:a0404b1f92d50df6bcceaa69b7f9f61ce inherit properties_class_city_builder_core_1_1_tooltip_owner_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">smaller but potentially longer text below the main text  <br /></td></tr>
 <tr class="separator:a0404b1f92d50df6bcceaa69b7f9f61ce inherit properties_class_city_builder_core_1_1_tooltip_owner_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_interface_city_builder_core_1_1_i_tooltip_owner"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_interface_city_builder_core_1_1_i_tooltip_owner')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="interface_city_builder_core_1_1_i_tooltip_owner.html">CityBuilderCore.ITooltipOwner</a></td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_attribs_class_city_builder_core_1_1_tooltip_owner_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_class_city_builder_core_1_1_tooltip_owner_base')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_city_builder_core_1_1_tooltip_owner_base.html">CityBuilderCore.TooltipOwnerBase</a></td></tr>
-<tr class="memitem:a4b350f279e531aeb99c7f61aa2cf7e61 inherit pro_attribs_class_city_builder_core_1_1_tooltip_owner_base" id="r_a4b350f279e531aeb99c7f61aa2cf7e61"><td class="memItemLeft" align="right" valign="top">
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_isPointerInside</b></td></tr>
-<tr class="separator:a4b350f279e531aeb99c7f61aa2cf7e61 inherit pro_attribs_class_city_builder_core_1_1_tooltip_owner_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a1d395fa7dfef06324f73cd52cca12c27" name="a1d395fa7dfef06324f73cd52cca12c27"></a>

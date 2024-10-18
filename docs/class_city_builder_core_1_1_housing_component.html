@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.7</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.8</span>
    </div>
   </td>
  </tr>
@@ -183,6 +183,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ace7177c5dbb531afac7390b35e3b973f inherit pub_methods_class_city_builder_core_1_1_building_component" id="r_ace7177c5dbb531afac7390b35e3b973f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_component.html#ace7177c5dbb531afac7390b35e3b973f">SetupComponent</a> ()</td></tr>
 <tr class="memdesc:ace7177c5dbb531afac7390b35e3b973f inherit pub_methods_class_city_builder_core_1_1_building_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">only called when the building is originally placed, before Initialize  <br /></td></tr>
 <tr class="separator:ace7177c5dbb531afac7390b35e3b973f inherit pub_methods_class_city_builder_core_1_1_building_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b12f7c48adc236f490b2f2c9d78e812 inherit pub_methods_class_city_builder_core_1_1_building_component" id="r_a4b12f7c48adc236f490b2f2c9d78e812"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_component.html#a4b12f7c48adc236f490b2f2c9d78e812">OnMoving</a> ()</td></tr>
+<tr class="memdesc:a4b12f7c48adc236f490b2f2c9d78e812 inherit pub_methods_class_city_builder_core_1_1_building_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when the building is about to be moved<br  />
+ can be used to remove/deregister stuff from the old position  <br /></td></tr>
+<tr class="separator:a4b12f7c48adc236f490b2f2c9d78e812 inherit pub_methods_class_city_builder_core_1_1_building_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5ca5f11843988f5b9dd323dc2567c95 inherit pub_methods_class_city_builder_core_1_1_building_component" id="r_af5ca5f11843988f5b9dd323dc2567c95"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_component.html#af5ca5f11843988f5b9dd323dc2567c95">OnMoved</a> (Vector2Int oldPoint, <a class="el" href="class_city_builder_core_1_1_building_rotation.html">BuildingRotation</a> oldRotation)</td></tr>
+<tr class="memdesc:af5ca5f11843988f5b9dd323dc2567c95 inherit pub_methods_class_city_builder_core_1_1_building_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">called after a building has been moved<br  />
+ can be used to register things at the new position  <br /></td></tr>
+<tr class="separator:af5ca5f11843988f5b9dd323dc2567c95 inherit pub_methods_class_city_builder_core_1_1_building_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abbd71df9c933de57c04c38876533d595 inherit pub_methods_class_city_builder_core_1_1_building_component" id="r_abbd71df9c933de57c04c38876533d595"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_component.html#abbd71df9c933de57c04c38876533d595">ResumeComponent</a> ()</td></tr>
 <tr class="memdesc:abbd71df9c933de57c04c38876533d595 inherit pub_methods_class_city_builder_core_1_1_building_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">resumes work in the component after <a class="el" href="class_city_builder_core_1_1_building_component.html#a7c3902d76a882d33f5fbb4bd008ed64a" title="temporarily stops the component from working">SuspendComponent</a> has been called  <br /></td></tr>
 <tr class="separator:abbd71df9c933de57c04c38876533d595 inherit pub_methods_class_city_builder_core_1_1_building_component"><td class="memSeparator" colspan="2">&#160;</td></tr>

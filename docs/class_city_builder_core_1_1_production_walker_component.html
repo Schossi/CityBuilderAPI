@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.7</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.8</span>
    </div>
   </td>
  </tr>
@@ -198,6 +198,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ace7177c5dbb531afac7390b35e3b973f inherit pub_methods_class_city_builder_core_1_1_building_component" id="r_ace7177c5dbb531afac7390b35e3b973f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_component.html#ace7177c5dbb531afac7390b35e3b973f">SetupComponent</a> ()</td></tr>
 <tr class="memdesc:ace7177c5dbb531afac7390b35e3b973f inherit pub_methods_class_city_builder_core_1_1_building_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">only called when the building is originally placed, before Initialize  <br /></td></tr>
 <tr class="separator:ace7177c5dbb531afac7390b35e3b973f inherit pub_methods_class_city_builder_core_1_1_building_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b12f7c48adc236f490b2f2c9d78e812 inherit pub_methods_class_city_builder_core_1_1_building_component" id="r_a4b12f7c48adc236f490b2f2c9d78e812"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_component.html#a4b12f7c48adc236f490b2f2c9d78e812">OnMoving</a> ()</td></tr>
+<tr class="memdesc:a4b12f7c48adc236f490b2f2c9d78e812 inherit pub_methods_class_city_builder_core_1_1_building_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when the building is about to be moved<br  />
+ can be used to remove/deregister stuff from the old position  <br /></td></tr>
+<tr class="separator:a4b12f7c48adc236f490b2f2c9d78e812 inherit pub_methods_class_city_builder_core_1_1_building_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5ca5f11843988f5b9dd323dc2567c95 inherit pub_methods_class_city_builder_core_1_1_building_component" id="r_af5ca5f11843988f5b9dd323dc2567c95"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_component.html#af5ca5f11843988f5b9dd323dc2567c95">OnMoved</a> (Vector2Int oldPoint, <a class="el" href="class_city_builder_core_1_1_building_rotation.html">BuildingRotation</a> oldRotation)</td></tr>
+<tr class="memdesc:af5ca5f11843988f5b9dd323dc2567c95 inherit pub_methods_class_city_builder_core_1_1_building_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">called after a building has been moved<br  />
+ can be used to register things at the new position  <br /></td></tr>
+<tr class="separator:af5ca5f11843988f5b9dd323dc2567c95 inherit pub_methods_class_city_builder_core_1_1_building_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c3902d76a882d33f5fbb4bd008ed64a inherit pub_methods_class_city_builder_core_1_1_building_component" id="r_a7c3902d76a882d33f5fbb4bd008ed64a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_component.html#a7c3902d76a882d33f5fbb4bd008ed64a">SuspendComponent</a> ()</td></tr>
 <tr class="memdesc:a7c3902d76a882d33f5fbb4bd008ed64a inherit pub_methods_class_city_builder_core_1_1_building_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">temporarily stops the component from working  <br /></td></tr>
 <tr class="separator:a7c3902d76a882d33f5fbb4bd008ed64a inherit pub_methods_class_city_builder_core_1_1_building_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -238,9 +246,12 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>ProgressInterval</b>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:afcafb364871aab14318838021a4d0049" id="r_afcafb364871aab14318838021a4d0049"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afcafb364871aab14318838021a4d0049">Awake</a> ()</td></tr>
 <tr class="separator:afcafb364871aab14318838021a4d0049"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0fc09e9e75cc6d38439cb24d8269571e" id="r_a0fc09e9e75cc6d38439cb24d8269571e"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fc09e9e75cc6d38439cb24d8269571e">Start</a> ()</td></tr>
-<tr class="separator:a0fc09e9e75cc6d38439cb24d8269571e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac69fc13d58780f41296fbb75a30c9511" id="r_ac69fc13d58780f41296fbb75a30c9511"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac69fc13d58780f41296fbb75a30c9511">onItemsChanged</a> ()</td></tr>
+<tr class="separator:ac69fc13d58780f41296fbb75a30c9511"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_city_builder_core_1_1_production_component"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_class_city_builder_core_1_1_production_component')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_city_builder_core_1_1_production_component.html">CityBuilderCore.ProductionComponent</a></td></tr>
+<tr class="memitem:a7d786d0da0c0cf7f657cf5341426ab89 inherit pro_methods_class_city_builder_core_1_1_production_component" id="r_a7d786d0da0c0cf7f657cf5341426ab89"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> ()</td></tr>
+<tr class="separator:a7d786d0da0c0cf7f657cf5341426ab89 inherit pro_methods_class_city_builder_core_1_1_production_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a49b50eb8afb4d869cd79774e1ee46228 inherit pro_methods_class_city_builder_core_1_1_production_component" id="r_a49b50eb8afb4d869cd79774e1ee46228"><td class="memItemLeft" align="right" valign="top">
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> ()</td></tr>
 <tr class="separator:a49b50eb8afb4d869cd79774e1ee46228 inherit pro_methods_class_city_builder_core_1_1_production_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -259,15 +270,15 @@ virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>canProduce</b
 <tr class="memitem:a822692dbf325776801005479e6a7e2a4 inherit pro_methods_class_city_builder_core_1_1_production_component" id="r_a822692dbf325776801005479e6a7e2a4"><td class="memItemLeft" align="right" valign="top">
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>produce</b> ()</td></tr>
 <tr class="separator:a822692dbf325776801005479e6a7e2a4 inherit pro_methods_class_city_builder_core_1_1_production_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae116ca9d86a654f758105a4adb4b72d0 inherit pro_methods_class_city_builder_core_1_1_production_component" id="r_ae116ca9d86a654f758105a4adb4b72d0"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>onProduced</b> (<a class="el" href="class_city_builder_core_1_1_item_producer.html">ItemProducer</a> itemProducer)</td></tr>
+<tr class="separator:ae116ca9d86a654f758105a4adb4b72d0 inherit pro_methods_class_city_builder_core_1_1_production_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab758f7357c7474ea552bd1c15d4b9002 inherit pro_methods_class_city_builder_core_1_1_production_component" id="r_ab758f7357c7474ea552bd1c15d4b9002"><td class="memItemLeft" align="right" valign="top">
 <a class="el" href="class_city_builder_core_1_1_item_consumer.html">ItemConsumer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getConsumer</b> (<a class="el" href="class_city_builder_core_1_1_item.html">Item</a> item)</td></tr>
 <tr class="separator:ab758f7357c7474ea552bd1c15d4b9002 inherit pro_methods_class_city_builder_core_1_1_production_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0785e926fb4677a878c4d33faa581474 inherit pro_methods_class_city_builder_core_1_1_production_component" id="r_a0785e926fb4677a878c4d33faa581474"><td class="memItemLeft" align="right" valign="top">
 <a class="el" href="class_city_builder_core_1_1_item_producer.html">ItemProducer</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getProducer</b> (<a class="el" href="class_city_builder_core_1_1_item.html">Item</a> item)</td></tr>
 <tr class="separator:a0785e926fb4677a878c4d33faa581474 inherit pro_methods_class_city_builder_core_1_1_production_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb4992446869ce1de99997d785061faf inherit pro_methods_class_city_builder_core_1_1_production_component" id="r_abb4992446869ce1de99997d785061faf"><td class="memItemLeft" align="right" valign="top">
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>onItemsChanged</b> ()</td></tr>
-<tr class="separator:abb4992446869ce1de99997d785061faf inherit pro_methods_class_city_builder_core_1_1_production_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae174234b5c9ee449b9ece7c27fa2fd35 inherit pro_methods_class_city_builder_core_1_1_production_component" id="r_ae174234b5c9ee449b9ece7c27fa2fd35"><td class="memItemLeft" align="right" valign="top">
 void&#160;</td><td class="memItemRight" valign="bottom"><b>saveData</b> (<a class="el" href="class_city_builder_core_1_1_production_component_1_1_production_data.html">ProductionData</a> data)</td></tr>
 <tr class="separator:ae174234b5c9ee449b9ece7c27fa2fd35 inherit pro_methods_class_city_builder_core_1_1_production_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -450,6 +461,33 @@ Action&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Prog
 
 </div>
 </div>
+<a id="ac69fc13d58780f41296fbb75a30c9511" name="ac69fc13d58780f41296fbb75a30c9511"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac69fc13d58780f41296fbb75a30c9511">&#9670;&#160;</a></span>onItemsChanged()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void CityBuilderCore.ProductionWalkerComponent.onItemsChanged </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="class_city_builder_core_1_1_production_component.html">CityBuilderCore.ProductionComponent</a>.</p>
+
+</div>
+</div>
 <a id="ad67caa6c01ecc98f7c05b6fb78b119d5" name="ad67caa6c01ecc98f7c05b6fb78b119d5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad67caa6c01ecc98f7c05b6fb78b119d5">&#9670;&#160;</a></span>SaveData()</h2>
 
@@ -477,33 +515,6 @@ Action&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Prog
 <dl class="section return"><dt>Returns</dt><dd>serialized save data</dd></dl>
 
 <p>Reimplemented from <a class="el" href="class_city_builder_core_1_1_production_component.html#a80019daa8b665dfc8b25fe9dc9bcb339">CityBuilderCore.ProductionComponent</a>.</p>
-
-</div>
-</div>
-<a id="a0fc09e9e75cc6d38439cb24d8269571e" name="a0fc09e9e75cc6d38439cb24d8269571e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0fc09e9e75cc6d38439cb24d8269571e">&#9670;&#160;</a></span>Start()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">override void CityBuilderCore.ProductionWalkerComponent.Start </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented from <a class="el" href="class_city_builder_core_1_1_production_component.html">CityBuilderCore.ProductionComponent</a>.</p>
 
 </div>
 </div>

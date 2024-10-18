@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.7</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.8</span>
    </div>
   </td>
  </tr>
@@ -102,6 +102,7 @@ $(function(){initNavTree('class_city_builder_core_1_1_road_blocker_component.htm
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="class_city_builder_core_1_1_road_blocker_component-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">CityBuilderCore.RoadBlockerComponent Class Reference</div></div>
@@ -162,6 +163,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>SetBlockedKeys</b> (L
 <tr class="memdesc:a1181c915c90848dfd80ca567476f0604 inherit pub_methods_class_city_builder_core_1_1_building_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when a component gets replaced<br  />
  use to transfer resources, replace references  <br /></td></tr>
 <tr class="separator:a1181c915c90848dfd80ca567476f0604 inherit pub_methods_class_city_builder_core_1_1_building_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b12f7c48adc236f490b2f2c9d78e812 inherit pub_methods_class_city_builder_core_1_1_building_component" id="r_a4b12f7c48adc236f490b2f2c9d78e812"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_component.html#a4b12f7c48adc236f490b2f2c9d78e812">OnMoving</a> ()</td></tr>
+<tr class="memdesc:a4b12f7c48adc236f490b2f2c9d78e812 inherit pub_methods_class_city_builder_core_1_1_building_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when the building is about to be moved<br  />
+ can be used to remove/deregister stuff from the old position  <br /></td></tr>
+<tr class="separator:a4b12f7c48adc236f490b2f2c9d78e812 inherit pub_methods_class_city_builder_core_1_1_building_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5ca5f11843988f5b9dd323dc2567c95 inherit pub_methods_class_city_builder_core_1_1_building_component" id="r_af5ca5f11843988f5b9dd323dc2567c95"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_component.html#af5ca5f11843988f5b9dd323dc2567c95">OnMoved</a> (Vector2Int oldPoint, <a class="el" href="class_city_builder_core_1_1_building_rotation.html">BuildingRotation</a> oldRotation)</td></tr>
+<tr class="memdesc:af5ca5f11843988f5b9dd323dc2567c95 inherit pub_methods_class_city_builder_core_1_1_building_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">called after a building has been moved<br  />
+ can be used to register things at the new position  <br /></td></tr>
+<tr class="separator:af5ca5f11843988f5b9dd323dc2567c95 inherit pub_methods_class_city_builder_core_1_1_building_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a527b162241ba966b2d967e7fb3844c5a inherit pub_methods_class_city_builder_core_1_1_building_component" id="r_a527b162241ba966b2d967e7fb3844c5a"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_component.html#a527b162241ba966b2d967e7fb3844c5a">GetDebugText</a> ()</td></tr>
 <tr class="memdesc:a527b162241ba966b2d967e7fb3844c5a inherit pub_methods_class_city_builder_core_1_1_building_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns text that gets displayed for debugging in the scene editor  <br /></td></tr>
 <tr class="separator:a527b162241ba966b2d967e7fb3844c5a inherit pub_methods_class_city_builder_core_1_1_building_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -177,6 +186,31 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a3c4829edcb0ad5ca4c4c01bacaee31ae" id="r_a3c4829edcb0ad5ca4c4c01bacaee31ae"><td class="memItemLeft" align="right" valign="top"><a id="a3c4829edcb0ad5ca4c4c01bacaee31ae" name="a3c4829edcb0ad5ca4c4c01bacaee31ae"></a>
 <a class="el" href="class_city_builder_core_1_1_keyed_object.html">KeyedObject</a>[]&#160;</td><td class="memItemRight" valign="bottom"><b>Tags</b></td></tr>
 <tr class="separator:a3c4829edcb0ad5ca4c4c01bacaee31ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a7a64d05cde6b2e317598668d1ca18ea9" id="r_a7a64d05cde6b2e317598668d1ca18ea9"><td class="memItemLeft" align="right" valign="top"><a id="a7a64d05cde6b2e317598668d1ca18ea9" name="a7a64d05cde6b2e317598668d1ca18ea9"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>buildingPointsChanged</b> (<a class="el" href="class_city_builder_core_1_1_points_changed.html">PointsChanged</a>&lt; <a class="el" href="interface_city_builder_core_1_1_i_structure.html">IStructure</a> &gt; e)</td></tr>
+<tr class="separator:a7a64d05cde6b2e317598668d1ca18ea9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_city_builder_core_1_1_building_component"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_class_city_builder_core_1_1_building_component')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_city_builder_core_1_1_building_component.html">CityBuilderCore.BuildingComponent</a></td></tr>
+<tr class="memitem:aaa6c95200fdaa2ba1c5b35c35b57fb96 inherit pro_methods_class_city_builder_core_1_1_building_component" id="r_aaa6c95200fdaa2ba1c5b35c35b57fb96"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_component.html#aaa6c95200fdaa2ba1c5b35c35b57fb96">getOther&lt; T &gt;</a> ()</td></tr>
+<tr class="memdesc:aaa6c95200fdaa2ba1c5b35c35b57fb96 inherit pro_methods_class_city_builder_core_1_1_building_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets the first building component of the specified type on the same building  <br /></td></tr>
+<tr class="separator:aaa6c95200fdaa2ba1c5b35c35b57fb96 inherit pro_methods_class_city_builder_core_1_1_building_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55d16ae448c033f702506d5d8d3e8210 inherit pro_methods_class_city_builder_core_1_1_building_component" id="r_a55d16ae448c033f702506d5d8d3e8210"><td class="memItemLeft" align="right" valign="top">IEnumerable&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_component.html#a55d16ae448c033f702506d5d8d3e8210">getOthers&lt; T &gt;</a> ()</td></tr>
+<tr class="memdesc:a55d16ae448c033f702506d5d8d3e8210 inherit pro_methods_class_city_builder_core_1_1_building_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets all building components of the specified type on the same building  <br /></td></tr>
+<tr class="separator:a55d16ae448c033f702506d5d8d3e8210 inherit pro_methods_class_city_builder_core_1_1_building_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65a957590c0ba0ddd399ecb3182f2182 inherit pro_methods_class_city_builder_core_1_1_building_component" id="r_a65a957590c0ba0ddd399ecb3182f2182"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_city_builder_core_1_1_building_component_reference.html">BuildingComponentReference</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_component.html#a65a957590c0ba0ddd399ecb3182f2182">registerTrait&lt; T &gt;</a> (T trait)</td></tr>
+<tr class="memdesc:a65a957590c0ba0ddd399ecb3182f2182 inherit pro_methods_class_city_builder_core_1_1_building_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">registers the building component as a trait so it is globally accessible<br  />
+ usually done in <a class="el" href="class_city_builder_core_1_1_building_component.html#aecc58bb57fd07ea1e9d263c58f6dcb63" title="initialization is performed when the building is placed or loaded  use to create references,...">InitializeComponent</a>  <br /></td></tr>
+<tr class="separator:a65a957590c0ba0ddd399ecb3182f2182 inherit pro_methods_class_city_builder_core_1_1_building_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a010bacee1bdf11ebfeb576aef3df9442 inherit pro_methods_class_city_builder_core_1_1_building_component" id="r_a010bacee1bdf11ebfeb576aef3df9442"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_component.html#a010bacee1bdf11ebfeb576aef3df9442">replaceTrait&lt; T &gt;</a> (T trait, T replacement)</td></tr>
+<tr class="memdesc:a010bacee1bdf11ebfeb576aef3df9442 inherit pro_methods_class_city_builder_core_1_1_building_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">replaces the reference a trait points to in the global manager<br  />
+ done when a building is replaced(<a class="el" href="class_city_builder_core_1_1_building_component.html#a1181c915c90848dfd80ca567476f0604" title="called when a component gets replaced  use to transfer resources, replace references">OnReplacing(IBuilding)</a>) so the trait now points to the new component instead of the one that has been removed  <br /></td></tr>
+<tr class="separator:a010bacee1bdf11ebfeb576aef3df9442 inherit pro_methods_class_city_builder_core_1_1_building_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6be13cf8e5596085d10c57416257738 inherit pro_methods_class_city_builder_core_1_1_building_component" id="r_ac6be13cf8e5596085d10c57416257738"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_component.html#ac6be13cf8e5596085d10c57416257738">deregisterTrait&lt; T &gt;</a> (T trait)</td></tr>
+<tr class="memdesc:ac6be13cf8e5596085d10c57416257738 inherit pro_methods_class_city_builder_core_1_1_building_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes a previously registered trait<br  />
+ usually when a building is removed which calls <a class="el" href="class_city_builder_core_1_1_building_component.html#aaebe423811f5c184d9582658cff7b75e" title="termination is performed when the building is destroyed  use to deregister traits,...">TerminateComponent</a>  <br /></td></tr>
+<tr class="separator:ac6be13cf8e5596085d10c57416257738 inherit pro_methods_class_city_builder_core_1_1_building_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -198,28 +232,6 @@ List&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Block
  is set by the building in awake  <br /></td></tr>
 <tr class="separator:ab6adf66e28777e80b75527044058e587 inherit properties_class_city_builder_core_1_1_building_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_interface_city_builder_core_1_1_i_building_component"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_interface_city_builder_core_1_1_i_building_component')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="interface_city_builder_core_1_1_i_building_component.html">CityBuilderCore.IBuildingComponent</a></td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_methods_class_city_builder_core_1_1_building_component"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_class_city_builder_core_1_1_building_component')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_city_builder_core_1_1_building_component.html">CityBuilderCore.BuildingComponent</a></td></tr>
-<tr class="memitem:aaa6c95200fdaa2ba1c5b35c35b57fb96 inherit pro_methods_class_city_builder_core_1_1_building_component" id="r_aaa6c95200fdaa2ba1c5b35c35b57fb96"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_component.html#aaa6c95200fdaa2ba1c5b35c35b57fb96">getOther&lt; T &gt;</a> ()</td></tr>
-<tr class="memdesc:aaa6c95200fdaa2ba1c5b35c35b57fb96 inherit pro_methods_class_city_builder_core_1_1_building_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets the first building component of the specified type on the same building  <br /></td></tr>
-<tr class="separator:aaa6c95200fdaa2ba1c5b35c35b57fb96 inherit pro_methods_class_city_builder_core_1_1_building_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55d16ae448c033f702506d5d8d3e8210 inherit pro_methods_class_city_builder_core_1_1_building_component" id="r_a55d16ae448c033f702506d5d8d3e8210"><td class="memItemLeft" align="right" valign="top">IEnumerable&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_component.html#a55d16ae448c033f702506d5d8d3e8210">getOthers&lt; T &gt;</a> ()</td></tr>
-<tr class="memdesc:a55d16ae448c033f702506d5d8d3e8210 inherit pro_methods_class_city_builder_core_1_1_building_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets all building components of the specified type on the same building  <br /></td></tr>
-<tr class="separator:a55d16ae448c033f702506d5d8d3e8210 inherit pro_methods_class_city_builder_core_1_1_building_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65a957590c0ba0ddd399ecb3182f2182 inherit pro_methods_class_city_builder_core_1_1_building_component" id="r_a65a957590c0ba0ddd399ecb3182f2182"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_city_builder_core_1_1_building_component_reference.html">BuildingComponentReference</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_component.html#a65a957590c0ba0ddd399ecb3182f2182">registerTrait&lt; T &gt;</a> (T trait)</td></tr>
-<tr class="memdesc:a65a957590c0ba0ddd399ecb3182f2182 inherit pro_methods_class_city_builder_core_1_1_building_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">registers the building component as a trait so it is globally accessible<br  />
- usually done in <a class="el" href="class_city_builder_core_1_1_building_component.html#aecc58bb57fd07ea1e9d263c58f6dcb63" title="initialization is performed when the building is placed or loaded  use to create references,...">InitializeComponent</a>  <br /></td></tr>
-<tr class="separator:a65a957590c0ba0ddd399ecb3182f2182 inherit pro_methods_class_city_builder_core_1_1_building_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a010bacee1bdf11ebfeb576aef3df9442 inherit pro_methods_class_city_builder_core_1_1_building_component" id="r_a010bacee1bdf11ebfeb576aef3df9442"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_component.html#a010bacee1bdf11ebfeb576aef3df9442">replaceTrait&lt; T &gt;</a> (T trait, T replacement)</td></tr>
-<tr class="memdesc:a010bacee1bdf11ebfeb576aef3df9442 inherit pro_methods_class_city_builder_core_1_1_building_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">replaces the reference a trait points to in the global manager<br  />
- done when a building is replaced(<a class="el" href="class_city_builder_core_1_1_building_component.html#a1181c915c90848dfd80ca567476f0604" title="called when a component gets replaced  use to transfer resources, replace references">OnReplacing(IBuilding)</a>) so the trait now points to the new component instead of the one that has been removed  <br /></td></tr>
-<tr class="separator:a010bacee1bdf11ebfeb576aef3df9442 inherit pro_methods_class_city_builder_core_1_1_building_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6be13cf8e5596085d10c57416257738 inherit pro_methods_class_city_builder_core_1_1_building_component" id="r_ac6be13cf8e5596085d10c57416257738"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_component.html#ac6be13cf8e5596085d10c57416257738">deregisterTrait&lt; T &gt;</a> (T trait)</td></tr>
-<tr class="memdesc:ac6be13cf8e5596085d10c57416257738 inherit pro_methods_class_city_builder_core_1_1_building_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes a previously registered trait<br  />
- usually when a building is removed which calls <a class="el" href="class_city_builder_core_1_1_building_component.html#aaebe423811f5c184d9582658cff7b75e" title="termination is performed when the building is destroyed  use to deregister traits,...">TerminateComponent</a>  <br /></td></tr>
-<tr class="separator:ac6be13cf8e5596085d10c57416257738 inherit pro_methods_class_city_builder_core_1_1_building_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a1dde434b5eac22243bb1619b5ad4af8b" name="a1dde434b5eac22243bb1619b5ad4af8b"></a>

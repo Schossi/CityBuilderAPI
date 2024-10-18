@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.7</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.8</span>
    </div>
   </td>
  </tr>
@@ -152,6 +152,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:adaa47419b4775dca0f5106116831a842"><td class="mdescLeft">&#160;</td><td class="mdescRight">replaces the building and all of its parts with another one<br  />
  runtime values are transferred and references are reset to the new instances  <br /></td></tr>
 <tr class="separator:adaa47419b4775dca0f5106116831a842"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d6edc8a320941f379ec0df21215abec" id="r_a0d6edc8a320941f379ec0df21215abec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d6edc8a320941f379ec0df21215abec">Move</a> (Vector3 position, Quaternion rotation)</td></tr>
+<tr class="memdesc:a0d6edc8a320941f379ec0df21215abec"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves the building to a different position  <br /></td></tr>
+<tr class="separator:a0d6edc8a320941f379ec0df21215abec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad180f31727e594aacb327f7cc21fc83b" id="r_ad180f31727e594aacb327f7cc21fc83b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad180f31727e594aacb327f7cc21fc83b">Terminate</a> ()</td></tr>
 <tr class="memdesc:ad180f31727e594aacb327f7cc21fc83b"><td class="mdescLeft">&#160;</td><td class="mdescRight">de-initializes the buildings and destroys it  <br /></td></tr>
 <tr class="separator:ad180f31727e594aacb327f7cc21fc83b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -272,6 +275,12 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> ()<
 <tr class="memitem:aed66af67ffc956a5db68ae8b83eee55e" id="r_aed66af67ffc956a5db68ae8b83eee55e"><td class="memItemLeft" align="right" valign="top"><a id="aed66af67ffc956a5db68ae8b83eee55e" name="aed66af67ffc956a5db68ae8b83eee55e"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>onReplacing</b> (<a class="el" href="interface_city_builder_core_1_1_i_building.html">IBuilding</a> replacement)</td></tr>
 <tr class="separator:aed66af67ffc956a5db68ae8b83eee55e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ec53bddcbc4d65abd9691d9e2e6f432" id="r_a9ec53bddcbc4d65abd9691d9e2e6f432"><td class="memItemLeft" align="right" valign="top"><a id="a9ec53bddcbc4d65abd9691d9e2e6f432" name="a9ec53bddcbc4d65abd9691d9e2e6f432"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>onMoving</b> ()</td></tr>
+<tr class="separator:a9ec53bddcbc4d65abd9691d9e2e6f432"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3145f22115f57ba3f35a253d07cbcc09" id="r_a3145f22115f57ba3f35a253d07cbcc09"><td class="memItemLeft" align="right" valign="top"><a id="a3145f22115f57ba3f35a253d07cbcc09" name="a3145f22115f57ba3f35a253d07cbcc09"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>onMoved</b> (Vector2Int oldPoint, <a class="el" href="class_city_builder_core_1_1_building_rotation.html">BuildingRotation</a> oldRotation)</td></tr>
+<tr class="separator:a3145f22115f57ba3f35a253d07cbcc09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa47ca0ccc7de42093a9c18b65b15efcd" id="r_aa47ca0ccc7de42093a9c18b65b15efcd"><td class="memItemLeft" align="right" valign="top"><a id="aa47ca0ccc7de42093a9c18b65b15efcd" name="aa47ca0ccc7de42093a9c18b65b15efcd"></a>
 virtual IEnumerable&lt; Vector2Int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getSpawnPoints</b> ()</td></tr>
 <tr class="separator:aa47ca0ccc7de42093a9c18b65b15efcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -344,6 +353,9 @@ virtual Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>SecondaryP
 <tr class="memitem:ad1239653a3e118800f9ad0e4ac78b8b6" id="r_ad1239653a3e118800f9ad0e4ac78b8b6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1239653a3e118800f9ad0e4ac78b8b6">IsDestructible</a><code> [get]</code></td></tr>
 <tr class="memdesc:ad1239653a3e118800f9ad0e4ac78b8b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether the structure can be removed by the player  <br /></td></tr>
 <tr class="separator:ad1239653a3e118800f9ad0e4ac78b8b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59f342764d6e43cc6db81ec1dcc6c365" id="r_a59f342764d6e43cc6db81ec1dcc6c365"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59f342764d6e43cc6db81ec1dcc6c365">IsMovable</a><code> [get]</code></td></tr>
+<tr class="memdesc:a59f342764d6e43cc6db81ec1dcc6c365"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether the structure can be moved by the <a class="el" href="class_city_builder_core_1_1_move_tool.html" title="tool that moves one or more structures to a different position  which structures can be moved is dete...">MoveTool</a>  <br /></td></tr>
+<tr class="separator:a59f342764d6e43cc6db81ec1dcc6c365"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35862370538d46e5ce92eed0a365db4d" id="r_a35862370538d46e5ce92eed0a365db4d"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35862370538d46e5ce92eed0a365db4d">IsDecorator</a><code> [get]</code></td></tr>
 <tr class="memdesc:a35862370538d46e5ce92eed0a365db4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether the structure is automatically removed when something is built on top of it  <br /></td></tr>
 <tr class="separator:a35862370538d46e5ce92eed0a365db4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -383,7 +395,7 @@ IReadOnlyCollection&lt; <a class="el" href="class_city_builder_core_1_1_building
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="events" name="events"></a>
 Events</h2></td></tr>
 <tr class="memitem:abca7ab567e93a7bc5162b26ad508d6db" id="r_abca7ab567e93a7bc5162b26ad508d6db"><td class="memItemLeft" align="right" valign="top"><a id="abca7ab567e93a7bc5162b26ad508d6db" name="abca7ab567e93a7bc5162b26ad508d6db"></a>
-Action&lt; <a class="el" href="class_city_builder_core_1_1_points_changed.html">PointsChanged</a>&lt; <a class="el" href="interface_city_builder_core_1_1_i_structure.html">IStructure</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>PointsChanged</b><code> [add, remove]</code></td></tr>
+Action&lt; <a class="el" href="class_city_builder_core_1_1_points_changed.html">PointsChanged</a>&lt; <a class="el" href="interface_city_builder_core_1_1_i_structure.html">IStructure</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>PointsChanged</b></td></tr>
 <tr class="separator:abca7ab567e93a7bc5162b26ad508d6db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0455eb7b605e07aa7b34ab9a11838995" id="r_a0455eb7b605e07aa7b34ab9a11838995"><td class="memItemLeft" align="right" valign="top"><a id="a0455eb7b605e07aa7b34ab9a11838995" name="a0455eb7b605e07aa7b34ab9a11838995"></a>
 Action&lt; <a class="el" href="interface_city_builder_core_1_1_i_building.html">IBuilding</a>, <a class="el" href="interface_city_builder_core_1_1_i_building.html">IBuilding</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Replacing</b></td></tr>
@@ -1165,6 +1177,39 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_points_changed.html">
 
 </div>
 </div>
+<a id="a0d6edc8a320941f379ec0df21215abec" name="a0d6edc8a320941f379ec0df21215abec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d6edc8a320941f379ec0df21215abec">&#9670;&#160;</a></span>Move()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CityBuilderCore.Building.Move </td>
+          <td>(</td>
+          <td class="paramtype">Vector3</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Quaternion</td>          <td class="paramname"><span class="paramname"><em>rotation</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>moves the building to a different position </p>
+
+<p>Implements <a class="el" href="interface_city_builder_core_1_1_i_building.html#ad599d888b32e9791ec77da2df649e92d">CityBuilderCore.IBuilding</a>.</p>
+
+</div>
+</div>
 <a id="ae08af41df0356c55fb5bcbee9502e86a" name="ae08af41df0356c55fb5bcbee9502e86a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae08af41df0356c55fb5bcbee9502e86a">&#9670;&#160;</a></span>Remove()</h2>
 
@@ -1631,6 +1676,32 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_points_changed.html">
 <p>whether the structure can be removed by the player </p>
 
 <p>Implements <a class="el" href="interface_city_builder_core_1_1_i_structure.html#a61a16ff433f78a0604e0c45abd67d647">CityBuilderCore.IStructure</a>.</p>
+
+</div>
+</div>
+<a id="a59f342764d6e43cc6db81ec1dcc6c365" name="a59f342764d6e43cc6db81ec1dcc6c365"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59f342764d6e43cc6db81ec1dcc6c365">&#9670;&#160;</a></span>IsMovable</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CityBuilderCore.Building.IsMovable</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>whether the structure can be moved by the <a class="el" href="class_city_builder_core_1_1_move_tool.html" title="tool that moves one or more structures to a different position  which structures can be moved is dete...">MoveTool</a> </p>
+
+<p>Implements <a class="el" href="interface_city_builder_core_1_1_i_structure.html#a56ae77178046777a1c50dfa71a222a87">CityBuilderCore.IStructure</a>.</p>
 
 </div>
 </div>

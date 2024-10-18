@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.7</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.8</span>
    </div>
   </td>
  </tr>
@@ -152,6 +152,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:adaa47419b4775dca0f5106116831a842 inherit pub_methods_class_city_builder_core_1_1_building"><td class="mdescLeft">&#160;</td><td class="mdescRight">replaces the building and all of its parts with another one<br  />
  runtime values are transferred and references are reset to the new instances  <br /></td></tr>
 <tr class="separator:adaa47419b4775dca0f5106116831a842 inherit pub_methods_class_city_builder_core_1_1_building"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d6edc8a320941f379ec0df21215abec inherit pub_methods_class_city_builder_core_1_1_building" id="r_a0d6edc8a320941f379ec0df21215abec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building.html#a0d6edc8a320941f379ec0df21215abec">Move</a> (Vector3 position, Quaternion rotation)</td></tr>
+<tr class="memdesc:a0d6edc8a320941f379ec0df21215abec inherit pub_methods_class_city_builder_core_1_1_building"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves the building to a different position  <br /></td></tr>
+<tr class="separator:a0d6edc8a320941f379ec0df21215abec inherit pub_methods_class_city_builder_core_1_1_building"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad180f31727e594aacb327f7cc21fc83b inherit pub_methods_class_city_builder_core_1_1_building" id="r_ad180f31727e594aacb327f7cc21fc83b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building.html#ad180f31727e594aacb327f7cc21fc83b">Terminate</a> ()</td></tr>
 <tr class="memdesc:ad180f31727e594aacb327f7cc21fc83b inherit pub_methods_class_city_builder_core_1_1_building"><td class="mdescLeft">&#160;</td><td class="mdescRight">de-initializes the buildings and destroys it  <br /></td></tr>
 <tr class="separator:ad180f31727e594aacb327f7cc21fc83b inherit pub_methods_class_city_builder_core_1_1_building"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -272,6 +275,12 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a2c0177271c6a247ff4e3fa1a6c00f457 inherit pro_methods_class_city_builder_core_1_1_building" id="r_a2c0177271c6a247ff4e3fa1a6c00f457"><td class="memItemLeft" align="right" valign="top">
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()</td></tr>
 <tr class="separator:a2c0177271c6a247ff4e3fa1a6c00f457 inherit pro_methods_class_city_builder_core_1_1_building"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ec53bddcbc4d65abd9691d9e2e6f432 inherit pro_methods_class_city_builder_core_1_1_building" id="r_a9ec53bddcbc4d65abd9691d9e2e6f432"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>onMoving</b> ()</td></tr>
+<tr class="separator:a9ec53bddcbc4d65abd9691d9e2e6f432 inherit pro_methods_class_city_builder_core_1_1_building"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3145f22115f57ba3f35a253d07cbcc09 inherit pro_methods_class_city_builder_core_1_1_building" id="r_a3145f22115f57ba3f35a253d07cbcc09"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>onMoved</b> (Vector2Int oldPoint, <a class="el" href="class_city_builder_core_1_1_building_rotation.html">BuildingRotation</a> oldRotation)</td></tr>
+<tr class="separator:a3145f22115f57ba3f35a253d07cbcc09 inherit pro_methods_class_city_builder_core_1_1_building"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa47ca0ccc7de42093a9c18b65b15efcd inherit pro_methods_class_city_builder_core_1_1_building" id="r_aa47ca0ccc7de42093a9c18b65b15efcd"><td class="memItemLeft" align="right" valign="top">
 virtual IEnumerable&lt; Vector2Int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getSpawnPoints</b> ()</td></tr>
 <tr class="separator:aa47ca0ccc7de42093a9c18b65b15efcd inherit pro_methods_class_city_builder_core_1_1_building"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -324,6 +333,9 @@ virtual Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>SecondaryP
 <tr class="memitem:ad1239653a3e118800f9ad0e4ac78b8b6 inherit properties_class_city_builder_core_1_1_building" id="r_ad1239653a3e118800f9ad0e4ac78b8b6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building.html#ad1239653a3e118800f9ad0e4ac78b8b6">IsDestructible</a><code> [get]</code></td></tr>
 <tr class="memdesc:ad1239653a3e118800f9ad0e4ac78b8b6 inherit properties_class_city_builder_core_1_1_building"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether the structure can be removed by the player  <br /></td></tr>
 <tr class="separator:ad1239653a3e118800f9ad0e4ac78b8b6 inherit properties_class_city_builder_core_1_1_building"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59f342764d6e43cc6db81ec1dcc6c365 inherit properties_class_city_builder_core_1_1_building" id="r_a59f342764d6e43cc6db81ec1dcc6c365"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building.html#a59f342764d6e43cc6db81ec1dcc6c365">IsMovable</a><code> [get]</code></td></tr>
+<tr class="memdesc:a59f342764d6e43cc6db81ec1dcc6c365 inherit properties_class_city_builder_core_1_1_building"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether the structure can be moved by the <a class="el" href="class_city_builder_core_1_1_move_tool.html" title="tool that moves one or more structures to a different position  which structures can be moved is dete...">MoveTool</a>  <br /></td></tr>
+<tr class="separator:a59f342764d6e43cc6db81ec1dcc6c365 inherit properties_class_city_builder_core_1_1_building"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a35862370538d46e5ce92eed0a365db4d inherit properties_class_city_builder_core_1_1_building" id="r_a35862370538d46e5ce92eed0a365db4d"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building.html#a35862370538d46e5ce92eed0a365db4d">IsDecorator</a><code> [get]</code></td></tr>
 <tr class="memdesc:a35862370538d46e5ce92eed0a365db4d inherit properties_class_city_builder_core_1_1_building"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether the structure is automatically removed when something is built on top of it  <br /></td></tr>
 <tr class="separator:a35862370538d46e5ce92eed0a365db4d inherit properties_class_city_builder_core_1_1_building"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -367,7 +379,7 @@ Action&lt; Vector2Int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b
 <tr class="separator:ac5d48b384d42ec77ecdb235444da189f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header events_class_city_builder_core_1_1_building"><td colspan="2" onclick="javascript:dynsection.toggleInherit('events_class_city_builder_core_1_1_building')"><img src="closed.png" alt="-"/>&#160;Events inherited from <a class="el" href="class_city_builder_core_1_1_building.html">CityBuilderCore.Building</a></td></tr>
 <tr class="memitem:abca7ab567e93a7bc5162b26ad508d6db inherit events_class_city_builder_core_1_1_building" id="r_abca7ab567e93a7bc5162b26ad508d6db"><td class="memItemLeft" align="right" valign="top">
-Action&lt; <a class="el" href="class_city_builder_core_1_1_points_changed.html">PointsChanged</a>&lt; <a class="el" href="interface_city_builder_core_1_1_i_structure.html">IStructure</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>PointsChanged</b><code> [add, remove]</code></td></tr>
+Action&lt; <a class="el" href="class_city_builder_core_1_1_points_changed.html">PointsChanged</a>&lt; <a class="el" href="interface_city_builder_core_1_1_i_structure.html">IStructure</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>PointsChanged</b></td></tr>
 <tr class="separator:abca7ab567e93a7bc5162b26ad508d6db inherit events_class_city_builder_core_1_1_building"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0455eb7b605e07aa7b34ab9a11838995 inherit events_class_city_builder_core_1_1_building" id="r_a0455eb7b605e07aa7b34ab9a11838995"><td class="memItemLeft" align="right" valign="top">
 Action&lt; <a class="el" href="interface_city_builder_core_1_1_i_building.html">IBuilding</a>, <a class="el" href="interface_city_builder_core_1_1_i_building.html">IBuilding</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Replacing</b></td></tr>

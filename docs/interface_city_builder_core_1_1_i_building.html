@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.7</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.8</span>
    </div>
   </td>
  </tr>
@@ -137,13 +137,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a030f469cb1bc3334cbe94c85c826b476" id="r_a030f469cb1bc3334cbe94c85c826b476"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a030f469cb1bc3334cbe94c85c826b476">Setup</a> ()</td></tr>
 <tr class="memdesc:a030f469cb1bc3334cbe94c85c826b476"><td class="mdescLeft">&#160;</td><td class="mdescRight">only called when the building is first placed  <br /></td></tr>
 <tr class="separator:a030f469cb1bc3334cbe94c85c826b476"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a122d494847a6de70ce707bda0482b5b7" id="r_a122d494847a6de70ce707bda0482b5b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a122d494847a6de70ce707bda0482b5b7">Terminate</a> ()</td></tr>
-<tr class="memdesc:a122d494847a6de70ce707bda0482b5b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">de-initializes the buildings and destroys it  <br /></td></tr>
-<tr class="separator:a122d494847a6de70ce707bda0482b5b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa232fc72bd5caacfc756e9f3245d9bec" id="r_aa232fc72bd5caacfc756e9f3245d9bec"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa232fc72bd5caacfc756e9f3245d9bec">Replace&lt; T &gt;</a> (T prefab)</td></tr>
 <tr class="memdesc:aa232fc72bd5caacfc756e9f3245d9bec"><td class="mdescLeft">&#160;</td><td class="mdescRight">replaces the building and all of its parts with another one<br  />
  runtime values are transferred and references are reset to the new instances  <br /></td></tr>
 <tr class="separator:aa232fc72bd5caacfc756e9f3245d9bec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad599d888b32e9791ec77da2df649e92d" id="r_ad599d888b32e9791ec77da2df649e92d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad599d888b32e9791ec77da2df649e92d">Move</a> (Vector3 position, Quaternion rotation)</td></tr>
+<tr class="memdesc:ad599d888b32e9791ec77da2df649e92d"><td class="mdescLeft">&#160;</td><td class="mdescRight">moves the building to a different position  <br /></td></tr>
+<tr class="separator:ad599d888b32e9791ec77da2df649e92d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a122d494847a6de70ce707bda0482b5b7" id="r_a122d494847a6de70ce707bda0482b5b7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a122d494847a6de70ce707bda0482b5b7">Terminate</a> ()</td></tr>
+<tr class="memdesc:a122d494847a6de70ce707bda0482b5b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">de-initializes the buildings and destroys it  <br /></td></tr>
+<tr class="separator:a122d494847a6de70ce707bda0482b5b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea6ab8b3a7cef08180b20faf9a3b9b5f" id="r_aea6ab8b3a7cef08180b20faf9a3b9b5f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aea6ab8b3a7cef08180b20faf9a3b9b5f">Suspend</a> ()</td></tr>
 <tr class="memdesc:aea6ab8b3a7cef08180b20faf9a3b9b5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">temporarily stops the building from working  <br /></td></tr>
 <tr class="separator:aea6ab8b3a7cef08180b20faf9a3b9b5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -278,6 +281,9 @@ Transform&#160;</td><td class="memItemRight" valign="bottom"><b>Pivot</b><code> 
 <tr class="memitem:a61a16ff433f78a0604e0c45abd67d647 inherit properties_interface_city_builder_core_1_1_i_structure" id="r_a61a16ff433f78a0604e0c45abd67d647"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_city_builder_core_1_1_i_structure.html#a61a16ff433f78a0604e0c45abd67d647">IsDestructible</a><code> [get]</code></td></tr>
 <tr class="memdesc:a61a16ff433f78a0604e0c45abd67d647 inherit properties_interface_city_builder_core_1_1_i_structure"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether the structure can be removed by the player  <br /></td></tr>
 <tr class="separator:a61a16ff433f78a0604e0c45abd67d647 inherit properties_interface_city_builder_core_1_1_i_structure"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56ae77178046777a1c50dfa71a222a87 inherit properties_interface_city_builder_core_1_1_i_structure" id="r_a56ae77178046777a1c50dfa71a222a87"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_city_builder_core_1_1_i_structure.html#a56ae77178046777a1c50dfa71a222a87">IsMovable</a><code> [get]</code></td></tr>
+<tr class="memdesc:a56ae77178046777a1c50dfa71a222a87 inherit properties_interface_city_builder_core_1_1_i_structure"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether the structure can be moved by the <a class="el" href="class_city_builder_core_1_1_move_tool.html" title="tool that moves one or more structures to a different position  which structures can be moved is dete...">MoveTool</a>  <br /></td></tr>
+<tr class="separator:a56ae77178046777a1c50dfa71a222a87 inherit properties_interface_city_builder_core_1_1_i_structure"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe42447f56eaa9f7aa29ac20d8161a01 inherit properties_interface_city_builder_core_1_1_i_structure" id="r_afe42447f56eaa9f7aa29ac20d8161a01"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_city_builder_core_1_1_i_structure.html#afe42447f56eaa9f7aa29ac20d8161a01">IsDecorator</a><code> [get]</code></td></tr>
 <tr class="memdesc:afe42447f56eaa9f7aa29ac20d8161a01 inherit properties_interface_city_builder_core_1_1_i_structure"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether the structure is automatically removed when something is built on top of it  <br /></td></tr>
 <tr class="separator:afe42447f56eaa9f7aa29ac20d8161a01 inherit properties_interface_city_builder_core_1_1_i_structure"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -800,6 +806,31 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_points_changed.html">
  is not called when a building is replaced </p>
 
 <p>Implemented in <a class="el" href="class_city_builder_core_1_1_building.html#ae74f0dbef1cba0dc11af66916ab6cd15">CityBuilderCore.Building</a>, <a class="el" href="class_city_builder_core_1_1_expandable_building.html#aaf710c42140da61e06005a1cee1788ca">CityBuilderCore.ExpandableBuilding</a>, and <a class="el" href="class_city_builder_core_1_1_tests_1_1_debug_building.html#a417dcdf39411dd805bae7c15827289da">CityBuilderCore.Tests.DebugBuilding</a>.</p>
+
+</div>
+</div>
+<a id="ad599d888b32e9791ec77da2df649e92d" name="ad599d888b32e9791ec77da2df649e92d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad599d888b32e9791ec77da2df649e92d">&#9670;&#160;</a></span>Move()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CityBuilderCore.IBuilding.Move </td>
+          <td>(</td>
+          <td class="paramtype">Vector3</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Quaternion</td>          <td class="paramname"><span class="paramname"><em>rotation</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>moves the building to a different position </p>
+
+<p>Implemented in <a class="el" href="class_city_builder_core_1_1_building.html#a0d6edc8a320941f379ec0df21215abec">CityBuilderCore.Building</a>.</p>
 
 </div>
 </div>

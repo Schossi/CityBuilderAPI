@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.7</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.8</span>
    </div>
   </td>
  </tr>
@@ -147,6 +147,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a1c340830b0c012c06ce6338e966e8b35"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when a component gets replaced<br  />
  use to transfer resources, replace references  <br /></td></tr>
 <tr class="separator:a1c340830b0c012c06ce6338e966e8b35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a950a09bf8a9f59231c8b14c01d19c727" id="r_a950a09bf8a9f59231c8b14c01d19c727"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a950a09bf8a9f59231c8b14c01d19c727">OnMoving</a> ()</td></tr>
+<tr class="memdesc:a950a09bf8a9f59231c8b14c01d19c727"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when the building is about to be moved<br  />
+ can be used to remove/deregister stuff from the old position  <br /></td></tr>
+<tr class="separator:a950a09bf8a9f59231c8b14c01d19c727"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41b286aef92c4f6708a3711dd5c350e5" id="r_a41b286aef92c4f6708a3711dd5c350e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41b286aef92c4f6708a3711dd5c350e5">OnMoved</a> (Vector2Int oldPoint, <a class="el" href="class_city_builder_core_1_1_building_rotation.html">BuildingRotation</a> oldRotation)</td></tr>
+<tr class="memdesc:a41b286aef92c4f6708a3711dd5c350e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">called after a building has been moved<br  />
+ can be used to register things at the new position  <br /></td></tr>
+<tr class="separator:a41b286aef92c4f6708a3711dd5c350e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ef91c73a59c93bf1f6ad22001c6196b" id="r_a8ef91c73a59c93bf1f6ad22001c6196b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ef91c73a59c93bf1f6ad22001c6196b">SuspendComponent</a> ()</td></tr>
 <tr class="memdesc:a8ef91c73a59c93bf1f6ad22001c6196b"><td class="mdescLeft">&#160;</td><td class="mdescRight">temporarily stops the component from working  <br /></td></tr>
 <tr class="separator:a8ef91c73a59c93bf1f6ad22001c6196b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -241,6 +249,61 @@ Properties</h2></td></tr>
  use to create references, register traits, ... </p>
 
 <p>Implemented in <a class="el" href="class_city_builder_core_1_1_attackable_component.html#a854975661588fd93bb60a97c52637e49">CityBuilderCore.AttackableComponent</a>, <a class="el" href="class_city_builder_core_1_1_building_component.html#aecc58bb57fd07ea1e9d263c58f6dcb63">CityBuilderCore.BuildingComponent</a>, <a class="el" href="class_city_builder_core_1_1_collection_component.html#a9e6cc79526cf95ab32c9cb1401c77209">CityBuilderCore.CollectionComponent</a>, <a class="el" href="class_city_builder_core_1_1_connection_feeder_component.html#abe9688da1b001194b9414c1d3e0bb72c">CityBuilderCore.ConnectionFeederComponent</a>, <a class="el" href="class_city_builder_core_1_1_connection_passer_component.html#a03b67a41e664946b842ad7ffb995a0d6">CityBuilderCore.ConnectionPasserComponent</a>, <a class="el" href="class_city_builder_core_1_1_employment_component.html#ac5c9cd26c5ea5eefa0f03e1848c7d216">CityBuilderCore.EmploymentComponent</a>, <a class="el" href="class_city_builder_core_1_1_housing_component.html#a4483f735ab943f349911cbce9900b112">CityBuilderCore.HousingComponent</a>, <a class="el" href="class_city_builder_core_1_1_housing_placeholder_component.html#abeabaee210b20b3a068fbe6bba8586ab">CityBuilderCore.HousingPlaceholderComponent</a>, <a class="el" href="class_city_builder_core_1_1_item_efficiency_component.html#afc41c195553799cd96931546150c192d">CityBuilderCore.ItemEfficiencyComponent</a>, <a class="el" href="class_city_builder_core_1_1_monument_site_component.html#a4797ac79a67dcc7c57ae8adf6d8b01cb">CityBuilderCore.MonumentSiteComponent</a>, <a class="el" href="class_city_builder_core_1_1_production_component.html#a3f5793c8e07181d4e1968efbdca01d20">CityBuilderCore.ProductionComponent</a>, <a class="el" href="class_city_builder_core_1_1_progress_component.html#adaedbfd545e49f2c06e045a50302957c">CityBuilderCore.ProgressComponent</a>, <a class="el" href="class_city_builder_core_1_1_road_blocker_component.html#a1dde434b5eac22243bb1619b5ad4af8b">CityBuilderCore.RoadBlockerComponent</a>, <a class="el" href="class_city_builder_core_1_1_sprite_randomizer_component.html#a2a3b4ee26a8553c5ea06290548a38147">CityBuilderCore.SpriteRandomizerComponent</a>, <a class="el" href="class_city_builder_core_1_1_storage_component.html#ae3c88daa22f7d32c8dd006e295d7820e">CityBuilderCore.StorageComponent</a>, <a class="el" href="class_city_builder_core_1_1_variant_production_component.html#aeb5e4829dd61afc50cdfee618db3e17a">CityBuilderCore.VariantProductionComponent</a>, <a class="el" href="class_city_builder_core_1_1_worker_user_component.html#ac5a986f97c61d841f23281b0fd399371">CityBuilderCore.WorkerUserComponent</a>, <a class="el" href="class_city_builder_manual_1_1_custom_1_1_custom_building_trait.html#a43885550d82bd81d9a5597ca26047e51">CityBuilderManual.Custom.CustomBuildingTrait</a>, <a class="el" href="class_city_builder_town_1_1_item_construction_component.html#a62ea753fe25c4e30fdadf86eff061b9b">CityBuilderTown.ItemConstructionComponent</a>, <a class="el" href="class_city_builder_town_1_1_town_construction_component.html#a774dfacc2c57c54618c488cf440f9453">CityBuilderTown.TownConstructionComponent</a>, <a class="el" href="class_city_builder_town_1_1_town_farming_component.html#aa25cacaade13c4b0045a2f0b629d16de">CityBuilderTown.TownFarmingComponent</a>, <a class="el" href="class_city_builder_town_1_1_town_home_component.html#a315e9693253957aee929629153bbb842">CityBuilderTown.TownHomeComponent</a>, <a class="el" href="class_city_builder_town_1_1_town_market_component.html#a08d2372f5df4a1707b3979f111373c0e">CityBuilderTown.TownMarketComponent</a>, <a class="el" href="class_city_builder_town_1_1_town_work_component.html#a21936300fc7b5588b8eff26689dd0843">CityBuilderTown.TownWorkComponent</a>, <a class="el" href="class_city_builder_urban_1_1_house_component.html#ae2021cbe8339d9eb45f3d88f00984470">CityBuilderUrban.HouseComponent</a>, and <a class="el" href="class_city_builder_urban_1_1_shop_component.html#a59dfb20826ec510808ccf32968f1421e">CityBuilderUrban.ShopComponent</a>.</p>
+
+</div>
+</div>
+<a id="a41b286aef92c4f6708a3711dd5c350e5" name="a41b286aef92c4f6708a3711dd5c350e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41b286aef92c4f6708a3711dd5c350e5">&#9670;&#160;</a></span>OnMoved()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CityBuilderCore.IBuildingComponent.OnMoved </td>
+          <td>(</td>
+          <td class="paramtype">Vector2Int</td>          <td class="paramname"><span class="paramname"><em>oldPoint</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_city_builder_core_1_1_building_rotation.html">BuildingRotation</a></td>          <td class="paramname"><span class="paramname"><em>oldRotation</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>called after a building has been moved<br  />
+ can be used to register things at the new position </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">oldPoint</td><td>point of the building before moving</td></tr>
+    <tr><td class="paramname">oldRotation</td><td>rotation of the building before moving</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="class_city_builder_core_1_1_building_component.html#af5ca5f11843988f5b9dd323dc2567c95">CityBuilderCore.BuildingComponent</a>.</p>
+
+</div>
+</div>
+<a id="a950a09bf8a9f59231c8b14c01d19c727" name="a950a09bf8a9f59231c8b14c01d19c727"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a950a09bf8a9f59231c8b14c01d19c727">&#9670;&#160;</a></span>OnMoving()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CityBuilderCore.IBuildingComponent.OnMoving </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>called when the building is about to be moved<br  />
+ can be used to remove/deregister stuff from the old position </p>
+
+<p>Implemented in <a class="el" href="class_city_builder_core_1_1_building_component.html#a4b12f7c48adc236f490b2f2c9d78e812">CityBuilderCore.BuildingComponent</a>.</p>
 
 </div>
 </div>

@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.7</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.8</span>
    </div>
   </td>
  </tr>
@@ -186,12 +186,20 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aca44878589f44bb47c6238e33bd6f5d0" id="r_aca44878589f44bb47c6238e33bd6f5d0"><td class="memItemLeft" align="right" valign="top">static IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aca44878589f44bb47c6238e33bd6f5d0">ContinueWalkAgent</a> (<a class="el" href="class_city_builder_core_1_1_walker.html">Walker</a> walker, Action finished, Action&lt; Vector2Int &gt; moved=null)</td></tr>
 <tr class="memdesc:aca44878589f44bb47c6238e33bd6f5d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">when the game is loaded and the walker was previously walking it is continued here  <br /></td></tr>
 <tr class="separator:aca44878589f44bb47c6238e33bd6f5d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab08a41af5dcf689cdd028973ce0e94f1" id="r_ab08a41af5dcf689cdd028973ce0e94f1"><td class="memItemLeft" align="right" valign="top">static IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab08a41af5dcf689cdd028973ce0e94f1">TryWalk</a> (<a class="el" href="class_city_builder_core_1_1_walker.html">Walker</a> walker, float delay, Vector2Int waitPosition, Func&lt; <a class="el" href="class_city_builder_core_1_1_walking_path.html">WalkingPath</a> &gt; pathGetter, Action planned, Action finished, Action canceled=null, Action&lt; Vector2Int &gt; moved=null)</td></tr>
-<tr class="memdesc:ab08a41af5dcf689cdd028973ce0e94f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">tries to walk a path that is calculated externaly, if no path is found the walker waits a second and retries until WalkerInfo.MaxWait times it out  <br /></td></tr>
-<tr class="separator:ab08a41af5dcf689cdd028973ce0e94f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad55dee0cc1849541df71cfb71f0faf66" id="r_ad55dee0cc1849541df71cfb71f0faf66"><td class="memItemLeft" align="right" valign="top">static IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad55dee0cc1849541df71cfb71f0faf66">TryWalk</a> (<a class="el" href="class_city_builder_core_1_1_walker.html">Walker</a> walker, float delay, Vector2Int start, <a class="el" href="interface_city_builder_core_1_1_i_building.html">IBuilding</a> structure, <a class="el" href="namespace_city_builder_core.html#a19f9a2748f73f3b90d6ba96447987553">PathType</a> pathType, object pathTag, Action planned, Action finished, Action canceled=null, Action&lt; Vector2Int &gt; moved=null)</td></tr>
-<tr class="memdesc:ad55dee0cc1849541df71cfb71f0faf66"><td class="mdescLeft">&#160;</td><td class="mdescRight">tries to walk to a structure, if no path is found the walker waits a second and retries until WalkerInfo.MaxWait times it out  <br /></td></tr>
-<tr class="separator:ad55dee0cc1849541df71cfb71f0faf66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9018a03a99f2d44211ea8896ac57287" id="r_ae9018a03a99f2d44211ea8896ac57287"><td class="memItemLeft" align="right" valign="top">static IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae9018a03a99f2d44211ea8896ac57287">TryWalk</a> (<a class="el" href="class_city_builder_core_1_1_walker.html">Walker</a> walker, float delay, Func&lt; <a class="el" href="class_city_builder_core_1_1_walking_path.html">WalkingPath</a> &gt; pathGetter, Action planned, Action finished, Action canceled=null, Action&lt; Vector2Int &gt; moved=null)</td></tr>
+<tr class="memdesc:ae9018a03a99f2d44211ea8896ac57287"><td class="mdescLeft">&#160;</td><td class="mdescRight">tries to walk a path that is calculated externaly, if no path is found the walker waits a second and retries until WalkerInfo.MaxWait times it out  <br /></td></tr>
+<tr class="separator:ae9018a03a99f2d44211ea8896ac57287"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a44252561db8c4ccd6ce74fded9f68a" id="r_a7a44252561db8c4ccd6ce74fded9f68a"><td class="memItemLeft" align="right" valign="top"><a id="a7a44252561db8c4ccd6ce74fded9f68a" name="a7a44252561db8c4ccd6ce74fded9f68a"></a>
+static IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><b>TryWalk</b> (<a class="el" href="class_city_builder_core_1_1_walker.html">Walker</a> walker, float delay, Func&lt; <a class="el" href="class_city_builder_core_1_1_path_query.html">PathQuery</a> &gt; queryGetter, Action planned, Action finished, Action canceled=null, Action&lt; Vector2Int &gt; moved=null)</td></tr>
+<tr class="separator:a7a44252561db8c4ccd6ce74fded9f68a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef1d433051a64e2576a94c8dc53deba9" id="r_aef1d433051a64e2576a94c8dc53deba9"><td class="memItemLeft" align="right" valign="top">static IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef1d433051a64e2576a94c8dc53deba9">TryWalk&lt; T &gt;</a> (<a class="el" href="class_city_builder_core_1_1_walker.html">Walker</a> walker, float delay, Func&lt; <a class="el" href="class_city_builder_core_1_1_building_component_path_query.html">BuildingComponentPathQuery</a>&lt; T &gt; &gt; queryGetter, Action&lt; <a class="el" href="class_city_builder_core_1_1_building_component_path.html">BuildingComponentPath</a>&lt; T &gt; &gt; planned, Action finished, Action canceled=null, Action&lt; Vector2Int &gt; moved=null)</td></tr>
+<tr class="separator:aef1d433051a64e2576a94c8dc53deba9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1210e6b63f3b0c61291bd7e274f03c3" id="r_ab1210e6b63f3b0c61291bd7e274f03c3"><td class="memItemLeft" align="right" valign="top"><a id="ab1210e6b63f3b0c61291bd7e274f03c3" name="ab1210e6b63f3b0c61291bd7e274f03c3"></a>
+static IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><b>TryWalk&lt; Q, P &gt;</b> (<a class="el" href="class_city_builder_core_1_1_walker.html">Walker</a> walker, float delay, Func&lt; Q &gt; preparer, Func&lt; Q, P &gt; planner, Func&lt; P, <a class="el" href="class_city_builder_core_1_1_walking_path.html">WalkingPath</a> &gt; planned, Action finished, Action canceled=null, Action&lt; Vector2Int &gt; moved=null)</td></tr>
+<tr class="separator:ab1210e6b63f3b0c61291bd7e274f03c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c87c41a8c9fe11148e2412e16c22d70" id="r_a1c87c41a8c9fe11148e2412e16c22d70"><td class="memItemLeft" align="right" valign="top">static IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c87c41a8c9fe11148e2412e16c22d70">TryWalk</a> (<a class="el" href="class_city_builder_core_1_1_walker.html">Walker</a> walker, float delay, <a class="el" href="interface_city_builder_core_1_1_i_building.html">IBuilding</a> structure, <a class="el" href="namespace_city_builder_core.html#a19f9a2748f73f3b90d6ba96447987553">PathType</a> pathType, object pathTag, Action planned, Action finished, Action canceled=null, Action&lt; Vector2Int &gt; moved=null)</td></tr>
+<tr class="memdesc:a1c87c41a8c9fe11148e2412e16c22d70"><td class="mdescLeft">&#160;</td><td class="mdescRight">tries to walk to a structure, if no path is found the walker waits a second and retries until WalkerInfo.MaxWait times it out  <br /></td></tr>
+<tr class="separator:a1c87c41a8c9fe11148e2412e16c22d70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8655fd76ea8a70df81d41f47152f589a" id="r_a8655fd76ea8a70df81d41f47152f589a"><td class="memItemLeft" align="right" valign="top">static IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8655fd76ea8a70df81d41f47152f589a">Roam</a> (<a class="el" href="class_city_builder_core_1_1_walker.html">Walker</a> walker, float delay, Vector2Int start, int memoryLength, int range, <a class="el" href="namespace_city_builder_core.html#a19f9a2748f73f3b90d6ba96447987553">PathType</a> pathType, object pathTag, Action finished, Action&lt; Vector2Int &gt; moved=null)</td></tr>
 <tr class="memdesc:a8655fd76ea8a70df81d41f47152f589a"><td class="mdescLeft">&#160;</td><td class="mdescRight">walker starts walking around semi randomly, visited points are memorized and avoided  <br /></td></tr>
 <tr class="separator:a8655fd76ea8a70df81d41f47152f589a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -905,8 +913,8 @@ Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>EndPosition</b><co
 
 </div>
 </div>
-<a id="ad55dee0cc1849541df71cfb71f0faf66" name="ad55dee0cc1849541df71cfb71f0faf66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad55dee0cc1849541df71cfb71f0faf66">&#9670;&#160;</a></span>TryWalk() <span class="overload">[1/2]</span></h2>
+<a id="ae9018a03a99f2d44211ea8896ac57287" name="ae9018a03a99f2d44211ea8896ac57287"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9018a03a99f2d44211ea8896ac57287">&#9670;&#160;</a></span>TryWalk() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -927,7 +935,71 @@ Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>EndPosition</b><co
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Vector2Int</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
+          <td class="paramtype">Func&lt; <a class="el" href="class_city_builder_core_1_1_walking_path.html">WalkingPath</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>pathGetter</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Action</td>          <td class="paramname"><span class="paramname"><em>planned</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Action</td>          <td class="paramname"><span class="paramname"><em>finished</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Action</td>          <td class="paramname"><span class="paramname"><em>canceled</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Action&lt; Vector2Int &gt;</td>          <td class="paramname"><span class="paramname"><em>moved</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>tries to walk a path that is calculated externaly, if no path is found the walker waits a second and retries until WalkerInfo.MaxWait times it out </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">walker</td><td>the walker that is moved</td></tr>
+    <tr><td class="paramname">delay</td><td>duration in seconds the walker will always wait before moving(instead of the default WalkerInfo.Delay)</td></tr>
+    <tr><td class="paramname">pathGetter</td><td>function that returns the path the walker should walk or null if no path could be found currently</td></tr>
+    <tr><td class="paramname">planned</td><td>called when a path is found</td></tr>
+    <tr><td class="paramname">finished</td><td>called when the walker reaches its target</td></tr>
+    <tr><td class="paramname">canceled</td><td>called if the walker finds no path and times out or waiting gets canceled</td></tr>
+    <tr><td class="paramname">moved</td><td>called whenever the walker reaches on of the path points</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the coroutine enumerator</dd></dl>
+
+</div>
+</div>
+<a id="a1c87c41a8c9fe11148e2412e16c22d70" name="a1c87c41a8c9fe11148e2412e16c22d70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c87c41a8c9fe11148e2412e16c22d70">&#9670;&#160;</a></span>TryWalk() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static IEnumerator CityBuilderCore.WalkingPath.TryWalk </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_city_builder_core_1_1_walker.html">Walker</a></td>          <td class="paramname"><span class="paramname"><em>walker</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>delay</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -992,8 +1064,8 @@ Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>EndPosition</b><co
 
 </div>
 </div>
-<a id="ab08a41af5dcf689cdd028973ce0e94f1" name="ab08a41af5dcf689cdd028973ce0e94f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab08a41af5dcf689cdd028973ce0e94f1">&#9670;&#160;</a></span>TryWalk() <span class="overload">[2/2]</span></h2>
+<a id="aef1d433051a64e2576a94c8dc53deba9" name="aef1d433051a64e2576a94c8dc53deba9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef1d433051a64e2576a94c8dc53deba9">&#9670;&#160;</a></span>TryWalk&lt; T &gt;()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1002,7 +1074,7 @@ Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>EndPosition</b><co
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static IEnumerator CityBuilderCore.WalkingPath.TryWalk </td>
+          <td class="memname">static IEnumerator <a class="el" href="#ae9018a03a99f2d44211ea8896ac57287">CityBuilderCore.WalkingPath.TryWalk</a>&lt; T &gt; </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_city_builder_core_1_1_walker.html">Walker</a></td>          <td class="paramname"><span class="paramname"><em>walker</em></span>, </td>
         </tr>
@@ -1014,17 +1086,12 @@ Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>EndPosition</b><co
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Vector2Int</td>          <td class="paramname"><span class="paramname"><em>waitPosition</em></span>, </td>
+          <td class="paramtype">Func&lt; <a class="el" href="class_city_builder_core_1_1_building_component_path_query.html">BuildingComponentPathQuery</a>&lt; T &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>queryGetter</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Func&lt; <a class="el" href="class_city_builder_core_1_1_walking_path.html">WalkingPath</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>pathGetter</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Action</td>          <td class="paramname"><span class="paramname"><em>planned</em></span>, </td>
+          <td class="paramtype">Action&lt; <a class="el" href="class_city_builder_core_1_1_building_component_path.html">BuildingComponentPath</a>&lt; T &gt; &gt;</td>          <td class="paramname"><span class="paramname"><em>planned</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1048,22 +1115,14 @@ Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>EndPosition</b><co
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>tries to walk a path that is calculated externaly, if no path is found the walker waits a second and retries until WalkerInfo.MaxWait times it out </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">walker</td><td>the walker that is moved</td></tr>
-    <tr><td class="paramname">delay</td><td>duration in seconds the walker will always wait before moving(instead of the default WalkerInfo.Delay)</td></tr>
-    <tr><td class="paramname">waitPosition</td><td>the point the walker remains at while no path is found</td></tr>
-    <tr><td class="paramname">pathGetter</td><td>function that returns the path the walker should walk or null if no path could be found currently</td></tr>
-    <tr><td class="paramname">planned</td><td>called when a path is found</td></tr>
-    <tr><td class="paramname">finished</td><td>called when the walker reaches its target</td></tr>
-    <tr><td class="paramname">canceled</td><td>called if the walker finds no path and times out or waiting gets canceled</td></tr>
-    <tr><td class="paramname">moved</td><td>called whenever the walker reaches on of the path points</td></tr>
-  </table>
-  </dd>
+<div class="typeconstraint">
+<dl><dt><b>Type Constraints</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em>IBuildingComponent</em></td><td>&#160;</td></tr>
+</table>
+</dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>the coroutine enumerator</dd></dl>
+</div>
 
 </div>
 </div>

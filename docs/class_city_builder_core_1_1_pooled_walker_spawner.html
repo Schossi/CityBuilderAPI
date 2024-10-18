@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.7</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.8</span>
    </div>
   </td>
  </tr>
@@ -150,6 +150,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Initialize</b> (Trans
 <tr class="memitem:a020c0759d8a096fc4880bf75ebf48ef3 inherit pub_methods_class_city_builder_core_1_1_walker_spawner" id="r_a020c0759d8a096fc4880bf75ebf48ef3"><td class="memItemLeft" align="right" valign="top">
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Initialize</b> (<a class="el" href="interface_city_builder_core_1_1_i_building.html">IBuilding</a> building, Func&lt; T, bool &gt; onSpawning=null, Action&lt; T &gt; onFinished=null)</td></tr>
 <tr class="separator:a020c0759d8a096fc4880bf75ebf48ef3 inherit pub_methods_class_city_builder_core_1_1_walker_spawner"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3fd7042015cc0cf3ffbf4f7e78bc86e inherit pub_methods_class_city_builder_core_1_1_walker_spawner" id="r_ab3fd7042015cc0cf3ffbf4f7e78bc86e"><td class="memItemLeft" align="right" valign="top">
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Initialize&lt; Q, P &gt;</b> (Transform root, MonoBehaviour owner, Func&lt; Q &gt; preparer, Func&lt; Q, P &gt; planner, Action&lt; T, P &gt; spawner=null, Action&lt; T &gt; finished=null)</td></tr>
+<tr class="separator:ab3fd7042015cc0cf3ffbf4f7e78bc86e inherit pub_methods_class_city_builder_core_1_1_walker_spawner"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43bcbe00a0dfdc454c256460f22a0b76 inherit pub_methods_class_city_builder_core_1_1_walker_spawner" id="r_a43bcbe00a0dfdc454c256460f22a0b76"><td class="memItemLeft" align="right" valign="top">
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Initialize&lt; Q, P &gt;</b> (<a class="el" href="interface_city_builder_core_1_1_i_building.html">IBuilding</a> building, MonoBehaviour owner, Func&lt; Q &gt; preparer, Func&lt; Q, P &gt; planner, Action&lt; T, P &gt; spawner=null, Action&lt; T &gt; finished=null)</td></tr>
+<tr class="separator:a43bcbe00a0dfdc454c256460f22a0b76 inherit pub_methods_class_city_builder_core_1_1_walker_spawner"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa5301ec5dfb49da7a794e7688a7d1ef inherit pub_methods_class_city_builder_core_1_1_walker_spawner" id="r_afa5301ec5dfb49da7a794e7688a7d1ef"><td class="memItemLeft" align="right" valign="top">
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Integrate</b> (T walker, Action&lt; T &gt; onSpawned=null)</td></tr>
 <tr class="separator:afa5301ec5dfb49da7a794e7688a7d1ef inherit pub_methods_class_city_builder_core_1_1_walker_spawner"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -181,9 +187,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clearWalkers</b> ()</
 <tr class="memitem:aea00afd01c3f6a2fff644078306eca3e inherit pro_methods_class_city_builder_core_1_1_walker_spawner" id="r_aea00afd01c3f6a2fff644078306eca3e"><td class="memItemLeft" align="right" valign="top">
 T&#160;</td><td class="memItemRight" valign="bottom"><b>reloadActive</b> ()</td></tr>
 <tr class="separator:aea00afd01c3f6a2fff644078306eca3e inherit pro_methods_class_city_builder_core_1_1_walker_spawner"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26b5ab6d547f1d8bc3362d665d52c138 inherit pro_methods_class_city_builder_core_1_1_walker_spawner" id="r_a26b5ab6d547f1d8bc3362d665d52c138"><td class="memItemLeft" align="right" valign="top">
-T&#160;</td><td class="memItemRight" valign="bottom"><b>spawn</b> (Action&lt; T &gt; onSpawned=null, Vector2Int? start=null)</td></tr>
-<tr class="separator:a26b5ab6d547f1d8bc3362d665d52c138 inherit pro_methods_class_city_builder_core_1_1_walker_spawner"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a465b5627b33418173e08ce23d7e686d2 inherit pro_methods_class_city_builder_core_1_1_walker_spawner" id="r_a465b5627b33418173e08ce23d7e686d2"><td class="memItemLeft" align="right" valign="top">
+void&#160;</td><td class="memItemRight" valign="bottom"><b>spawn</b> (Action&lt; T &gt; onSpawned=null, Vector2Int? start=null)</td></tr>
+<tr class="separator:a465b5627b33418173e08ce23d7e686d2 inherit pro_methods_class_city_builder_core_1_1_walker_spawner"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d6b3dbb1141bab123c58d203ebd5bcf inherit pro_methods_class_city_builder_core_1_1_walker_spawner" id="r_a2d6b3dbb1141bab123c58d203ebd5bcf"><td class="memItemLeft" align="right" valign="top">
+void&#160;</td><td class="memItemRight" valign="bottom"><b>spawnPrepared</b> (MonoBehaviour owner, Func&lt; object &gt; preparer, Func&lt; object, object &gt; planner, Action&lt; T, object &gt; spawner=null, Action&lt; T &gt; onSpawned=null, Vector2Int? start=null)</td></tr>
+<tr class="separator:a2d6b3dbb1141bab123c58d203ebd5bcf inherit pro_methods_class_city_builder_core_1_1_walker_spawner"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -191,6 +200,12 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a5ae2f9ebc1464e1b99656e7816c3ee1b inherit pro_attribs_class_city_builder_core_1_1_walker_spawner" id="r_a5ae2f9ebc1464e1b99656e7816c3ee1b"><td class="memItemLeft" align="right" valign="top">
 List&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>_currentWalkers</b> = new List&lt;T&gt;()</td></tr>
 <tr class="separator:a5ae2f9ebc1464e1b99656e7816c3ee1b inherit pro_attribs_class_city_builder_core_1_1_walker_spawner"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a036118ee58e2f8ef21268084d549ad6a inherit pro_attribs_class_city_builder_core_1_1_walker_spawner" id="r_a036118ee58e2f8ef21268084d549ad6a"><td class="memItemLeft" align="right" valign="top">
+Transform&#160;</td><td class="memItemRight" valign="bottom"><b>_root</b></td></tr>
+<tr class="separator:a036118ee58e2f8ef21268084d549ad6a inherit pro_attribs_class_city_builder_core_1_1_walker_spawner"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f0d6e296b39a06de0265d1764980848 inherit pro_attribs_class_city_builder_core_1_1_walker_spawner" id="r_a6f0d6e296b39a06de0265d1764980848"><td class="memItemLeft" align="right" valign="top">
+<a class="el" href="interface_city_builder_core_1_1_i_building.html">IBuilding</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_building</b></td></tr>
+<tr class="separator:a6f0d6e296b39a06de0265d1764980848 inherit pro_attribs_class_city_builder_core_1_1_walker_spawner"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_class_city_builder_core_1_1_walker_spawner"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_class_city_builder_core_1_1_walker_spawner')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_city_builder_core_1_1_walker_spawner.html">CityBuilderCore.WalkerSpawner&lt; T &gt;</a></td></tr>
 <tr class="memitem:a89e7f02537e7eb91be63a1123ef91667 inherit properties_class_city_builder_core_1_1_walker_spawner" id="r_a89e7f02537e7eb91be63a1123ef91667"><td class="memItemLeft" align="right" valign="top">
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>HasWalker</b><code> [get]</code></td></tr>

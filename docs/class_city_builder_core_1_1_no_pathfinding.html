@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.7</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.8</span>
    </div>
   </td>
  </tr>
@@ -99,6 +99,7 @@ $(function(){initNavTree('class_city_builder_core_1_1_no_pathfinding.html',''); 
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="class_city_builder_core_1_1_no_pathfinding-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">CityBuilderCore.NoPathfinding Class Reference</div></div>
@@ -116,11 +117,18 @@ Inheritance diagram for CityBuilderCore.NoPathfinding:</div>
   </map>
 </div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_no_pathfinding_1_1_no_path_query.html">NoPathQuery</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a92267ff280161f5055539cee43255f4f" id="r_a92267ff280161f5055539cee43255f4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_city_builder_core_1_1_walking_path.html">WalkingPath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92267ff280161f5055539cee43255f4f">FindPath</a> (Vector2Int[] starts, Vector2Int[] targets, object parameter=null)</td></tr>
 <tr class="memdesc:a92267ff280161f5055539cee43255f4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">attempts to find a path between one of the starts and one of the ends  <br /></td></tr>
 <tr class="separator:a92267ff280161f5055539cee43255f4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e6ee402103c5aaed4125f4f1d712df7" id="r_a3e6ee402103c5aaed4125f4f1d712df7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_city_builder_core_1_1_path_query.html">PathQuery</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3e6ee402103c5aaed4125f4f1d712df7">FindPathQuery</a> (Vector2Int[] starts, Vector2Int[] targets, object tag=null)</td></tr>
+<tr class="separator:a3e6ee402103c5aaed4125f4f1d712df7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa90379b1ce5deaafb78248df5bd804dd" id="r_aa90379b1ce5deaafb78248df5bd804dd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa90379b1ce5deaafb78248df5bd804dd">HasPoint</a> (Vector2Int point, object tag=null)</td></tr>
 <tr class="memdesc:aa90379b1ce5deaafb78248df5bd804dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks if a point exists within the pathfinder<br  />
  for example points on map pathing that are blocked or points for road pathing that dont have a road  <br /></td></tr>
@@ -171,6 +179,42 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>the calculated path or null when no path was found</dd></dl>
 
 <p>Implements <a class="el" href="interface_city_builder_core_1_1_i_pathfinder.html#a6972ddbc55d6e84eb3d222949b651118">CityBuilderCore.IPathfinder</a>.</p>
+
+</div>
+</div>
+<a id="a3e6ee402103c5aaed4125f4f1d712df7" name="a3e6ee402103c5aaed4125f4f1d712df7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e6ee402103c5aaed4125f4f1d712df7">&#9670;&#160;</a></span>FindPathQuery()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_city_builder_core_1_1_path_query.html">PathQuery</a> CityBuilderCore.NoPathfinding.FindPathQuery </td>
+          <td>(</td>
+          <td class="paramtype">Vector2Int[]</td>          <td class="paramname"><span class="paramname"><em>starts</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector2Int[]</td>          <td class="paramname"><span class="paramname"><em>targets</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">object</td>          <td class="paramname"><span class="paramname"><em>tag</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_city_builder_core_1_1_i_pathfinder.html">CityBuilderCore.IPathfinder</a>.</p>
 
 </div>
 </div>

@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.7</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.8</span>
    </div>
   </td>
  </tr>
@@ -107,13 +107,16 @@ $(function(){initNavTree('class_city_builder_core_1_1_structure_path_manager.htm
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>manages one variant of structure pathing(there is only more than one if there are <a class="el" href="class_city_builder_core_1_1_structure_path_option.html">StructurePathOption</a>s)<br  />
- used by <a class="el" href="class_city_builder_core_1_1_structure_paths.html" title="manages the different variants of mag grid pathing for DefaultStructureManager  there may only be one...">StructurePaths</a> which manages the structure pathing for <a class="el" href="class_city_builder_core_1_1_default_structure_manager.html" title="straightforward IStructureManager implementation  holds collections, decorators and tiles in seperate...">DefaultStructureManager</a> </p>
+ used by <a class="el" href="class_city_builder_core_1_1_structure_paths.html" title="manages the different variants of mag grid pathing for DefaultStructureManager  there is only one var...">StructurePaths</a> which manages the structure pathing for <a class="el" href="class_city_builder_core_1_1_default_structure_manager.html" title="straightforward IStructureManager implementation  holds collections, decorators and tiles in seperate...">DefaultStructureManager</a> </p>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5f1d702f65cbe7953082b8e010dc871f" id="r_a5f1d702f65cbe7953082b8e010dc871f"><td class="memItemLeft" align="right" valign="top"><a id="a5f1d702f65cbe7953082b8e010dc871f" name="a5f1d702f65cbe7953082b8e010dc871f"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>StructurePathManager</b> (<a class="el" href="class_city_builder_core_1_1_structure_path_option.html">StructurePathOption</a> option)</td></tr>
-<tr class="separator:a5f1d702f65cbe7953082b8e010dc871f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af89adbb590f9a9396788e3a886e42028" id="r_af89adbb590f9a9396788e3a886e42028"><td class="memItemLeft" align="right" valign="top"><a id="af89adbb590f9a9396788e3a886e42028" name="af89adbb590f9a9396788e3a886e42028"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>StructurePathManager</b> (<a class="el" href="class_city_builder_core_1_1_grid_pathfinding_settings.html">GridPathfindingSettings</a> pathfindingSettings, <a class="el" href="class_city_builder_core_1_1_structure_path_option.html">StructurePathOption</a> option)</td></tr>
+<tr class="separator:af89adbb590f9a9396788e3a886e42028"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae14923d8d6d98c95cfd52497673b0d89" id="r_ae14923d8d6d98c95cfd52497673b0d89"><td class="memItemLeft" align="right" valign="top"><a id="ae14923d8d6d98c95cfd52497673b0d89" name="ae14923d8d6d98c95cfd52497673b0d89"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> ()</td></tr>
+<tr class="separator:ae14923d8d6d98c95cfd52497673b0d89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57f1bb028fc0aa6634a671ef480b1118" id="r_a57f1bb028fc0aa6634a671ef480b1118"><td class="memItemLeft" align="right" valign="top"><a id="a57f1bb028fc0aa6634a671ef480b1118" name="a57f1bb028fc0aa6634a671ef480b1118"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Add</b> (<a class="el" href="interface_city_builder_core_1_1_i_map.html">IMap</a> map, Vector2Int point)</td></tr>
 <tr class="separator:a57f1bb028fc0aa6634a671ef480b1118"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -135,9 +138,9 @@ IEnumerable&lt; <a class="el" href="interface_city_builder_core_1_1_i_grid_link.
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a78a4e55086f3b09b1dc1820908a7f9ff" id="r_a78a4e55086f3b09b1dc1820908a7f9ff"><td class="memItemLeft" align="right" valign="top"><a id="a78a4e55086f3b09b1dc1820908a7f9ff" name="a78a4e55086f3b09b1dc1820908a7f9ff"></a>
-<a class="el" href="class_city_builder_core_1_1_grid_pathfinding.html">GridPathfinding</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GridPathfinding</b><code> [get]</code></td></tr>
-<tr class="separator:a78a4e55086f3b09b1dc1820908a7f9ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8077aa101ab15cbf04bd34025fe0f5f" id="r_ae8077aa101ab15cbf04bd34025fe0f5f"><td class="memItemLeft" align="right" valign="top"><a id="ae8077aa101ab15cbf04bd34025fe0f5f" name="ae8077aa101ab15cbf04bd34025fe0f5f"></a>
+<a class="el" href="class_city_builder_core_1_1_grid_pathfinding_base.html">GridPathfindingBase</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GridPathfinding</b><code> [get]</code></td></tr>
+<tr class="separator:ae8077aa101ab15cbf04bd34025fe0f5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

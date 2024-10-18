@@ -46,10 +46,11 @@ var searchData=
   ['worker_43',['Worker',['../class_city_builder_core_1_1_worker.html',1,'CityBuilderCore']]],
   ['workerpath_44',['WorkerPath',['../class_city_builder_core_1_1_worker_path.html',1,'CityBuilderCore']]],
   ['workerpathdata_45',['WorkerPathData',['../class_city_builder_core_1_1_worker_path_1_1_worker_path_data.html',1,'CityBuilderCore::WorkerPath']]],
-  ['workerscore_46',['WorkerScore',['../class_city_builder_core_1_1_worker_score.html',1,'CityBuilderCore']]],
-  ['workerspanel_47',['WorkersPanel',['../class_city_builder_core_1_1_workers_panel.html',1,'CityBuilderCore']]],
-  ['workertesting_48',['WorkerTesting',['../class_city_builder_core_1_1_tests_1_1_worker_testing.html',1,'CityBuilderCore::Tests']]],
-  ['workerusercomponent_49',['WorkerUserComponent',['../class_city_builder_core_1_1_worker_user_component.html',1,'CityBuilderCore']]],
-  ['workerwalker_50',['WorkerWalker',['../class_city_builder_core_1_1_worker_walker.html',1,'CityBuilderCore']]],
-  ['workerwalkerdata_51',['WorkerWalkerData',['../class_city_builder_core_1_1_worker_walker_1_1_worker_walker_data.html',1,'CityBuilderCore.WorkerWalker.WorkerWalkerData'],['../class_city_builder_town_1_1_town_walker_1_1_worker_walker_data.html',1,'CityBuilderTown.TownWalker.WorkerWalkerData']]]
+  ['workerpathquery_46',['WorkerPathQuery',['../class_city_builder_core_1_1_worker_path_query.html',1,'CityBuilderCore']]],
+  ['workerscore_47',['WorkerScore',['../class_city_builder_core_1_1_worker_score.html',1,'CityBuilderCore']]],
+  ['workerspanel_48',['WorkersPanel',['../class_city_builder_core_1_1_workers_panel.html',1,'CityBuilderCore']]],
+  ['workertesting_49',['WorkerTesting',['../class_city_builder_core_1_1_tests_1_1_worker_testing.html',1,'CityBuilderCore::Tests']]],
+  ['workerusercomponent_50',['WorkerUserComponent',['../class_city_builder_core_1_1_worker_user_component.html',1,'CityBuilderCore']]],
+  ['workerwalker_51',['WorkerWalker',['../class_city_builder_core_1_1_worker_walker.html',1,'CityBuilderCore']]],
+  ['workerwalkerdata_52',['WorkerWalkerData',['../class_city_builder_core_1_1_worker_walker_1_1_worker_walker_data.html',1,'CityBuilderCore.WorkerWalker.WorkerWalkerData'],['../class_city_builder_town_1_1_town_walker_1_1_worker_walker_data.html',1,'CityBuilderTown.TownWalker.WorkerWalkerData']]]
 ];

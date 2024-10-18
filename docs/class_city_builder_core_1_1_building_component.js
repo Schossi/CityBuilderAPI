@@ -7,6 +7,8 @@ var class_city_builder_core_1_1_building_component =
     [ "getOthers< T >", "class_city_builder_core_1_1_building_component.html#a55d16ae448c033f702506d5d8d3e8210", null ],
     [ "InitializeComponent", "class_city_builder_core_1_1_building_component.html#aecc58bb57fd07ea1e9d263c58f6dcb63", null ],
     [ "LoadData", "class_city_builder_core_1_1_building_component.html#a7bcd840ea16067401d07790577b7b503", null ],
+    [ "OnMoved", "class_city_builder_core_1_1_building_component.html#af5ca5f11843988f5b9dd323dc2567c95", null ],
+    [ "OnMoving", "class_city_builder_core_1_1_building_component.html#a4b12f7c48adc236f490b2f2c9d78e812", null ],
     [ "OnReplacing", "class_city_builder_core_1_1_building_component.html#a1181c915c90848dfd80ca567476f0604", null ],
     [ "registerTrait< T >", "class_city_builder_core_1_1_building_component.html#a65a957590c0ba0ddd399ecb3182f2182", null ],
     [ "replaceTrait< T >", "class_city_builder_core_1_1_building_component.html#a010bacee1bdf11ebfeb576aef3df9442", null ],

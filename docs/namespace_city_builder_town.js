@@ -38,6 +38,7 @@ var namespace_city_builder_town =
     [ "TownProvisionAction", "class_city_builder_town_1_1_town_provision_action.html", "class_city_builder_town_1_1_town_provision_action" ],
     [ "TownRecoveryAction", "class_city_builder_town_1_1_town_recovery_action.html", "class_city_builder_town_1_1_town_recovery_action" ],
     [ "TownSaveGame", "class_city_builder_town_1_1_town_save_game.html", null ],
+    [ "TownSelectionSwitcher", "class_city_builder_town_1_1_town_selection_switcher.html", null ],
     [ "TownSetup", "class_city_builder_town_1_1_town_setup.html", null ],
     [ "TownSignalAction", "class_city_builder_town_1_1_town_signal_action.html", "class_city_builder_town_1_1_town_signal_action" ],
     [ "TownStartupTool", "class_city_builder_town_1_1_town_startup_tool.html", "class_city_builder_town_1_1_town_startup_tool" ],

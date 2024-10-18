@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.7</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.8</span>
    </div>
   </td>
  </tr>
@@ -120,9 +120,7 @@ Inheritance diagram for CityBuilderCore.DefaultStructureManager:</div>
   <img src="class_city_builder_core_1_1_default_structure_manager.png" usemap="#CityBuilderCore.DefaultStructureManager_map" alt=""/>
   <map id="CityBuilderCore.DefaultStructureManager_map" name="CityBuilderCore.DefaultStructureManager_map">
 <area href="interface_city_builder_core_1_1_i_structure_manager.html" title="tracks all the IStructures on the map  used to check and retrieve structures at any point on the map" alt="CityBuilderCore.IStructureManager" shape="rect" coords="259,56,508,80"/>
-<area href="interface_city_builder_core_1_1_i_map_pathfinder.html" title="pathfinder that uses the unity navmesh to find a path on the map" alt="CityBuilderCore.IMapPathfinder" shape="rect" coords="518,56,767,80"/>
 <area href="interface_city_builder_core_1_1_i_save_data.html" title="interface for all kinds of components that contain state that needs saving" alt="CityBuilderCore.ISaveData" shape="rect" coords="259,0,508,24"/>
-<area href="interface_city_builder_core_1_1_i_pathfinder.html" title="pathfinders calculate a path between points using different methods  there is a sub-interface for eve..." alt="CityBuilderCore.IPathfinder" shape="rect" coords="518,0,767,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -162,13 +160,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a606b035217b7d8773f7f385586b941d9" id="r_a606b035217b7d8773f7f385586b941d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a606b035217b7d8773f7f385586b941d9">DeregisterStructure</a> (<a class="el" href="interface_city_builder_core_1_1_i_structure.html">IStructure</a> structure, bool isUnderlying=false)</td></tr>
 <tr class="memdesc:a606b035217b7d8773f7f385586b941d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes a previously registered structure from the manager  <br /></td></tr>
 <tr class="separator:a606b035217b7d8773f7f385586b941d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22d8cca4e3cb6dccb0ae95488ba714ca" id="r_a22d8cca4e3cb6dccb0ae95488ba714ca"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22d8cca4e3cb6dccb0ae95488ba714ca">HasPoint</a> (Vector2Int point, object tag=null)</td></tr>
-<tr class="memdesc:a22d8cca4e3cb6dccb0ae95488ba714ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks if a point exists within the pathfinder<br  />
- for example points on map pathing that are blocked or points for road pathing that dont have a road  <br /></td></tr>
-<tr class="separator:a22d8cca4e3cb6dccb0ae95488ba714ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3be1837ca8dbf323889136f9be3c8236" id="r_a3be1837ca8dbf323889136f9be3c8236"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_city_builder_core_1_1_walking_path.html">WalkingPath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3be1837ca8dbf323889136f9be3c8236">FindPath</a> (Vector2Int[] startPoints, Vector2Int[] targetPoints, object tag=null)</td></tr>
-<tr class="memdesc:a3be1837ca8dbf323889136f9be3c8236"><td class="mdescLeft">&#160;</td><td class="mdescRight">attempts to find a path between one of the starts and one of the ends  <br /></td></tr>
-<tr class="separator:a3be1837ca8dbf323889136f9be3c8236"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ec2fb6f920f13003a07f6b830d14e00" id="r_a7ec2fb6f920f13003a07f6b830d14e00"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ec2fb6f920f13003a07f6b830d14e00">SaveData</a> ()</td></tr>
 <tr class="memdesc:a7ec2fb6f920f13003a07f6b830d14e00"><td class="mdescLeft">&#160;</td><td class="mdescRight">serializes the objects state(usually to json) and returns it  <br /></td></tr>
 <tr class="separator:a7ec2fb6f920f13003a07f6b830d14e00"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -184,6 +175,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>AllowInvalidPath</b> 
 <tr class="memitem:a1c8dd1d3037156fdd2c47a7a1a530b32" id="r_a1c8dd1d3037156fdd2c47a7a1a530b32"><td class="memItemLeft" align="right" valign="top"><a id="a1c8dd1d3037156fdd2c47a7a1a530b32" name="a1c8dd1d3037156fdd2c47a7a1a530b32"></a>
 <a class="el" href="class_city_builder_core_1_1_walker_area_mask.html">WalkerAreaMask</a>&#160;</td><td class="memItemRight" valign="bottom"><b>DefaultAreaMask</b></td></tr>
 <tr class="separator:a1c8dd1d3037156fdd2c47a7a1a530b32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1723e5422dd5c17d52c0169cd0339f59" id="r_a1723e5422dd5c17d52c0169cd0339f59"><td class="memItemLeft" align="right" valign="top"><a id="a1723e5422dd5c17d52c0169cd0339f59" name="a1723e5422dd5c17d52c0169cd0339f59"></a>
+<a class="el" href="class_city_builder_core_1_1_grid_pathfinding_settings.html">GridPathfindingSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><b>PathfindingSettings</b></td></tr>
+<tr class="separator:a1723e5422dd5c17d52c0169cd0339f59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f64b9e4071a239885dc51f998364a46" id="r_a0f64b9e4071a239885dc51f998364a46"><td class="memItemLeft" align="right" valign="top"><a id="a0f64b9e4071a239885dc51f998364a46" name="a0f64b9e4071a239885dc51f998364a46"></a>
 <a class="el" href="class_city_builder_core_1_1_structure_path_option.html">StructurePathOption</a>[]&#160;</td><td class="memItemRight" valign="bottom"><b>PathOptions</b></td></tr>
 <tr class="separator:a0f64b9e4071a239885dc51f998364a46"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -202,6 +196,12 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()<
 <tr class="memitem:a77fe324e4ca93d83950e164546a9f1f4" id="r_a77fe324e4ca93d83950e164546a9f1f4"><td class="memItemLeft" align="right" valign="top"><a id="a77fe324e4ca93d83950e164546a9f1f4" name="a77fe324e4ca93d83950e164546a9f1f4"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> ()</td></tr>
 <tr class="separator:a77fe324e4ca93d83950e164546a9f1f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afad58258c64a494e24279bfc8f601d13" id="r_afad58258c64a494e24279bfc8f601d13"><td class="memItemLeft" align="right" valign="top"><a id="afad58258c64a494e24279bfc8f601d13" name="afad58258c64a494e24279bfc8f601d13"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> ()</td></tr>
+<tr class="separator:afad58258c64a494e24279bfc8f601d13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af648e88892b27989dd6c44a0feabe146" id="r_af648e88892b27989dd6c44a0feabe146"><td class="memItemLeft" align="right" valign="top"><a id="af648e88892b27989dd6c44a0feabe146" name="af648e88892b27989dd6c44a0feabe146"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnDestroy</b> ()</td></tr>
+<tr class="separator:af648e88892b27989dd6c44a0feabe146"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="events" name="events"></a>
 Events</h2></td></tr>
@@ -252,53 +252,6 @@ Action&#160;</td><td class="memItemRight" valign="bottom"><b>Changed</b></td></t
 </dl>
 
 <p>Implements <a class="el" href="interface_city_builder_core_1_1_i_structure_manager.html#ae5bd3437bbbd845adc762373d97211f7">CityBuilderCore.IStructureManager</a>.</p>
-
-</div>
-</div>
-<a id="a3be1837ca8dbf323889136f9be3c8236" name="a3be1837ca8dbf323889136f9be3c8236"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3be1837ca8dbf323889136f9be3c8236">&#9670;&#160;</a></span>FindPath()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="class_city_builder_core_1_1_walking_path.html">WalkingPath</a> CityBuilderCore.DefaultStructureManager.FindPath </td>
-          <td>(</td>
-          <td class="paramtype">Vector2Int[]</td>          <td class="paramname"><span class="paramname"><em>starts</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Vector2Int[]</td>          <td class="paramname"><span class="paramname"><em>targets</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">object</td>          <td class="paramname"><span class="paramname"><em>tag</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>attempts to find a path between one of the starts and one of the ends </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">starts</td><td>collection of one or more possible start points</td></tr>
-    <tr><td class="paramname">targets</td><td>collection of one or more possible start points</td></tr>
-    <tr><td class="paramname">tag</td><td>additional pathfinding parameter(road type, walker info, ...)</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>the calculated path or null when no path was found</dd></dl>
-
-<p>Implements <a class="el" href="interface_city_builder_core_1_1_i_pathfinder.html#a6972ddbc55d6e84eb3d222949b651118">CityBuilderCore.IPathfinder</a>.</p>
 
 </div>
 </div>
@@ -430,48 +383,6 @@ Action&#160;</td><td class="memItemRight" valign="bottom"><b>Changed</b></td></t
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 <p>Implements <a class="el" href="interface_city_builder_core_1_1_i_structure_manager.html#a543561d8f4dfdbf0811ba188122072cd">CityBuilderCore.IStructureManager</a>.</p>
-
-</div>
-</div>
-<a id="a22d8cca4e3cb6dccb0ae95488ba714ca" name="a22d8cca4e3cb6dccb0ae95488ba714ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22d8cca4e3cb6dccb0ae95488ba714ca">&#9670;&#160;</a></span>HasPoint()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool CityBuilderCore.DefaultStructureManager.HasPoint </td>
-          <td>(</td>
-          <td class="paramtype">Vector2Int</td>          <td class="paramname"><span class="paramname"><em>point</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">object</td>          <td class="paramname"><span class="paramname"><em>tag</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>checks if a point exists within the pathfinder<br  />
- for example points on map pathing that are blocked or points for road pathing that dont have a road </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">point</td><td>the map point to check</td></tr>
-    <tr><td class="paramname">tag</td><td>additional pathfinding parameter(road type, walker info, ...)</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>whether the point exists in the pathfinder</dd></dl>
-
-<p>Implements <a class="el" href="interface_city_builder_core_1_1_i_pathfinder.html#a4fe40d75e472719b37371cceda7e60b6">CityBuilderCore.IPathfinder</a>.</p>
 
 </div>
 </div>

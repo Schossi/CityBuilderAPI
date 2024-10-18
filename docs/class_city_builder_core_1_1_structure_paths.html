@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.7</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.8</span>
    </div>
   </td>
  </tr>
@@ -106,7 +106,7 @@ $(function(){initNavTree('class_city_builder_core_1_1_structure_paths.html','');
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>manages the different variants of mag grid pathing for <a class="el" href="class_city_builder_core_1_1_default_structure_manager.html" title="straightforward IStructureManager implementation  holds collections, decorators and tiles in seperate...">DefaultStructureManager</a><br  />
- there may only be one variant if there are no special <a class="el" href="class_city_builder_core_1_1_structure_path_option.html">StructurePathOption</a>s defined </p>
+ there is only one variant if there are no special <a class="el" href="class_city_builder_core_1_1_structure_path_option.html">StructurePathOption</a>s defined </p>
 </div><div class="dynheader">
 Inheritance diagram for CityBuilderCore.StructurePaths:</div>
 <div class="dyncontent">
@@ -122,22 +122,30 @@ Inheritance diagram for CityBuilderCore.StructurePaths:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aae8aa4ab6799a5d9767d3460a76cd811" id="r_aae8aa4ab6799a5d9767d3460a76cd811"><td class="memItemLeft" align="right" valign="top"><a id="aae8aa4ab6799a5d9767d3460a76cd811" name="aae8aa4ab6799a5d9767d3460a76cd811"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Initialize</b> (<a class="el" href="class_city_builder_core_1_1_structure_path_option.html">StructurePathOption</a>[] options)</td></tr>
-<tr class="separator:aae8aa4ab6799a5d9767d3460a76cd811"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7242d6bce6d2cfc9a063775b3e5c3be" id="r_ac7242d6bce6d2cfc9a063775b3e5c3be"><td class="memItemLeft" align="right" valign="top"><a id="ac7242d6bce6d2cfc9a063775b3e5c3be" name="ac7242d6bce6d2cfc9a063775b3e5c3be"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Initialize</b> (<a class="el" href="class_city_builder_core_1_1_grid_pathfinding_settings.html">GridPathfindingSettings</a> pathfindingSettings, <a class="el" href="class_city_builder_core_1_1_structure_path_option.html">StructurePathOption</a>[] options)</td></tr>
+<tr class="separator:ac7242d6bce6d2cfc9a063775b3e5c3be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebdea76dcf8e1b53a84c592191730af4" id="r_aebdea76dcf8e1b53a84c592191730af4"><td class="memItemLeft" align="right" valign="top"><a id="aebdea76dcf8e1b53a84c592191730af4" name="aebdea76dcf8e1b53a84c592191730af4"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> ()</td></tr>
+<tr class="separator:aebdea76dcf8e1b53a84c592191730af4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25d9b006993d3943828d7597d7ded48b" id="r_a25d9b006993d3943828d7597d7ded48b"><td class="memItemLeft" align="right" valign="top"><a id="a25d9b006993d3943828d7597d7ded48b" name="a25d9b006993d3943828d7597d7ded48b"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Add</b> (Vector2Int point)</td></tr>
 <tr class="separator:a25d9b006993d3943828d7597d7ded48b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac52e59bc7dad466decaddabf5bd040a5" id="r_ac52e59bc7dad466decaddabf5bd040a5"><td class="memItemLeft" align="right" valign="top"><a id="ac52e59bc7dad466decaddabf5bd040a5" name="ac52e59bc7dad466decaddabf5bd040a5"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>CheckPoints</b> (<a class="el" href="interface_city_builder_core_1_1_i_structure_manager.html">IStructureManager</a> manager, IEnumerable&lt; Vector2Int &gt; points)</td></tr>
 <tr class="separator:ac52e59bc7dad466decaddabf5bd040a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9eb1dd65e0ae31ef6bfd1f936a6e8226" id="r_a9eb1dd65e0ae31ef6bfd1f936a6e8226"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_city_builder_core_1_1_walking_path.html">WalkingPath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9eb1dd65e0ae31ef6bfd1f936a6e8226">FindPath</a> (Vector2Int[] starts, Vector2Int[] targets, object tag=null)</td></tr>
-<tr class="memdesc:a9eb1dd65e0ae31ef6bfd1f936a6e8226"><td class="mdescLeft">&#160;</td><td class="mdescRight">attempts to find a path between one of the starts and one of the ends  <br /></td></tr>
-<tr class="separator:a9eb1dd65e0ae31ef6bfd1f936a6e8226"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ff8178ec6ed314f6c4313ef279a83f2" id="r_a8ff8178ec6ed314f6c4313ef279a83f2"><td class="memItemLeft" align="right" valign="top"><a id="a8ff8178ec6ed314f6c4313ef279a83f2" name="a8ff8178ec6ed314f6c4313ef279a83f2"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Calculate</b> (int maxCalculations=PathQuery.DEFAULT_MAX_CALCULATIONS)</td></tr>
+<tr class="separator:a8ff8178ec6ed314f6c4313ef279a83f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa113c0805434a740043a2ece94d76d5e" id="r_aa113c0805434a740043a2ece94d76d5e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa113c0805434a740043a2ece94d76d5e">HasPoint</a> (Vector2Int point, object tag=null)</td></tr>
 <tr class="memdesc:aa113c0805434a740043a2ece94d76d5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks if a point exists within the pathfinder<br  />
  for example points on map pathing that are blocked or points for road pathing that dont have a road  <br /></td></tr>
 <tr class="separator:aa113c0805434a740043a2ece94d76d5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9eb1dd65e0ae31ef6bfd1f936a6e8226" id="r_a9eb1dd65e0ae31ef6bfd1f936a6e8226"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_city_builder_core_1_1_walking_path.html">WalkingPath</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9eb1dd65e0ae31ef6bfd1f936a6e8226">FindPath</a> (Vector2Int[] starts, Vector2Int[] targets, object tag=null)</td></tr>
+<tr class="memdesc:a9eb1dd65e0ae31ef6bfd1f936a6e8226"><td class="mdescLeft">&#160;</td><td class="mdescRight">attempts to find a path between one of the starts and one of the ends  <br /></td></tr>
+<tr class="separator:a9eb1dd65e0ae31ef6bfd1f936a6e8226"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fba6456cb10c917e83d9f19488455e0" id="r_a6fba6456cb10c917e83d9f19488455e0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_city_builder_core_1_1_path_query.html">PathQuery</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6fba6456cb10c917e83d9f19488455e0">FindPathQuery</a> (Vector2Int[] starts, Vector2Int[] targets, object tag=null)</td></tr>
+<tr class="separator:a6fba6456cb10c917e83d9f19488455e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9250cf27ecdc3ac86a64fa6df318fcd1" id="r_a9250cf27ecdc3ac86a64fa6df318fcd1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9250cf27ecdc3ac86a64fa6df318fcd1">RegisterLink</a> (<a class="el" href="interface_city_builder_core_1_1_i_grid_link.html">IGridLink</a> link, object tag)</td></tr>
 <tr class="memdesc:a9250cf27ecdc3ac86a64fa6df318fcd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds a link to the linker  <br /></td></tr>
 <tr class="separator:a9250cf27ecdc3ac86a64fa6df318fcd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -228,6 +236,34 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>CheckPoints</b> (<a c
 <dl class="section return"><dt>Returns</dt><dd>the calculated path or null when no path was found</dd></dl>
 
 <p>Implements <a class="el" href="interface_city_builder_core_1_1_i_pathfinder.html#a6972ddbc55d6e84eb3d222949b651118">CityBuilderCore.IPathfinder</a>.</p>
+
+</div>
+</div>
+<a id="a6fba6456cb10c917e83d9f19488455e0" name="a6fba6456cb10c917e83d9f19488455e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fba6456cb10c917e83d9f19488455e0">&#9670;&#160;</a></span>FindPathQuery()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_city_builder_core_1_1_path_query.html">PathQuery</a> CityBuilderCore.StructurePaths.FindPathQuery </td>
+          <td>(</td>
+          <td class="paramtype">Vector2Int[]</td>          <td class="paramname"><span class="paramname"><em>starts</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector2Int[]</td>          <td class="paramname"><span class="paramname"><em>targets</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">object</td>          <td class="paramname"><span class="paramname"><em>tag</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Implements <a class="el" href="interface_city_builder_core_1_1_i_pathfinder.html">CityBuilderCore.IPathfinder</a>.</p>
 
 </div>
 </div>

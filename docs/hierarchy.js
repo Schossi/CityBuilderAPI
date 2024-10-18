@@ -8,6 +8,9 @@ var hierarchy =
     [ "CityBuilderCore.Building.BuildingAddonMetaData", "class_city_builder_core_1_1_building_1_1_building_addon_meta_data.html", null ],
     [ "CityBuilderCore.Building.BuildingComponentMetaData", "class_city_builder_core_1_1_building_1_1_building_component_meta_data.html", null ],
     [ "CityBuilderCore.BuildingComponentPath< T >", "class_city_builder_core_1_1_building_component_path.html", null ],
+    [ "CityBuilderCore.BuildingComponentPathQuery< T >", "class_city_builder_core_1_1_building_component_path_query.html", null ],
+    [ "CityBuilderCore.BuildingComponentPathQuery< IItemGiver >", "class_city_builder_core_1_1_building_component_path_query.html", null ],
+    [ "CityBuilderCore.BuildingComponentPathQuery< IItemReceiver >", "class_city_builder_core_1_1_building_component_path_query.html", null ],
     [ "CityBuilderCore.BuildingComponentReference< T >", "class_city_builder_core_1_1_building_component_reference.html", null ],
     [ "CityBuilderCore.BuildingComponentReference< CityBuilderCore.IAttackable >", "class_city_builder_core_1_1_building_component_reference.html", null ],
     [ "CityBuilderCore.BuildingComponentReference< CityBuilderCore.IHousing >", "class_city_builder_core_1_1_building_component_reference.html", null ],
@@ -169,6 +172,7 @@ var hierarchy =
     [ "CityBuilderCore.GenerationComponent.GenerationData", "class_city_builder_core_1_1_generation_component_1_1_generation_data.html", null ],
     [ "CityBuilderCore.ObjectGenerator.GeneratorObject", "class_city_builder_core_1_1_object_generator_1_1_generator_object.html", null ],
     [ "CityBuilderCore.GridLinks", "class_city_builder_core_1_1_grid_links.html", null ],
+    [ "CityBuilderCore.GridPathfindingSettings", "class_city_builder_core_1_1_grid_pathfinding_settings.html", null ],
     [ "CityBuilderCore.HomelessWalker.HomelessWalkerData", "class_city_builder_core_1_1_homeless_walker_1_1_homeless_walker_data.html", null ],
     [ "CityBuilderCore.HousingComponent.HousingData", "class_city_builder_core_1_1_housing_component_1_1_housing_data.html", null ],
     [ "CityBuilderCore.HousingPlaceholderComponent.HousingPlaceholderData", "class_city_builder_core_1_1_housing_placeholder_component_1_1_housing_placeholder_data.html", null ],
@@ -275,6 +279,7 @@ var hierarchy =
       ] ],
       [ "CityBuilderCore.ConnectionPasserComponent", "class_city_builder_core_1_1_connection_passer_component.html", null ],
       [ "CityBuilderCore.IConnectionFeeder", "interface_city_builder_core_1_1_i_connection_feeder.html", [
+        [ "CityBuilderCore.ConnectionFeederBuilder", "class_city_builder_core_1_1_connection_feeder_builder.html", null ],
         [ "CityBuilderCore.ConnectionFeederComponent", "class_city_builder_core_1_1_connection_feeder_component.html", null ],
         [ "CityBuilderCore.ConnectionFeederStructure", "class_city_builder_core_1_1_connection_feeder_structure.html", null ],
         [ "CityBuilderCore.ConnectionFeederTiles", "class_city_builder_core_1_1_connection_feeder_tiles.html", null ]
@@ -423,6 +428,9 @@ var hierarchy =
     ] ],
     [ "CityBuilderCore.IItemsDispenserManager", "interface_city_builder_core_1_1_i_items_dispenser_manager.html", [
       [ "CityBuilderCore.DefaultItemManager", "class_city_builder_core_1_1_default_item_manager.html", null ]
+    ] ],
+    [ "IJob", null, [
+      [ "CityBuilderCore.GridPathfindingBurst.FindPathJob", "struct_city_builder_core_1_1_grid_pathfinding_burst_1_1_find_path_job.html", null ]
     ] ],
     [ "CityBuilderCore.IKeyed", "interface_city_builder_core_1_1_i_keyed.html", [
       [ "CityBuilderCore.IStructure", "interface_city_builder_core_1_1_i_structure.html", [
@@ -586,24 +594,28 @@ var hierarchy =
     ] ],
     [ "CityBuilderCore.IPathfinder", "interface_city_builder_core_1_1_i_pathfinder.html", [
       [ "CityBuilderCore.IMapGridPathfinder", "interface_city_builder_core_1_1_i_map_grid_pathfinder.html", [
-        [ "CityBuilderCore.GridPathfinding", "class_city_builder_core_1_1_grid_pathfinding.html", null ],
+        [ "CityBuilderCore.GridPathfindingBase", "class_city_builder_core_1_1_grid_pathfinding_base.html", [
+          [ "CityBuilderCore.GridPathfinding", "class_city_builder_core_1_1_grid_pathfinding.html", null ],
+          [ "CityBuilderCore.GridPathfindingBurst", "class_city_builder_core_1_1_grid_pathfinding_burst.html", null ]
+        ] ],
         [ "CityBuilderCore.StructurePaths", "class_city_builder_core_1_1_structure_paths.html", null ]
       ] ],
       [ "CityBuilderCore.IMapPathfinder", "interface_city_builder_core_1_1_i_map_pathfinder.html", [
-        [ "CityBuilderCore.DefaultStructureManager", "class_city_builder_core_1_1_default_structure_manager.html", null ]
+        [ "CityBuilderCore.NavMeshPathfinding", "class_city_builder_core_1_1_nav_mesh_pathfinding.html", null ]
       ] ],
       [ "CityBuilderCore.IRoadPathfinder", "interface_city_builder_core_1_1_i_road_pathfinder.html", [
-        [ "CityBuilderCore.GridPathfinding", "class_city_builder_core_1_1_grid_pathfinding.html", null ],
+        [ "CityBuilderCore.GridPathfindingBase", "class_city_builder_core_1_1_grid_pathfinding_base.html", null ],
         [ "CityBuilderCore.RoadManagerBaseMulti", "class_city_builder_core_1_1_road_manager_base_multi.html", null ]
       ] ],
       [ "CityBuilderCore.IRoadPathfinderBlocked", "interface_city_builder_core_1_1_i_road_pathfinder_blocked.html", [
-        [ "CityBuilderCore.GridPathfinding", "class_city_builder_core_1_1_grid_pathfinding.html", null ]
+        [ "CityBuilderCore.GridPathfindingBase", "class_city_builder_core_1_1_grid_pathfinding_base.html", null ]
       ] ],
       [ "CityBuilderCore.NoPathfinding", "class_city_builder_core_1_1_no_pathfinding.html", null ]
     ] ],
     [ "IPointerClickHandler", null, [
       [ "CityBuilderCore.NotificationPanel", "class_city_builder_core_1_1_notification_panel.html", null ],
-      [ "CityBuilderCore.SaveVisualizerItem", "class_city_builder_core_1_1_save_visualizer_item.html", null ]
+      [ "CityBuilderCore.SaveVisualizerItem", "class_city_builder_core_1_1_save_visualizer_item.html", null ],
+      [ "CityBuilderTown.TownJobInput", "class_city_builder_town_1_1_town_job_input.html", null ]
     ] ],
     [ "IPointerDownHandler", null, [
       [ "CityBuilderCore.Minimap", "class_city_builder_core_1_1_minimap.html", null ]
@@ -615,9 +627,13 @@ var hierarchy =
       [ "CityBuilderCore.TooltipOwnerBase", "class_city_builder_core_1_1_tooltip_owner_base.html", [
         [ "CityBuilderCore.BaseTool", "class_city_builder_core_1_1_base_tool.html", [
           [ "CityBuilderCore.PointerToolBase", "class_city_builder_core_1_1_pointer_tool_base.html", [
-            [ "CityBuilderCore.BuildingBuilder", "class_city_builder_core_1_1_building_builder.html", null ],
+            [ "CityBuilderCore.BuildingBuilder", "class_city_builder_core_1_1_building_builder.html", [
+              [ "CityBuilderCore.ConnectionFeederBuilder", "class_city_builder_core_1_1_connection_feeder_builder.html", null ],
+              [ "CityBuilderCore.LayerBuildingBuilder", "class_city_builder_core_1_1_layer_building_builder.html", null ]
+            ] ],
             [ "CityBuilderCore.DemolishTool", "class_city_builder_core_1_1_demolish_tool.html", null ],
             [ "CityBuilderCore.ExpandableBuilder", "class_city_builder_core_1_1_expandable_builder.html", null ],
+            [ "CityBuilderCore.MoveTool", "class_city_builder_core_1_1_move_tool.html", null ],
             [ "CityBuilderCore.RoadBuilder", "class_city_builder_core_1_1_road_builder.html", null ],
             [ "CityBuilderCore.StructureBuilder", "class_city_builder_core_1_1_structure_builder.html", null ],
             [ "CityBuilderTown.TownDemolishTool", "class_city_builder_town_1_1_town_demolish_tool.html", null ],
@@ -850,8 +866,10 @@ var hierarchy =
     [ "CityBuilderCore.LayerRequirement", "class_city_builder_core_1_1_layer_requirement.html", null ],
     [ "CityBuilderCore.LayerValues", "class_city_builder_core_1_1_layer_values.html", null ],
     [ "CityBuilderCore.LazyDependency< T >", "class_city_builder_core_1_1_lazy_dependency.html", null ],
+    [ "CityBuilderCore.LazyDependency< CityBuilderCore.IBuildingManager >", "class_city_builder_core_1_1_lazy_dependency.html", null ],
     [ "CityBuilderCore.LazyDependency< CityBuilderCore.IGameSaver >", "class_city_builder_core_1_1_lazy_dependency.html", null ],
     [ "CityBuilderCore.LazyDependency< CityBuilderCore.IGridPositions >", "class_city_builder_core_1_1_lazy_dependency.html", null ],
+    [ "CityBuilderCore.LazyDependency< CityBuilderCore.ILayerManager >", "class_city_builder_core_1_1_lazy_dependency.html", null ],
     [ "CityBuilderCore.LazyDependency< CityBuilderCore.IMap >", "class_city_builder_core_1_1_lazy_dependency.html", null ],
     [ "CityBuilderCore.LazyDependency< CityBuilderCore.IStructureManager >", "class_city_builder_core_1_1_lazy_dependency.html", null ],
     [ "CityBuilderCore.ManualWalkerSpawner< AttackWalker >", "class_city_builder_core_1_1_manual_walker_spawner.html", [
@@ -941,6 +959,7 @@ var hierarchy =
       [ "CityBuilderCore.ConnectionPasserBase", "class_city_builder_core_1_1_connection_passer_base.html", null ],
       [ "CityBuilderCore.ConnectionSpriteGradient", "class_city_builder_core_1_1_connection_sprite_gradient.html", null ],
       [ "CityBuilderCore.ConnectionTileGradient", "class_city_builder_core_1_1_connection_tile_gradient.html", null ],
+      [ "CityBuilderCore.ConnectionValueVisualizer", "class_city_builder_core_1_1_connection_value_visualizer.html", null ],
       [ "CityBuilderCore.ContinueVisualizer", "class_city_builder_core_1_1_continue_visualizer.html", null ],
       [ "CityBuilderCore.Deactivator", "class_city_builder_core_1_1_deactivator.html", null ],
       [ "CityBuilderCore.DefaultAttackManager", "class_city_builder_core_1_1_default_attack_manager.html", null ],
@@ -1018,6 +1037,9 @@ var hierarchy =
       [ "CityBuilderCore.SaveVisualizer", "class_city_builder_core_1_1_save_visualizer.html", null ],
       [ "CityBuilderCore.SaveVisualizerItem", "class_city_builder_core_1_1_save_visualizer_item.html", null ],
       [ "CityBuilderCore.ScorePanel", "class_city_builder_core_1_1_score_panel.html", null ],
+      [ "CityBuilderCore.SelectionSwitcher", "class_city_builder_core_1_1_selection_switcher.html", [
+        [ "CityBuilderTown.TownSelectionSwitcher", "class_city_builder_town_1_1_town_selection_switcher.html", null ]
+      ] ],
       [ "CityBuilderCore.SingleItemsDispenser", "class_city_builder_core_1_1_single_items_dispenser.html", null ],
       [ "CityBuilderCore.SpriteColorRandomizer", "class_city_builder_core_1_1_sprite_color_randomizer.html", null ],
       [ "CityBuilderCore.SpriteHighlightManager", "class_city_builder_core_1_1_sprite_highlight_manager.html", null ],
@@ -1118,6 +1140,10 @@ var hierarchy =
     ] ],
     [ "CityBuilderCore.ObjectSet< WalkerInfo >", "class_city_builder_core_1_1_object_set.html", [
       [ "CityBuilderCore.WalkerInfoSet", "class_city_builder_core_1_1_walker_info_set.html", null ]
+    ] ],
+    [ "CityBuilderCore.GridPathfindingBurst.FindPathJob.PathNode", "struct_city_builder_core_1_1_grid_pathfinding_burst_1_1_find_path_job_1_1_path_node.html", null ],
+    [ "CityBuilderCore.PathQuery", "class_city_builder_core_1_1_path_query.html", [
+      [ "CityBuilderCore.NoPathfinding.NoPathQuery", "class_city_builder_core_1_1_no_pathfinding_1_1_no_path_query.html", null ]
     ] ],
     [ "CityBuilderUrban.PickupWalker.PickupWalkerData", "class_city_builder_urban_1_1_pickup_walker_1_1_pickup_walker_data.html", null ],
     [ "CityBuilderCore.PointsChanged< T >", "class_city_builder_core_1_1_points_changed.html", null ],
@@ -1281,6 +1307,7 @@ var hierarchy =
           [ "CityBuilderTown.ViewBuildingBarGeneric", "class_city_builder_town_1_1_view_building_bar_generic.html", null ]
         ] ],
         [ "CityBuilderCore.ViewComposite", "class_city_builder_core_1_1_view_composite.html", null ],
+        [ "CityBuilderCore.ViewConnection", "class_city_builder_core_1_1_view_connection.html", null ],
         [ "CityBuilderCore.ViewCulling", "class_city_builder_core_1_1_view_culling.html", null ],
         [ "CityBuilderCore.ViewEfficiency", "class_city_builder_core_1_1_view_efficiency.html", null ],
         [ "CityBuilderCore.ViewLayer", "class_city_builder_core_1_1_view_layer.html", null ],
@@ -1509,6 +1536,7 @@ var hierarchy =
     [ "CityBuilderCore.WinCondition", "class_city_builder_core_1_1_win_condition.html", null ],
     [ "CityBuilderCore.WorkerPath", "class_city_builder_core_1_1_worker_path.html", null ],
     [ "CityBuilderCore.WorkerPath.WorkerPathData", "class_city_builder_core_1_1_worker_path_1_1_worker_path_data.html", null ],
+    [ "CityBuilderCore.WorkerPathQuery", "class_city_builder_core_1_1_worker_path_query.html", null ],
     [ "CityBuilderCore.WorkerWalker.WorkerWalkerData", "class_city_builder_core_1_1_worker_walker_1_1_worker_walker_data.html", null ],
     [ "CityBuilderTown.TownWalker.WorkerWalkerData", "class_city_builder_town_1_1_town_walker_1_1_worker_walker_data.html", null ]
 ];

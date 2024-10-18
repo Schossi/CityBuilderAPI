@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['queue_0',['Queue',['../class_city_builder_core_1_1_building_addon.html#adfe299d3a778b8e37a0c889ccb197b36a722ad2d05ecf4868b00c5484b82fd808',1,'CityBuilderCore::BuildingAddon']]]
+  ['preferred_0',['Preferred',['../namespace_city_builder_core.html#a1f99df703a83202bc6c4334857cfd5afaa054ccb4ff684c73cbc2d272d45e32df',1,'CityBuilderCore']]],
+  ['prepared_1',['Prepared',['../namespace_city_builder_core.html#a690d44a390712a8db974696a9ba3f779a4f8ebbe84c83c694e33dfc679cf40ddb',1,'CityBuilderCore']]]
 ];

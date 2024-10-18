@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.7</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.8</span>
    </div>
   </td>
  </tr>
@@ -107,14 +107,14 @@ $(function(){initNavTree('class_city_builder_core_1_1_connection_feeder_structur
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>feeds into a connection at the structures points </p>
-<p><a href="https://citybuilder.softleitner.com/manual">https://citybuilder.softleitner.com/manual</a></p>
+<p><a href="https://citybuilder.softleitner.com/manual/connections">https://citybuilder.softleitner.com/manual/connections</a></p>
 </div><div class="dynheader">
 Inheritance diagram for CityBuilderCore.ConnectionFeederStructure:</div>
 <div class="dyncontent">
  <div class="center">
   <img src="class_city_builder_core_1_1_connection_feeder_structure.png" usemap="#CityBuilderCore.ConnectionFeederStructure_map" alt=""/>
   <map id="CityBuilderCore.ConnectionFeederStructure_map" name="CityBuilderCore.ConnectionFeederStructure_map">
-<area href="class_city_builder_core_1_1_connection_passer_structure.html" title="will pass a connection at the points of a structure in the same gameobject or its parent" alt="CityBuilderCore.ConnectionPasserStructure" shape="rect" coords="136,112,399,136"/>
+<area href="class_city_builder_core_1_1_connection_passer_structure.html" title="will pass a connection at the points of a structure" alt="CityBuilderCore.ConnectionPasserStructure" shape="rect" coords="136,112,399,136"/>
 <area href="interface_city_builder_core_1_1_i_connection_feeder.html" title="an object that, in addition to passing it, also feeds value into a connection  defines some parameter..." alt="CityBuilderCore.IConnectionFeeder" shape="rect" coords="409,112,672,136"/>
 <area href="class_city_builder_core_1_1_connection_passer_base.html" title="base class for any behaviour that might pass a connection  passers perpetuate a connection at their p..." alt="CityBuilderCore.ConnectionPasserBase" shape="rect" coords="136,56,399,80"/>
 <area href="interface_city_builder_core_1_1_i_connection_passer.html" title="any object that lets a connection pass through its points  gets notified when any of the values at th..." alt="CityBuilderCore.IConnectionPasser" shape="rect" coords="409,56,672,80"/>
@@ -133,6 +133,10 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>Range</b></td></tr>
 <tr class="memitem:a52b8dd43a66119315892ef04b1e01c25" id="r_a52b8dd43a66119315892ef04b1e01c25"><td class="memItemLeft" align="right" valign="top"><a id="a52b8dd43a66119315892ef04b1e01c25" name="a52b8dd43a66119315892ef04b1e01c25"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>Falloff</b></td></tr>
 <tr class="separator:a52b8dd43a66119315892ef04b1e01c25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_class_city_builder_core_1_1_connection_passer_structure"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_class_city_builder_core_1_1_connection_passer_structure')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_city_builder_core_1_1_connection_passer_structure.html">CityBuilderCore.ConnectionPasserStructure</a></td></tr>
+<tr class="memitem:a63a0a617509d429c29dddf993dd661df inherit pub_attribs_class_city_builder_core_1_1_connection_passer_structure" id="r_a63a0a617509d429c29dddf993dd661df"><td class="memItemLeft" align="right" valign="top">
+string&#160;</td><td class="memItemRight" valign="bottom"><b>StructureKey</b></td></tr>
+<tr class="separator:a63a0a617509d429c29dddf993dd661df inherit pub_attribs_class_city_builder_core_1_1_connection_passer_structure"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_class_city_builder_core_1_1_connection_passer_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_class_city_builder_core_1_1_connection_passer_base')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_city_builder_core_1_1_connection_passer_base.html">CityBuilderCore.ConnectionPasserBase</a></td></tr>
 <tr class="memitem:a5ff177e0369455518e461d7e97819247 inherit pub_attribs_class_city_builder_core_1_1_connection_passer_base" id="r_a5ff177e0369455518e461d7e97819247"><td class="memItemLeft" align="right" valign="top">
 <a class="el" href="class_city_builder_core_1_1_connection.html">Connection</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Connection</b></td></tr>
@@ -174,10 +178,10 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a882edb3280b6e744241c6b9401af4cef inherit pub_methods_class_city_builder_core_1_1_connection_passer_base" id="r_a882edb3280b6e744241c6b9401af4cef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_connection_passer_base.html#a882edb3280b6e744241c6b9401af4cef">ValueChanged</a> (Vector2Int point, int value)</td></tr>
 <tr class="memdesc:a882edb3280b6e744241c6b9401af4cef inherit pub_methods_class_city_builder_core_1_1_connection_passer_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">this is where the passer gets notified about changes to the values of its points  <br /></td></tr>
 <tr class="separator:a882edb3280b6e744241c6b9401af4cef inherit pub_methods_class_city_builder_core_1_1_connection_passer_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_city_builder_core_1_1_connection_passer_structure"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_class_city_builder_core_1_1_connection_passer_structure')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_city_builder_core_1_1_connection_passer_structure.html">CityBuilderCore.ConnectionPasserStructure</a></td></tr>
+<tr class="memitem:accc2223bf9371ec61eb91a65b06bb50d inherit pro_methods_class_city_builder_core_1_1_connection_passer_structure" id="r_accc2223bf9371ec61eb91a65b06bb50d"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_connection_passer_structure.html#accc2223bf9371ec61eb91a65b06bb50d">Start</a> ()</td></tr>
+<tr class="separator:accc2223bf9371ec61eb91a65b06bb50d inherit pro_methods_class_city_builder_core_1_1_connection_passer_structure"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_city_builder_core_1_1_connection_passer_base"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_class_city_builder_core_1_1_connection_passer_base')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_city_builder_core_1_1_connection_passer_base.html">CityBuilderCore.ConnectionPasserBase</a></td></tr>
-<tr class="memitem:a1a8da7e788b63d5e1bb1fadb0b1a26b9 inherit pro_methods_class_city_builder_core_1_1_connection_passer_base" id="r_a1a8da7e788b63d5e1bb1fadb0b1a26b9"><td class="memItemLeft" align="right" valign="top">
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> ()</td></tr>
-<tr class="separator:a1a8da7e788b63d5e1bb1fadb0b1a26b9 inherit pro_methods_class_city_builder_core_1_1_connection_passer_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a119d435c165b10400957fc5c97c8e251 inherit pro_methods_class_city_builder_core_1_1_connection_passer_base" id="r_a119d435c165b10400957fc5c97c8e251"><td class="memItemLeft" align="right" valign="top">
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnDestroy</b> ()</td></tr>
 <tr class="separator:a119d435c165b10400957fc5c97c8e251 inherit pro_methods_class_city_builder_core_1_1_connection_passer_base"><td class="memSeparator" colspan="2">&#160;</td></tr>

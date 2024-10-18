@@ -1,9 +1,7 @@
 var searchData=
 [
-  ['single_0',['Single',['../class_city_builder_core_1_1_building_addon.html#adfe299d3a778b8e37a0c889ccb197b36a66ba162102bbf6ae31b522aec561735e',1,'CityBuilderCore::BuildingAddon']]],
-  ['specific_1',['Specific',['../namespace_city_builder_core.html#a3187aa1ec4c016b79bb1cc2582eac94dafe0619d5f4999e09c622e32da7e7566a',1,'CityBuilderCore']]],
-  ['stack_2',['Stack',['../class_city_builder_core_1_1_building_addon.html#adfe299d3a778b8e37a0c889ccb197b36a2187e1021a911b3807cc1bea2eb1a9ca',1,'CityBuilderCore::BuildingAddon']]],
-  ['stacked_3',['Stacked',['../namespace_city_builder_core.html#a648db1849939c93ff4046abb09982bc9a29b733fdb4bddeda910b3b4a659c2fef',1,'CityBuilderCore']]],
-  ['store_4',['Store',['../class_city_builder_core_1_1_inventory_visualizer.html#aaedec6229ffb70a78de6527d2b12c3adafdb0c388de01d545017cdf9ccf00eb72',1,'CityBuilderCore.InventoryVisualizer.Store'],['../namespace_city_builder_core.html#a648db1849939c93ff4046abb09982bc9afdb0c388de01d545017cdf9ccf00eb72',1,'CityBuilderCore.Store']]],
-  ['stored_5',['Stored',['../class_city_builder_core_1_1_item_score.html#a2f6f03c2cd64dec4aeb8090ff09ad334a7bf2d26eab899c413218b729d4d914b7',1,'CityBuilderCore.ItemScore.Stored'],['../class_city_builder_core_1_1_inventory_visualizer.html#aaedec6229ffb70a78de6527d2b12c3ada7bf2d26eab899c413218b729d4d914b7',1,'CityBuilderCore.InventoryVisualizer.Stored']]]
+  ['relative_0',['Relative',['../class_city_builder_core_1_1_building_item_score.html#a3ba8c3bbe62c27ebebe00afac55004f3a2ca9469819fb0fb61ff98e914a7ccca0',1,'CityBuilderCore::BuildingItemScore']]],
+  ['replace_1',['Replace',['../class_city_builder_core_1_1_building_addon.html#adfe299d3a778b8e37a0c889ccb197b36a0ebe6df8a3ac338e0512acc741823fdb',1,'CityBuilderCore::BuildingAddon']]],
+  ['road_2',['Road',['../namespace_city_builder_core.html#a19f9a2748f73f3b90d6ba96447987553ad11aed2ff81f20a2e2b7e0cf06ee1a37',1,'CityBuilderCore']]],
+  ['roadblocked_3',['RoadBlocked',['../namespace_city_builder_core.html#a19f9a2748f73f3b90d6ba96447987553a7a89590e2819cdcb45e2b3a98dc28467',1,'CityBuilderCore']]]
 ];

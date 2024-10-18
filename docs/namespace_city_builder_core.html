@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.7</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.8</span>
    </div>
   </td>
  </tr>
@@ -221,6 +221,10 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">convenient class combining a component and a path to get there<br  />
  for example when a delivery walker is looking for a storage the receiverpathfinder decides on the receiver and returns a BuildingComponentPath&lt;IItemReceiver&gt;  <a href="class_city_builder_core_1_1_building_component_path.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_component_path_query.html">BuildingComponentPathQuery</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">query that eventually produces a BuildingComponentPath&lt;T&gt;<br  />
+ for example in paths leading to item givers or receivers enables distribution of path calculations across frames  <a href="class_city_builder_core_1_1_building_component_path_query.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_component_reference.html">BuildingComponentReference</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference to a building component that will keep working even when the building gets replaced<br  />
  it can also be saved to keep building component referenes alive across save/load<br  />
@@ -362,6 +366,9 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connections are networks of values on the Map<br  />
  they consist of feeders which determine the values and passers that just pass them along.  <a href="class_city_builder_core_1_1_connection.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_connection_feeder_builder.html">ConnectionFeederBuilder</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">special building builder that registers as a preview feeder with its view connection this allows showing how connections would be changed without actually affecting them  <a href="class_city_builder_core_1_1_connection_feeder_builder.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_connection_feeder_component.html">ConnectionFeederComponent</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">component that feeds into a connection at the buildings points with its value scaled to the buildings efficiency<br  />
  used on the power station and water pump in the urban demo  <a href="class_city_builder_core_1_1_connection_feeder_component.html#details">More...</a><br /></td></tr>
@@ -388,7 +395,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">passes a connection and influences building efficiency from its connection value  <a href="class_city_builder_core_1_1_connection_passer_component.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_connection_passer_structure.html">ConnectionPasserStructure</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">will pass a connection at the points of a structure in the same gameobject or its parent  <a href="class_city_builder_core_1_1_connection_passer_structure.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">will pass a connection at the points of a structure  <a href="class_city_builder_core_1_1_connection_passer_structure.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_connection_passer_tiles.html">ConnectionPasserTiles</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">passes a connection on every point that a tile has on a tilemap, only evaluated which points those are at the start  <a href="class_city_builder_core_1_1_connection_passer_tiles.html#details">More...</a><br /></td></tr>
@@ -406,6 +413,10 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_connection_tile_gradient.html">ConnectionTileGradient</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">colors tiles on a tilemap based on a connection passer<br  />
  in urban this is used to visualize whether water/electricity is running through the pipes/power lines  <a href="class_city_builder_core_1_1_connection_tile_gradient.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_connection_value_visualizer.html">ConnectionValueVisualizer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">shows the numerical connection value of a point on the map thats under the mouse<br  />
+ gets automatically activated by <a class="el" href="class_city_builder_core_1_1_default_overlay_manager.html" title="default implementation of IOverlayManager  shows layer overlay using the color in ViewLayer....">DefaultOverlayManager</a> when a connectionview is shown  <a href="class_city_builder_core_1_1_connection_value_visualizer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_continue_visualizer.html">ContinueVisualizer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks whether the game can be continued<br  />
@@ -515,7 +526,7 @@ Classes</h2></td></tr>
  instantiates a <a class="el" href="class_city_builder_core_1_1_notification_panel.html">NotificationPanel</a> for every notification that is requested  <a href="class_city_builder_core_1_1_default_notification_manager.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_default_overlay_manager.html">DefaultOverlayManager</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">default implementation of <a class="el" href="interface_city_builder_core_1_1_i_overlay_manager.html" title="overlays the tilemap with coloured tiles that visualize Layer values  eg desirable areas are green,...">IOverlayManager</a><br  />
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">default implementation of <a class="el" href="interface_city_builder_core_1_1_i_overlay_manager.html" title="overlays the tilemap with coloured tiles that visualize Layer, Connection or Efficiency values  eg de...">IOverlayManager</a><br  />
  shows layer overlay using the color in ViewLayer.Gradientfor tiles in a tilemap<br  />
  can also display a explanation for the values using <a class="el" href="class_city_builder_core_1_1_layer_key_visualizer.html" title="shows all the different factors that go into the layer value of a point on the map  gets automaticall...">LayerKeyVisualizer</a>  <a href="class_city_builder_core_1_1_default_overlay_manager.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -736,6 +747,12 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_grid_pathfinding.html">GridPathfinding</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">simple a* implementation for non diagonal pathfinding between equidistant points, used by road and mapGrid pathfinding  <a href="class_city_builder_core_1_1_grid_pathfinding.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_grid_pathfinding_base.html">GridPathfindingBase</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_grid_pathfinding_burst.html">GridPathfindingBurst</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_grid_pathfinding_settings.html">GridPathfindingSettings</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_happening_dialog.html">HappeningDialog</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">dialog that shows start/end texts for happenings if they have one  <a href="class_city_builder_core_1_1_happening_dialog.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -949,7 +966,7 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_city_builder_core_1_1_i_object_set.html">IObjectSet</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_city_builder_core_1_1_i_overlay_manager.html">IOverlayManager</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">overlays the tilemap with coloured tiles that visualize <a class="el" href="class_city_builder_core_1_1_layer.html" title="layers are arrays of numbers underlying the map points(desirability, fertility, resources)">Layer</a> values<br  />
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">overlays the tilemap with coloured tiles that visualize <a class="el" href="class_city_builder_core_1_1_layer.html" title="layers are arrays of numbers underlying the map points(desirability, fertility, resources)">Layer</a>, <a class="el" href="class_city_builder_core_1_1_connection.html" title="Connections are networks of values on the Map  they consist of feeders which determine the values and...">Connection</a> or Efficiency values<br  />
  eg desirable areas are green, undesirable areas are red  <a href="interface_city_builder_core_1_1_i_overlay_manager.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_city_builder_core_1_1_i_override_height.html">IOverrideHeight</a></td></tr>
@@ -1170,6 +1187,10 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_layer_attribute.html">LayerAttribute</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_layer_building_builder.html">LayerBuildingBuilder</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">special building builder that also highlights points around the building<br  />
+ these points follow the same rules as layers(range, falloff) so they can be used as a preview for layer affectors  <a href="class_city_builder_core_1_1_layer_building_builder.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_layer_efficiency_component.html">LayerEfficiencyComponent</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">derives its building efficiency from the layer value at building origin(for example to influence farming speed from fertility layer)<br  />
  only changes the efficiency factor and does not completely disrupt it  <a href="class_city_builder_core_1_1_layer_efficiency_component.html#details">More...</a><br /></td></tr>
@@ -1324,6 +1345,11 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_monument_step.html">MonumentStep</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">single step of building within a <a class="el" href="class_city_builder_core_1_1_monument_stage.html" title="represents one stage of the building process of a monument">MonumentStage</a>  <a href="class_city_builder_core_1_1_monument_step.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_move_tool.html">MoveTool</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">tool that moves one or more structures to a different position<br  />
+ which structures can be moved is determined by <a class="el" href="interface_city_builder_core_1_1_i_structure.html#a56ae77178046777a1c50dfa71a222a87" title="whether the structure can be moved by the MoveTool">IStructure.IsMovable</a><br  />
+ this can be set in <a class="el" href="class_city_builder_core_1_1_building_info.html" title="meta info for data that does not change between instances of a building  can be used to compare build...">BuildingInfo</a> for buildings, some structures have a checkbox  <a href="class_city_builder_core_1_1_move_tool.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_multi_item_container.html">MultiItemContainer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">item container that combines different <a class="el" href="class_city_builder_core_1_1_item_storage.html" title="general container for storage of items, use whenever anything owns items  defines various convenience...">ItemStorage</a>s<br  />
  used in the <a class="el" href="class_city_builder_core_1_1_evolution_component.html" title="default building component for handling evolution">EvolutionComponent</a> in which storage is split among the different recipients  <a href="class_city_builder_core_1_1_multi_item_container.html#details">More...</a><br /></td></tr>
@@ -1336,6 +1362,8 @@ Classes</h2></td></tr>
  it also creates a combined road network for walkers which do not specifiy which road they can walk on<br  />
  the kind of <a class="el" href="class_city_builder_core_1_1_road.html" title="defines a kind of road that can be placed on the map with a RoadBuilder and an IRoadManager  in THREE...">Road</a> a walker can walk on is specified in WalkerInfo.PathTag<br  />
  roads are visualized on the Tilemap on the same gameobject as the manager  <a href="class_city_builder_core_1_1_multi_road_manager.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_nav_mesh_pathfinding.html">NavMeshPathfinding</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_nav_mesh_updater.html">NavMeshUpdater</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">can be used to update the navmesh at runtime using known components<br  />
@@ -1381,6 +1409,10 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>PathHelper</b></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">helper provides various convenience functions for pathfinding<br  />
  chooses the right <a class="el" href="interface_city_builder_core_1_1_i_pathfinder.html" title="pathfinders calculate a path between points using different methods  there is a sub-interface for eve...">IPathfinder</a> for a given <a class="el" href="#a19f9a2748f73f3b90d6ba96447987553" title="defines which pathfinder will be used">PathType</a> and passes the pathing parameters to it <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_path_query.html">PathQuery</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">query that eventually produces a <a class="el" href="class_city_builder_core_1_1_walking_path.html" title="collection of map points or world positions that can be followed by a walker">WalkingPath</a><br  />
+ enables distribution of path calculations across frames  <a href="class_city_builder_core_1_1_path_query.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_playtime_visual.html">PlaytimeVisual</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">displays the current playtime in unity ui  <a href="class_city_builder_core_1_1_playtime_visual.html#details">More...</a><br /></td></tr>
@@ -1687,6 +1719,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_selection_dialog.html">SelectionDialog</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">dialog that displays information about the selected building  <a href="class_city_builder_core_1_1_selection_dialog.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_selection_switcher.html">SelectionSwitcher</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">ui behaviour that allows cycling through selected buildings or walkers of the same type  <a href="class_city_builder_core_1_1_selection_switcher.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_selection_tool.html">SelectionTool</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">selects walkers and buildings under the mouse on click  <a href="class_city_builder_core_1_1_selection_tool.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1800,13 +1835,13 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_structure_path_manager.html">StructurePathManager</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">manages one variant of structure pathing(there is only more than one if there are <a class="el" href="class_city_builder_core_1_1_structure_path_option.html">StructurePathOption</a>s)<br  />
- used by <a class="el" href="class_city_builder_core_1_1_structure_paths.html" title="manages the different variants of mag grid pathing for DefaultStructureManager  there may only be one...">StructurePaths</a> which manages the structure pathing for <a class="el" href="class_city_builder_core_1_1_default_structure_manager.html" title="straightforward IStructureManager implementation  holds collections, decorators and tiles in seperate...">DefaultStructureManager</a>  <a href="class_city_builder_core_1_1_structure_path_manager.html#details">More...</a><br /></td></tr>
+ used by <a class="el" href="class_city_builder_core_1_1_structure_paths.html" title="manages the different variants of mag grid pathing for DefaultStructureManager  there is only one var...">StructurePaths</a> which manages the structure pathing for <a class="el" href="class_city_builder_core_1_1_default_structure_manager.html" title="straightforward IStructureManager implementation  holds collections, decorators and tiles in seperate...">DefaultStructureManager</a>  <a href="class_city_builder_core_1_1_structure_path_manager.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_structure_path_option.html">StructurePathOption</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_structure_paths.html">StructurePaths</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">manages the different variants of mag grid pathing for <a class="el" href="class_city_builder_core_1_1_default_structure_manager.html" title="straightforward IStructureManager implementation  holds collections, decorators and tiles in seperate...">DefaultStructureManager</a><br  />
- there may only be one variant if there are no special <a class="el" href="class_city_builder_core_1_1_structure_path_option.html">StructurePathOption</a>s defined  <a href="class_city_builder_core_1_1_structure_paths.html#details">More...</a><br /></td></tr>
+ there is only one variant if there are no special <a class="el" href="class_city_builder_core_1_1_structure_path_option.html">StructurePathOption</a>s defined  <a href="class_city_builder_core_1_1_structure_paths.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_structure_point_enabler.html">StructurePointEnabler</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">enables a gameobject depending on whether it has all the defined points  <a href="class_city_builder_core_1_1_structure_point_enabler.html#details">More...</a><br /></td></tr>
@@ -1842,7 +1877,8 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">structure made up of a collection of tiles on a tilemap  <a href="class_city_builder_core_1_1_structure_tiles.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_structure_tiles_refresher.html">StructureTilesRefresher</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">behaviour that will refresh tiles under the transform of an attached building when it is placed<br  />
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">behaviour that will refresh tiles under and around an attached building<br  />
+ if no building is found the point under the transform and the ones around it are refreshed<br  />
  used in the urban demo so that tiles attach to buildings, for example power lines to houses  <a href="class_city_builder_core_1_1_structure_tiles_refresher.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_summed_building_score.html">SummedBuildingScore</a></td></tr>
@@ -2038,6 +2074,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_view_composite.html">ViewComposite</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">view that transfers activation to its children  <a href="class_city_builder_core_1_1_view_composite.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_view_connection.html">ViewConnection</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">view that displays an overlay for a layer on a tilemap  <a href="class_city_builder_core_1_1_view_connection.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_view_culling.html">ViewCulling</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">view that changes camera culling<br  />
  eg hiding irrelevant buildings  <a href="class_city_builder_core_1_1_view_culling.html#details">More...</a><br /></td></tr>
@@ -2199,6 +2238,10 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference and path to a workers workplace<br  />
  may include a path to an itemGiver to get supplies needed for the work  <a href="class_city_builder_core_1_1_worker_path.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_worker_path_query.html">WorkerPathQuery</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">query that eventually produces a <a class="el" href="class_city_builder_core_1_1_worker_path.html" title="reference and path to a workers workplace  may include a path to an itemGiver to get supplies needed ...">WorkerPath</a><br  />
+ enables distribution of calculations across frames  <a href="class_city_builder_core_1_1_worker_path_query.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_worker_score.html">WorkerScore</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">worker percentage for a certain population<br  />
  available/needed &gt;&gt; 20xvillager/10xfarmers=200%  <a href="class_city_builder_core_1_1_worker_score.html#details">More...</a><br /></td></tr>
@@ -2244,6 +2287,12 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:a19f9a2748f73f3b90d6ba96447987553"><td class="mdescLeft">&#160;</td><td class="mdescRight">defines which pathfinder will be used  <a href="#a19f9a2748f73f3b90d6ba96447987553">More...</a><br /></td></tr>
 <tr class="separator:a19f9a2748f73f3b90d6ba96447987553"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a690d44a390712a8db974696a9ba3f779" id="r_a690d44a390712a8db974696a9ba3f779"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a690d44a390712a8db974696a9ba3f779">WalkerInitializationMode</a> { <a class="el" href="#a690d44a390712a8db974696a9ba3f779a54828f327f31abd59f2f459c0247756d">Instant</a>
+, <a class="el" href="#a690d44a390712a8db974696a9ba3f779a4f8ebbe84c83c694e33dfc679cf40ddb">Prepared</a>
+, <a class="el" href="#a690d44a390712a8db974696a9ba3f779a6e04a0730cfc0bca398610196b5f8467">Delayed</a>
+ }</td></tr>
+<tr class="memdesc:a690d44a390712a8db974696a9ba3f779"><td class="mdescLeft">&#160;</td><td class="mdescRight">describes how and if walkers are started off(for example finding a path before spawning vs just spawning and letting the walker find a path itself)  <a href="#a690d44a390712a8db974696a9ba3f779">More...</a><br /></td></tr>
+<tr class="separator:a690d44a390712a8db974696a9ba3f779"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a648db1849939c93ff4046abb09982bc9" id="r_a648db1849939c93ff4046abb09982bc9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a648db1849939c93ff4046abb09982bc9">ItemStorageMode</a> { <br />
 &#160;&#160;<a class="el" href="#a648db1849939c93ff4046abb09982bc9a29b733fdb4bddeda910b3b4a659c2fef">Stacked</a>
 , <a class="el" href="#a648db1849939c93ff4046abb09982bc9ab24ce0cd392a5b0b8dedc66c25213594">Free</a>
@@ -2443,6 +2492,34 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="ac480382b5060d3901638ea86484575beac55582518cba2c464f29f5bae1c68def" name="ac480382b5060d3901638ea86484575beac55582518cba2c464f29f5bae1c68def"></a>Get&#160;</td><td class="fielddoc"><p>actively get item up to ratio </p>
 </td></tr>
 <tr><td class="fieldname"><a id="ac480382b5060d3901638ea86484575beace2c8aed9c2fa0cfbed56cbda4d8bf07" name="ac480382b5060d3901638ea86484575beace2c8aed9c2fa0cfbed56cbda4d8bf07"></a>Empty&#160;</td><td class="fielddoc"><p>actively get rid of item down to ratio </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<a id="a690d44a390712a8db974696a9ba3f779" name="a690d44a390712a8db974696a9ba3f779"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a690d44a390712a8db974696a9ba3f779">&#9670;&#160;</a></span>WalkerInitializationMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#a690d44a390712a8db974696a9ba3f779">CityBuilderCore.WalkerInitializationMode</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>describes how and if walkers are started off(for example finding a path before spawning vs just spawning and letting the walker find a path itself) </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a690d44a390712a8db974696a9ba3f779a54828f327f31abd59f2f459c0247756d" name="a690d44a390712a8db974696a9ba3f779a54828f327f31abd59f2f459c0247756d"></a>Instant&#160;</td><td class="fielddoc"><p>walker is fully initialized up front<br  />
+ no spawn if conditions for walking are not met </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a690d44a390712a8db974696a9ba3f779a4f8ebbe84c83c694e33dfc679cf40ddb" name="a690d44a390712a8db974696a9ba3f779a4f8ebbe84c83c694e33dfc679cf40ddb"></a>Prepared&#160;</td><td class="fielddoc"><p>walker is initialized using a query<br  />
+ query is completed a little later allowing load distribution <br  />
+ no spawn if conditions for walking are not met </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a690d44a390712a8db974696a9ba3f779a6e04a0730cfc0bca398610196b5f8467" name="a690d44a390712a8db974696a9ba3f779a6e04a0730cfc0bca398610196b5f8467"></a>Delayed&#160;</td><td class="fielddoc"><p>walker always spawns and figures out pathing while Delay/MaxWait runs<br  />
+ if no path is found the walker just waits in front of the building and eventually despawns </p>
 </td></tr>
 </table>
 

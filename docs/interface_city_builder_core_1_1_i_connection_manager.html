@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.7</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.8</span>
    </div>
   </td>
  </tr>
@@ -100,6 +100,7 @@ $(function(){initNavTree('interface_city_builder_core_1_1_i_connection_manager.h
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#events">Events</a> &#124;
 <a href="interface_city_builder_core_1_1_i_connection_manager-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">CityBuilderCore.IConnectionManager Interface Reference</div></div>
 </div><!--header-->
@@ -133,6 +134,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a93de08968c4cdcf62e7ddd3518cfea61" id="r_a93de08968c4cdcf62e7ddd3518cfea61"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a93de08968c4cdcf62e7ddd3518cfea61">GetValue</a> (<a class="el" href="class_city_builder_core_1_1_connection.html">Connection</a> connection, Vector2Int point)</td></tr>
 <tr class="memdesc:a93de08968c4cdcf62e7ddd3518cfea61"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets the value of the connection at the specified point  <br /></td></tr>
 <tr class="separator:a93de08968c4cdcf62e7ddd3518cfea61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad20da1f01e053f4106885b20a6945fa" id="r_aad20da1f01e053f4106885b20a6945fa"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; Vector2Int, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad20da1f01e053f4106885b20a6945fa">GetValues</a> (<a class="el" href="class_city_builder_core_1_1_connection.html">Connection</a> connection)</td></tr>
+<tr class="memdesc:aad20da1f01e053f4106885b20a6945fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns all positions and values of a layer where the value differs from 0  <br /></td></tr>
+<tr class="separator:aad20da1f01e053f4106885b20a6945fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4081ae626e5cf751062bba705a11fd6a" id="r_a4081ae626e5cf751062bba705a11fd6a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_city_builder_core_1_1_connection_grid.html">ConnectionGrid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4081ae626e5cf751062bba705a11fd6a">GetGrid</a> (<a class="el" href="class_city_builder_core_1_1_connection.html">Connection</a> connection)</td></tr>
+<tr class="separator:a4081ae626e5cf751062bba705a11fd6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="events" name="events"></a>
+Events</h2></td></tr>
+<tr class="memitem:ac7850e05ffa0c8b69ada0864a86547c1" id="r_ac7850e05ffa0c8b69ada0864a86547c1"><td class="memItemLeft" align="right" valign="top"><a id="ac7850e05ffa0c8b69ada0864a86547c1" name="ac7850e05ffa0c8b69ada0864a86547c1"></a>
+Action&lt; <a class="el" href="class_city_builder_core_1_1_connection.html">Connection</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Changed</b></td></tr>
+<tr class="memdesc:ac7850e05ffa0c8b69ada0864a86547c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">fired whenever the points of a connection have changed <br /></td></tr>
+<tr class="separator:ac7850e05ffa0c8b69ada0864a86547c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="aff5c7ed66b2ee2fa1287114a955a7e97" name="aff5c7ed66b2ee2fa1287114a955a7e97"></a>
@@ -183,6 +196,32 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a4081ae626e5cf751062bba705a11fd6a" name="a4081ae626e5cf751062bba705a11fd6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4081ae626e5cf751062bba705a11fd6a">&#9670;&#160;</a></span>GetGrid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_city_builder_core_1_1_connection_grid.html">ConnectionGrid</a> CityBuilderCore.IConnectionManager.GetGrid </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_city_builder_core_1_1_connection.html">Connection</a></td>          <td class="paramname"><span class="paramname"><em>connection</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">connection</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+<p>Implemented in <a class="el" href="class_city_builder_core_1_1_default_connection_manager.html#a630bc13008d16355eaaf82b6fded8150">CityBuilderCore.DefaultConnectionManager</a>.</p>
+
+</div>
+</div>
 <a id="a93de08968c4cdcf62e7ddd3518cfea61" name="a93de08968c4cdcf62e7ddd3518cfea61"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a93de08968c4cdcf62e7ddd3518cfea61">&#9670;&#160;</a></span>GetValue()</h2>
 
@@ -213,6 +252,34 @@ Public Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd>the value at the point</dd></dl>
 
 <p>Implemented in <a class="el" href="class_city_builder_core_1_1_default_connection_manager.html#a9896de115d3755ec752c293145f8f5fe">CityBuilderCore.DefaultConnectionManager</a>.</p>
+
+</div>
+</div>
+<a id="aad20da1f01e053f4106885b20a6945fa" name="aad20da1f01e053f4106885b20a6945fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad20da1f01e053f4106885b20a6945fa">&#9670;&#160;</a></span>GetValues()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Dictionary&lt; Vector2Int, int &gt; CityBuilderCore.IConnectionManager.GetValues </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_city_builder_core_1_1_connection.html">Connection</a></td>          <td class="paramname"><span class="paramname"><em>connection</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>returns all positions and values of a layer where the value differs from 0 </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">layer</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+<p>Implemented in <a class="el" href="class_city_builder_core_1_1_default_connection_manager.html#a831b382aa54b6620155cbcc3e4972ac4">CityBuilderCore.DefaultConnectionManager</a>.</p>
 
 </div>
 </div>

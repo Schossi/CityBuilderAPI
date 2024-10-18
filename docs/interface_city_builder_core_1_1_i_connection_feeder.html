@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.7</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.8</span>
    </div>
   </td>
  </tr>
@@ -114,10 +114,11 @@ Inheritance diagram for CityBuilderCore.IConnectionFeeder:</div>
  <div class="center">
   <img src="interface_city_builder_core_1_1_i_connection_feeder.png" usemap="#CityBuilderCore.IConnectionFeeder_map" alt=""/>
   <map id="CityBuilderCore.IConnectionFeeder_map" name="CityBuilderCore.IConnectionFeeder_map">
-<area href="interface_city_builder_core_1_1_i_connection_passer.html" title="any object that lets a connection pass through its points  gets notified when any of the values at th..." alt="CityBuilderCore.IConnectionPasser" shape="rect" coords="284,0,558,24"/>
-<area href="class_city_builder_core_1_1_connection_feeder_component.html" title="component that feeds into a connection at the buildings points with its value scaled to the buildings..." alt="CityBuilderCore.ConnectionFeederComponent" shape="rect" coords="0,112,274,136"/>
-<area href="class_city_builder_core_1_1_connection_feeder_structure.html" title="feeds into a connection at the structures points" alt="CityBuilderCore.ConnectionFeederStructure" shape="rect" coords="284,112,558,136"/>
-<area href="class_city_builder_core_1_1_connection_feeder_tiles.html" title="feeds and passes a connection on every point that a tile has on a tilemap, only evaluated at the star..." alt="CityBuilderCore.ConnectionFeederTiles" shape="rect" coords="568,112,842,136"/>
+<area href="interface_city_builder_core_1_1_i_connection_passer.html" title="any object that lets a connection pass through its points  gets notified when any of the values at th..." alt="CityBuilderCore.IConnectionPasser" shape="rect" coords="426,0,700,24"/>
+<area href="class_city_builder_core_1_1_connection_feeder_builder.html" title="special building builder that registers as a preview feeder with its view connection this allows show..." alt="CityBuilderCore.ConnectionFeederBuilder" shape="rect" coords="0,112,274,136"/>
+<area href="class_city_builder_core_1_1_connection_feeder_component.html" title="component that feeds into a connection at the buildings points with its value scaled to the buildings..." alt="CityBuilderCore.ConnectionFeederComponent" shape="rect" coords="284,112,558,136"/>
+<area href="class_city_builder_core_1_1_connection_feeder_structure.html" title="feeds into a connection at the structures points" alt="CityBuilderCore.ConnectionFeederStructure" shape="rect" coords="568,112,842,136"/>
+<area href="class_city_builder_core_1_1_connection_feeder_tiles.html" title="feeds and passes a connection on every point that a tile has on a tilemap, only evaluated at the star..." alt="CityBuilderCore.ConnectionFeederTiles" shape="rect" coords="852,112,1126,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -140,6 +141,11 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>Falloff</b><code> [get
 <a class="el" href="class_city_builder_core_1_1_connection.html">Connection</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Connection</b><code> [get]</code></td></tr>
 <tr class="memdesc:a1d8d91e5c7aa403ab4b758f66539f98d inherit properties_interface_city_builder_core_1_1_i_connection_passer"><td class="mdescLeft">&#160;</td><td class="mdescRight">the connection this passer allows to pass <br /></td></tr>
 <tr class="separator:a1d8d91e5c7aa403ab4b758f66539f98d inherit properties_interface_city_builder_core_1_1_i_connection_passer"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0d0e0a5bfe8021a937ade58042b684d inherit properties_interface_city_builder_core_1_1_i_connection_passer" id="r_ae0d0e0a5bfe8021a937ade58042b684d"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsConsumer</b><code> [get]</code></td></tr>
+<tr class="memdesc:ae0d0e0a5bfe8021a937ade58042b684d inherit properties_interface_city_builder_core_1_1_i_connection_passer"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether the passer acts as a one-way consumer that does not pass the connection further<br  />
+ the highest value that reaches a consumer determines the value of all of its points <br /></td></tr>
+<tr class="separator:ae0d0e0a5bfe8021a937ade58042b684d inherit properties_interface_city_builder_core_1_1_i_connection_passer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="events" name="events"></a>
 Events</h2></td></tr>

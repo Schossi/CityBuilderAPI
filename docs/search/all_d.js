@@ -75,12 +75,14 @@ var searchData=
   ['monumentstage_72',['MonumentStage',['../class_city_builder_core_1_1_monument_stage.html',1,'CityBuilderCore']]],
   ['monumentstep_73',['MonumentStep',['../class_city_builder_core_1_1_monument_step.html',1,'CityBuilderCore']]],
   ['monumentstepdata_74',['MonumentStepData',['../class_city_builder_core_1_1_monument_step_1_1_monument_step_data.html',1,'CityBuilderCore::MonumentStep']]],
-  ['moved_75',['Moved',['../class_city_builder_core_1_1_roaming_state.html#ae328dc1867a06511d32892150f5e66e6',1,'CityBuilderCore.RoamingState.Moved'],['../class_city_builder_core_1_1_walking_state.html#a666231c2853c770da18d6a95583f633e',1,'CityBuilderCore.WalkingState.Moved'],['../class_city_builder_core_1_1_walker.html#afc94fcc5f160876d55b95b443fd9bc8a',1,'CityBuilderCore.Walker.Moved']]],
-  ['moveitemsto_76',['MoveItemsTo',['../class_city_builder_core_1_1_item_storage.html#aa4663f2d099c11254f4cc3e6deead2e9',1,'CityBuilderCore.ItemStorage.MoveItemsTo(ItemStorage other)'],['../class_city_builder_core_1_1_item_storage.html#aedefe959b34cbd54c0e8ac257c202106',1,'CityBuilderCore.ItemStorage.MoveItemsTo(ItemStorage other, bool overfill)'],['../class_city_builder_core_1_1_item_storage.html#a963027fbdbe5ee464ae5bd052979505e',1,'CityBuilderCore.ItemStorage.MoveItemsTo(ItemStorage other, Item item, int maxQuantity=int.MaxValue, bool overfill=false)']]],
-  ['movementtesting_77',['MovementTesting',['../class_city_builder_core_1_1_tests_1_1_movement_testing.html',1,'CityBuilderCore::Tests']]],
-  ['multiitemcontainer_78',['MultiItemContainer',['../class_city_builder_core_1_1_multi_item_container.html',1,'CityBuilderCore']]],
-  ['multipliedscore_79',['MultipliedScore',['../class_city_builder_core_1_1_multiplied_score.html',1,'CityBuilderCore']]],
-  ['multiroadmanager_80',['MultiRoadManager',['../class_city_builder_core_1_1_multi_road_manager.html',1,'CityBuilderCore']]],
-  ['multiroadsdata_81',['MultiRoadsData',['../class_city_builder_core_1_1_road_manager_base_multi_1_1_multi_roads_data.html',1,'CityBuilderCore::RoadManagerBaseMulti']]],
-  ['multiroadtesting_82',['MultiRoadTesting',['../class_city_builder_core_1_1_tests_1_1_multi_road_testing.html',1,'CityBuilderCore::Tests']]]
+  ['move_75',['Move',['../class_city_builder_core_1_1_building.html#a0d6edc8a320941f379ec0df21215abec',1,'CityBuilderCore.Building.Move()'],['../interface_city_builder_core_1_1_i_building.html#ad599d888b32e9791ec77da2df649e92d',1,'CityBuilderCore.IBuilding.Move()']]],
+  ['moved_76',['Moved',['../class_city_builder_core_1_1_roaming_state.html#ae328dc1867a06511d32892150f5e66e6',1,'CityBuilderCore.RoamingState.Moved'],['../class_city_builder_core_1_1_walking_state.html#a666231c2853c770da18d6a95583f633e',1,'CityBuilderCore.WalkingState.Moved'],['../class_city_builder_core_1_1_walker.html#afc94fcc5f160876d55b95b443fd9bc8a',1,'CityBuilderCore.Walker.Moved']]],
+  ['moveitemsto_77',['MoveItemsTo',['../class_city_builder_core_1_1_item_storage.html#aa4663f2d099c11254f4cc3e6deead2e9',1,'CityBuilderCore.ItemStorage.MoveItemsTo(ItemStorage other)'],['../class_city_builder_core_1_1_item_storage.html#aedefe959b34cbd54c0e8ac257c202106',1,'CityBuilderCore.ItemStorage.MoveItemsTo(ItemStorage other, bool overfill)'],['../class_city_builder_core_1_1_item_storage.html#a963027fbdbe5ee464ae5bd052979505e',1,'CityBuilderCore.ItemStorage.MoveItemsTo(ItemStorage other, Item item, int maxQuantity=int.MaxValue, bool overfill=false)']]],
+  ['movementtesting_78',['MovementTesting',['../class_city_builder_core_1_1_tests_1_1_movement_testing.html',1,'CityBuilderCore::Tests']]],
+  ['movetool_79',['MoveTool',['../class_city_builder_core_1_1_move_tool.html',1,'CityBuilderCore']]],
+  ['multiitemcontainer_80',['MultiItemContainer',['../class_city_builder_core_1_1_multi_item_container.html',1,'CityBuilderCore']]],
+  ['multipliedscore_81',['MultipliedScore',['../class_city_builder_core_1_1_multiplied_score.html',1,'CityBuilderCore']]],
+  ['multiroadmanager_82',['MultiRoadManager',['../class_city_builder_core_1_1_multi_road_manager.html',1,'CityBuilderCore']]],
+  ['multiroadsdata_83',['MultiRoadsData',['../class_city_builder_core_1_1_road_manager_base_multi_1_1_multi_roads_data.html',1,'CityBuilderCore::RoadManagerBaseMulti']]],
+  ['multiroadtesting_84',['MultiRoadTesting',['../class_city_builder_core_1_1_tests_1_1_multi_road_testing.html',1,'CityBuilderCore::Tests']]]
 ];

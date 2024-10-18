@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.7</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.8</span>
    </div>
   </td>
  </tr>
@@ -138,12 +138,18 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af911c7ff598c723ce628250e4b9d7606" id="r_af911c7ff598c723ce628250e4b9d7606"><td class="memItemLeft" align="right" valign="top"><a id="af911c7ff598c723ce628250e4b9d7606" name="af911c7ff598c723ce628250e4b9d7606"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>RoadNetwork</b> (<a class="el" href="class_city_builder_core_1_1_road.html">Road</a> road, int level=0)</td></tr>
-<tr class="separator:af911c7ff598c723ce628250e4b9d7606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d511746c7394b8fab588dd1d4694979" id="r_a7d511746c7394b8fab588dd1d4694979"><td class="memItemLeft" align="right" valign="top"><a id="a7d511746c7394b8fab588dd1d4694979" name="a7d511746c7394b8fab588dd1d4694979"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>RoadNetwork</b> (<a class="el" href="class_city_builder_core_1_1_grid_pathfinding_settings.html">GridPathfindingSettings</a> pathfindingSettings, <a class="el" href="class_city_builder_core_1_1_road.html">Road</a> road, int level=0)</td></tr>
+<tr class="separator:a7d511746c7394b8fab588dd1d4694979"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5457902fff2751cf3224ebed25a29121" id="r_a5457902fff2751cf3224ebed25a29121"><td class="memItemLeft" align="right" valign="top"><a id="a5457902fff2751cf3224ebed25a29121" name="a5457902fff2751cf3224ebed25a29121"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Initialize</b> ()</td></tr>
 <tr class="separator:a5457902fff2751cf3224ebed25a29121"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e7c46e0117074b7f11e908089828714" id="r_a4e7c46e0117074b7f11e908089828714"><td class="memItemLeft" align="right" valign="top"><a id="a4e7c46e0117074b7f11e908089828714" name="a4e7c46e0117074b7f11e908089828714"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> ()</td></tr>
+<tr class="separator:a4e7c46e0117074b7f11e908089828714"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa82c400f09c2cd599bf887d17793392d" id="r_aa82c400f09c2cd599bf887d17793392d"><td class="memItemLeft" align="right" valign="top"><a id="aa82c400f09c2cd599bf887d17793392d" name="aa82c400f09c2cd599bf887d17793392d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Calculate</b> (int maxCalculations=PathQuery.DEFAULT_MAX_CALCULATIONS)</td></tr>
+<tr class="separator:aa82c400f09c2cd599bf887d17793392d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4dd65573846fc7ffa9ffbc2d2be273c" id="r_af4dd65573846fc7ffa9ffbc2d2be273c"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4dd65573846fc7ffa9ffbc2d2be273c">GetName</a> ()</td></tr>
 <tr class="memdesc:af4dd65573846fc7ffa9ffbc2d2be273c"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieves the name of the structure for display in the UI  <br /></td></tr>
 <tr class="separator:af4dd65573846fc7ffa9ffbc2d2be273c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -207,6 +213,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>UnblockTags</b> (IEnu
 <tr class="memitem:aaf12cfe6cf9ffc293745fab8224bd043" id="r_aaf12cfe6cf9ffc293745fab8224bd043"><td class="memItemLeft" align="right" valign="top"><a id="aaf12cfe6cf9ffc293745fab8224bd043" name="aaf12cfe6cf9ffc293745fab8224bd043"></a>
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>TryGetRoad</b> (Vector2Int point, out <a class="el" href="class_city_builder_core_1_1_road.html">Road</a> road, out string stage)</td></tr>
 <tr class="separator:aaf12cfe6cf9ffc293745fab8224bd043"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76ce48e7a9ac41dfde0571bac65ee72c" id="r_a76ce48e7a9ac41dfde0571bac65ee72c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76ce48e7a9ac41dfde0571bac65ee72c">CheckPoint</a> (Vector2Int point)</td></tr>
+<tr class="memdesc:a76ce48e7a9ac41dfde0571bac65ee72c"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks if a point is defined by the network itself<br  />
+ points registered from the outside return false  <br /></td></tr>
+<tr class="separator:a76ce48e7a9ac41dfde0571bac65ee72c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97e8d1d1b52b5984b3e4d2a1a93d1a7b" id="r_a97e8d1d1b52b5984b3e4d2a1a93d1a7b"><td class="memItemLeft" align="right" valign="top"><a id="a97e8d1d1b52b5984b3e4d2a1a93d1a7b" name="a97e8d1d1b52b5984b3e4d2a1a93d1a7b"></a>
 virtual <a class="el" href="class_city_builder_core_1_1_road_network_1_1_roads_data.html">RoadsData</a>&#160;</td><td class="memItemRight" valign="bottom"><b>SaveData</b> ()</td></tr>
 <tr class="separator:a97e8d1d1b52b5984b3e4d2a1a93d1a7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -231,12 +241,12 @@ Properties</h2></td></tr>
 <tr class="memitem:afd7cfa1ad3f2441f5c5162774d61f5e2" id="r_afd7cfa1ad3f2441f5c5162774d61f5e2"><td class="memItemLeft" align="right" valign="top"><a id="afd7cfa1ad3f2441f5c5162774d61f5e2" name="afd7cfa1ad3f2441f5c5162774d61f5e2"></a>
 <a class="el" href="class_city_builder_core_1_1_road.html">Road</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Road</b><code> [get]</code></td></tr>
 <tr class="separator:afd7cfa1ad3f2441f5c5162774d61f5e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a2b8003ba803b1ae38dccfe6c5d44b8" id="r_a2a2b8003ba803b1ae38dccfe6c5d44b8"><td class="memItemLeft" align="right" valign="top"><a id="a2a2b8003ba803b1ae38dccfe6c5d44b8" name="a2a2b8003ba803b1ae38dccfe6c5d44b8"></a>
-<a class="el" href="class_city_builder_core_1_1_grid_pathfinding.html">GridPathfinding</a>&#160;</td><td class="memItemRight" valign="bottom"><b>DefaultPathfinding</b><code> [get]</code></td></tr>
-<tr class="separator:a2a2b8003ba803b1ae38dccfe6c5d44b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b5975aa3662941e9c72ab55af7c9348" id="r_a0b5975aa3662941e9c72ab55af7c9348"><td class="memItemLeft" align="right" valign="top"><a id="a0b5975aa3662941e9c72ab55af7c9348" name="a0b5975aa3662941e9c72ab55af7c9348"></a>
-<a class="el" href="class_city_builder_core_1_1_grid_pathfinding.html">GridPathfinding</a>&#160;</td><td class="memItemRight" valign="bottom"><b>BlockedPathfinding</b><code> [get]</code></td></tr>
-<tr class="separator:a0b5975aa3662941e9c72ab55af7c9348"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab16a125dafa0dd8fe227e42d27e42d7d" id="r_ab16a125dafa0dd8fe227e42d27e42d7d"><td class="memItemLeft" align="right" valign="top"><a id="ab16a125dafa0dd8fe227e42d27e42d7d" name="ab16a125dafa0dd8fe227e42d27e42d7d"></a>
+<a class="el" href="class_city_builder_core_1_1_grid_pathfinding_base.html">GridPathfindingBase</a>&#160;</td><td class="memItemRight" valign="bottom"><b>DefaultPathfinding</b><code> [get]</code></td></tr>
+<tr class="separator:ab16a125dafa0dd8fe227e42d27e42d7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64b5685d9b75053f4da78e22e0a4033a" id="r_a64b5685d9b75053f4da78e22e0a4033a"><td class="memItemLeft" align="right" valign="top"><a id="a64b5685d9b75053f4da78e22e0a4033a" name="a64b5685d9b75053f4da78e22e0a4033a"></a>
+<a class="el" href="class_city_builder_core_1_1_grid_pathfinding_base.html">GridPathfindingBase</a>&#160;</td><td class="memItemRight" valign="bottom"><b>BlockedPathfinding</b><code> [get]</code></td></tr>
+<tr class="separator:a64b5685d9b75053f4da78e22e0a4033a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a143c05d89ab7b1a983f1ff5edeefc1f8" id="r_a143c05d89ab7b1a983f1ff5edeefc1f8"><td class="memItemLeft" align="right" valign="top"><a id="a143c05d89ab7b1a983f1ff5edeefc1f8" name="a143c05d89ab7b1a983f1ff5edeefc1f8"></a>
 List&lt; Vector2Int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Blocked</b><code> [get]</code></td></tr>
 <tr class="separator:a143c05d89ab7b1a983f1ff5edeefc1f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -246,6 +256,9 @@ List&lt; Vector2Int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>B
 <tr class="memitem:aa7a2c41416f3ce159abcab26779b4959" id="r_aa7a2c41416f3ce159abcab26779b4959"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa7a2c41416f3ce159abcab26779b4959">IsDestructible</a><code> [get]</code></td></tr>
 <tr class="memdesc:aa7a2c41416f3ce159abcab26779b4959"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether the structure can be removed by the player  <br /></td></tr>
 <tr class="separator:aa7a2c41416f3ce159abcab26779b4959"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f333b043a7ce10c20b5bebb07b70b37" id="r_a8f333b043a7ce10c20b5bebb07b70b37"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f333b043a7ce10c20b5bebb07b70b37">IsMovable</a><code> [get]</code></td></tr>
+<tr class="memdesc:a8f333b043a7ce10c20b5bebb07b70b37"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether the structure can be moved by the <a class="el" href="class_city_builder_core_1_1_move_tool.html" title="tool that moves one or more structures to a different position  which structures can be moved is dete...">MoveTool</a>  <br /></td></tr>
+<tr class="separator:a8f333b043a7ce10c20b5bebb07b70b37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e4cfbc3f88f3985f5a19725ed6a6360" id="r_a7e4cfbc3f88f3985f5a19725ed6a6360"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e4cfbc3f88f3985f5a19725ed6a6360">IsDecorator</a><code> [get]</code></td></tr>
 <tr class="memdesc:a7e4cfbc3f88f3985f5a19725ed6a6360"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether the structure is automatically removed when something is built on top of it  <br /></td></tr>
 <tr class="separator:a7e4cfbc3f88f3985f5a19725ed6a6360"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -340,6 +353,33 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_points_changed.html">
 <p>Implements <a class="el" href="interface_city_builder_core_1_1_i_layer_dependency.html#ab657b139033d59e395e9fb2a2addbbe2">CityBuilderCore.ILayerDependency</a>.</p>
 
 <p>Reimplemented in <a class="el" href="class_city_builder_core_1_1_terrain_road_network.html#ac84c3211274d7eec2ccbf63b92faba46">CityBuilderCore.TerrainRoadNetwork</a>, and <a class="el" href="class_city_builder_core_1_1_tilemap_road_network.html#ac44d79b195ce6587896cca0582fe336d">CityBuilderCore.TilemapRoadNetwork</a>.</p>
+
+</div>
+</div>
+<a id="a76ce48e7a9ac41dfde0571bac65ee72c" name="a76ce48e7a9ac41dfde0571bac65ee72c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76ce48e7a9ac41dfde0571bac65ee72c">&#9670;&#160;</a></span>CheckPoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CityBuilderCore.RoadNetwork.CheckPoint </td>
+          <td>(</td>
+          <td class="paramtype">Vector2Int</td>          <td class="paramname"><span class="paramname"><em>point</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>checks if a point is defined by the network itself<br  />
+ points registered from the outside return false </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">point</td><td>a point on the map</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the network contains the point, false if the point does not exist or has only been registered from outside</dd></dl>
 
 </div>
 </div>
@@ -501,6 +541,32 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_points_changed.html">
 <p>whether the structure can be removed by the player </p>
 
 <p>Implements <a class="el" href="interface_city_builder_core_1_1_i_structure.html#a61a16ff433f78a0604e0c45abd67d647">CityBuilderCore.IStructure</a>.</p>
+
+</div>
+</div>
+<a id="a8f333b043a7ce10c20b5bebb07b70b37" name="a8f333b043a7ce10c20b5bebb07b70b37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f333b043a7ce10c20b5bebb07b70b37">&#9670;&#160;</a></span>IsMovable</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool CityBuilderCore.RoadNetwork.IsMovable</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>whether the structure can be moved by the <a class="el" href="class_city_builder_core_1_1_move_tool.html" title="tool that moves one or more structures to a different position  which structures can be moved is dete...">MoveTool</a> </p>
+
+<p>Implements <a class="el" href="interface_city_builder_core_1_1_i_structure.html#a56ae77178046777a1c50dfa71a222a87">CityBuilderCore.IStructure</a>.</p>
 
 </div>
 </div>

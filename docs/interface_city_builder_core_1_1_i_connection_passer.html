@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.7</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.8</span>
    </div>
   </td>
  </tr>
@@ -117,12 +117,13 @@ Inheritance diagram for CityBuilderCore.IConnectionPasser:</div>
   <map id="CityBuilderCore.IConnectionPasser_map" name="CityBuilderCore.IConnectionPasser_map">
 <area href="class_city_builder_core_1_1_connection_passer_base.html" title="base class for any behaviour that might pass a connection  passers perpetuate a connection at their p..." alt="CityBuilderCore.ConnectionPasserBase" shape="rect" coords="142,56,416,80"/>
 <area href="class_city_builder_core_1_1_connection_passer_component.html" title="passes a connection and influences building efficiency from its connection value" alt="CityBuilderCore.ConnectionPasserComponent" shape="rect" coords="426,56,700,80"/>
-<area href="interface_city_builder_core_1_1_i_connection_feeder.html" title="an object that, in addition to passing it, also feeds value into a connection  defines some parameter..." alt="CityBuilderCore.IConnectionFeeder" shape="rect" coords="852,56,1126,80"/>
-<area href="class_city_builder_core_1_1_connection_passer_structure.html" title="will pass a connection at the points of a structure in the same gameobject or its parent" alt="CityBuilderCore.ConnectionPasserStructure" shape="rect" coords="0,112,274,136"/>
+<area href="interface_city_builder_core_1_1_i_connection_feeder.html" title="an object that, in addition to passing it, also feeds value into a connection  defines some parameter..." alt="CityBuilderCore.IConnectionFeeder" shape="rect" coords="994,56,1268,80"/>
+<area href="class_city_builder_core_1_1_connection_passer_structure.html" title="will pass a connection at the points of a structure" alt="CityBuilderCore.ConnectionPasserStructure" shape="rect" coords="0,112,274,136"/>
 <area href="class_city_builder_core_1_1_connection_passer_tiles.html" title="passes a connection on every point that a tile has on a tilemap, only evaluated which points those ar..." alt="CityBuilderCore.ConnectionPasserTiles" shape="rect" coords="284,112,558,136"/>
-<area href="class_city_builder_core_1_1_connection_feeder_component.html" title="component that feeds into a connection at the buildings points with its value scaled to the buildings..." alt="CityBuilderCore.ConnectionFeederComponent" shape="rect" coords="568,112,842,136"/>
-<area href="class_city_builder_core_1_1_connection_feeder_structure.html" title="feeds into a connection at the structures points" alt="CityBuilderCore.ConnectionFeederStructure" shape="rect" coords="852,112,1126,136"/>
-<area href="class_city_builder_core_1_1_connection_feeder_tiles.html" title="feeds and passes a connection on every point that a tile has on a tilemap, only evaluated at the star..." alt="CityBuilderCore.ConnectionFeederTiles" shape="rect" coords="1136,112,1410,136"/>
+<area href="class_city_builder_core_1_1_connection_feeder_builder.html" title="special building builder that registers as a preview feeder with its view connection this allows show..." alt="CityBuilderCore.ConnectionFeederBuilder" shape="rect" coords="568,112,842,136"/>
+<area href="class_city_builder_core_1_1_connection_feeder_component.html" title="component that feeds into a connection at the buildings points with its value scaled to the buildings..." alt="CityBuilderCore.ConnectionFeederComponent" shape="rect" coords="852,112,1126,136"/>
+<area href="class_city_builder_core_1_1_connection_feeder_structure.html" title="feeds into a connection at the structures points" alt="CityBuilderCore.ConnectionFeederStructure" shape="rect" coords="1136,112,1410,136"/>
+<area href="class_city_builder_core_1_1_connection_feeder_tiles.html" title="feeds and passes a connection on every point that a tile has on a tilemap, only evaluated at the star..." alt="CityBuilderCore.ConnectionFeederTiles" shape="rect" coords="1420,112,1694,136"/>
 <area href="class_city_builder_core_1_1_connection_feeder_structure.html" title="feeds into a connection at the structures points" alt="CityBuilderCore.ConnectionFeederStructure" shape="rect" coords="0,168,274,192"/>
 <area href="class_city_builder_core_1_1_connection_feeder_tiles.html" title="feeds and passes a connection on every point that a tile has on a tilemap, only evaluated at the star..." alt="CityBuilderCore.ConnectionFeederTiles" shape="rect" coords="284,168,558,192"/>
   </map>
@@ -143,6 +144,11 @@ Properties</h2></td></tr>
 <a class="el" href="class_city_builder_core_1_1_connection.html">Connection</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Connection</b><code> [get]</code></td></tr>
 <tr class="memdesc:a1d8d91e5c7aa403ab4b758f66539f98d"><td class="mdescLeft">&#160;</td><td class="mdescRight">the connection this passer allows to pass <br /></td></tr>
 <tr class="separator:a1d8d91e5c7aa403ab4b758f66539f98d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0d0e0a5bfe8021a937ade58042b684d" id="r_ae0d0e0a5bfe8021a937ade58042b684d"><td class="memItemLeft" align="right" valign="top"><a id="ae0d0e0a5bfe8021a937ade58042b684d" name="ae0d0e0a5bfe8021a937ade58042b684d"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsConsumer</b><code> [get]</code></td></tr>
+<tr class="memdesc:ae0d0e0a5bfe8021a937ade58042b684d"><td class="mdescLeft">&#160;</td><td class="mdescRight">whether the passer acts as a one-way consumer that does not pass the connection further<br  />
+ the highest value that reaches a consumer determines the value of all of its points <br /></td></tr>
+<tr class="separator:ae0d0e0a5bfe8021a937ade58042b684d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="events" name="events"></a>
 Events</h2></td></tr>
@@ -170,7 +176,7 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_points_changed.html">
 <p>the points of the passer </p>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
-<p>Implemented in <a class="el" href="class_city_builder_core_1_1_connection_feeder_component.html#afff71e1e7212379220a2046cb15430b4">CityBuilderCore.ConnectionFeederComponent</a>, <a class="el" href="class_city_builder_core_1_1_connection_passer_base.html#a3423d33178b122d9dc5c074ca5fb32bc">CityBuilderCore.ConnectionPasserBase</a>, <a class="el" href="class_city_builder_core_1_1_connection_passer_component.html#a85013ab9bf72de724791d28eb662b89c">CityBuilderCore.ConnectionPasserComponent</a>, <a class="el" href="class_city_builder_core_1_1_connection_passer_structure.html#ac3fca52b2023ddcb60f8e07ade95d8f9">CityBuilderCore.ConnectionPasserStructure</a>, and <a class="el" href="class_city_builder_core_1_1_connection_passer_tiles.html#a2c1acb83aafd5c8ca50fadbf138c7bb2">CityBuilderCore.ConnectionPasserTiles</a>.</p>
+<p>Implemented in <a class="el" href="class_city_builder_core_1_1_connection_feeder_builder.html#a57c5e4f2f3439c185ed77088d9f76b2f">CityBuilderCore.ConnectionFeederBuilder</a>, <a class="el" href="class_city_builder_core_1_1_connection_feeder_component.html#afff71e1e7212379220a2046cb15430b4">CityBuilderCore.ConnectionFeederComponent</a>, <a class="el" href="class_city_builder_core_1_1_connection_passer_base.html#a3423d33178b122d9dc5c074ca5fb32bc">CityBuilderCore.ConnectionPasserBase</a>, <a class="el" href="class_city_builder_core_1_1_connection_passer_component.html#a85013ab9bf72de724791d28eb662b89c">CityBuilderCore.ConnectionPasserComponent</a>, <a class="el" href="class_city_builder_core_1_1_connection_passer_structure.html#ac3fca52b2023ddcb60f8e07ade95d8f9">CityBuilderCore.ConnectionPasserStructure</a>, and <a class="el" href="class_city_builder_core_1_1_connection_passer_tiles.html#a2c1acb83aafd5c8ca50fadbf138c7bb2">CityBuilderCore.ConnectionPasserTiles</a>.</p>
 
 </div>
 </div>
@@ -202,7 +208,7 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_points_changed.html">
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="class_city_builder_core_1_1_connection_feeder_component.html#a1378855846dd720b7c017f371465f2a0">CityBuilderCore.ConnectionFeederComponent</a>, <a class="el" href="class_city_builder_core_1_1_connection_passer_base.html#a882edb3280b6e744241c6b9401af4cef">CityBuilderCore.ConnectionPasserBase</a>, and <a class="el" href="class_city_builder_core_1_1_connection_passer_component.html#a5cc17a4b95595ac72f3b900531de9df9">CityBuilderCore.ConnectionPasserComponent</a>.</p>
+<p>Implemented in <a class="el" href="class_city_builder_core_1_1_connection_feeder_builder.html#afc3a134fa16887196b254569bc6c8a36">CityBuilderCore.ConnectionFeederBuilder</a>, <a class="el" href="class_city_builder_core_1_1_connection_feeder_component.html#a1378855846dd720b7c017f371465f2a0">CityBuilderCore.ConnectionFeederComponent</a>, <a class="el" href="class_city_builder_core_1_1_connection_passer_base.html#a882edb3280b6e744241c6b9401af4cef">CityBuilderCore.ConnectionPasserBase</a>, and <a class="el" href="class_city_builder_core_1_1_connection_passer_component.html#a5cc17a4b95595ac72f3b900531de9df9">CityBuilderCore.ConnectionPasserComponent</a>.</p>
 
 </div>
 </div>

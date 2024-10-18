@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.7</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.8</span>
    </div>
   </td>
  </tr>
@@ -102,7 +102,6 @@ $(function(){initNavTree('class_city_builder_core_1_1_cyclic_worker_provider_com
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="class_city_builder_core_1_1_cyclic_worker_provider_component-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">CityBuilderCore.CyclicWorkerProviderComponent Class Reference</div></div>
@@ -152,6 +151,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aaebe423811f5c184d9582658cff7b75e inherit pub_methods_class_city_builder_core_1_1_building_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">termination is performed when the building is destroyed<br  />
  use to deregister traits, remove references from other systems  <br /></td></tr>
 <tr class="separator:aaebe423811f5c184d9582658cff7b75e inherit pub_methods_class_city_builder_core_1_1_building_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b12f7c48adc236f490b2f2c9d78e812 inherit pub_methods_class_city_builder_core_1_1_building_component" id="r_a4b12f7c48adc236f490b2f2c9d78e812"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_component.html#a4b12f7c48adc236f490b2f2c9d78e812">OnMoving</a> ()</td></tr>
+<tr class="memdesc:a4b12f7c48adc236f490b2f2c9d78e812 inherit pub_methods_class_city_builder_core_1_1_building_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when the building is about to be moved<br  />
+ can be used to remove/deregister stuff from the old position  <br /></td></tr>
+<tr class="separator:a4b12f7c48adc236f490b2f2c9d78e812 inherit pub_methods_class_city_builder_core_1_1_building_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5ca5f11843988f5b9dd323dc2567c95 inherit pub_methods_class_city_builder_core_1_1_building_component" id="r_af5ca5f11843988f5b9dd323dc2567c95"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_component.html#af5ca5f11843988f5b9dd323dc2567c95">OnMoved</a> (Vector2Int oldPoint, <a class="el" href="class_city_builder_core_1_1_building_rotation.html">BuildingRotation</a> oldRotation)</td></tr>
+<tr class="memdesc:af5ca5f11843988f5b9dd323dc2567c95 inherit pub_methods_class_city_builder_core_1_1_building_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">called after a building has been moved<br  />
+ can be used to register things at the new position  <br /></td></tr>
+<tr class="separator:af5ca5f11843988f5b9dd323dc2567c95 inherit pub_methods_class_city_builder_core_1_1_building_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7c3902d76a882d33f5fbb4bd008ed64a inherit pub_methods_class_city_builder_core_1_1_building_component" id="r_a7c3902d76a882d33f5fbb4bd008ed64a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_component.html#a7c3902d76a882d33f5fbb4bd008ed64a">SuspendComponent</a> ()</td></tr>
 <tr class="memdesc:a7c3902d76a882d33f5fbb4bd008ed64a inherit pub_methods_class_city_builder_core_1_1_building_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">temporarily stops the component from working  <br /></td></tr>
 <tr class="separator:a7c3902d76a882d33f5fbb4bd008ed64a inherit pub_methods_class_city_builder_core_1_1_building_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -171,11 +178,23 @@ Public Attributes</h2></td></tr>
 <a class="el" href="class_city_builder_core_1_1_cyclic_worker_walker_spawner.html">CyclicWorkerWalkerSpawner</a>&#160;</td><td class="memItemRight" valign="bottom"><b>WorkerWalkers</b></td></tr>
 <tr class="separator:a78f569058ec808196a4074cef0d9c32c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:ac6fc238ca4bd822e74155a230b6d613f" id="r_ac6fc238ca4bd822e74155a230b6d613f"><td class="memItemLeft" align="right" valign="top"><a id="ac6fc238ca4bd822e74155a230b6d613f" name="ac6fc238ca4bd822e74155a230b6d613f"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>workerLeaving</b> (<a class="el" href="class_city_builder_core_1_1_worker_walker.html">WorkerWalker</a> walker)</td></tr>
-<tr class="separator:ac6fc238ca4bd822e74155a230b6d613f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:a402480f30105f580edb44770e726f1ed" id="r_a402480f30105f580edb44770e726f1ed"><td class="memItemLeft" align="right" valign="top">override string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a402480f30105f580edb44770e726f1ed">Key</a><code> [get]</code></td></tr>
+<tr class="memdesc:a402480f30105f580edb44770e726f1ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">unique key used to identify the component in save/load  <br /></td></tr>
+<tr class="separator:a402480f30105f580edb44770e726f1ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_class_city_builder_core_1_1_building_component"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_class_city_builder_core_1_1_building_component')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_city_builder_core_1_1_building_component.html">CityBuilderCore.BuildingComponent</a></td></tr>
+<tr class="memitem:ae1c08c3cb27dcf92c81fb202eafb326d inherit properties_class_city_builder_core_1_1_building_component" id="r_ae1c08c3cb27dcf92c81fb202eafb326d"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_component.html#ae1c08c3cb27dcf92c81fb202eafb326d">Key</a><code> [get]</code></td></tr>
+<tr class="memdesc:ae1c08c3cb27dcf92c81fb202eafb326d inherit properties_class_city_builder_core_1_1_building_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">unique key used to identify the component in save/load  <br /></td></tr>
+<tr class="separator:ae1c08c3cb27dcf92c81fb202eafb326d inherit properties_class_city_builder_core_1_1_building_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6adf66e28777e80b75527044058e587 inherit properties_class_city_builder_core_1_1_building_component" id="r_ab6adf66e28777e80b75527044058e587"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_city_builder_core_1_1_i_building.html">IBuilding</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_component.html#ab6adf66e28777e80b75527044058e587">Building</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ab6adf66e28777e80b75527044058e587 inherit properties_class_city_builder_core_1_1_building_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">the building the component is attached to<br  />
+ is set by the building in awake  <br /></td></tr>
+<tr class="separator:ab6adf66e28777e80b75527044058e587 inherit properties_class_city_builder_core_1_1_building_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_interface_city_builder_core_1_1_i_building_component"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_interface_city_builder_core_1_1_i_building_component')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="interface_city_builder_core_1_1_i_building_component.html">CityBuilderCore.IBuildingComponent</a></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_methods_class_city_builder_core_1_1_building_component"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_methods_class_city_builder_core_1_1_building_component')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_city_builder_core_1_1_building_component.html">CityBuilderCore.BuildingComponent</a></td></tr>
 <tr class="memitem:aaa6c95200fdaa2ba1c5b35c35b57fb96 inherit pro_methods_class_city_builder_core_1_1_building_component" id="r_aaa6c95200fdaa2ba1c5b35c35b57fb96"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_component.html#aaa6c95200fdaa2ba1c5b35c35b57fb96">getOther&lt; T &gt;</a> ()</td></tr>
 <tr class="memdesc:aaa6c95200fdaa2ba1c5b35c35b57fb96 inherit pro_methods_class_city_builder_core_1_1_building_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets the first building component of the specified type on the same building  <br /></td></tr>
@@ -195,21 +214,6 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>workerLeaving</b> (<a
 <tr class="memdesc:ac6be13cf8e5596085d10c57416257738 inherit pro_methods_class_city_builder_core_1_1_building_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes a previously registered trait<br  />
  usually when a building is removed which calls <a class="el" href="class_city_builder_core_1_1_building_component.html#aaebe423811f5c184d9582658cff7b75e" title="termination is performed when the building is destroyed  use to deregister traits,...">TerminateComponent</a>  <br /></td></tr>
 <tr class="separator:ac6be13cf8e5596085d10c57416257738 inherit pro_methods_class_city_builder_core_1_1_building_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
-Properties</h2></td></tr>
-<tr class="memitem:a402480f30105f580edb44770e726f1ed" id="r_a402480f30105f580edb44770e726f1ed"><td class="memItemLeft" align="right" valign="top">override string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a402480f30105f580edb44770e726f1ed">Key</a><code> [get]</code></td></tr>
-<tr class="memdesc:a402480f30105f580edb44770e726f1ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">unique key used to identify the component in save/load  <br /></td></tr>
-<tr class="separator:a402480f30105f580edb44770e726f1ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header properties_class_city_builder_core_1_1_building_component"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_class_city_builder_core_1_1_building_component')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_city_builder_core_1_1_building_component.html">CityBuilderCore.BuildingComponent</a></td></tr>
-<tr class="memitem:ae1c08c3cb27dcf92c81fb202eafb326d inherit properties_class_city_builder_core_1_1_building_component" id="r_ae1c08c3cb27dcf92c81fb202eafb326d"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_component.html#ae1c08c3cb27dcf92c81fb202eafb326d">Key</a><code> [get]</code></td></tr>
-<tr class="memdesc:ae1c08c3cb27dcf92c81fb202eafb326d inherit properties_class_city_builder_core_1_1_building_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">unique key used to identify the component in save/load  <br /></td></tr>
-<tr class="separator:ae1c08c3cb27dcf92c81fb202eafb326d inherit properties_class_city_builder_core_1_1_building_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6adf66e28777e80b75527044058e587 inherit properties_class_city_builder_core_1_1_building_component" id="r_ab6adf66e28777e80b75527044058e587"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_city_builder_core_1_1_i_building.html">IBuilding</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_component.html#ab6adf66e28777e80b75527044058e587">Building</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:ab6adf66e28777e80b75527044058e587 inherit properties_class_city_builder_core_1_1_building_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">the building the component is attached to<br  />
- is set by the building in awake  <br /></td></tr>
-<tr class="separator:ab6adf66e28777e80b75527044058e587 inherit properties_class_city_builder_core_1_1_building_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header properties_interface_city_builder_core_1_1_i_building_component"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_interface_city_builder_core_1_1_i_building_component')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="interface_city_builder_core_1_1_i_building_component.html">CityBuilderCore.IBuildingComponent</a></td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="ab616d41707821975cac79dc089f95ed2" name="ab616d41707821975cac79dc089f95ed2"></a>

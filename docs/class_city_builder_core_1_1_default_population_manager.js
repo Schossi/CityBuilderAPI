@@ -15,6 +15,7 @@ var class_city_builder_core_1_1_default_population_manager =
     [ "GetQuantity", "class_city_builder_core_1_1_default_population_manager.html#a2a2c2fea65b5ed5a30779482d0c04448", null ],
     [ "GetRemainingCapacity", "class_city_builder_core_1_1_default_population_manager.html#aa59df3a7a7ead5e59af3b896a15e04f8", null ],
     [ "GetWorkerPath", "class_city_builder_core_1_1_default_population_manager.html#a239f1ac73d1d7ce98e1be750b6400d00", null ],
+    [ "GetWorkerPathQuery", "class_city_builder_core_1_1_default_population_manager.html#a2767ac126620454e3ba432dab7dc1191", null ],
     [ "GetWorkerRate", "class_city_builder_core_1_1_default_population_manager.html#ad569e0cf57f843bab28effbc8a893ebb", null ],
     [ "RemoveEmployment", "class_city_builder_core_1_1_default_population_manager.html#adfdb7ec55beef054808f862a14948ed1", null ],
     [ "SetPriority", "class_city_builder_core_1_1_default_population_manager.html#ab3776eacebc83a52920fa86d4f9f198e", null ]

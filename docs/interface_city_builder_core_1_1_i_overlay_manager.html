@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.7</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.8</span>
    </div>
   </td>
  </tr>
@@ -105,7 +105,7 @@ $(function(){initNavTree('interface_city_builder_core_1_1_i_overlay_manager.html
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>overlays the tilemap with coloured tiles that visualize <a class="el" href="class_city_builder_core_1_1_layer.html" title="layers are arrays of numbers underlying the map points(desirability, fertility, resources)">Layer</a> values<br  />
+<div class="textblock"><p>overlays the tilemap with coloured tiles that visualize <a class="el" href="class_city_builder_core_1_1_layer.html" title="layers are arrays of numbers underlying the map points(desirability, fertility, resources)">Layer</a>, <a class="el" href="class_city_builder_core_1_1_connection.html" title="Connections are networks of values on the Map  they consist of feeders which determine the values and...">Connection</a> or Efficiency values<br  />
  eg desirable areas are green, undesirable areas are red </p>
 </div><div class="dynheader">
 Inheritance diagram for CityBuilderCore.IOverlayManager:</div>
@@ -122,6 +122,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a11354abb2864f9f4f0539244a20ea13c" id="r_a11354abb2864f9f4f0539244a20ea13c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11354abb2864f9f4f0539244a20ea13c">ActivateOverlay</a> (<a class="el" href="class_city_builder_core_1_1_view_layer.html">ViewLayer</a> layerView)</td></tr>
 <tr class="memdesc:a11354abb2864f9f4f0539244a20ea13c"><td class="mdescLeft">&#160;</td><td class="mdescRight">activates a layer view that displays a gradient for layer values  <br /></td></tr>
 <tr class="separator:a11354abb2864f9f4f0539244a20ea13c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79ce95419bb36bf689cb7380b265b5d5" id="r_a79ce95419bb36bf689cb7380b265b5d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79ce95419bb36bf689cb7380b265b5d5">ActivateOverlay</a> (<a class="el" href="class_city_builder_core_1_1_view_connection.html">ViewConnection</a> connectionView)</td></tr>
+<tr class="memdesc:a79ce95419bb36bf689cb7380b265b5d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">activates a connection view that displays a gradient for connection values  <br /></td></tr>
+<tr class="separator:a79ce95419bb36bf689cb7380b265b5d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d799621dd4ba67e8ba8b0e90ff85713" id="r_a0d799621dd4ba67e8ba8b0e90ff85713"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0d799621dd4ba67e8ba8b0e90ff85713">ActivateOverlay</a> (<a class="el" href="class_city_builder_core_1_1_view_efficiency.html">ViewEfficiency</a> efficiencyView)</td></tr>
 <tr class="memdesc:a0d799621dd4ba67e8ba8b0e90ff85713"><td class="mdescLeft">&#160;</td><td class="mdescRight">activates a layer view that displays a gradient for building efficiency  <br /></td></tr>
 <tr class="separator:a0d799621dd4ba67e8ba8b0e90ff85713"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -130,8 +133,35 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a5572cbb57092167ee80847c4d6bd5979"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a79ce95419bb36bf689cb7380b265b5d5" name="a79ce95419bb36bf689cb7380b265b5d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79ce95419bb36bf689cb7380b265b5d5">&#9670;&#160;</a></span>ActivateOverlay() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CityBuilderCore.IOverlayManager.ActivateOverlay </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_city_builder_core_1_1_view_connection.html">ViewConnection</a></td>          <td class="paramname"><span class="paramname"><em>connectionView</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>activates a connection view that displays a gradient for connection values </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">connectionView</td><td>the view to activate</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="class_city_builder_core_1_1_default_overlay_manager.html#a7e2c469ff45539345cf338dcfc601d46">CityBuilderCore.DefaultOverlayManager</a>.</p>
+
+</div>
+</div>
 <a id="a0d799621dd4ba67e8ba8b0e90ff85713" name="a0d799621dd4ba67e8ba8b0e90ff85713"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d799621dd4ba67e8ba8b0e90ff85713">&#9670;&#160;</a></span>ActivateOverlay() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d799621dd4ba67e8ba8b0e90ff85713">&#9670;&#160;</a></span>ActivateOverlay() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -158,7 +188,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <a id="a11354abb2864f9f4f0539244a20ea13c" name="a11354abb2864f9f4f0539244a20ea13c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11354abb2864f9f4f0539244a20ea13c">&#9670;&#160;</a></span>ActivateOverlay() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a11354abb2864f9f4f0539244a20ea13c">&#9670;&#160;</a></span>ActivateOverlay() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
