@@ -2,7 +2,7 @@ var class_city_builder_town_1_1_town_market_component =
 [
     [ "TownMarketData", "class_city_builder_town_1_1_town_market_component_1_1_town_market_data.html", null ],
     [ "GetDebugText", "class_city_builder_town_1_1_town_market_component.html#a115bb4f693fa82d584f8142c91d4dfc7", null ],
-    [ "GetReceiveCapacity", "class_city_builder_town_1_1_town_market_component.html#af981acd8d65110100400396c035c83e6", null ],
+    [ "GetReceiveCapacityRemaining", "class_city_builder_town_1_1_town_market_component.html#aa77e3d212037356ce6ea8c02695a32f8", null ],
     [ "GetReceiveItems", "class_city_builder_town_1_1_town_market_component.html#a7f9541a575efca28ec9c8b6eb3c64a4f", null ],
     [ "InitializeComponent", "class_city_builder_town_1_1_town_market_component.html#a08d2372f5df4a1707b3979f111373c0e", null ],
     [ "LoadData", "class_city_builder_town_1_1_town_market_component.html#a538df15801609cef04fcfc0b4be74c18", null ],

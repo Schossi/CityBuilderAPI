@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.8</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.9.0</span>
    </div>
   </td>
  </tr>
@@ -140,9 +140,9 @@ IEnumerable&lt; Vector2Int &gt;&#160;</td><td class="memItemRight" valign="botto
 <tr class="memitem:ab9a028ba4a3619981182ab2916a42fe3" id="r_ab9a028ba4a3619981182ab2916a42fe3"><td class="memItemLeft" align="right" valign="top">IEnumerable&lt; Vector2Int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab9a028ba4a3619981182ab2916a42fe3">GetPoints</a> ()</td></tr>
 <tr class="memdesc:ab9a028ba4a3619981182ab2916a42fe3"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieves all the points the structure occupies  <br /></td></tr>
 <tr class="separator:ab9a028ba4a3619981182ab2916a42fe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6dc63e8d2f91a08a7d91c4198d9b0d7" id="r_ab6dc63e8d2f91a08a7d91c4198d9b0d7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6dc63e8d2f91a08a7d91c4198d9b0d7">HasPoint</a> (Vector2Int position)</td></tr>
-<tr class="memdesc:ab6dc63e8d2f91a08a7d91c4198d9b0d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks if the structure occupies a certain point  <br /></td></tr>
-<tr class="separator:ab6dc63e8d2f91a08a7d91c4198d9b0d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0ab11448bed50387b0253be931b261b" id="r_ab0ab11448bed50387b0253be931b261b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0ab11448bed50387b0253be931b261b">HasPoint</a> (Vector2Int point)</td></tr>
+<tr class="memdesc:ab0ab11448bed50387b0253be931b261b"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks if the structure occupies a certain point  <br /></td></tr>
+<tr class="separator:ab0ab11448bed50387b0253be931b261b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a07cbee3cb2f4e80a32de6de5d1d94c38" id="r_a07cbee3cb2f4e80a32de6de5d1d94c38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07cbee3cb2f4e80a32de6de5d1d94c38">Add</a> (IEnumerable&lt; Vector2Int &gt; points)</td></tr>
 <tr class="memdesc:a07cbee3cb2f4e80a32de6de5d1d94c38"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds points to a structure, for example a tree to a tree structure collection<br  />
  this may not be possible for structures with fixed points like buildings<br  />
@@ -167,12 +167,24 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>LoadData</b> (<a clas
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:a36d83c236a41748102fbc4aebbae7444" id="r_a36d83c236a41748102fbc4aebbae7444"><td class="memItemLeft" align="right" valign="top"><a id="a36d83c236a41748102fbc4aebbae7444" name="a36d83c236a41748102fbc4aebbae7444"></a>
+string&#160;</td><td class="memItemRight" valign="bottom"><b>Name</b></td></tr>
+<tr class="separator:a36d83c236a41748102fbc4aebbae7444"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a705b07ff954d36c194d7ec1b3f8f74b4" id="r_a705b07ff954d36c194d7ec1b3f8f74b4"><td class="memItemLeft" align="right" valign="top"><a id="a705b07ff954d36c194d7ec1b3f8f74b4" name="a705b07ff954d36c194d7ec1b3f8f74b4"></a>
 <a class="el" href="class_city_builder_core_1_1_structure_level_mask.html">StructureLevelMask</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Level</b></td></tr>
 <tr class="separator:a705b07ff954d36c194d7ec1b3f8f74b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a86aa61013840303c67cf75dc75e63c4a" id="r_a86aa61013840303c67cf75dc75e63c4a"><td class="memItemLeft" align="right" valign="top"><a id="a86aa61013840303c67cf75dc75e63c4a" name="a86aa61013840303c67cf75dc75e63c4a"></a>
 GameObject[]&#160;</td><td class="memItemRight" valign="bottom"><b>Prefabs</b></td></tr>
 <tr class="separator:a86aa61013840303c67cf75dc75e63c4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9a03098f1981f7f33caa5f087eaf349" id="r_ae9a03098f1981f7f33caa5f087eaf349"><td class="memItemLeft" align="right" valign="top"><a id="ae9a03098f1981f7f33caa5f087eaf349" name="ae9a03098f1981f7f33caa5f087eaf349"></a>
+<a class="el" href="namespace_city_builder_core.html#ae88beb0d0c67dd88af75994a4aae41a1">StructureRotationMode</a>&#160;</td><td class="memItemRight" valign="bottom"><b>RotationMode</b></td></tr>
+<tr class="separator:ae9a03098f1981f7f33caa5f087eaf349"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0a65b03099c4bc63772b9010bcae1e6" id="r_ac0a65b03099c4bc63772b9010bcae1e6"><td class="memItemLeft" align="right" valign="top"><a id="ac0a65b03099c4bc63772b9010bcae1e6" name="ac0a65b03099c4bc63772b9010bcae1e6"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>ScaleMinimum</b> = 1f</td></tr>
+<tr class="separator:ac0a65b03099c4bc63772b9010bcae1e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2191e0b98a08d990d7df587d2d527ac4" id="r_a2191e0b98a08d990d7df587d2d527ac4"><td class="memItemLeft" align="right" valign="top"><a id="a2191e0b98a08d990d7df587d2d527ac4" name="a2191e0b98a08d990d7df587d2d527ac4"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>ScaleMaximum</b> = 1f</td></tr>
+<tr class="separator:a2191e0b98a08d990d7df587d2d527ac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_class_city_builder_core_1_1_keyed_behaviour"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_class_city_builder_core_1_1_keyed_behaviour')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_city_builder_core_1_1_keyed_behaviour.html">CityBuilderCore.KeyedBehaviour</a></td></tr>
 <tr class="memitem:ab039c20224607232e0074e6e4f8a77fe inherit pub_attribs_class_city_builder_core_1_1_keyed_behaviour" id="r_ab039c20224607232e0074e6e4f8a77fe"><td class="memItemLeft" align="right" valign="top">
 string&#160;</td><td class="memItemRight" valign="bottom"><b>Key</b></td></tr>
@@ -198,6 +210,16 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_points_changed.html">
  only viable for structures that are stored in list form like underlying, collections and tiles<br  />
  other structures have to be reregistered <br /></td></tr>
 <tr class="separator:a5a8617a30380c9efa63047c778e8e7ef inherit events_interface_city_builder_core_1_1_i_structure"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_static_methods_interface_city_builder_core_1_1_i_structure"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_interface_city_builder_core_1_1_i_structure')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="interface_city_builder_core_1_1_i_structure.html">CityBuilderCore.IStructure</a></td></tr>
+<tr class="memitem:a3cfff58e0ff9e6cfa540f32677f278c3 inherit pub_static_methods_interface_city_builder_core_1_1_i_structure" id="r_a3cfff58e0ff9e6cfa540f32677f278c3"><td class="memItemLeft" align="right" valign="top">
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>ReplacePoints</b> (<a class="el" href="interface_city_builder_core_1_1_i_structure.html">IStructure</a> a, <a class="el" href="interface_city_builder_core_1_1_i_structure.html">IStructure</a> b, Vector2Int point)</td></tr>
+<tr class="separator:a3cfff58e0ff9e6cfa540f32677f278c3 inherit pub_static_methods_interface_city_builder_core_1_1_i_structure"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85e6e29bb4c51d1d3d334160f49dd3f5 inherit pub_static_methods_interface_city_builder_core_1_1_i_structure" id="r_a85e6e29bb4c51d1d3d334160f49dd3f5"><td class="memItemLeft" align="right" valign="top">
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>ReplacePoints</b> (<a class="el" href="interface_city_builder_core_1_1_i_structure.html">IStructure</a> a, <a class="el" href="interface_city_builder_core_1_1_i_structure.html">IStructure</a> b, IEnumerable&lt; Vector2Int &gt; points)</td></tr>
+<tr class="separator:a85e6e29bb4c51d1d3d334160f49dd3f5 inherit pub_static_methods_interface_city_builder_core_1_1_i_structure"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a07cbee3cb2f4e80a32de6de5d1d94c38" name="a07cbee3cb2f4e80a32de6de5d1d94c38"></a>
@@ -281,8 +303,8 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_points_changed.html">
 
 </div>
 </div>
-<a id="ab6dc63e8d2f91a08a7d91c4198d9b0d7" name="ab6dc63e8d2f91a08a7d91c4198d9b0d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab6dc63e8d2f91a08a7d91c4198d9b0d7">&#9670;&#160;</a></span>HasPoint()</h2>
+<a id="ab0ab11448bed50387b0253be931b261b" name="ab0ab11448bed50387b0253be931b261b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0ab11448bed50387b0253be931b261b">&#9670;&#160;</a></span>HasPoint()</h2>
 
 <div class="memitem">
 <div class="memproto">

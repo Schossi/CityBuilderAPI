@@ -140,6 +140,7 @@ var hierarchy =
     [ "UnityEditor.Editor", null, [
       [ "CityBuilderCore.Editor.DebugEditor", "class_city_builder_core_1_1_editor_1_1_debug_editor.html", [
         [ "CityBuilderCore.Editor.BuildingComponentEditor", "class_city_builder_core_1_1_editor_1_1_building_component_editor.html", [
+          [ "CityBuilderCore.Editor.DistributionComponentEditor", "class_city_builder_core_1_1_editor_1_1_distribution_component_editor.html", null ],
           [ "CityBuilderCore.Editor.EvolutionComponentEditor", "class_city_builder_core_1_1_editor_1_1_evolution_component_editor.html", null ],
           [ "CityBuilderCore.Editor.ItemEfficiencyComponentEditor", "class_city_builder_core_1_1_editor_1_1_item_efficiency_component_editor.html", null ],
           [ "CityBuilderCore.Editor.ItemStoreEditor", "class_city_builder_core_1_1_editor_1_1_item_store_editor.html", null ],
@@ -150,7 +151,12 @@ var hierarchy =
         ] ],
         [ "CityBuilderCore.Editor.EffectPoolEditor", "class_city_builder_core_1_1_editor_1_1_effect_pool_editor.html", null ],
         [ "CityBuilderCore.Editor.TimingHappeningEditor", "class_city_builder_core_1_1_editor_1_1_timing_happening_editor.html", null ]
-      ] ]
+      ] ],
+      [ "CityBuilderCore.Editor.DefaultBuildingManagerEditor", "class_city_builder_core_1_1_editor_1_1_default_building_manager_editor.html", null ],
+      [ "CityBuilderCore.Editor.HeightMappedTerrainRendererEditor", "class_city_builder_core_1_1_editor_1_1_height_mapped_terrain_renderer_editor.html", null ],
+      [ "CityBuilderCore.Editor.StructureCollectionEditor", "class_city_builder_core_1_1_editor_1_1_structure_collection_editor.html", null ],
+      [ "CityBuilderCore.Editor.StructureCollectionFloatEditor", "class_city_builder_core_1_1_editor_1_1_structure_collection_float_editor.html", null ],
+      [ "CityBuilderCore.Editor.StructureDecoratorsEditor", "class_city_builder_core_1_1_editor_1_1_structure_decorators_editor.html", null ]
     ] ],
     [ "EditorWindow", null, [
       [ "CityBuilderCore.Editor.BuildingsWindow", "class_city_builder_core_1_1_editor_1_1_buildings_window.html", null ],
@@ -170,7 +176,6 @@ var hierarchy =
     [ "CityBuilderCore.FireAddon.FireData", "class_city_builder_core_1_1_fire_addon_1_1_fire_data.html", null ],
     [ "CityBuilderCore.FireWalker.FireWalkerData", "class_city_builder_core_1_1_fire_walker_1_1_fire_walker_data.html", null ],
     [ "CityBuilderCore.GenerationComponent.GenerationData", "class_city_builder_core_1_1_generation_component_1_1_generation_data.html", null ],
-    [ "CityBuilderCore.ObjectGenerator.GeneratorObject", "class_city_builder_core_1_1_object_generator_1_1_generator_object.html", null ],
     [ "CityBuilderCore.GridLinks", "class_city_builder_core_1_1_grid_links.html", null ],
     [ "CityBuilderCore.GridPathfindingSettings", "class_city_builder_core_1_1_grid_pathfinding_settings.html", null ],
     [ "CityBuilderCore.HomelessWalker.HomelessWalkerData", "class_city_builder_core_1_1_homeless_walker_1_1_homeless_walker_data.html", null ],
@@ -445,6 +450,7 @@ var hierarchy =
           [ "CityBuilderCore.TilemapRoadNetwork", "class_city_builder_core_1_1_tilemap_road_network.html", null ]
         ] ],
         [ "CityBuilderCore.StructureCollection", "class_city_builder_core_1_1_structure_collection.html", null ],
+        [ "CityBuilderCore.StructureCollectionFloat", "class_city_builder_core_1_1_structure_collection_float.html", null ],
         [ "CityBuilderCore.StructureDecorators", "class_city_builder_core_1_1_structure_decorators.html", null ],
         [ "CityBuilderCore.StructureTerrainDetails", "class_city_builder_core_1_1_structure_terrain_details.html", null ],
         [ "CityBuilderCore.StructureTerrainTrees", "class_city_builder_core_1_1_structure_terrain_trees.html", null ],
@@ -468,6 +474,7 @@ var hierarchy =
           [ "CityBuilderUrban.UrbanManager", "class_city_builder_urban_1_1_urban_manager.html", null ]
         ] ],
         [ "CityBuilderCore.StructureCollection", "class_city_builder_core_1_1_structure_collection.html", null ],
+        [ "CityBuilderCore.StructureCollectionFloat", "class_city_builder_core_1_1_structure_collection_float.html", null ],
         [ "CityBuilderCore.StructureDecorators", "class_city_builder_core_1_1_structure_decorators.html", null ],
         [ "CityBuilderCore.StructureTerrainDetails", "class_city_builder_core_1_1_structure_terrain_details.html", null ],
         [ "CityBuilderCore.StructureTerrainTrees", "class_city_builder_core_1_1_structure_terrain_trees.html", null ],
@@ -999,6 +1006,7 @@ var hierarchy =
       [ "CityBuilderCore.Fader", "class_city_builder_core_1_1_fader.html", null ],
       [ "CityBuilderCore.GameSaverProxy", "class_city_builder_core_1_1_game_saver_proxy.html", null ],
       [ "CityBuilderCore.GameSpeedProxy", "class_city_builder_core_1_1_game_speed_proxy.html", null ],
+      [ "CityBuilderCore.HeightMappedTerrainRenderer", "class_city_builder_core_1_1_height_mapped_terrain_renderer.html", null ],
       [ "CityBuilderCore.ItemPanel", "class_city_builder_core_1_1_item_panel.html", null ],
       [ "CityBuilderCore.ItemStore", "class_city_builder_core_1_1_item_store.html", null ],
       [ "CityBuilderCore.ItemStorer", "class_city_builder_core_1_1_item_storer.html", null ],
@@ -1044,6 +1052,7 @@ var hierarchy =
       [ "CityBuilderCore.SpriteColorRandomizer", "class_city_builder_core_1_1_sprite_color_randomizer.html", null ],
       [ "CityBuilderCore.SpriteHighlightManager", "class_city_builder_core_1_1_sprite_highlight_manager.html", null ],
       [ "CityBuilderCore.StateManager", "class_city_builder_core_1_1_state_manager.html", null ],
+      [ "CityBuilderCore.StorageCapacityPanel", "class_city_builder_core_1_1_storage_capacity_panel.html", null ],
       [ "CityBuilderCore.StorageOrderPanel", "class_city_builder_core_1_1_storage_order_panel.html", null ],
       [ "CityBuilderCore.StorageOrdersPanel", "class_city_builder_core_1_1_storage_orders_panel.html", null ],
       [ "CityBuilderCore.StorageQuantityVisual", "class_city_builder_core_1_1_storage_quantity_visual.html", null ],
@@ -1340,6 +1349,8 @@ var hierarchy =
     [ "CityBuilderCore.StorageWalker.StorageWalkerData", "class_city_builder_core_1_1_storage_walker_1_1_storage_walker_data.html", null ],
     [ "CityBuilderCore.StorageWalkerComponent.StorageWalkerData", "class_city_builder_core_1_1_storage_walker_component_1_1_storage_walker_data.html", null ],
     [ "CityBuilderCore.StructureCollection.StructureCollectionData", "class_city_builder_core_1_1_structure_collection_1_1_structure_collection_data.html", null ],
+    [ "CityBuilderCore.StructureCollectionFloat.StructureCollectionFloatData", "class_city_builder_core_1_1_structure_collection_float_1_1_structure_collection_float_data.html", null ],
+    [ "CityBuilderCore.StructureCollectionFloat.StructureCollectionFloatVariantData", "class_city_builder_core_1_1_structure_collection_float_1_1_structure_collection_float_variant_data.html", null ],
     [ "CityBuilderCore.StructureDecorators.StructureDecoratorData", "class_city_builder_core_1_1_structure_decorators_1_1_structure_decorator_data.html", null ],
     [ "CityBuilderCore.StructureDecorators.StructureDecoratorsData", "class_city_builder_core_1_1_structure_decorators_1_1_structure_decorators_data.html", null ],
     [ "CityBuilderCore.StructureLevelManager", "class_city_builder_core_1_1_structure_level_manager.html", null ],
@@ -1403,7 +1414,6 @@ var hierarchy =
       ] ],
       [ "CityBuilderCore.ObjectTile", "class_city_builder_core_1_1_object_tile.html", null ]
     ] ],
-    [ "CityBuilderCore.ObjectGenerator.TilemapTile", "class_city_builder_core_1_1_object_generator_1_1_tilemap_tile.html", null ],
     [ "CityBuilderCore.TimingCondition", "class_city_builder_core_1_1_timing_condition.html", null ],
     [ "CityBuilderCore.TimingHappeningOccurence", "class_city_builder_core_1_1_timing_happening_occurence.html", null ],
     [ "CityBuilderCore.TimingHappeningState", "class_city_builder_core_1_1_timing_happening_state.html", null ],
@@ -1437,6 +1447,7 @@ var hierarchy =
       [ "CityBuilderCore.Vector3Event", "class_city_builder_core_1_1_vector3_event.html", null ],
       [ "CityBuilderCore.WalkerEvent", "class_city_builder_core_1_1_walker_event.html", null ]
     ] ],
+    [ "CityBuilderCore.StructureCollectionFloat.Variant", "class_city_builder_core_1_1_structure_collection_float_1_1_variant.html", null ],
     [ "CityBuilderCore.VariantProductionComponent.Variant", "class_city_builder_core_1_1_variant_production_component_1_1_variant.html", null ],
     [ "CityBuilderCore.VariantProductionComponent.VariantProductionData", "class_city_builder_core_1_1_variant_production_component_1_1_variant_production_data.html", [
       [ "CityBuilderCore.VariantProductionWalkerComponent.VariantProductionWalkerData", "class_city_builder_core_1_1_variant_production_walker_component_1_1_variant_production_walker_data.html", null ]
@@ -1509,6 +1520,7 @@ var hierarchy =
         [ "CityBuilderCore.RotateAction", "class_city_builder_core_1_1_rotate_action.html", null ],
         [ "CityBuilderCore.WaitAnimatedAction", "class_city_builder_core_1_1_wait_animated_action.html", null ]
       ] ],
+      [ "CityBuilderCore.WalkAgentAction", "class_city_builder_core_1_1_walk_agent_action.html", null ],
       [ "CityBuilderCore.WalkBuildingAction", "class_city_builder_core_1_1_walk_building_action.html", null ],
       [ "CityBuilderCore.WalkPathAction", "class_city_builder_core_1_1_walk_path_action.html", null ],
       [ "CityBuilderCore.WalkPointAction", "class_city_builder_core_1_1_walk_point_action.html", null ],

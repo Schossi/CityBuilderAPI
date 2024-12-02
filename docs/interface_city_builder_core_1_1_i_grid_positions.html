@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.8</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.9.0</span>
    </div>
   </td>
  </tr>
@@ -123,11 +123,11 @@ Inheritance diagram for CityBuilderCore.IGridPositions:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae854e5c0d44c91af7d5a102ce85fd4af" id="r_ae854e5c0d44c91af7d5a102ce85fd4af"><td class="memItemLeft" align="right" valign="top">Vector2Int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae854e5c0d44c91af7d5a102ce85fd4af">GetGridPosition</a> (Vector3 position)</td></tr>
-<tr class="memdesc:ae854e5c0d44c91af7d5a102ce85fd4af"><td class="mdescLeft">&#160;</td><td class="mdescRight">turns a world position into a map point  <br /></td></tr>
-<tr class="separator:ae854e5c0d44c91af7d5a102ce85fd4af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe0ee376d91c891e123ea63cdc7e88d1" id="r_afe0ee376d91c891e123ea63cdc7e88d1"><td class="memItemLeft" align="right" valign="top">Vector2Int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe0ee376d91c891e123ea63cdc7e88d1">GetGridPoint</a> (Vector3 position)</td></tr>
+<tr class="memdesc:afe0ee376d91c891e123ea63cdc7e88d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">turns a world position into a map point  <br /></td></tr>
+<tr class="separator:afe0ee376d91c891e123ea63cdc7e88d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8fbcd4ae76ad7d980bc97a15e9aafd9" id="r_ab8fbcd4ae76ad7d980bc97a15e9aafd9"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8fbcd4ae76ad7d980bc97a15e9aafd9">GetWorldPosition</a> (Vector2Int point)</td></tr>
-<tr class="memdesc:ab8fbcd4ae76ad7d980bc97a15e9aafd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">turns a map point into the world position in its lower corner  <br /></td></tr>
+<tr class="memdesc:ab8fbcd4ae76ad7d980bc97a15e9aafd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">turns a map point into the world position in its lower corner(without height)  <br /></td></tr>
 <tr class="separator:ab8fbcd4ae76ad7d980bc97a15e9aafd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aead3dc0596460977869a4c66e42859ea" id="r_aead3dc0596460977869a4c66e42859ea"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aead3dc0596460977869a4c66e42859ea">GetCenterFromPosition</a> (Vector3 position)</td></tr>
 <tr class="memdesc:aead3dc0596460977869a4c66e42859ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">calculates the cells center from its corner position<br  />
@@ -167,14 +167,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ae854e5c0d44c91af7d5a102ce85fd4af" name="ae854e5c0d44c91af7d5a102ce85fd4af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae854e5c0d44c91af7d5a102ce85fd4af">&#9670;&#160;</a></span>GetGridPosition()</h2>
+<a id="afe0ee376d91c891e123ea63cdc7e88d1" name="afe0ee376d91c891e123ea63cdc7e88d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe0ee376d91c891e123ea63cdc7e88d1">&#9670;&#160;</a></span>GetGridPoint()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Vector2Int CityBuilderCore.IGridPositions.GetGridPosition </td>
+          <td class="memname">Vector2Int CityBuilderCore.IGridPositions.GetGridPoint </td>
           <td>(</td>
           <td class="paramtype">Vector3</td>          <td class="paramname"><span class="paramname"><em>position</em></span></td><td>)</td>
           <td></td>
@@ -191,7 +191,7 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>map point of the cell the position was inside</dd></dl>
 
-<p>Implemented in <a class="el" href="class_city_builder_core_1_1_map_base.html#a92dc6d9ebf5649e45ba6800496d2b323">CityBuilderCore.MapBase</a>, and <a class="el" href="class_city_builder_core_1_1_tests_1_1_debug_map.html#a7eaec24b37201721bad37ffe922265f1">CityBuilderCore.Tests.DebugMap</a>.</p>
+<p>Implemented in <a class="el" href="class_city_builder_core_1_1_map_base.html#aed999e1c9a1ad39213e45d9398a47e11">CityBuilderCore.MapBase</a>, and <a class="el" href="class_city_builder_core_1_1_tests_1_1_debug_map.html#a338872ad17ad9c2ab7b22a5a39de169c">CityBuilderCore.Tests.DebugMap</a>.</p>
 
 </div>
 </div>
@@ -238,7 +238,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>turns a map point into the world position in its lower corner </p>
+<p>turns a map point into the world position in its lower corner(without height) </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">point</td><td>map/cell point</td></tr>
@@ -247,7 +247,7 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>absolute world position in the corner of the cell</dd></dl>
 
-<p>Implemented in <a class="el" href="class_city_builder_core_1_1_map_base.html#a19d27e6ccf729f2c6bafafd566a69f0f">CityBuilderCore.MapBase</a>, and <a class="el" href="class_city_builder_core_1_1_tests_1_1_debug_map.html#a3e9c415708f89d564a706fdfecde0342">CityBuilderCore.Tests.DebugMap</a>.</p>
+<p>Implemented in <a class="el" href="class_city_builder_core_1_1_map_base.html#a4927458816fcbb2f838ecca71c35c7b1">CityBuilderCore.MapBase</a>, and <a class="el" href="class_city_builder_core_1_1_tests_1_1_debug_map.html#a4afebead1dcc6118bc1d9f547dd95bbd">CityBuilderCore.Tests.DebugMap</a>.</p>
 
 </div>
 </div>

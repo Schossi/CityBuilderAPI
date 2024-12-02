@@ -10,7 +10,7 @@ var class_city_builder_core_1_1_default_building_manager =
     [ "DeregisterBuilding", "class_city_builder_core_1_1_default_building_manager.html#a8bb44528bd9a7d17c633b68b7c64ea97", null ],
     [ "DeregisterBuildingTrait< T >", "class_city_builder_core_1_1_default_building_manager.html#a4bc1521203c50c06c0fb3b1573bb0b1c", null ],
     [ "DeregisterWalker", "class_city_builder_core_1_1_default_building_manager.html#a74a0fdc71ad10b77ce3c9918ed62dab4", null ],
-    [ "GetBuilding", "class_city_builder_core_1_1_default_building_manager.html#ad652f684822c3e8c3e312c3032fd7f7f", null ],
+    [ "GetBuilding", "class_city_builder_core_1_1_default_building_manager.html#a97f09e22534ec3614c30bdfa2a6f874e", null ],
     [ "GetBuildingReference", "class_city_builder_core_1_1_default_building_manager.html#ac1620c0bac74871f9c283867530ef39a", null ],
     [ "GetWalker", "class_city_builder_core_1_1_default_building_manager.html#a8db3b538b06396894d6ad5c0ef63e9cf", null ],
     [ "GetWalkers", "class_city_builder_core_1_1_default_building_manager.html#a2e120d56a80d4c555f07d775e497e0a4", null ],

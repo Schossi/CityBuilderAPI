@@ -7,7 +7,7 @@ var searchData=
   ['neutral_4',['Neutral',['../namespace_city_builder_core.html#ac480382b5060d3901638ea86484575beae9bb5320b3890b6747c91b5a71ae5a01',1,'CityBuilderCore']]],
   ['next_5',['Next',['../class_city_builder_core_1_1_roaming_state.html#a3564d80f7715ef5a4a175cfcd24e5cfe',1,'CityBuilderCore::RoamingState']]],
   ['nextprocess_6',['NextProcess',['../class_city_builder_core_1_1_walker.html#acde8c281d6481b3bdd9d857b5ae6431e',1,'CityBuilderCore::Walker']]],
-  ['none_7',['None',['../namespace_city_builder_core.html#a19f9a2748f73f3b90d6ba96447987553a6adf97f83acf6453d4a6a4b1070f3754',1,'CityBuilderCore']]],
+  ['none_7',['None',['../namespace_city_builder_core.html#a19f9a2748f73f3b90d6ba96447987553a6adf97f83acf6453d4a6a4b1070f3754',1,'CityBuilderCore.None'],['../namespace_city_builder_core.html#ae88beb0d0c67dd88af75994a4aae41a1a6adf97f83acf6453d4a6a4b1070f3754',1,'CityBuilderCore.None']]],
   ['nopathfinding_8',['NoPathfinding',['../class_city_builder_core_1_1_no_pathfinding.html',1,'CityBuilderCore']]],
   ['nopathquery_9',['NoPathQuery',['../class_city_builder_core_1_1_no_pathfinding_1_1_no_path_query.html',1,'CityBuilderCore::NoPathfinding']]],
   ['notificationpanel_10',['NotificationPanel',['../class_city_builder_core_1_1_notification_panel.html',1,'CityBuilderCore']]],

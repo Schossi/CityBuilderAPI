@@ -17,7 +17,7 @@ var class_city_builder_core_1_1_walking_path =
     [ "GetReversed", "class_city_builder_core_1_1_walking_path.html#ab7978fd9e39dca1823e40054d6053d53", null ],
     [ "HasEnded", "class_city_builder_core_1_1_walking_path.html#a1eabb037ac739766f18642da91f4973f", null ],
     [ "Walk", "class_city_builder_core_1_1_walking_path.html#a4826134b9606ee8732d220feda641600", null ],
-    [ "WalkAgent", "class_city_builder_core_1_1_walking_path.html#a2817de8cfa872427f67049aab2de39da", null ],
+    [ "WalkAgent", "class_city_builder_core_1_1_walking_path.html#a6564eba7bb0873073a683e342b8bf978", null ],
     [ "EndPoint", "class_city_builder_core_1_1_walking_path.html#a6c322536837ed663f9c6ab7dbf1ee200", null ],
     [ "EndPosition", "class_city_builder_core_1_1_walking_path.html#a95efb689eb5ad8fb458577499668530f", null ],
     [ "Length", "class_city_builder_core_1_1_walking_path.html#a84e670d48d6abb705afa119cd9de6c4f", null ],

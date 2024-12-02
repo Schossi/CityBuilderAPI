@@ -1,7 +1,7 @@
 var searchData=
 [
   ['vanwalker_0',['VanWalker',['../class_city_builder_urban_1_1_van_walker.html',1,'CityBuilderUrban']]],
-  ['variant_1',['Variant',['../class_city_builder_core_1_1_variant_production_component_1_1_variant.html',1,'CityBuilderCore::VariantProductionComponent']]],
+  ['variant_1',['Variant',['../class_city_builder_core_1_1_structure_collection_float_1_1_variant.html',1,'CityBuilderCore.StructureCollectionFloat.Variant'],['../class_city_builder_core_1_1_variant_production_component_1_1_variant.html',1,'CityBuilderCore.VariantProductionComponent.Variant']]],
   ['variantproductioncomponent_2',['VariantProductionComponent',['../class_city_builder_core_1_1_variant_production_component.html',1,'CityBuilderCore']]],
   ['variantproductiondata_3',['VariantProductionData',['../class_city_builder_core_1_1_variant_production_component_1_1_variant_production_data.html',1,'CityBuilderCore::VariantProductionComponent']]],
   ['variantproductionwalkercomponent_4',['VariantProductionWalkerComponent',['../class_city_builder_core_1_1_variant_production_walker_component.html',1,'CityBuilderCore']]],

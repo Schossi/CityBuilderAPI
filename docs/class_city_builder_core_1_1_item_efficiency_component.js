@@ -1,7 +1,7 @@
 var class_city_builder_core_1_1_item_efficiency_component =
 [
     [ "ItemsEfficiencyData", "class_city_builder_core_1_1_item_efficiency_component_1_1_items_efficiency_data.html", null ],
-    [ "GetReceiveCapacity", "class_city_builder_core_1_1_item_efficiency_component.html#a76229c8569ca1282c5080b7b57a021f1", null ],
+    [ "GetReceiveCapacityRemaining", "class_city_builder_core_1_1_item_efficiency_component.html#a0c2a130ed05ebafa856e6fdaeb319511", null ],
     [ "GetReceiveItems", "class_city_builder_core_1_1_item_efficiency_component.html#a0632a14e03a9872710e2906ad1f0fa89", null ],
     [ "InitializeComponent", "class_city_builder_core_1_1_item_efficiency_component.html#afc41c195553799cd96931546150c192d", null ],
     [ "LoadData", "class_city_builder_core_1_1_item_efficiency_component.html#a43837effd01499664e8b95b686754fd2", null ],

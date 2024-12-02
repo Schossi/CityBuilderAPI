@@ -1,6 +1,6 @@
 var interface_city_builder_core_1_1_i_item_receiver =
 [
-    [ "GetReceiveCapacity", "interface_city_builder_core_1_1_i_item_receiver.html#a6c7c61453a2e897eb38dd78d9f219636", null ],
+    [ "GetReceiveCapacityRemaining", "interface_city_builder_core_1_1_i_item_receiver.html#a2a4e4983fcffadd941687a14d6457b96", null ],
     [ "GetReceiveItems", "interface_city_builder_core_1_1_i_item_receiver.html#aaf7eda203bb6abe596deedb09033df34", null ],
     [ "Receive", "interface_city_builder_core_1_1_i_item_receiver.html#a1b85d4e1a40d7cce014a140a08331103", null ],
     [ "ReserveCapacity", "interface_city_builder_core_1_1_i_item_receiver.html#abb92bfa842502cd12684461027d9afb2", null ],

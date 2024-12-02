@@ -5,7 +5,7 @@ var class_city_builder_core_1_1_variant_production_component =
     [ "GetDebugText", "class_city_builder_core_1_1_variant_production_component.html#a91eb71493d033427327b29f10199b659", null ],
     [ "GetNeededItems", "class_city_builder_core_1_1_variant_production_component.html#a1a07715a76c81b7b753e7f8b5d94a681", null ],
     [ "GetProducedItems", "class_city_builder_core_1_1_variant_production_component.html#ab36e1237725817bd7ab1f0b9863fded7", null ],
-    [ "GetReceiveCapacity", "class_city_builder_core_1_1_variant_production_component.html#a74f6910ef670c8cb585d4c9a5b8d1322", null ],
+    [ "GetReceiveCapacityRemaining", "class_city_builder_core_1_1_variant_production_component.html#ac885d4ed909fb9153f36100ac9fdfcb8", null ],
     [ "GetReceiveItems", "class_city_builder_core_1_1_variant_production_component.html#aa7f6f3653d8b8cb9cc9cdc7fb8762527", null ],
     [ "InitializeComponent", "class_city_builder_core_1_1_variant_production_component.html#aeb5e4829dd61afc50cdfee618db3e17a", null ],
     [ "LoadData", "class_city_builder_core_1_1_variant_production_component.html#a9b05e45f1bcdf5ed26e62580a8863db7", null ],

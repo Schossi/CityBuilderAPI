@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.8</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.9.0</span>
    </div>
   </td>
  </tr>
@@ -146,9 +146,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6f2229a4e536e018d05e3a6a039ad8c6" id="r_a6f2229a4e536e018d05e3a6a039ad8c6"><td class="memItemLeft" align="right" valign="top">IEnumerable&lt; <a class="el" href="class_city_builder_core_1_1_item.html">Item</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6f2229a4e536e018d05e3a6a039ad8c6">GetReceiveItems</a> ()</td></tr>
 <tr class="memdesc:a6f2229a4e536e018d05e3a6a039ad8c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the kinds of items the receiver needs  <br /></td></tr>
 <tr class="separator:a6f2229a4e536e018d05e3a6a039ad8c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d67b23d6d74a6794acc336fe8b73e53" id="r_a6d67b23d6d74a6794acc336fe8b73e53"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d67b23d6d74a6794acc336fe8b73e53">GetReceiveCapacity</a> (<a class="el" href="class_city_builder_core_1_1_item.html">Item</a> item)</td></tr>
-<tr class="memdesc:a6d67b23d6d74a6794acc336fe8b73e53"><td class="mdescLeft">&#160;</td><td class="mdescRight">how much of the item the receiver can still fit  <br /></td></tr>
-<tr class="separator:a6d67b23d6d74a6794acc336fe8b73e53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a088d8c11ebdcae92123d02bcd27a6f4f" id="r_a088d8c11ebdcae92123d02bcd27a6f4f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a088d8c11ebdcae92123d02bcd27a6f4f">GetReceiveCapacityRemaining</a> (<a class="el" href="class_city_builder_core_1_1_item.html">Item</a> item)</td></tr>
+<tr class="memdesc:a088d8c11ebdcae92123d02bcd27a6f4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">how much of the item the receiver can still fit  <br /></td></tr>
+<tr class="separator:a088d8c11ebdcae92123d02bcd27a6f4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa4171d7af242b1d0e2ffcb3d0b8b8529" id="r_aa4171d7af242b1d0e2ffcb3d0b8b8529"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa4171d7af242b1d0e2ffcb3d0b8b8529">ReserveCapacity</a> (<a class="el" href="class_city_builder_core_1_1_item.html">Item</a> item, int quantity)</td></tr>
 <tr class="memdesc:aa4171d7af242b1d0e2ffcb3d0b8b8529"><td class="mdescLeft">&#160;</td><td class="mdescRight">reserves a capacity in the receiver so it is not filled up by someone else  <br /></td></tr>
 <tr class="separator:aa4171d7af242b1d0e2ffcb3d0b8b8529"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -259,14 +259,14 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:ac6be13cf8e5596085d10c57416257738 inherit pro_methods_class_city_builder_core_1_1_building_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a6d67b23d6d74a6794acc336fe8b73e53" name="a6d67b23d6d74a6794acc336fe8b73e53"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d67b23d6d74a6794acc336fe8b73e53">&#9670;&#160;</a></span>GetReceiveCapacity()</h2>
+<a id="a088d8c11ebdcae92123d02bcd27a6f4f" name="a088d8c11ebdcae92123d02bcd27a6f4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a088d8c11ebdcae92123d02bcd27a6f4f">&#9670;&#160;</a></span>GetReceiveCapacityRemaining()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int CityBuilderTown.ItemConstructionComponent.GetReceiveCapacity </td>
+          <td class="memname">int CityBuilderTown.ItemConstructionComponent.GetReceiveCapacityRemaining </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_city_builder_core_1_1_item.html">Item</a></td>          <td class="paramname"><span class="paramname"><em>item</em></span></td><td>)</td>
           <td></td>
@@ -283,7 +283,7 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>unreserved capacity available</dd></dl>
 
-<p>Implements <a class="el" href="interface_city_builder_core_1_1_i_item_receiver.html#a6c7c61453a2e897eb38dd78d9f219636">CityBuilderCore.IItemReceiver</a>.</p>
+<p>Implements <a class="el" href="interface_city_builder_core_1_1_i_item_receiver.html#a2a4e4983fcffadd941687a14d6457b96">CityBuilderCore.IItemReceiver</a>.</p>
 
 </div>
 </div>

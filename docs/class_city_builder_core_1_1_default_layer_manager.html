@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.8</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.9.0</span>
    </div>
   </td>
  </tr>
@@ -125,12 +125,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0304abcf129f94ebd791401142241a04" id="r_a0304abcf129f94ebd791401142241a04"><td class="memItemLeft" align="right" valign="top">IEnumerable&lt; Tuple&lt; Vector2Int, int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0304abcf129f94ebd791401142241a04">GetValues</a> (<a class="el" href="class_city_builder_core_1_1_layer.html">Layer</a> layer)</td></tr>
 <tr class="memdesc:a0304abcf129f94ebd791401142241a04"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns all positions and values of a layer where the value differs from 0  <br /></td></tr>
 <tr class="separator:a0304abcf129f94ebd791401142241a04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42123f7ce966c48fb9639870df226645" id="r_a42123f7ce966c48fb9639870df226645"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42123f7ce966c48fb9639870df226645">GetValue</a> (Vector2Int position, <a class="el" href="class_city_builder_core_1_1_layer.html">Layer</a> layer)</td></tr>
-<tr class="memdesc:a42123f7ce966c48fb9639870df226645"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the computed total value of a layer at a point  <br /></td></tr>
-<tr class="separator:a42123f7ce966c48fb9639870df226645"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a361a5987d0f3a9e9dc9fb9899e9dfd07" id="r_a361a5987d0f3a9e9dc9fb9899e9dfd07"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_city_builder_core_1_1_layer_key.html">LayerKey</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a361a5987d0f3a9e9dc9fb9899e9dfd07">GetKey</a> (<a class="el" href="class_city_builder_core_1_1_layer.html">Layer</a> layer, Vector2Int position)</td></tr>
-<tr class="memdesc:a361a5987d0f3a9e9dc9fb9899e9dfd07"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns an explanation of the layer value at a certain point(basevalue+affectors)  <br /></td></tr>
-<tr class="separator:a361a5987d0f3a9e9dc9fb9899e9dfd07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7629f51a2185c0c1afa44bb112b11b7" id="r_ae7629f51a2185c0c1afa44bb112b11b7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae7629f51a2185c0c1afa44bb112b11b7">GetValue</a> (Vector2Int point, <a class="el" href="class_city_builder_core_1_1_layer.html">Layer</a> layer)</td></tr>
+<tr class="memdesc:ae7629f51a2185c0c1afa44bb112b11b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the computed total value of a layer at a point  <br /></td></tr>
+<tr class="separator:ae7629f51a2185c0c1afa44bb112b11b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac71db4f3c6c79a366e703ae9f8a9ff4a" id="r_ac71db4f3c6c79a366e703ae9f8a9ff4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_city_builder_core_1_1_layer_key.html">LayerKey</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac71db4f3c6c79a366e703ae9f8a9ff4a">GetKey</a> (<a class="el" href="class_city_builder_core_1_1_layer.html">Layer</a> layer, Vector2Int point)</td></tr>
+<tr class="memdesc:ac71db4f3c6c79a366e703ae9f8a9ff4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns an explanation of the layer value at a certain point(basevalue+affectors)  <br /></td></tr>
+<tr class="separator:ac71db4f3c6c79a366e703ae9f8a9ff4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e95e1abf5f22109c1d2826ee13a1b88" id="r_a8e95e1abf5f22109c1d2826ee13a1b88"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e95e1abf5f22109c1d2826ee13a1b88">CheckRequirement</a> (Vector2Int origin, Vector2Int size, <a class="el" href="class_city_builder_core_1_1_layer_requirement.html">LayerRequirement</a> requirement)</td></tr>
 <tr class="memdesc:a8e95e1abf5f22109c1d2826ee13a1b88"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks if the points in the specified box, overall, satisfy the requirements  <br /></td></tr>
 <tr class="separator:a8e95e1abf5f22109c1d2826ee13a1b88"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -331,7 +331,7 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_layer.html">Layer</a>
         <tr>
           <td class="memname">virtual IEnumerable&lt; <a class="el" href="interface_city_builder_core_1_1_i_layer_dependency.html">ILayerDependency</a> &gt; CityBuilderCore.DefaultLayerManager.GetDependencies </td>
           <td>(</td>
-          <td class="paramtype">Vector2Int</td>          <td class="paramname"><span class="paramname"><em>position</em></span></td><td>)</td>
+          <td class="paramtype">Vector2Int</td>          <td class="paramname"><span class="paramname"><em>point</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -346,18 +346,18 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_layer.html">Layer</a>
  dependencies might be evolutions, roads, ... </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">position</td><td></td></tr>
+    <tr><td class="paramname">point</td><td></td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
-<p>Implements <a class="el" href="interface_city_builder_core_1_1_i_layer_manager.html#a7c375abf7293c843779f227dd64ce294">CityBuilderCore.ILayerManager</a>.</p>
+<p>Implements <a class="el" href="interface_city_builder_core_1_1_i_layer_manager.html#a3e860b36644c30a333d04d792ecb9a72">CityBuilderCore.ILayerManager</a>.</p>
 
 </div>
 </div>
-<a id="a361a5987d0f3a9e9dc9fb9899e9dfd07" name="a361a5987d0f3a9e9dc9fb9899e9dfd07"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a361a5987d0f3a9e9dc9fb9899e9dfd07">&#9670;&#160;</a></span>GetKey()</h2>
+<a id="ac71db4f3c6c79a366e703ae9f8a9ff4a" name="ac71db4f3c6c79a366e703ae9f8a9ff4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac71db4f3c6c79a366e703ae9f8a9ff4a">&#9670;&#160;</a></span>GetKey()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -373,7 +373,7 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_layer.html">Layer</a>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Vector2Int</td>          <td class="paramname"><span class="paramname"><em>position</em></span>&#160;)</td>
+          <td class="paramtype">Vector2Int</td>          <td class="paramname"><span class="paramname"><em>point</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -387,18 +387,18 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_layer.html">Layer</a>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">layer</td><td></td></tr>
-    <tr><td class="paramname">position</td><td></td></tr>
+    <tr><td class="paramname">point</td><td></td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
-<p>Implements <a class="el" href="interface_city_builder_core_1_1_i_layer_manager.html#ad5fc0b9f9654a60c796d32e8cd40842e">CityBuilderCore.ILayerManager</a>.</p>
+<p>Implements <a class="el" href="interface_city_builder_core_1_1_i_layer_manager.html#a230b0e57d1b67904a0d0ee8d13d722d7">CityBuilderCore.ILayerManager</a>.</p>
 
 </div>
 </div>
-<a id="a42123f7ce966c48fb9639870df226645" name="a42123f7ce966c48fb9639870df226645"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a42123f7ce966c48fb9639870df226645">&#9670;&#160;</a></span>GetValue()</h2>
+<a id="ae7629f51a2185c0c1afa44bb112b11b7" name="ae7629f51a2185c0c1afa44bb112b11b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7629f51a2185c0c1afa44bb112b11b7">&#9670;&#160;</a></span>GetValue()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -409,7 +409,7 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_layer.html">Layer</a>
         <tr>
           <td class="memname">int CityBuilderCore.DefaultLayerManager.GetValue </td>
           <td>(</td>
-          <td class="paramtype">Vector2Int</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+          <td class="paramtype">Vector2Int</td>          <td class="paramname"><span class="paramname"><em>point</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -427,14 +427,14 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_layer.html">Layer</a>
 <p>returns the computed total value of a layer at a point </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">position</td><td></td></tr>
+    <tr><td class="paramname">point</td><td></td></tr>
     <tr><td class="paramname">layer</td><td></td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
-<p>Implements <a class="el" href="interface_city_builder_core_1_1_i_layer_manager.html#a35f0a41e6d844c8acecb746112bd446e">CityBuilderCore.ILayerManager</a>.</p>
+<p>Implements <a class="el" href="interface_city_builder_core_1_1_i_layer_manager.html#aa8c111526c1bf528b84f5adb45611fc4">CityBuilderCore.ILayerManager</a>.</p>
 
 </div>
 </div>

@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.8.8</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.9.0</span>
    </div>
   </td>
  </tr>
@@ -175,66 +175,72 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>AdvanceProcess</b> ()
 void&#160;</td><td class="memItemRight" valign="bottom"><b>CancelProcess</b> ()</td></tr>
 <tr class="memdesc:a3a42fc9b3f8498e9b797964b6d84f6f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">requests for the current process to be cancelled <br /></td></tr>
 <tr class="separator:a3a42fc9b3f8498e9b797964b6d84f6f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf8d63dda2d5fddd47752860a240da73" id="r_acf8d63dda2d5fddd47752860a240da73"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf8d63dda2d5fddd47752860a240da73">roam</a> (int memoryLength, int range, <a class="el" href="namespace_city_builder_core.html#a19f9a2748f73f3b90d6ba96447987553">PathType</a> pathType, UnityEngine.Object pathTag, Action finished=null)</td></tr>
-<tr class="memdesc:acf8d63dda2d5fddd47752860a240da73"><td class="mdescLeft">&#160;</td><td class="mdescRight">walker starts walking around semi randomly, visited points are memorized and avoided  <br /></td></tr>
-<tr class="separator:acf8d63dda2d5fddd47752860a240da73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7cdcfc268a2d9ac2875b2393331c656" id="r_ab7cdcfc268a2d9ac2875b2393331c656"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7cdcfc268a2d9ac2875b2393331c656">roam</a> (int memoryLength, int range, Action finished=null)</td></tr>
-<tr class="memdesc:ab7cdcfc268a2d9ac2875b2393331c656"><td class="mdescLeft">&#160;</td><td class="mdescRight">walker starts walking around semi randomly, visited points are memorized and avoided  <br /></td></tr>
-<tr class="separator:ab7cdcfc268a2d9ac2875b2393331c656"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a113ffd6ca9ebd7bea513b516e8745f1c" id="r_a113ffd6ca9ebd7bea513b516e8745f1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a113ffd6ca9ebd7bea513b516e8745f1c">roam</a> (float <a class="el" href="#ab0fa025eb4c53faf3c1026381c11cf62">delay</a>, int memoryLength, int range, Action finished=null)</td></tr>
-<tr class="memdesc:a113ffd6ca9ebd7bea513b516e8745f1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">walker starts walking around semi randomly after waiting for a set duration, visited points are memorized and avoided  <br /></td></tr>
-<tr class="separator:a113ffd6ca9ebd7bea513b516e8745f1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c8558711e27d07eeb53347785a66917" id="r_a1c8558711e27d07eeb53347785a66917"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c8558711e27d07eeb53347785a66917">continueRoam</a> (int memoryLength, int range, Action finished)</td></tr>
-<tr class="memdesc:a1c8558711e27d07eeb53347785a66917"><td class="mdescLeft">&#160;</td><td class="mdescRight">continues roaming when the game is loaded and the walker was roaming previously uses the default pathing defined in the walkers inspector to get points  <br /></td></tr>
-<tr class="separator:a1c8558711e27d07eeb53347785a66917"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b326a51449ff81de24830c978cadeee" id="r_a6b326a51449ff81de24830c978cadeee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6b326a51449ff81de24830c978cadeee">continueRoam</a> (int memoryLength, int range, <a class="el" href="namespace_city_builder_core.html#a19f9a2748f73f3b90d6ba96447987553">PathType</a> pathType, UnityEngine.Object pathTag, Action finished)</td></tr>
-<tr class="memdesc:a6b326a51449ff81de24830c978cadeee"><td class="mdescLeft">&#160;</td><td class="mdescRight">continues roaming when the game is loaded and the walker was roaming previously uses the pathing passed in the parameters to get points  <br /></td></tr>
-<tr class="separator:a6b326a51449ff81de24830c978cadeee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af39c7691c7544a7d3938c86b959b779b" id="r_af39c7691c7544a7d3938c86b959b779b"><td class="memItemLeft" align="right" valign="top"><a id="af39c7691c7544a7d3938c86b959b779b" name="af39c7691c7544a7d3938c86b959b779b"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>cancelRoam</b> ()</td></tr>
-<tr class="memdesc:af39c7691c7544a7d3938c86b959b779b"><td class="mdescLeft">&#160;</td><td class="mdescRight">requests for the current roaming to be stopped, will not happen immediately but when the next point is reached <br /></td></tr>
-<tr class="separator:af39c7691c7544a7d3938c86b959b779b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a266da00f8721045e30a519816df4f5c0" id="r_a266da00f8721045e30a519816df4f5c0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a266da00f8721045e30a519816df4f5c0">walk</a> (<a class="el" href="interface_city_builder_core_1_1_i_building.html">IBuilding</a> target, Action finished=null)</td></tr>
-<tr class="memdesc:a266da00f8721045e30a519816df4f5c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">tries to walk to a building using default pathing defined in the inspector  <br /></td></tr>
-<tr class="separator:a266da00f8721045e30a519816df4f5c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3f6fa6ca7c0096e4706c6b0eb1ce26d" id="r_af3f6fa6ca7c0096e4706c6b0eb1ce26d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af3f6fa6ca7c0096e4706c6b0eb1ce26d">walk</a> (Vector2Int target, Action finished=null)</td></tr>
-<tr class="memdesc:af3f6fa6ca7c0096e4706c6b0eb1ce26d"><td class="mdescLeft">&#160;</td><td class="mdescRight">tries to walk to a specific point using default pathing defined in the inspector  <br /></td></tr>
-<tr class="separator:af3f6fa6ca7c0096e4706c6b0eb1ce26d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58798ce497bf2b2507a3aa2cb8aaa950" id="r_a58798ce497bf2b2507a3aa2cb8aaa950"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58798ce497bf2b2507a3aa2cb8aaa950">walk</a> (Vector2Int target, <a class="el" href="namespace_city_builder_core.html#a19f9a2748f73f3b90d6ba96447987553">PathType</a> pathType, UnityEngine.Object pathTag, Action finished=null)</td></tr>
-<tr class="memdesc:a58798ce497bf2b2507a3aa2cb8aaa950"><td class="mdescLeft">&#160;</td><td class="mdescRight">tries to walk to a specific point using the pathing passed in the parameters  <br /></td></tr>
-<tr class="separator:a58798ce497bf2b2507a3aa2cb8aaa950"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11f8aca7a61575a7c992b168b27c47d3" id="r_a11f8aca7a61575a7c992b168b27c47d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11f8aca7a61575a7c992b168b27c47d3">walk</a> (<a class="el" href="class_city_builder_core_1_1_walking_path.html">WalkingPath</a> path, Action finished=null)</td></tr>
-<tr class="memdesc:a11f8aca7a61575a7c992b168b27c47d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">starts walking a set walking path  <br /></td></tr>
-<tr class="separator:a11f8aca7a61575a7c992b168b27c47d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a687505808f31488754053e6802b04840" id="r_a687505808f31488754053e6802b04840"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a687505808f31488754053e6802b04840">walk</a> (<a class="el" href="class_city_builder_core_1_1_walking_path.html">WalkingPath</a> path, float <a class="el" href="#ab0fa025eb4c53faf3c1026381c11cf62">delay</a>, Action finished=null)</td></tr>
-<tr class="memdesc:a687505808f31488754053e6802b04840"><td class="mdescLeft">&#160;</td><td class="mdescRight">starts walking a set walking path  <br /></td></tr>
-<tr class="separator:a687505808f31488754053e6802b04840"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a99aa6a34ac08664228aaddf34115ca" id="r_a4a99aa6a34ac08664228aaddf34115ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a99aa6a34ac08664228aaddf34115ca">continueWalk</a> (Action finished=null)</td></tr>
-<tr class="memdesc:a4a99aa6a34ac08664228aaddf34115ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">when the game is loaded and the walker was previously walking it is continued here  <br /></td></tr>
-<tr class="separator:a4a99aa6a34ac08664228aaddf34115ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c8d54765508b1d4886347fc0f5eaeef" id="r_a0c8d54765508b1d4886347fc0f5eaeef"><td class="memItemLeft" align="right" valign="top"><a id="a0c8d54765508b1d4886347fc0f5eaeef" name="a0c8d54765508b1d4886347fc0f5eaeef"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>cancelWalk</b> ()</td></tr>
-<tr class="memdesc:a0c8d54765508b1d4886347fc0f5eaeef"><td class="mdescLeft">&#160;</td><td class="mdescRight">stops the current walking, walking may not stop immediately but rather when the walker reaches the next full point <br /></td></tr>
-<tr class="separator:a0c8d54765508b1d4886347fc0f5eaeef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a991d3b02b124909f646fbd96c903826f" id="r_a991d3b02b124909f646fbd96c903826f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a991d3b02b124909f646fbd96c903826f">wander</a> (Action finished)</td></tr>
-<tr class="memdesc:a991d3b02b124909f646fbd96c903826f"><td class="mdescLeft">&#160;</td><td class="mdescRight">starts walking to a random neighbouring point if one is available  <br /></td></tr>
-<tr class="separator:a991d3b02b124909f646fbd96c903826f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0cfae3a3a26fc74f3e95b126a91a6715" id="r_a0cfae3a3a26fc74f3e95b126a91a6715"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0cfae3a3a26fc74f3e95b126a91a6715">continueWander</a> (Action finished)</td></tr>
-<tr class="memdesc:a0cfae3a3a26fc74f3e95b126a91a6715"><td class="mdescLeft">&#160;</td><td class="mdescRight">when the game is loaded and the walker was previously wandering it is continued here  <br /></td></tr>
-<tr class="separator:a0cfae3a3a26fc74f3e95b126a91a6715"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb3d5e3a9ac123f2bf33c2d68238b368" id="r_abb3d5e3a9ac123f2bf33c2d68238b368"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb3d5e3a9ac123f2bf33c2d68238b368">wait</a> (Action finished, float time)</td></tr>
-<tr class="memdesc:abb3d5e3a9ac123f2bf33c2d68238b368"><td class="mdescLeft">&#160;</td><td class="mdescRight">starts waiting for a set duration  <br /></td></tr>
-<tr class="separator:abb3d5e3a9ac123f2bf33c2d68238b368"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0fa025eb4c53faf3c1026381c11cf62" id="r_ab0fa025eb4c53faf3c1026381c11cf62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0fa025eb4c53faf3c1026381c11cf62">delay</a> (Action finished)</td></tr>
-<tr class="memdesc:ab0fa025eb4c53faf3c1026381c11cf62"><td class="mdescLeft">&#160;</td><td class="mdescRight">waits for the duration configured in WalkerInfo.Delay  <br /></td></tr>
-<tr class="separator:ab0fa025eb4c53faf3c1026381c11cf62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5fe4ec4ed7ca34aa46a9ae5d9a491346" id="r_a5fe4ec4ed7ca34aa46a9ae5d9a491346"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5fe4ec4ed7ca34aa46a9ae5d9a491346">continueWait</a> (Action finished)</td></tr>
-<tr class="memdesc:a5fe4ec4ed7ca34aa46a9ae5d9a491346"><td class="mdescLeft">&#160;</td><td class="mdescRight">when the game is loaded and the walker was previously waiting it is continued here  <br /></td></tr>
-<tr class="separator:a5fe4ec4ed7ca34aa46a9ae5d9a491346"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33ca06bc96d3a4404c4fc1dfccef5dc2" id="r_a33ca06bc96d3a4404c4fc1dfccef5dc2"><td class="memItemLeft" align="right" valign="top"><a id="a33ca06bc96d3a4404c4fc1dfccef5dc2" name="a33ca06bc96d3a4404c4fc1dfccef5dc2"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>cancelWait</b> ()</td></tr>
-<tr class="memdesc:a33ca06bc96d3a4404c4fc1dfccef5dc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">cancels waiting, remaining time is set to 0 and finished is called <br /></td></tr>
-<tr class="separator:a33ca06bc96d3a4404c4fc1dfccef5dc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac01246d67f1b8d7ac8472449ef4f1a1d" id="r_ac01246d67f1b8d7ac8472449ef4f1a1d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac01246d67f1b8d7ac8472449ef4f1a1d">Roam</a> (int memoryLength, int range, <a class="el" href="namespace_city_builder_core.html#a19f9a2748f73f3b90d6ba96447987553">PathType</a> pathType, UnityEngine.Object pathTag, Action finished=null)</td></tr>
+<tr class="memdesc:ac01246d67f1b8d7ac8472449ef4f1a1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">walker starts walking around semi randomly, visited points are memorized and avoided  <br /></td></tr>
+<tr class="separator:ac01246d67f1b8d7ac8472449ef4f1a1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b8bdee49a28aaaca37fd76e8f7f5fb9" id="r_a1b8bdee49a28aaaca37fd76e8f7f5fb9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1b8bdee49a28aaaca37fd76e8f7f5fb9">Roam</a> (int memoryLength, int range, Action finished=null)</td></tr>
+<tr class="memdesc:a1b8bdee49a28aaaca37fd76e8f7f5fb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">walker starts walking around semi randomly, visited points are memorized and avoided  <br /></td></tr>
+<tr class="separator:a1b8bdee49a28aaaca37fd76e8f7f5fb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36a201121676a26273f290c609c16232" id="r_a36a201121676a26273f290c609c16232"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a36a201121676a26273f290c609c16232">Roam</a> (float delay, int memoryLength, int range, Action finished=null)</td></tr>
+<tr class="memdesc:a36a201121676a26273f290c609c16232"><td class="mdescLeft">&#160;</td><td class="mdescRight">walker starts walking around semi randomly after waiting for a set duration, visited points are memorized and avoided  <br /></td></tr>
+<tr class="separator:a36a201121676a26273f290c609c16232"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4109782551040c93a5e02e37c243350" id="r_ae4109782551040c93a5e02e37c243350"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae4109782551040c93a5e02e37c243350">ContinueRoam</a> (int memoryLength, int range, Action finished)</td></tr>
+<tr class="memdesc:ae4109782551040c93a5e02e37c243350"><td class="mdescLeft">&#160;</td><td class="mdescRight">continues roaming when the game is loaded and the walker was roaming previously uses the default pathing defined in the walkers inspector to get points  <br /></td></tr>
+<tr class="separator:ae4109782551040c93a5e02e37c243350"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1f9cc7ce3b650af98a8cf016d420155" id="r_aa1f9cc7ce3b650af98a8cf016d420155"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1f9cc7ce3b650af98a8cf016d420155">ContinueRoam</a> (int memoryLength, int range, <a class="el" href="namespace_city_builder_core.html#a19f9a2748f73f3b90d6ba96447987553">PathType</a> pathType, UnityEngine.Object pathTag, Action finished)</td></tr>
+<tr class="memdesc:aa1f9cc7ce3b650af98a8cf016d420155"><td class="mdescLeft">&#160;</td><td class="mdescRight">continues roaming when the game is loaded and the walker was roaming previously uses the pathing passed in the parameters to get points  <br /></td></tr>
+<tr class="separator:aa1f9cc7ce3b650af98a8cf016d420155"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af61619b1add4299d4ea516add01ae297" id="r_af61619b1add4299d4ea516add01ae297"><td class="memItemLeft" align="right" valign="top"><a id="af61619b1add4299d4ea516add01ae297" name="af61619b1add4299d4ea516add01ae297"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>CancelRoam</b> ()</td></tr>
+<tr class="memdesc:af61619b1add4299d4ea516add01ae297"><td class="mdescLeft">&#160;</td><td class="mdescRight">requests for the current roaming to be stopped, will not happen immediately but when the next point is reached <br /></td></tr>
+<tr class="separator:af61619b1add4299d4ea516add01ae297"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2386ad7d541b22bca17c25b9ac051da4" id="r_a2386ad7d541b22bca17c25b9ac051da4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2386ad7d541b22bca17c25b9ac051da4">Walk</a> (<a class="el" href="interface_city_builder_core_1_1_i_building.html">IBuilding</a> target, Action finished=null)</td></tr>
+<tr class="memdesc:a2386ad7d541b22bca17c25b9ac051da4"><td class="mdescLeft">&#160;</td><td class="mdescRight">tries to walk to a building using default pathing defined in the inspector  <br /></td></tr>
+<tr class="separator:a2386ad7d541b22bca17c25b9ac051da4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d9b7bb56a184b92f7d485121d41474a" id="r_a5d9b7bb56a184b92f7d485121d41474a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d9b7bb56a184b92f7d485121d41474a">Walk</a> (Vector2Int target, Action finished=null)</td></tr>
+<tr class="memdesc:a5d9b7bb56a184b92f7d485121d41474a"><td class="mdescLeft">&#160;</td><td class="mdescRight">tries to walk to a specific point using default pathing defined in the inspector  <br /></td></tr>
+<tr class="separator:a5d9b7bb56a184b92f7d485121d41474a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d33850c30a54d4ddd6dc12ac77ca7ff" id="r_a5d33850c30a54d4ddd6dc12ac77ca7ff"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5d33850c30a54d4ddd6dc12ac77ca7ff">Walk</a> (Vector2Int target, <a class="el" href="namespace_city_builder_core.html#a19f9a2748f73f3b90d6ba96447987553">PathType</a> pathType, UnityEngine.Object pathTag, Action finished=null)</td></tr>
+<tr class="memdesc:a5d33850c30a54d4ddd6dc12ac77ca7ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">tries to walk to a specific point using the pathing passed in the parameters  <br /></td></tr>
+<tr class="separator:a5d33850c30a54d4ddd6dc12ac77ca7ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79bf72a50a84e62bcd858c2f21b3a89c" id="r_a79bf72a50a84e62bcd858c2f21b3a89c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a79bf72a50a84e62bcd858c2f21b3a89c">Walk</a> (<a class="el" href="class_city_builder_core_1_1_walking_path.html">WalkingPath</a> path, Action finished=null)</td></tr>
+<tr class="memdesc:a79bf72a50a84e62bcd858c2f21b3a89c"><td class="mdescLeft">&#160;</td><td class="mdescRight">starts walking a set walking path  <br /></td></tr>
+<tr class="separator:a79bf72a50a84e62bcd858c2f21b3a89c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e86e468712d0b194e333d9778188d4b" id="r_a8e86e468712d0b194e333d9778188d4b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8e86e468712d0b194e333d9778188d4b">Walk</a> (<a class="el" href="class_city_builder_core_1_1_walking_path.html">WalkingPath</a> path, float delay, Action finished=null)</td></tr>
+<tr class="memdesc:a8e86e468712d0b194e333d9778188d4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">starts walking a set walking path  <br /></td></tr>
+<tr class="separator:a8e86e468712d0b194e333d9778188d4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae257e35def64ca335baa7561041393cd" id="r_ae257e35def64ca335baa7561041393cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae257e35def64ca335baa7561041393cd">WalkAgent</a> (Vector3 position, Action finished=null, float? distance=null)</td></tr>
+<tr class="memdesc:ae257e35def64ca335baa7561041393cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">starts walking using the Agent of the walker  <br /></td></tr>
+<tr class="separator:ae257e35def64ca335baa7561041393cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02c4d1779cbb0fde15f5f9c51bbc17fe" id="r_a02c4d1779cbb0fde15f5f9c51bbc17fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02c4d1779cbb0fde15f5f9c51bbc17fe">WalkAgent</a> (Vector3 position, float delay, Action finished=null, float? distance=null)</td></tr>
+<tr class="memdesc:a02c4d1779cbb0fde15f5f9c51bbc17fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">starts walking using the Agent of the walker  <br /></td></tr>
+<tr class="separator:a02c4d1779cbb0fde15f5f9c51bbc17fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a428a0f685e98cde3863907b683b9d6cf" id="r_a428a0f685e98cde3863907b683b9d6cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a428a0f685e98cde3863907b683b9d6cf">ContinueWalk</a> (Action finished=null)</td></tr>
+<tr class="memdesc:a428a0f685e98cde3863907b683b9d6cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">when the game is loaded and the walker was previously walking it is continued here  <br /></td></tr>
+<tr class="separator:a428a0f685e98cde3863907b683b9d6cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4d7b7b7278b3216634594a5ed4a58a5" id="r_ac4d7b7b7278b3216634594a5ed4a58a5"><td class="memItemLeft" align="right" valign="top"><a id="ac4d7b7b7278b3216634594a5ed4a58a5" name="ac4d7b7b7278b3216634594a5ed4a58a5"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>CancelWalk</b> ()</td></tr>
+<tr class="memdesc:ac4d7b7b7278b3216634594a5ed4a58a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">stops the current walking, walking may not stop immediately but rather when the walker reaches the next full point <br /></td></tr>
+<tr class="separator:ac4d7b7b7278b3216634594a5ed4a58a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1a33ea35eebfd0e549ad20f470d11c9" id="r_aa1a33ea35eebfd0e549ad20f470d11c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1a33ea35eebfd0e549ad20f470d11c9">Wander</a> (Action finished)</td></tr>
+<tr class="memdesc:aa1a33ea35eebfd0e549ad20f470d11c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">starts walking to a random neighbouring point if one is available  <br /></td></tr>
+<tr class="separator:aa1a33ea35eebfd0e549ad20f470d11c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6430fbb0964cb72d4fd9c6934c3ec020" id="r_a6430fbb0964cb72d4fd9c6934c3ec020"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6430fbb0964cb72d4fd9c6934c3ec020">ContinueWander</a> (Action finished)</td></tr>
+<tr class="memdesc:a6430fbb0964cb72d4fd9c6934c3ec020"><td class="mdescLeft">&#160;</td><td class="mdescRight">when the game is loaded and the walker was previously wandering it is continued here  <br /></td></tr>
+<tr class="separator:a6430fbb0964cb72d4fd9c6934c3ec020"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30b55f9f0ca15a00fffae600b6302bb8" id="r_a30b55f9f0ca15a00fffae600b6302bb8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30b55f9f0ca15a00fffae600b6302bb8">Wait</a> (Action finished, float time)</td></tr>
+<tr class="memdesc:a30b55f9f0ca15a00fffae600b6302bb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">starts waiting for a set duration  <br /></td></tr>
+<tr class="separator:a30b55f9f0ca15a00fffae600b6302bb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1f1b8fa34e1d901d1e582b318197ac7" id="r_ae1f1b8fa34e1d901d1e582b318197ac7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae1f1b8fa34e1d901d1e582b318197ac7">Delay</a> (Action finished)</td></tr>
+<tr class="memdesc:ae1f1b8fa34e1d901d1e582b318197ac7"><td class="mdescLeft">&#160;</td><td class="mdescRight">waits for the duration configured in WalkerInfo.Delay  <br /></td></tr>
+<tr class="separator:ae1f1b8fa34e1d901d1e582b318197ac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a7554b9f6a14cc627a98dffcf07ce5c" id="r_a9a7554b9f6a14cc627a98dffcf07ce5c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a7554b9f6a14cc627a98dffcf07ce5c">ContinueWait</a> (Action finished)</td></tr>
+<tr class="memdesc:a9a7554b9f6a14cc627a98dffcf07ce5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">when the game is loaded and the walker was previously waiting it is continued here  <br /></td></tr>
+<tr class="separator:a9a7554b9f6a14cc627a98dffcf07ce5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57c32683e513cc888902c68c6e2c089f" id="r_a57c32683e513cc888902c68c6e2c089f"><td class="memItemLeft" align="right" valign="top"><a id="a57c32683e513cc888902c68c6e2c089f" name="a57c32683e513cc888902c68c6e2c089f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>CancelWait</b> ()</td></tr>
+<tr class="memdesc:a57c32683e513cc888902c68c6e2c089f"><td class="mdescLeft">&#160;</td><td class="mdescRight">cancels waiting, remaining time is set to 0 and finished is called <br /></td></tr>
+<tr class="separator:a57c32683e513cc888902c68c6e2c089f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3069457acaebf7695a7321e7ce8434a4" id="r_a3069457acaebf7695a7321e7ce8434a4"><td class="memItemLeft" align="right" valign="top"><a id="a3069457acaebf7695a7321e7ce8434a4" name="a3069457acaebf7695a7321e7ce8434a4"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>Hide</b> ()</td></tr>
 <tr class="memdesc:a3069457acaebf7695a7321e7ce8434a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">hides the walker by deactivating its pivot and disableing its collider <br /></td></tr>
@@ -347,19 +353,19 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnDestroy</b>
 <tr class="memitem:a8499efecfcafd852b5e98ce35a44b28e" id="r_a8499efecfcafd852b5e98ce35a44b28e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8499efecfcafd852b5e98ce35a44b28e">followPath</a> (IEnumerable&lt; Vector3 &gt; path, Action finished)</td></tr>
 <tr class="memdesc:a8499efecfcafd852b5e98ce35a44b28e"><td class="mdescLeft">&#160;</td><td class="mdescRight">starts walking a set series of points  <br /></td></tr>
 <tr class="separator:a8499efecfcafd852b5e98ce35a44b28e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f8451455afed58ccf4f8ba046a8e5cd" id="r_a2f8451455afed58ccf4f8ba046a8e5cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f8451455afed58ccf4f8ba046a8e5cd">followPath</a> (IEnumerable&lt; Vector3 &gt; path, float <a class="el" href="#ab0fa025eb4c53faf3c1026381c11cf62">delay</a>, Action finished)</td></tr>
+<tr class="memitem:a2f8451455afed58ccf4f8ba046a8e5cd" id="r_a2f8451455afed58ccf4f8ba046a8e5cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f8451455afed58ccf4f8ba046a8e5cd">followPath</a> (IEnumerable&lt; Vector3 &gt; path, float delay, Action finished)</td></tr>
 <tr class="memdesc:a2f8451455afed58ccf4f8ba046a8e5cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">starts walking a set walking path  <br /></td></tr>
 <tr class="separator:a2f8451455afed58ccf4f8ba046a8e5cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00751bac6b58ce6b129274c804206c00" id="r_a00751bac6b58ce6b129274c804206c00"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00751bac6b58ce6b129274c804206c00">continueFollow</a> (Action finished)</td></tr>
 <tr class="memdesc:a00751bac6b58ce6b129274c804206c00"><td class="mdescLeft">&#160;</td><td class="mdescRight">continues following a path when a game is loaded and the walker was previously doing so  <br /></td></tr>
 <tr class="separator:a00751bac6b58ce6b129274c804206c00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8938d3f7793a332a1f3d940fb7303b49" id="r_a8938d3f7793a332a1f3d940fb7303b49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8938d3f7793a332a1f3d940fb7303b49">tryWalk</a> (<a class="el" href="interface_city_builder_core_1_1_i_building.html">IBuilding</a> target, float <a class="el" href="#ab0fa025eb4c53faf3c1026381c11cf62">delay</a>, Action planned=null, Action finished=null, Action canceled=null)</td></tr>
+<tr class="memitem:a8938d3f7793a332a1f3d940fb7303b49" id="r_a8938d3f7793a332a1f3d940fb7303b49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8938d3f7793a332a1f3d940fb7303b49">tryWalk</a> (<a class="el" href="interface_city_builder_core_1_1_i_building.html">IBuilding</a> target, float delay, Action planned=null, Action finished=null, Action canceled=null)</td></tr>
 <tr class="memdesc:a8938d3f7793a332a1f3d940fb7303b49"><td class="mdescLeft">&#160;</td><td class="mdescRight">tries to walk to a building, if no path is found the walker waits a second and retries until WalkerInfo.MaxWait times it out  <br /></td></tr>
 <tr class="separator:a8938d3f7793a332a1f3d940fb7303b49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3b5b91f11fef48662de4ce1b547fdc1" id="r_ae3b5b91f11fef48662de4ce1b547fdc1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3b5b91f11fef48662de4ce1b547fdc1">tryWalk</a> (Vector2Int target, float <a class="el" href="#ab0fa025eb4c53faf3c1026381c11cf62">delay</a>, Action planned=null, Action finished=null, Action canceled=null)</td></tr>
+<tr class="memitem:ae3b5b91f11fef48662de4ce1b547fdc1" id="r_ae3b5b91f11fef48662de4ce1b547fdc1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3b5b91f11fef48662de4ce1b547fdc1">tryWalk</a> (Vector2Int target, float delay, Action planned=null, Action finished=null, Action canceled=null)</td></tr>
 <tr class="memdesc:ae3b5b91f11fef48662de4ce1b547fdc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">tries to walk to a point, if no path is found the walker waits a second and retries until WalkerInfo.MaxWait times it out  <br /></td></tr>
 <tr class="separator:ae3b5b91f11fef48662de4ce1b547fdc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2df9ed4d4d8d165fbe1f8f49c83e99de" id="r_a2df9ed4d4d8d165fbe1f8f49c83e99de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2df9ed4d4d8d165fbe1f8f49c83e99de">tryWalk</a> (Func&lt; <a class="el" href="class_city_builder_core_1_1_walking_path.html">WalkingPath</a> &gt; pathGetter, float <a class="el" href="#ab0fa025eb4c53faf3c1026381c11cf62">delay</a>, Action planned=null, Action finished=null, Action canceled=null)</td></tr>
+<tr class="memitem:a2df9ed4d4d8d165fbe1f8f49c83e99de" id="r_a2df9ed4d4d8d165fbe1f8f49c83e99de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2df9ed4d4d8d165fbe1f8f49c83e99de">tryWalk</a> (Func&lt; <a class="el" href="class_city_builder_core_1_1_walking_path.html">WalkingPath</a> &gt; pathGetter, float delay, Action planned=null, Action finished=null, Action canceled=null)</td></tr>
 <tr class="memdesc:a2df9ed4d4d8d165fbe1f8f49c83e99de"><td class="mdescLeft">&#160;</td><td class="mdescRight">tries to walk a path that is calculated externaly, if no path is found the walker waits a second and retries until WalkerInfo.MaxWait times it out  <br /></td></tr>
 <tr class="separator:a2df9ed4d4d8d165fbe1f8f49c83e99de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8a2563930b3d75fe94b8d7c8d3ceb19" id="r_ad8a2563930b3d75fe94b8d7c8d3ceb19"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8a2563930b3d75fe94b8d7c8d3ceb19">tryWalk</a> (<a class="el" href="interface_city_builder_core_1_1_i_building.html">IBuilding</a> target, Action planned=null, Action finished=null, Action canceled=null)</td></tr>
@@ -375,19 +381,19 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnDestroy</b>
 <tr class="memitem:a23ac643420e61e3663b767aec726116a" id="r_a23ac643420e61e3663b767aec726116a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23ac643420e61e3663b767aec726116a">tryWalk</a> (Func&lt; <a class="el" href="class_city_builder_core_1_1_path_query.html">PathQuery</a> &gt; queryGetter, Action planned=null, Action finished=null, Action canceled=null)</td></tr>
 <tr class="memdesc:a23ac643420e61e3663b767aec726116a"><td class="mdescLeft">&#160;</td><td class="mdescRight">tries to walk a path that is calculated externaly using a query, if no path is found the walker waits a second and retries until WalkerInfo.MaxWait times it out  <br /></td></tr>
 <tr class="separator:a23ac643420e61e3663b767aec726116a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa30a884d6f9fbf216203e316a8ef1bb3" id="r_aa30a884d6f9fbf216203e316a8ef1bb3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa30a884d6f9fbf216203e316a8ef1bb3">tryWalk</a> (Func&lt; <a class="el" href="class_city_builder_core_1_1_path_query.html">PathQuery</a> &gt; queryGetter, float <a class="el" href="#ab0fa025eb4c53faf3c1026381c11cf62">delay</a>, Action planned=null, Action finished=null, Action canceled=null)</td></tr>
+<tr class="memitem:aa30a884d6f9fbf216203e316a8ef1bb3" id="r_aa30a884d6f9fbf216203e316a8ef1bb3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa30a884d6f9fbf216203e316a8ef1bb3">tryWalk</a> (Func&lt; <a class="el" href="class_city_builder_core_1_1_path_query.html">PathQuery</a> &gt; queryGetter, float delay, Action planned=null, Action finished=null, Action canceled=null)</td></tr>
 <tr class="memdesc:aa30a884d6f9fbf216203e316a8ef1bb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">tries to walk a path that is calculated externaly using a query, if no path is found the walker waits a second and retries until WalkerInfo.MaxWait times it out  <br /></td></tr>
 <tr class="separator:aa30a884d6f9fbf216203e316a8ef1bb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5550823229789a15a1dc04e1f8bd441a" id="r_a5550823229789a15a1dc04e1f8bd441a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5550823229789a15a1dc04e1f8bd441a">tryWalk&lt; T &gt;</a> (Func&lt; <a class="el" href="class_city_builder_core_1_1_building_component_path_query.html">BuildingComponentPathQuery</a>&lt; T &gt; &gt; queryGetter, Action&lt; <a class="el" href="class_city_builder_core_1_1_building_component_path.html">BuildingComponentPath</a>&lt; T &gt; &gt; planned=null, Action finished=null, Action canceled=null)</td></tr>
 <tr class="memdesc:a5550823229789a15a1dc04e1f8bd441a"><td class="mdescLeft">&#160;</td><td class="mdescRight">tries to walk a path to a component that is calculated externaly using a query, if no path is found the walker waits a second and retries until WalkerInfo.MaxWait times it out  <br /></td></tr>
 <tr class="separator:a5550823229789a15a1dc04e1f8bd441a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a647a2456b6037add4587212024fe9cfd" id="r_a647a2456b6037add4587212024fe9cfd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a647a2456b6037add4587212024fe9cfd">tryWalk&lt; T &gt;</a> (Func&lt; <a class="el" href="class_city_builder_core_1_1_building_component_path_query.html">BuildingComponentPathQuery</a>&lt; T &gt; &gt; queryGetter, float <a class="el" href="#ab0fa025eb4c53faf3c1026381c11cf62">delay</a>, Action&lt; <a class="el" href="class_city_builder_core_1_1_building_component_path.html">BuildingComponentPath</a>&lt; T &gt; &gt; planned=null, Action finished=null, Action canceled=null)</td></tr>
+<tr class="memitem:a647a2456b6037add4587212024fe9cfd" id="r_a647a2456b6037add4587212024fe9cfd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a647a2456b6037add4587212024fe9cfd">tryWalk&lt; T &gt;</a> (Func&lt; <a class="el" href="class_city_builder_core_1_1_building_component_path_query.html">BuildingComponentPathQuery</a>&lt; T &gt; &gt; queryGetter, float delay, Action&lt; <a class="el" href="class_city_builder_core_1_1_building_component_path.html">BuildingComponentPath</a>&lt; T &gt; &gt; planned=null, Action finished=null, Action canceled=null)</td></tr>
 <tr class="memdesc:a647a2456b6037add4587212024fe9cfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">tries to walk a path to a component that is calculated externaly using a query, if no path is found the walker waits a second and retries until WalkerInfo.MaxWait times it out  <br /></td></tr>
 <tr class="separator:a647a2456b6037add4587212024fe9cfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6102ef454344e9b58b315157758c71f0" id="r_a6102ef454344e9b58b315157758c71f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6102ef454344e9b58b315157758c71f0">tryWalk&lt; Q, P &gt;</a> (Func&lt; Q &gt; preparer, Func&lt; Q, P &gt; planner, Func&lt; P, <a class="el" href="class_city_builder_core_1_1_walking_path.html">WalkingPath</a> &gt; planned, Action finished=null, Action canceled=null)</td></tr>
 <tr class="memdesc:a6102ef454344e9b58b315157758c71f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">tries to walk a path that created in a two step process, if no path is found the walker waits a second and retries until WalkerInfo.MaxWait times it out  <br /></td></tr>
 <tr class="separator:a6102ef454344e9b58b315157758c71f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ee4e0a1326bbf8faef55e9ea5859ed8" id="r_a1ee4e0a1326bbf8faef55e9ea5859ed8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ee4e0a1326bbf8faef55e9ea5859ed8">tryWalk&lt; Q, P &gt;</a> (Func&lt; Q &gt; preparer, Func&lt; Q, P &gt; planner, Func&lt; P, <a class="el" href="class_city_builder_core_1_1_walking_path.html">WalkingPath</a> &gt; planned, float <a class="el" href="#ab0fa025eb4c53faf3c1026381c11cf62">delay</a>, Action finished=null, Action canceled=null)</td></tr>
+<tr class="memitem:a1ee4e0a1326bbf8faef55e9ea5859ed8" id="r_a1ee4e0a1326bbf8faef55e9ea5859ed8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1ee4e0a1326bbf8faef55e9ea5859ed8">tryWalk&lt; Q, P &gt;</a> (Func&lt; Q &gt; preparer, Func&lt; Q, P &gt; planner, Func&lt; P, <a class="el" href="class_city_builder_core_1_1_walking_path.html">WalkingPath</a> &gt; planned, float delay, Action finished=null, Action canceled=null)</td></tr>
 <tr class="memdesc:a1ee4e0a1326bbf8faef55e9ea5859ed8"><td class="mdescLeft">&#160;</td><td class="mdescRight">tries to walk a path that created in a two step process, if no path is found the walker waits a second and retries until WalkerInfo.MaxWait times it out  <br /></td></tr>
 <tr class="separator:a1ee4e0a1326bbf8faef55e9ea5859ed8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4f4f0afab259c90907d6f2f65029b91b" id="r_a4f4f0afab259c90907d6f2f65029b91b"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f4f0afab259c90907d6f2f65029b91b">getDescription</a> (int index)</td></tr>
@@ -415,6 +421,9 @@ List&lt; <a class="el" href="class_city_builder_core_1_1_walker_addon.html">Walk
 List&lt; <a class="el" href="class_city_builder_core_1_1_walker_addon.html">WalkerAddon</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>_addons</b> = new List&lt;<a class="el" href="class_city_builder_core_1_1_walker_addon.html">WalkerAddon</a>&gt;()</td></tr>
 <tr class="memdesc:acd1a1cbecf8820c83d7de1f789ea434a"><td class="mdescLeft">&#160;</td><td class="mdescRight">currently active <a class="el" href="class_city_builder_core_1_1_walker_addon.html" title="temporary objects that are added(Walker.AddAddon&lt;T&gt;(T)) and removed(Walker.RemoveAddon(WalkerAddon)) ...">WalkerAddon</a>s on this walker <br /></td></tr>
 <tr class="separator:acd1a1cbecf8820c83d7de1f789ea434a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b1e346c98b9f946f141d510c3e84f5a" id="r_a4b1e346c98b9f946f141d510c3e84f5a"><td class="memItemLeft" align="right" valign="top"><a id="a4b1e346c98b9f946f141d510c3e84f5a" name="a4b1e346c98b9f946f141d510c3e84f5a"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>_defaultAgentDistance</b></td></tr>
+<tr class="separator:a4b1e346c98b9f946f141d510c3e84f5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbdfc0c994471f33fa5cb52e1fb85f8a" id="r_acbdfc0c994471f33fa5cb52e1fb85f8a"><td class="memItemLeft" align="right" valign="top"><a id="acbdfc0c994471f33fa5cb52e1fb85f8a" name="acbdfc0c994471f33fa5cb52e1fb85f8a"></a>
 Vector2Int&#160;</td><td class="memItemRight" valign="bottom"><b>_start</b></td></tr>
 <tr class="memdesc:acbdfc0c994471f33fa5cb52e1fb85f8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">map point the walker was initialized on, used in roamers to return back to <br /></td></tr>
@@ -596,8 +605,8 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
 
 </div>
 </div>
-<a id="a1c8558711e27d07eeb53347785a66917" name="a1c8558711e27d07eeb53347785a66917"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c8558711e27d07eeb53347785a66917">&#9670;&#160;</a></span>continueRoam() <span class="overload">[1/2]</span></h2>
+<a id="ae4109782551040c93a5e02e37c243350" name="ae4109782551040c93a5e02e37c243350"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4109782551040c93a5e02e37c243350">&#9670;&#160;</a></span>ContinueRoam() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -606,7 +615,7 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void CityBuilderCore.Walker.continueRoam </td>
+          <td class="memname">void CityBuilderCore.Walker.ContinueRoam </td>
           <td>(</td>
           <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>memoryLength</em></span>, </td>
         </tr>
@@ -640,8 +649,8 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
 
 </div>
 </div>
-<a id="a6b326a51449ff81de24830c978cadeee" name="a6b326a51449ff81de24830c978cadeee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b326a51449ff81de24830c978cadeee">&#9670;&#160;</a></span>continueRoam() <span class="overload">[2/2]</span></h2>
+<a id="aa1f9cc7ce3b650af98a8cf016d420155" name="aa1f9cc7ce3b650af98a8cf016d420155"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1f9cc7ce3b650af98a8cf016d420155">&#9670;&#160;</a></span>ContinueRoam() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -650,7 +659,7 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void CityBuilderCore.Walker.continueRoam </td>
+          <td class="memname">void CityBuilderCore.Walker.ContinueRoam </td>
           <td>(</td>
           <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>memoryLength</em></span>, </td>
         </tr>
@@ -696,8 +705,8 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
 
 </div>
 </div>
-<a id="a5fe4ec4ed7ca34aa46a9ae5d9a491346" name="a5fe4ec4ed7ca34aa46a9ae5d9a491346"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5fe4ec4ed7ca34aa46a9ae5d9a491346">&#9670;&#160;</a></span>continueWait()</h2>
+<a id="a9a7554b9f6a14cc627a98dffcf07ce5c" name="a9a7554b9f6a14cc627a98dffcf07ce5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a7554b9f6a14cc627a98dffcf07ce5c">&#9670;&#160;</a></span>ContinueWait()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -706,7 +715,7 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void CityBuilderCore.Walker.continueWait </td>
+          <td class="memname">void CityBuilderCore.Walker.ContinueWait </td>
           <td>(</td>
           <td class="paramtype">Action</td>          <td class="paramname"><span class="paramname"><em>finished</em></span></td><td>)</td>
           <td></td>
@@ -729,8 +738,8 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
 
 </div>
 </div>
-<a id="a4a99aa6a34ac08664228aaddf34115ca" name="a4a99aa6a34ac08664228aaddf34115ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a99aa6a34ac08664228aaddf34115ca">&#9670;&#160;</a></span>continueWalk()</h2>
+<a id="a428a0f685e98cde3863907b683b9d6cf" name="a428a0f685e98cde3863907b683b9d6cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a428a0f685e98cde3863907b683b9d6cf">&#9670;&#160;</a></span>ContinueWalk()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -739,7 +748,7 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void CityBuilderCore.Walker.continueWalk </td>
+          <td class="memname">void CityBuilderCore.Walker.ContinueWalk </td>
           <td>(</td>
           <td class="paramtype">Action</td>          <td class="paramname"><span class="paramname"><em>finished</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span></td><td>)</td>
           <td></td>
@@ -762,8 +771,8 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
 
 </div>
 </div>
-<a id="a0cfae3a3a26fc74f3e95b126a91a6715" name="a0cfae3a3a26fc74f3e95b126a91a6715"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0cfae3a3a26fc74f3e95b126a91a6715">&#9670;&#160;</a></span>continueWander()</h2>
+<a id="a6430fbb0964cb72d4fd9c6934c3ec020" name="a6430fbb0964cb72d4fd9c6934c3ec020"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6430fbb0964cb72d4fd9c6934c3ec020">&#9670;&#160;</a></span>ContinueWander()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -772,7 +781,7 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void CityBuilderCore.Walker.continueWander </td>
+          <td class="memname">void CityBuilderCore.Walker.ContinueWander </td>
           <td>(</td>
           <td class="paramtype">Action</td>          <td class="paramname"><span class="paramname"><em>finished</em></span></td><td>)</td>
           <td></td>
@@ -795,8 +804,8 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
 
 </div>
 </div>
-<a id="ab0fa025eb4c53faf3c1026381c11cf62" name="ab0fa025eb4c53faf3c1026381c11cf62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0fa025eb4c53faf3c1026381c11cf62">&#9670;&#160;</a></span>delay()</h2>
+<a id="ae1f1b8fa34e1d901d1e582b318197ac7" name="ae1f1b8fa34e1d901d1e582b318197ac7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1f1b8fa34e1d901d1e582b318197ac7">&#9670;&#160;</a></span>Delay()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -805,7 +814,7 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void CityBuilderCore.Walker.delay </td>
+          <td class="memname">void CityBuilderCore.Walker.Delay </td>
           <td>(</td>
           <td class="paramtype">Action</td>          <td class="paramname"><span class="paramname"><em>finished</em></span></td><td>)</td>
           <td></td>
@@ -1404,7 +1413,7 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="class_city_builder_core_1_1_building_walker.html#af0db016a31de4ffa8e241c28ae818f93">CityBuilderCore.BuildingWalker</a>.</p>
+<p>Reimplemented in <a class="el" href="class_city_builder_core_1_1_building_walker.html#ace576468492ae7e29191e9741c4e0014">CityBuilderCore.BuildingWalker</a>.</p>
 
 </div>
 </div>
@@ -1510,8 +1519,8 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
 
 </div>
 </div>
-<a id="a113ffd6ca9ebd7bea513b516e8745f1c" name="a113ffd6ca9ebd7bea513b516e8745f1c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a113ffd6ca9ebd7bea513b516e8745f1c">&#9670;&#160;</a></span>roam() <span class="overload">[1/3]</span></h2>
+<a id="a36a201121676a26273f290c609c16232" name="a36a201121676a26273f290c609c16232"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36a201121676a26273f290c609c16232">&#9670;&#160;</a></span>Roam() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1520,7 +1529,7 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void CityBuilderCore.Walker.roam </td>
+          <td class="memname">void CityBuilderCore.Walker.Roam </td>
           <td>(</td>
           <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>delay</em></span>, </td>
         </tr>
@@ -1560,8 +1569,8 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
 
 </div>
 </div>
-<a id="ab7cdcfc268a2d9ac2875b2393331c656" name="ab7cdcfc268a2d9ac2875b2393331c656"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7cdcfc268a2d9ac2875b2393331c656">&#9670;&#160;</a></span>roam() <span class="overload">[2/3]</span></h2>
+<a id="a1b8bdee49a28aaaca37fd76e8f7f5fb9" name="a1b8bdee49a28aaaca37fd76e8f7f5fb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b8bdee49a28aaaca37fd76e8f7f5fb9">&#9670;&#160;</a></span>Roam() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1570,7 +1579,7 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void CityBuilderCore.Walker.roam </td>
+          <td class="memname">void CityBuilderCore.Walker.Roam </td>
           <td>(</td>
           <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>memoryLength</em></span>, </td>
         </tr>
@@ -1604,8 +1613,8 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
 
 </div>
 </div>
-<a id="acf8d63dda2d5fddd47752860a240da73" name="acf8d63dda2d5fddd47752860a240da73"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf8d63dda2d5fddd47752860a240da73">&#9670;&#160;</a></span>roam() <span class="overload">[3/3]</span></h2>
+<a id="ac01246d67f1b8d7ac8472449ef4f1a1d" name="ac01246d67f1b8d7ac8472449ef4f1a1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac01246d67f1b8d7ac8472449ef4f1a1d">&#9670;&#160;</a></span>Roam() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1614,7 +1623,7 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void CityBuilderCore.Walker.roam </td>
+          <td class="memname">void CityBuilderCore.Walker.Roam </td>
           <td>(</td>
           <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>memoryLength</em></span>, </td>
         </tr>
@@ -2450,8 +2459,8 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
 
 </div>
 </div>
-<a id="abb3d5e3a9ac123f2bf33c2d68238b368" name="abb3d5e3a9ac123f2bf33c2d68238b368"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb3d5e3a9ac123f2bf33c2d68238b368">&#9670;&#160;</a></span>wait()</h2>
+<a id="a30b55f9f0ca15a00fffae600b6302bb8" name="a30b55f9f0ca15a00fffae600b6302bb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30b55f9f0ca15a00fffae600b6302bb8">&#9670;&#160;</a></span>Wait()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2460,7 +2469,7 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void CityBuilderCore.Walker.wait </td>
+          <td class="memname">void CityBuilderCore.Walker.Wait </td>
           <td>(</td>
           <td class="paramtype">Action</td>          <td class="paramname"><span class="paramname"><em>finished</em></span>, </td>
         </tr>
@@ -2488,8 +2497,8 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
 
 </div>
 </div>
-<a id="a266da00f8721045e30a519816df4f5c0" name="a266da00f8721045e30a519816df4f5c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a266da00f8721045e30a519816df4f5c0">&#9670;&#160;</a></span>walk() <span class="overload">[1/5]</span></h2>
+<a id="a2386ad7d541b22bca17c25b9ac051da4" name="a2386ad7d541b22bca17c25b9ac051da4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2386ad7d541b22bca17c25b9ac051da4">&#9670;&#160;</a></span>Walk() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2498,7 +2507,7 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool CityBuilderCore.Walker.walk </td>
+          <td class="memname">bool CityBuilderCore.Walker.Walk </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="interface_city_builder_core_1_1_i_building.html">IBuilding</a></td>          <td class="paramname"><span class="paramname"><em>target</em></span>, </td>
         </tr>
@@ -2527,8 +2536,8 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
 
 </div>
 </div>
-<a id="af3f6fa6ca7c0096e4706c6b0eb1ce26d" name="af3f6fa6ca7c0096e4706c6b0eb1ce26d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3f6fa6ca7c0096e4706c6b0eb1ce26d">&#9670;&#160;</a></span>walk() <span class="overload">[2/5]</span></h2>
+<a id="a5d9b7bb56a184b92f7d485121d41474a" name="a5d9b7bb56a184b92f7d485121d41474a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d9b7bb56a184b92f7d485121d41474a">&#9670;&#160;</a></span>Walk() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2537,7 +2546,7 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool CityBuilderCore.Walker.walk </td>
+          <td class="memname">bool CityBuilderCore.Walker.Walk </td>
           <td>(</td>
           <td class="paramtype">Vector2Int</td>          <td class="paramname"><span class="paramname"><em>target</em></span>, </td>
         </tr>
@@ -2566,8 +2575,8 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
 
 </div>
 </div>
-<a id="a58798ce497bf2b2507a3aa2cb8aaa950" name="a58798ce497bf2b2507a3aa2cb8aaa950"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a58798ce497bf2b2507a3aa2cb8aaa950">&#9670;&#160;</a></span>walk() <span class="overload">[3/5]</span></h2>
+<a id="a5d33850c30a54d4ddd6dc12ac77ca7ff" name="a5d33850c30a54d4ddd6dc12ac77ca7ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d33850c30a54d4ddd6dc12ac77ca7ff">&#9670;&#160;</a></span>Walk() <span class="overload">[3/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2576,7 +2585,7 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool CityBuilderCore.Walker.walk </td>
+          <td class="memname">bool CityBuilderCore.Walker.Walk </td>
           <td>(</td>
           <td class="paramtype">Vector2Int</td>          <td class="paramname"><span class="paramname"><em>target</em></span>, </td>
         </tr>
@@ -2617,8 +2626,8 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
 
 </div>
 </div>
-<a id="a11f8aca7a61575a7c992b168b27c47d3" name="a11f8aca7a61575a7c992b168b27c47d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11f8aca7a61575a7c992b168b27c47d3">&#9670;&#160;</a></span>walk() <span class="overload">[4/5]</span></h2>
+<a id="a79bf72a50a84e62bcd858c2f21b3a89c" name="a79bf72a50a84e62bcd858c2f21b3a89c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79bf72a50a84e62bcd858c2f21b3a89c">&#9670;&#160;</a></span>Walk() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2627,7 +2636,7 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void CityBuilderCore.Walker.walk </td>
+          <td class="memname">void CityBuilderCore.Walker.Walk </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_city_builder_core_1_1_walking_path.html">WalkingPath</a></td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
         </tr>
@@ -2655,8 +2664,8 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
 
 </div>
 </div>
-<a id="a687505808f31488754053e6802b04840" name="a687505808f31488754053e6802b04840"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a687505808f31488754053e6802b04840">&#9670;&#160;</a></span>walk() <span class="overload">[5/5]</span></h2>
+<a id="a8e86e468712d0b194e333d9778188d4b" name="a8e86e468712d0b194e333d9778188d4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e86e468712d0b194e333d9778188d4b">&#9670;&#160;</a></span>Walk() <span class="overload">[5/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2665,7 +2674,7 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void CityBuilderCore.Walker.walk </td>
+          <td class="memname">void CityBuilderCore.Walker.Walk </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_city_builder_core_1_1_walking_path.html">WalkingPath</a></td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
         </tr>
@@ -2699,8 +2708,8 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
 
 </div>
 </div>
-<a id="a991d3b02b124909f646fbd96c903826f" name="a991d3b02b124909f646fbd96c903826f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a991d3b02b124909f646fbd96c903826f">&#9670;&#160;</a></span>wander()</h2>
+<a id="ae257e35def64ca335baa7561041393cd" name="ae257e35def64ca335baa7561041393cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae257e35def64ca335baa7561041393cd">&#9670;&#160;</a></span>WalkAgent() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2709,7 +2718,109 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void CityBuilderCore.Walker.wander </td>
+          <td class="memname">void CityBuilderCore.Walker.WalkAgent </td>
+          <td>(</td>
+          <td class="paramtype">Vector3</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Action</td>          <td class="paramname"><span class="paramname"><em>finished</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float?</td>          <td class="paramname"><span class="paramname"><em>distance</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>starts walking using the Agent of the walker </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">position</td><td>destination position for the walker&lt;/param <dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">finished</td><td>callback for when the walking is finished</td></tr>
+  </table>
+  </dd>
+</dl>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a02c4d1779cbb0fde15f5f9c51bbc17fe" name="a02c4d1779cbb0fde15f5f9c51bbc17fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02c4d1779cbb0fde15f5f9c51bbc17fe">&#9670;&#160;</a></span>WalkAgent() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CityBuilderCore.Walker.WalkAgent </td>
+          <td>(</td>
+          <td class="paramtype">Vector3</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>delay</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Action</td>          <td class="paramname"><span class="paramname"><em>finished</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float?</td>          <td class="paramname"><span class="paramname"><em>distance</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>starts walking using the Agent of the walker </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">position</td><td>destination position for the walker&lt;/param <dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">delay</td><td>duration to wait before walking is started in seconds</td></tr>
+    <tr><td class="paramname">finished</td><td>callback for when the walking is finished</td></tr>
+  </table>
+  </dd>
+</dl>
+</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa1a33ea35eebfd0e549ad20f470d11c9" name="aa1a33ea35eebfd0e549ad20f470d11c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1a33ea35eebfd0e549ad20f470d11c9">&#9670;&#160;</a></span>Wander()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CityBuilderCore.Walker.Wander </td>
           <td>(</td>
           <td class="paramtype">Action</td>          <td class="paramname"><span class="paramname"><em>finished</em></span></td><td>)</td>
           <td></td>

@@ -3,7 +3,7 @@ var class_city_builder_core_1_1_storage_component =
     [ "StorageData", "class_city_builder_core_1_1_storage_component_1_1_storage_data.html", null ],
     [ "GetDebugText", "class_city_builder_core_1_1_storage_component.html#a1fdfc3326cf8fc7caecbef9ae90ecd94", null ],
     [ "GetGiveQuantity", "class_city_builder_core_1_1_storage_component.html#ab1a68933adea6e999132b6ec74fa2ef5", null ],
-    [ "GetReceiveCapacity", "class_city_builder_core_1_1_storage_component.html#adf8b5b4a97bccca57781665052729f58", null ],
+    [ "GetReceiveCapacityRemaining", "class_city_builder_core_1_1_storage_component.html#a4b3060d0c580ddc7126c28fc588af8da", null ],
     [ "GetReceiveItems", "class_city_builder_core_1_1_storage_component.html#a3c75532182724a5526c7259495665242", null ],
     [ "Give", "class_city_builder_core_1_1_storage_component.html#afeae6deac79dd4b8567facf31ff549b0", null ],
     [ "InitializeComponent", "class_city_builder_core_1_1_storage_component.html#ae3c88daa22f7d32c8dd006e295d7820e", null ],

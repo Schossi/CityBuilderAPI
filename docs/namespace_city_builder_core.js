@@ -179,6 +179,7 @@ var namespace_city_builder_core =
     [ "GridPathfindingBurst", "class_city_builder_core_1_1_grid_pathfinding_burst.html", "class_city_builder_core_1_1_grid_pathfinding_burst" ],
     [ "GridPathfindingSettings", "class_city_builder_core_1_1_grid_pathfinding_settings.html", null ],
     [ "HappeningDialog", "class_city_builder_core_1_1_happening_dialog.html", null ],
+    [ "HeightMappedTerrainRenderer", "class_city_builder_core_1_1_height_mapped_terrain_renderer.html", null ],
     [ "HexagonMap", "class_city_builder_core_1_1_hexagon_map.html", "class_city_builder_core_1_1_hexagon_map" ],
     [ "HomelessWalker", "class_city_builder_core_1_1_homeless_walker.html", "class_city_builder_core_1_1_homeless_walker" ],
     [ "HousingComponent", "class_city_builder_core_1_1_housing_component.html", "class_city_builder_core_1_1_housing_component" ],
@@ -360,7 +361,7 @@ var namespace_city_builder_core =
     [ "NoPathfinding", "class_city_builder_core_1_1_no_pathfinding.html", "class_city_builder_core_1_1_no_pathfinding" ],
     [ "NotificationPanel", "class_city_builder_core_1_1_notification_panel.html", null ],
     [ "NotificationRequest", "class_city_builder_core_1_1_notification_request.html", "class_city_builder_core_1_1_notification_request" ],
-    [ "ObjectGenerator", "class_city_builder_core_1_1_object_generator.html", "class_city_builder_core_1_1_object_generator" ],
+    [ "ObjectGenerator", "class_city_builder_core_1_1_object_generator.html", null ],
     [ "ObjectPool", "class_city_builder_core_1_1_object_pool.html", null ],
     [ "ObjectRepository", "class_city_builder_core_1_1_object_repository.html", null ],
     [ "ObjectSet", "class_city_builder_core_1_1_object_set.html", null ],
@@ -469,6 +470,7 @@ var namespace_city_builder_core =
     [ "SpriteHighlightManager", "class_city_builder_core_1_1_sprite_highlight_manager.html", "class_city_builder_core_1_1_sprite_highlight_manager" ],
     [ "SpriteRandomizerComponent", "class_city_builder_core_1_1_sprite_randomizer_component.html", "class_city_builder_core_1_1_sprite_randomizer_component" ],
     [ "StateManager", "class_city_builder_core_1_1_state_manager.html", "class_city_builder_core_1_1_state_manager" ],
+    [ "StorageCapacityPanel", "class_city_builder_core_1_1_storage_capacity_panel.html", null ],
     [ "StorageComponent", "class_city_builder_core_1_1_storage_component.html", "class_city_builder_core_1_1_storage_component" ],
     [ "StorageOrder", "class_city_builder_core_1_1_storage_order.html", "class_city_builder_core_1_1_storage_order" ],
     [ "StorageOrderPanel", "class_city_builder_core_1_1_storage_order_panel.html", null ],
@@ -480,6 +482,7 @@ var namespace_city_builder_core =
     [ "StorageWalkerComponent", "class_city_builder_core_1_1_storage_walker_component.html", "class_city_builder_core_1_1_storage_walker_component" ],
     [ "StructureBuilder", "class_city_builder_core_1_1_structure_builder.html", "class_city_builder_core_1_1_structure_builder" ],
     [ "StructureCollection", "class_city_builder_core_1_1_structure_collection.html", "class_city_builder_core_1_1_structure_collection" ],
+    [ "StructureCollectionFloat", "class_city_builder_core_1_1_structure_collection_float.html", "class_city_builder_core_1_1_structure_collection_float" ],
     [ "StructureDecorators", "class_city_builder_core_1_1_structure_decorators.html", "class_city_builder_core_1_1_structure_decorators" ],
     [ "StructureLevelManager", "class_city_builder_core_1_1_structure_level_manager.html", null ],
     [ "StructureLevelMask", "class_city_builder_core_1_1_structure_level_mask.html", null ],
@@ -568,6 +571,7 @@ var namespace_city_builder_core =
     [ "WaitAction", "class_city_builder_core_1_1_wait_action.html", "class_city_builder_core_1_1_wait_action" ],
     [ "WaitAnimatedAction", "class_city_builder_core_1_1_wait_animated_action.html", "class_city_builder_core_1_1_wait_animated_action" ],
     [ "WaitingState", "class_city_builder_core_1_1_waiting_state.html", "class_city_builder_core_1_1_waiting_state" ],
+    [ "WalkAgentAction", "class_city_builder_core_1_1_walk_agent_action.html", "class_city_builder_core_1_1_walk_agent_action" ],
     [ "WalkBuildingAction", "class_city_builder_core_1_1_walk_building_action.html", "class_city_builder_core_1_1_walk_building_action" ],
     [ "Walker", "class_city_builder_core_1_1_walker.html", "class_city_builder_core_1_1_walker" ],
     [ "WalkerAction", "class_city_builder_core_1_1_walker_action.html", "class_city_builder_core_1_1_walker_action" ],
@@ -651,6 +655,11 @@ var namespace_city_builder_core =
       [ "Neutral", "namespace_city_builder_core.html#ac480382b5060d3901638ea86484575beae9bb5320b3890b6747c91b5a71ae5a01", null ],
       [ "Get", "namespace_city_builder_core.html#ac480382b5060d3901638ea86484575beac55582518cba2c464f29f5bae1c68def", null ],
       [ "Empty", "namespace_city_builder_core.html#ac480382b5060d3901638ea86484575beace2c8aed9c2fa0cfbed56cbda4d8bf07", null ]
+    ] ],
+    [ "StructureRotationMode", "namespace_city_builder_core.html#ae88beb0d0c67dd88af75994a4aae41a1", [
+      [ "None", "namespace_city_builder_core.html#ae88beb0d0c67dd88af75994a4aae41a1a6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "Stepped", "namespace_city_builder_core.html#ae88beb0d0c67dd88af75994a4aae41a1a5ea38ba255e963326e6dbe47d8be6568", null ],
+      [ "Full", "namespace_city_builder_core.html#ae88beb0d0c67dd88af75994a4aae41a1abbd47109890259c0127154db1af26c75", null ]
     ] ],
     [ "WalkerInitializationMode", "namespace_city_builder_core.html#a690d44a390712a8db974696a9ba3f779", [
       [ "Instant", "namespace_city_builder_core.html#a690d44a390712a8db974696a9ba3f779a54828f327f31abd59f2f459c0247756d", null ],

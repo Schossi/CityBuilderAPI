@@ -20,7 +20,7 @@ var class_city_builder_core_1_1_building =
     [ "HasBuildingAddon< T >", "class_city_builder_core_1_1_building.html#a0971ca4fd27d87d253b6f8afc3e14355", null ],
     [ "HasBuildingComponent< T >", "class_city_builder_core_1_1_building.html#a1fb8ae59250c10f0e5899b9d30a000ae", null ],
     [ "HasBuildingPart< T >", "class_city_builder_core_1_1_building.html#a0b29209f3fe5e102c9554ace329f0c66", null ],
-    [ "HasPoint", "class_city_builder_core_1_1_building.html#aabf9af99e461cb21353b7fe01688c3db", null ],
+    [ "HasPoint", "class_city_builder_core_1_1_building.html#a5162be4f1ba92558b77ef730ab0ebb52", null ],
     [ "Initialize", "class_city_builder_core_1_1_building.html#ae74f0dbef1cba0dc11af66916ab6cd15", null ],
     [ "LoadData", "class_city_builder_core_1_1_building.html#ad5d42b0d7f1fe4836803c19cd2c0f982", null ],
     [ "Move", "class_city_builder_core_1_1_building.html#a0d6edc8a320941f379ec0df21215abec", null ],

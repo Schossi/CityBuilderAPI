@@ -3,7 +3,7 @@ var class_city_builder_core_1_1_production_component =
     [ "ProductionData", "class_city_builder_core_1_1_production_component_1_1_production_data.html", null ],
     [ "GetNeededItems", "class_city_builder_core_1_1_production_component.html#aacc076b0bf31ea6dc79b6057db6caa5c", null ],
     [ "GetProducedItems", "class_city_builder_core_1_1_production_component.html#a6b69c94e61329804408ae00399d13d4c", null ],
-    [ "GetReceiveCapacity", "class_city_builder_core_1_1_production_component.html#a10f8e818434a98a53b78a7c1c029e031", null ],
+    [ "GetReceiveCapacityRemaining", "class_city_builder_core_1_1_production_component.html#af3e200d8cda42e285f6c98d6e6cb6b9e", null ],
     [ "GetReceiveItems", "class_city_builder_core_1_1_production_component.html#a7bed658b6faef8e0b524b02eab0858d7", null ],
     [ "InitializeComponent", "class_city_builder_core_1_1_production_component.html#a3f5793c8e07181d4e1968efbdca01d20", null ],
     [ "LoadData", "class_city_builder_core_1_1_production_component.html#a998f3ee5e842046a3466f014c7eed839", null ],

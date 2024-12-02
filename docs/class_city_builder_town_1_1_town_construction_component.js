@@ -1,7 +1,7 @@
 var class_city_builder_town_1_1_town_construction_component =
 [
     [ "TownConstructionData", "class_city_builder_town_1_1_town_construction_component_1_1_town_construction_data.html", null ],
-    [ "GetReceiveCapacity", "class_city_builder_town_1_1_town_construction_component.html#aae2bb974a4362873757ed926a0b910fd", null ],
+    [ "GetReceiveCapacityRemaining", "class_city_builder_town_1_1_town_construction_component.html#a7082a7d65a0e7922a336406bdf7dfda1", null ],
     [ "GetReceiveItems", "class_city_builder_town_1_1_town_construction_component.html#ab27e7d9f7607d13eeecadae0d4be4082", null ],
     [ "InitializeComponent", "class_city_builder_town_1_1_town_construction_component.html#a774dfacc2c57c54618c488cf440f9453", null ],
     [ "LoadData", "class_city_builder_town_1_1_town_construction_component.html#aa5ea7b1392d96e5168df8983b2283f4e", null ],
