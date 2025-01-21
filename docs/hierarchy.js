@@ -156,7 +156,9 @@ var hierarchy =
       [ "CityBuilderCore.Editor.HeightMappedTerrainRendererEditor", "class_city_builder_core_1_1_editor_1_1_height_mapped_terrain_renderer_editor.html", null ],
       [ "CityBuilderCore.Editor.StructureCollectionEditor", "class_city_builder_core_1_1_editor_1_1_structure_collection_editor.html", null ],
       [ "CityBuilderCore.Editor.StructureCollectionFloatEditor", "class_city_builder_core_1_1_editor_1_1_structure_collection_float_editor.html", null ],
-      [ "CityBuilderCore.Editor.StructureDecoratorsEditor", "class_city_builder_core_1_1_editor_1_1_structure_decorators_editor.html", null ]
+      [ "CityBuilderCore.Editor.StructureDecoratorsEditor", "class_city_builder_core_1_1_editor_1_1_structure_decorators_editor.html", null ],
+      [ "CityBuilderCore.Editor.StructureTerrainTreeVariantsEditor", "class_city_builder_core_1_1_editor_1_1_structure_terrain_tree_variants_editor.html", null ],
+      [ "CityBuilderCore.Editor.StructureTerrainTreesEditor", "class_city_builder_core_1_1_editor_1_1_structure_terrain_trees_editor.html", null ]
     ] ],
     [ "EditorWindow", null, [
       [ "CityBuilderCore.Editor.BuildingsWindow", "class_city_builder_core_1_1_editor_1_1_buildings_window.html", null ],
@@ -453,6 +455,7 @@ var hierarchy =
         [ "CityBuilderCore.StructureCollectionFloat", "class_city_builder_core_1_1_structure_collection_float.html", null ],
         [ "CityBuilderCore.StructureDecorators", "class_city_builder_core_1_1_structure_decorators.html", null ],
         [ "CityBuilderCore.StructureTerrainDetails", "class_city_builder_core_1_1_structure_terrain_details.html", null ],
+        [ "CityBuilderCore.StructureTerrainTreeVariants", "class_city_builder_core_1_1_structure_terrain_tree_variants.html", null ],
         [ "CityBuilderCore.StructureTerrainTrees", "class_city_builder_core_1_1_structure_terrain_trees.html", null ],
         [ "CityBuilderCore.StructureTiles", "class_city_builder_core_1_1_structure_tiles.html", null ],
         [ "CityBuilderCore.Tests.DebugStructure", "class_city_builder_core_1_1_tests_1_1_debug_structure.html", null ]
@@ -477,6 +480,7 @@ var hierarchy =
         [ "CityBuilderCore.StructureCollectionFloat", "class_city_builder_core_1_1_structure_collection_float.html", null ],
         [ "CityBuilderCore.StructureDecorators", "class_city_builder_core_1_1_structure_decorators.html", null ],
         [ "CityBuilderCore.StructureTerrainDetails", "class_city_builder_core_1_1_structure_terrain_details.html", null ],
+        [ "CityBuilderCore.StructureTerrainTreeVariants", "class_city_builder_core_1_1_structure_terrain_tree_variants.html", null ],
         [ "CityBuilderCore.StructureTerrainTrees", "class_city_builder_core_1_1_structure_terrain_trees.html", null ],
         [ "CityBuilderCore.StructureTiles", "class_city_builder_core_1_1_structure_tiles.html", null ],
         [ "CityBuilderCore.Tests.DebugStructure", "class_city_builder_core_1_1_tests_1_1_debug_structure.html", null ],
@@ -518,6 +522,7 @@ var hierarchy =
         [ "CityBuilderCore.Service", "class_city_builder_core_1_1_service.html", null ],
         [ "CityBuilderCore.ServiceCategory", "class_city_builder_core_1_1_service_category.html", null ],
         [ "CityBuilderCore.TownJob", "class_city_builder_core_1_1_town_job.html", null ],
+        [ "CityBuilderCore.WalkerCategory", "class_city_builder_core_1_1_walker_category.html", null ],
         [ "CityBuilderCore.WalkerInfo", "class_city_builder_core_1_1_walker_info.html", null ]
       ] ]
     ] ],
@@ -643,6 +648,7 @@ var hierarchy =
             [ "CityBuilderCore.MoveTool", "class_city_builder_core_1_1_move_tool.html", null ],
             [ "CityBuilderCore.RoadBuilder", "class_city_builder_core_1_1_road_builder.html", null ],
             [ "CityBuilderCore.StructureBuilder", "class_city_builder_core_1_1_structure_builder.html", null ],
+            [ "CityBuilderCore.StructureReplacer", "class_city_builder_core_1_1_structure_replacer.html", null ],
             [ "CityBuilderTown.TownDemolishTool", "class_city_builder_town_1_1_town_demolish_tool.html", null ],
             [ "CityBuilderTown.TownHarvestTool", "class_city_builder_town_1_1_town_harvest_tool.html", null ],
             [ "CityBuilderTown.TownPathTool", "class_city_builder_town_1_1_town_path_tool.html", null ],
@@ -1289,6 +1295,7 @@ var hierarchy =
         [ "CityBuilderCore.SummedBuildingScore", "class_city_builder_core_1_1_summed_building_score.html", null ],
         [ "CityBuilderCore.SummedScore", "class_city_builder_core_1_1_summed_score.html", null ],
         [ "CityBuilderCore.ThresholdScore", "class_city_builder_core_1_1_threshold_score.html", null ],
+        [ "CityBuilderCore.WalkerScore", "class_city_builder_core_1_1_walker_score.html", null ],
         [ "CityBuilderCore.WorkerScore", "class_city_builder_core_1_1_worker_score.html", null ],
         [ "CityBuilderManual.Custom.CustomScore", "class_city_builder_manual_1_1_custom_1_1_custom_score.html", null ]
       ] ],
@@ -1448,6 +1455,7 @@ var hierarchy =
       [ "CityBuilderCore.WalkerEvent", "class_city_builder_core_1_1_walker_event.html", null ]
     ] ],
     [ "CityBuilderCore.StructureCollectionFloat.Variant", "class_city_builder_core_1_1_structure_collection_float_1_1_variant.html", null ],
+    [ "CityBuilderCore.StructureTerrainTreeVariants.Variant", "class_city_builder_core_1_1_structure_terrain_tree_variants_1_1_variant.html", null ],
     [ "CityBuilderCore.VariantProductionComponent.Variant", "class_city_builder_core_1_1_variant_production_component_1_1_variant.html", null ],
     [ "CityBuilderCore.VariantProductionComponent.VariantProductionData", "class_city_builder_core_1_1_variant_production_component_1_1_variant_production_data.html", [
       [ "CityBuilderCore.VariantProductionWalkerComponent.VariantProductionWalkerData", "class_city_builder_core_1_1_variant_production_walker_component_1_1_variant_production_walker_data.html", null ]

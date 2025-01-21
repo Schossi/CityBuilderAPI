@@ -18,6 +18,7 @@ var class_city_builder_core_1_1_default_game_manager =
     [ "IsLoadingChanged", "class_city_builder_core_1_1_default_game_manager.html#a87937ed69cb7a966da0fad59fe99b350", null ],
     [ "IsSavingChanged", "class_city_builder_core_1_1_default_game_manager.html#a7d831958c5e6ade7836cad35632cbde2", null ],
     [ "Started", "class_city_builder_core_1_1_default_game_manager.html#af048291950c8c2dd5fb24414e6ba2ca4", null ],
+    [ "StartedDebug", "class_city_builder_core_1_1_default_game_manager.html#ab0b46c1f4e2805e95f349f545f2acb74", null ],
     [ "IsFinished", "class_city_builder_core_1_1_default_game_manager.html#a874570520d013cd280b0a5bfeaae060b", null ],
     [ "IsLoading", "class_city_builder_core_1_1_default_game_manager.html#a15d468a55942b8135a30522baf18d759", null ],
     [ "IsSaving", "class_city_builder_core_1_1_default_game_manager.html#a9986575128d4027ec128bb525886f0e6", null ],

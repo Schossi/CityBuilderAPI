@@ -1,5 +1,11 @@
 var NAVTREEINDEX10 =
 {
+"class_city_builder_core_1_1_road_network.html#a04a912afd6a5bf10b90adeb2c3d9d013":[1,0,0,429,3],
+"class_city_builder_core_1_1_road_network.html#a704689fe93fdc219f3b377b2aa718a7c":[0,0,0,429,2],
+"class_city_builder_core_1_1_road_network.html#a704689fe93fdc219f3b377b2aa718a7c":[1,0,0,429,2],
+"class_city_builder_core_1_1_road_network.html#a76ce48e7a9ac41dfde0571bac65ee72c":[0,0,0,429,4],
+"class_city_builder_core_1_1_road_network.html#a76ce48e7a9ac41dfde0571bac65ee72c":[1,0,0,429,4],
+"class_city_builder_core_1_1_road_network.html#a7e4cfbc3f88f3985f5a19725ed6a6360":[0,0,0,429,9],
 "class_city_builder_core_1_1_road_network.html#a7e4cfbc3f88f3985f5a19725ed6a6360":[1,0,0,429,9],
 "class_city_builder_core_1_1_road_network.html#a8f333b043a7ce10c20b5bebb07b70b37":[0,0,0,429,11],
 "class_city_builder_core_1_1_road_network.html#a8f333b043a7ce10c20b5bebb07b70b37":[1,0,0,429,11],
@@ -243,11 +249,5 @@ var NAVTREEINDEX10 =
 "class_city_builder_core_1_1_split_item_container.html#a10319ce0b98cbce0e5343ff01c74d1e4":[1,0,0,465,0],
 "class_city_builder_core_1_1_split_item_container.html#a62e64f196309c69eed399e3abbcf825d":[0,0,0,465,1],
 "class_city_builder_core_1_1_split_item_container.html#a62e64f196309c69eed399e3abbcf825d":[1,0,0,465,1],
-"class_city_builder_core_1_1_sprite_color_randomizer.html":[0,0,0,466],
-"class_city_builder_core_1_1_sprite_color_randomizer.html":[1,0,0,466],
-"class_city_builder_core_1_1_sprite_highlight_manager.html":[0,0,0,467],
-"class_city_builder_core_1_1_sprite_highlight_manager.html":[1,0,0,467],
-"class_city_builder_core_1_1_sprite_highlight_manager.html#a2bfd7ce3d91dfa915316660bc25cb48a":[0,0,0,467,3],
-"class_city_builder_core_1_1_sprite_highlight_manager.html#a2bfd7ce3d91dfa915316660bc25cb48a":[1,0,0,467,3],
-"class_city_builder_core_1_1_sprite_highlight_manager.html#a566252bf08d6da02032d0e560fd2cea6":[0,0,0,467,2]
+"class_city_builder_core_1_1_sprite_color_randomizer.html":[0,0,0,466]
 };

@@ -33,6 +33,8 @@ var namespace_city_builder_core_1_1_editor =
     [ "StructureCollectionEditor", "class_city_builder_core_1_1_editor_1_1_structure_collection_editor.html", null ],
     [ "StructureCollectionFloatEditor", "class_city_builder_core_1_1_editor_1_1_structure_collection_float_editor.html", null ],
     [ "StructureDecoratorsEditor", "class_city_builder_core_1_1_editor_1_1_structure_decorators_editor.html", null ],
+    [ "StructureTerrainTreesEditor", "class_city_builder_core_1_1_editor_1_1_structure_terrain_trees_editor.html", null ],
+    [ "StructureTerrainTreeVariantsEditor", "class_city_builder_core_1_1_editor_1_1_structure_terrain_tree_variants_editor.html", null ],
     [ "TimingHappeningEditor", "class_city_builder_core_1_1_editor_1_1_timing_happening_editor.html", null ],
     [ "WalkerElement", "class_city_builder_core_1_1_editor_1_1_walker_element.html", null ],
     [ "WalkersWindow", "class_city_builder_core_1_1_editor_1_1_walkers_window.html", null ]

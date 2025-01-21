@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"class_city_builder_core_1_1_disease_addon.html#a3af791d9ed4107d7a37b176b609a3e32":[1,0,0,135,4],
+"class_city_builder_core_1_1_disease_addon.html#a56d690d1e1eb360b5c2166fa893fc05f":[0,0,0,135,6],
 "class_city_builder_core_1_1_disease_addon.html#a56d690d1e1eb360b5c2166fa893fc05f":[1,0,0,135,6],
 "class_city_builder_core_1_1_disease_addon.html#a5f67903a8ac92d76a9f573accd598f1b":[0,0,0,135,3],
 "class_city_builder_core_1_1_disease_addon.html#a5f67903a8ac92d76a9f573accd598f1b":[1,0,0,135,3],
@@ -101,12 +103,16 @@ var NAVTREEINDEX4 =
 "class_city_builder_core_1_1_editor_1_1_structure_collection_float_editor.html":[1,0,0,0,31],
 "class_city_builder_core_1_1_editor_1_1_structure_decorators_editor.html":[0,0,0,0,32],
 "class_city_builder_core_1_1_editor_1_1_structure_decorators_editor.html":[1,0,0,0,32],
-"class_city_builder_core_1_1_editor_1_1_timing_happening_editor.html":[0,0,0,0,33],
-"class_city_builder_core_1_1_editor_1_1_timing_happening_editor.html":[1,0,0,0,33],
-"class_city_builder_core_1_1_editor_1_1_walker_element.html":[0,0,0,0,34],
-"class_city_builder_core_1_1_editor_1_1_walker_element.html":[1,0,0,0,34],
-"class_city_builder_core_1_1_editor_1_1_walkers_window.html":[0,0,0,0,35],
-"class_city_builder_core_1_1_editor_1_1_walkers_window.html":[1,0,0,0,35],
+"class_city_builder_core_1_1_editor_1_1_structure_terrain_tree_variants_editor.html":[0,0,0,0,34],
+"class_city_builder_core_1_1_editor_1_1_structure_terrain_tree_variants_editor.html":[1,0,0,0,34],
+"class_city_builder_core_1_1_editor_1_1_structure_terrain_trees_editor.html":[0,0,0,0,33],
+"class_city_builder_core_1_1_editor_1_1_structure_terrain_trees_editor.html":[1,0,0,0,33],
+"class_city_builder_core_1_1_editor_1_1_timing_happening_editor.html":[0,0,0,0,35],
+"class_city_builder_core_1_1_editor_1_1_timing_happening_editor.html":[1,0,0,0,35],
+"class_city_builder_core_1_1_editor_1_1_walker_element.html":[0,0,0,0,36],
+"class_city_builder_core_1_1_editor_1_1_walker_element.html":[1,0,0,0,36],
+"class_city_builder_core_1_1_editor_1_1_walkers_window.html":[0,0,0,0,37],
+"class_city_builder_core_1_1_editor_1_1_walkers_window.html":[1,0,0,0,37],
 "class_city_builder_core_1_1_emigration_walker.html":[0,0,0,141],
 "class_city_builder_core_1_1_emigration_walker.html":[1,0,0,141],
 "class_city_builder_core_1_1_employment_component.html":[0,0,0,142],
@@ -243,11 +249,5 @@ var NAVTREEINDEX4 =
 "class_city_builder_core_1_1_expandable_visual.html":[1,0,0,163],
 "class_city_builder_core_1_1_extra_data_behaviour.html":[0,0,0,164],
 "class_city_builder_core_1_1_extra_data_behaviour.html":[1,0,0,164],
-"class_city_builder_core_1_1_extra_data_behaviour.html#a8accfa70c484124d8c6dc73f39bec67d":[0,0,0,164,0],
-"class_city_builder_core_1_1_extra_data_behaviour.html#a8accfa70c484124d8c6dc73f39bec67d":[1,0,0,164,0],
-"class_city_builder_core_1_1_extra_data_behaviour.html#aef6d760db49ddc38a0cc1ede0618c819":[0,0,0,164,1],
-"class_city_builder_core_1_1_extra_data_behaviour.html#aef6d760db49ddc38a0cc1ede0618c819":[1,0,0,164,1],
-"class_city_builder_core_1_1_fader.html":[0,0,0,165],
-"class_city_builder_core_1_1_fader.html":[1,0,0,165],
-"class_city_builder_core_1_1_fire_addon.html":[0,0,0,166]
+"class_city_builder_core_1_1_extra_data_behaviour.html#a8accfa70c484124d8c6dc73f39bec67d":[0,0,0,164,0]
 };

@@ -1,5 +1,11 @@
 var NAVTREEINDEX7 =
 {
+"class_city_builder_core_1_1_items_giver_action.html#a20a06cd7c069576720e9f20fa2d32d9b":[1,0,0,277,2],
+"class_city_builder_core_1_1_items_giver_action.html#a20fdf6fe099e3d582ecf053b84a589c2":[0,0,0,277,0],
+"class_city_builder_core_1_1_items_giver_action.html#a20fdf6fe099e3d582ecf053b84a589c2":[1,0,0,277,0],
+"class_city_builder_core_1_1_items_giver_action.html#a2ed2ac8104bc500698ff5259ae5a8626":[0,0,0,277,3],
+"class_city_builder_core_1_1_items_giver_action.html#a2ed2ac8104bc500698ff5259ae5a8626":[1,0,0,277,3],
+"class_city_builder_core_1_1_items_giver_action.html#acad593b0890e94ec7fc3cc0aa2eb35e4":[0,0,0,277,1],
 "class_city_builder_core_1_1_items_giver_action.html#acad593b0890e94ec7fc3cc0aa2eb35e4":[1,0,0,277,1],
 "class_city_builder_core_1_1_items_panel.html":[0,0,0,278],
 "class_city_builder_core_1_1_items_panel.html":[1,0,0,278],
@@ -243,11 +249,5 @@ var NAVTREEINDEX7 =
 "class_city_builder_core_1_1_message_receiver.html#a4001106e189130e3b98f3407122be08c":[1,0,0,340,0],
 "class_city_builder_core_1_1_message_receiver.html#aa1524e1e394a205ca35f039cb8287265":[0,0,0,340,1],
 "class_city_builder_core_1_1_message_receiver.html#aa1524e1e394a205ca35f039cb8287265":[1,0,0,340,1],
-"class_city_builder_core_1_1_migration.html":[0,0,0,341],
-"class_city_builder_core_1_1_migration.html":[1,0,0,341],
-"class_city_builder_core_1_1_migration_1_1_migration_data.html":[0,0,0,341,0],
-"class_city_builder_core_1_1_migration_1_1_migration_data.html":[1,0,0,341,0],
-"class_city_builder_core_1_1_minimap.html":[0,0,0,342],
-"class_city_builder_core_1_1_minimap.html":[1,0,0,342],
-"class_city_builder_core_1_1_mission.html":[0,0,0,343]
+"class_city_builder_core_1_1_migration.html":[0,0,0,341]
 };

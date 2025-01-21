@@ -1,5 +1,11 @@
 var NAVTREEINDEX5 =
 {
+"class_city_builder_core_1_1_extra_data_behaviour.html#a8accfa70c484124d8c6dc73f39bec67d":[1,0,0,164,0],
+"class_city_builder_core_1_1_extra_data_behaviour.html#aef6d760db49ddc38a0cc1ede0618c819":[0,0,0,164,1],
+"class_city_builder_core_1_1_extra_data_behaviour.html#aef6d760db49ddc38a0cc1ede0618c819":[1,0,0,164,1],
+"class_city_builder_core_1_1_fader.html":[0,0,0,165],
+"class_city_builder_core_1_1_fader.html":[1,0,0,165],
+"class_city_builder_core_1_1_fire_addon.html":[0,0,0,166],
 "class_city_builder_core_1_1_fire_addon.html":[1,0,0,166],
 "class_city_builder_core_1_1_fire_addon.html#a0c260f78f1d0804bfcfa5b60b46b3ef6":[0,0,0,166,3],
 "class_city_builder_core_1_1_fire_addon.html#a0c260f78f1d0804bfcfa5b60b46b3ef6":[1,0,0,166,3],
@@ -243,11 +249,5 @@ var NAVTREEINDEX5 =
 "class_city_builder_core_1_1_item_category.html":[1,0,0,264],
 "class_city_builder_core_1_1_item_category.html#a114d620e0afe025de8e9f0fab07d085a":[0,0,0,264,0],
 "class_city_builder_core_1_1_item_category.html#a114d620e0afe025de8e9f0fab07d085a":[1,0,0,264,0],
-"class_city_builder_core_1_1_item_category.html#a494ac3fd647c0088ead75bd60dbc43bf":[0,0,0,264,1],
-"class_city_builder_core_1_1_item_category.html#a494ac3fd647c0088ead75bd60dbc43bf":[1,0,0,264,1],
-"class_city_builder_core_1_1_item_category.html#a4abbd621451658065bb097adafa3bf8d":[0,0,0,264,7],
-"class_city_builder_core_1_1_item_category.html#a4abbd621451658065bb097adafa3bf8d":[1,0,0,264,7],
-"class_city_builder_core_1_1_item_category.html#a4c1bdaaf78ad4a3305eca63fd54e552d":[0,0,0,264,3],
-"class_city_builder_core_1_1_item_category.html#a4c1bdaaf78ad4a3305eca63fd54e552d":[1,0,0,264,3],
-"class_city_builder_core_1_1_item_category.html#a59c687b5df26bcc35fe1e0f913a67c9d":[0,0,0,264,6]
+"class_city_builder_core_1_1_item_category.html#a494ac3fd647c0088ead75bd60dbc43bf":[0,0,0,264,1]
 };

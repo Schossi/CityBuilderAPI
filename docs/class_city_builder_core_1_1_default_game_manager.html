@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.9.0</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.9.1</span>
    </div>
   </td>
  </tr>
@@ -216,8 +216,15 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>SaveMetaData</b></td>
 <tr class="separator:a87937ed69cb7a966da0fad59fe99b350"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af048291950c8c2dd5fb24414e6ba2ca4" id="r_af048291950c8c2dd5fb24414e6ba2ca4"><td class="memItemLeft" align="right" valign="top"><a id="af048291950c8c2dd5fb24414e6ba2ca4" name="af048291950c8c2dd5fb24414e6ba2ca4"></a>
 UnityEvent&#160;</td><td class="memItemRight" valign="bottom"><b>Started</b></td></tr>
-<tr class="memdesc:af048291950c8c2dd5fb24414e6ba2ca4"><td class="mdescLeft">&#160;</td><td class="mdescRight">fired when a mission is started for the first time, might be used to display a mission briefing <br /></td></tr>
+<tr class="memdesc:af048291950c8c2dd5fb24414e6ba2ca4"><td class="mdescLeft">&#160;</td><td class="mdescRight">fired when a mission is started for the first time, might be used to display a mission briefing<br  />
+ this is before structures are initialized so it can be used to perform generation and setup<br  />
+ for the same reason structures wont be available through the manager and wont have proper points <br /></td></tr>
 <tr class="separator:af048291950c8c2dd5fb24414e6ba2ca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0b46c1f4e2805e95f349f545f2acb74" id="r_ab0b46c1f4e2805e95f349f545f2acb74"><td class="memItemLeft" align="right" valign="top"><a id="ab0b46c1f4e2805e95f349f545f2acb74" name="ab0b46c1f4e2805e95f349f545f2acb74"></a>
+UnityEvent&#160;</td><td class="memItemRight" valign="bottom"><b>StartedDebug</b></td></tr>
+<tr class="memdesc:ab0b46c1f4e2805e95f349f545f2acb74"><td class="mdescLeft">&#160;</td><td class="mdescRight">fired instead of the started event when DebugMission is used<br  />
+ this allows skipping first time stuff like mission briefings in debug scenes <br /></td></tr>
+<tr class="separator:ab0b46c1f4e2805e95f349f545f2acb74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a833836c521cf0668f41151dad538c197" id="r_a833836c521cf0668f41151dad538c197"><td class="memItemLeft" align="right" valign="top"><a id="a833836c521cf0668f41151dad538c197" name="a833836c521cf0668f41151dad538c197"></a>
 UnityEvent&#160;</td><td class="memItemRight" valign="bottom"><b>Finished</b></td></tr>
 <tr class="memdesc:a833836c521cf0668f41151dad538c197"><td class="mdescLeft">&#160;</td><td class="mdescRight">fired when the missions win conditions are satisfied for the first time, might be used to display a win screen <br /></td></tr>

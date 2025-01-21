@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.9.0</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.9.1</span>
    </div>
   </td>
  </tr>
@@ -1863,6 +1863,9 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">holds a reference to a structure which may be replaced(for example buildings being replaced when they evolve)<br  />
  therefore if a structure is replaced by some other equivalent structure references that other entities have on it dont break  <a href="class_city_builder_core_1_1_structure_reference.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_structure_replacer.html">StructureReplacer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">tool for adding points to a <a class="el" href="class_city_builder_core_1_1_structure_collection.html" title="structure made up of a collection of identical gameobjects  if the members of the collection are ISav...">StructureCollection</a> or <a class="el" href="class_city_builder_core_1_1_structure_tiles.html" title="structure made up of a collection of tiles on a tilemap">StructureTiles</a>  <a href="class_city_builder_core_1_1_structure_replacer.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_structure_road_blocker.html">StructureRoadBlocker</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">blocker that uses the points of an <a class="el" href="interface_city_builder_core_1_1_i_structure.html" title="interface for anything placed on the map(roads, decorators, buildings, ....)">IStructure</a> on the same or the parent component<br  />
  blocking prevents a <a class="el" href="class_city_builder_core_1_1_walker.html" title="base class for entites moving about the map  typically created by some kind of WalkerSpawner&lt;T&gt; on a ...">Walker</a> with <a class="el" href="#a19f9a2748f73f3b90d6ba96447987553a7a89590e2819cdcb45e2b3a98dc28467" title="a* pathfinding in roads unless blocked">PathType.RoadBlocked</a> from using a point  <a href="class_city_builder_core_1_1_structure_road_blocker.html#details">More...</a><br /></td></tr>
@@ -1885,6 +1888,10 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_structure_terrain_trees.html">StructureTerrainTrees</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">structure that adds and removes terrain trees using a <a class="el" href="class_city_builder_core_1_1_terrain_modifier.html" title="used to modify and persist terrain data">TerrainModifier</a><br  />
   <a href="class_city_builder_core_1_1_structure_terrain_trees.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_structure_terrain_tree_variants.html">StructureTerrainTreeVariants</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">structure that adds and removes terrain trees using a <a class="el" href="class_city_builder_core_1_1_terrain_modifier.html" title="used to modify and persist terrain data">TerrainModifier</a>, can handle multiple tree variants<br  />
+  <a href="class_city_builder_core_1_1_structure_terrain_tree_variants.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_structure_tiles.html">StructureTiles</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">structure made up of a collection of tiles on a tilemap  <a href="class_city_builder_core_1_1_structure_tiles.html#details">More...</a><br /></td></tr>
@@ -2175,6 +2182,12 @@ Classes</h2></td></tr>
  can be used as a tag for pathfinding(WalkerInfo.PathTag)<br  />
  so the walker only walks on certain NavMesh areas  <a href="class_city_builder_core_1_1_walker_area_mask.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_walker_category.html">WalkerCategory</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">category for bundling and filtering walkers, used in <a class="el" href="class_city_builder_core_1_1_walker_score.html" title="counts how many walkers currently exist on the map">WalkerScore</a><br  />
+ <br  />
+ may be used for grouping road blocking by setting it as PathTag in <a class="el" href="class_city_builder_core_1_1_walker_info.html" title="meta info for data that does not change between instances of a walker  can be used to compare walkers...">WalkerInfo</a> and adding it to <a class="el" href="class_city_builder_core_1_1_road_blocker_component.html" title="building component that can block walkers that use PathType.RoadBlocked from using roads it is built ...">RoadBlockerComponent</a> Tags<br  />
+ in this case the actual objects in the collection dont matter, walking is blocked purely by the key of this object  <a href="class_city_builder_core_1_1_walker_category.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_walker_component.html">WalkerComponent</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">building component that periodically spawns a <a class="el" href="class_city_builder_core_1_1_roaming_walker.html" title="walker that semi randomly walks around and then returns home  has a memory so it diversifies the rout...">RoamingWalker</a>  <a href="class_city_builder_core_1_1_walker_component.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2201,6 +2214,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_walker_risks_bar.html">WalkerRisksBar</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">highlights risk walkers by displaying the risk icon above them  <a href="class_city_builder_core_1_1_walker_risks_bar.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_walker_score.html">WalkerScore</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">counts how many walkers currently exist on the map  <a href="class_city_builder_core_1_1_walker_score.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_walker_services_bar.html">WalkerServicesBar</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">highlights service walkers by displaying the service icon above them  <a href="class_city_builder_core_1_1_walker_services_bar.html#details">More...</a><br /></td></tr>
