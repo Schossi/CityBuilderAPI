@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.9.1</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.9.2</span>
    </div>
   </td>
  </tr>
@@ -142,8 +142,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae9ee1ff99bc3a32fa57c0bac58c95357" id="r_ae9ee1ff99bc3a32fa57c0bac58c95357"><td class="memItemLeft" align="right" valign="top"><a id="ae9ee1ff99bc3a32fa57c0bac58c95357" name="ae9ee1ff99bc3a32fa57c0bac58c95357"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>HasPoint</b> (Vector2Int point, <a class="el" href="class_city_builder_core_1_1_road.html">Road</a> road=null)</td></tr>
 <tr class="separator:ae9ee1ff99bc3a32fa57c0bac58c95357"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a854ccc09f14ed6f59a1db8080b4674bd" id="r_a854ccc09f14ed6f59a1db8080b4674bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a854ccc09f14ed6f59a1db8080b4674bd">Add</a> (IEnumerable&lt; Vector2Int &gt; points, <a class="el" href="class_city_builder_core_1_1_road.html">Road</a> road)</td></tr>
-<tr class="separator:a854ccc09f14ed6f59a1db8080b4674bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2580ea4205627c3934dc7e5eab01cdb9" id="r_a2580ea4205627c3934dc7e5eab01cdb9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2580ea4205627c3934dc7e5eab01cdb9">Add</a> (IEnumerable&lt; Vector2Int &gt; points, <a class="el" href="class_city_builder_core_1_1_road.html">Road</a> road, <a class="el" href="class_city_builder_core_1_1_undo_redo_actions.html">UndoRedoActions</a> undoRedoActions=null)</td></tr>
+<tr class="separator:a2580ea4205627c3934dc7e5eab01cdb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6926f2692dff7c79d89842b5eabca516" id="r_a6926f2692dff7c79d89842b5eabca516"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6926f2692dff7c79d89842b5eabca516">Register</a> (IEnumerable&lt; Vector2Int &gt; points, <a class="el" href="class_city_builder_core_1_1_road.html">Road</a> road)</td></tr>
 <tr class="separator:a6926f2692dff7c79d89842b5eabca516"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58007400101f18707c98246b78dc7da8" id="r_a58007400101f18707c98246b78dc7da8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58007400101f18707c98246b78dc7da8">Deregister</a> (IEnumerable&lt; Vector2Int &gt; points, <a class="el" href="class_city_builder_core_1_1_road.html">Road</a> road)</td></tr>
@@ -266,8 +266,8 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_points_changed.html">
 <tr class="separator:add26ae625095d2704795b969a1b9a7be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a854ccc09f14ed6f59a1db8080b4674bd" name="a854ccc09f14ed6f59a1db8080b4674bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a854ccc09f14ed6f59a1db8080b4674bd">&#9670;&#160;</a></span>Add()</h2>
+<a id="a2580ea4205627c3934dc7e5eab01cdb9" name="a2580ea4205627c3934dc7e5eab01cdb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2580ea4205627c3934dc7e5eab01cdb9">&#9670;&#160;</a></span>Add()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -283,7 +283,12 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_points_changed.html">
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_city_builder_core_1_1_road.html">Road</a></td>          <td class="paramname"><span class="paramname"><em>road</em></span>&#160;)</td>
+          <td class="paramtype"><a class="el" href="class_city_builder_core_1_1_road.html">Road</a></td>          <td class="paramname"><span class="paramname"><em>road</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_city_builder_core_1_1_undo_redo_actions.html">UndoRedoActions</a></td>          <td class="paramname"><span class="paramname"><em>undoRedoActions</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>

@@ -26,5 +26,8 @@ var searchData=
   ['lazydependency_3c_20citybuildercore_3a_3ailayermanager_20_3e_23',['LazyDependency&lt; CityBuilderCore::ILayerManager &gt;',['../class_city_builder_core_1_1_lazy_dependency.html',1,'CityBuilderCore']]],
   ['lazydependency_3c_20citybuildercore_3a_3aimap_20_3e_24',['LazyDependency&lt; CityBuilderCore::IMap &gt;',['../class_city_builder_core_1_1_lazy_dependency.html',1,'CityBuilderCore']]],
   ['lazydependency_3c_20citybuildercore_3a_3aistructuremanager_20_3e_25',['LazyDependency&lt; CityBuilderCore::IStructureManager &gt;',['../class_city_builder_core_1_1_lazy_dependency.html',1,'CityBuilderCore']]],
-  ['linkroadtesting_26',['LinkRoadTesting',['../class_city_builder_core_1_1_tests_1_1_link_road_testing.html',1,'CityBuilderCore::Tests']]]
+  ['lazydependency_3c_20igridpositions_20_3e_26',['LazyDependency&lt; IGridPositions &gt;',['../class_city_builder_core_1_1_lazy_dependency.html',1,'CityBuilderCore']]],
+  ['lazyoptionaldependency_27',['LazyOptionalDependency',['../class_city_builder_core_1_1_lazy_optional_dependency.html',1,'CityBuilderCore']]],
+  ['lazyoptionaldependency_3c_20igridheights_20_3e_28',['LazyOptionalDependency&lt; IGridHeights &gt;',['../class_city_builder_core_1_1_lazy_optional_dependency.html',1,'CityBuilderCore']]],
+  ['linkroadtesting_29',['LinkRoadTesting',['../class_city_builder_core_1_1_tests_1_1_link_road_testing.html',1,'CityBuilderCore::Tests']]]
 ];

@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.9.1</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.9.2</span>
    </div>
   </td>
  </tr>
@@ -152,10 +152,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8004cac4a51c3c0f2a3e7d6a37239e34" id="r_a8004cac4a51c3c0f2a3e7d6a37239e34"><td class="memItemLeft" align="right" valign="top"><a id="a8004cac4a51c3c0f2a3e7d6a37239e34" name="a8004cac4a51c3c0f2a3e7d6a37239e34"></a>
 <a class="el" href="class_city_builder_core_1_1_structure_tiles.html">StructureTiles</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetStructureTiles</b> (string key)</td></tr>
 <tr class="separator:a8004cac4a51c3c0f2a3e7d6a37239e34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6fc690c647d15acb488bac7cf17f485" id="r_af6fc690c647d15acb488bac7cf17f485"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6fc690c647d15acb488bac7cf17f485">Remove</a> (IEnumerable&lt; Vector2Int &gt; points, int mask, bool decoratorsOnly, Action&lt; <a class="el" href="interface_city_builder_core_1_1_i_structure.html">IStructure</a> &gt; removing=null)</td></tr>
-<tr class="memdesc:af6fc690c647d15acb488bac7cf17f485"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes points from any structure that occupies that point<br  />
+<tr class="memitem:a2f2c3fcfd75473ebfca298e8debde973" id="r_a2f2c3fcfd75473ebfca298e8debde973"><td class="memItemLeft" align="right" valign="top">IEnumerable&lt; Vector2Int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2f2c3fcfd75473ebfca298e8debde973">Remove</a> (IEnumerable&lt; Vector2Int &gt; points, int mask, bool decoratorsOnly, Action&lt; <a class="el" href="interface_city_builder_core_1_1_i_structure.html">IStructure</a> &gt; removing=null, <a class="el" href="class_city_builder_core_1_1_undo_redo_actions.html">UndoRedoActions</a> undoRedoActions=null)</td></tr>
+<tr class="memdesc:a2f2c3fcfd75473ebfca298e8debde973"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes points from any structure that occupies that point<br  />
  for some structures that will remove the entire thing(buildings)  <br /></td></tr>
-<tr class="separator:af6fc690c647d15acb488bac7cf17f485"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a2f2c3fcfd75473ebfca298e8debde973"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8c8467d51230a4875debce118c798cb" id="r_ad8c8467d51230a4875debce118c798cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad8c8467d51230a4875debce118c798cb">RegisterStructure</a> (<a class="el" href="interface_city_builder_core_1_1_i_structure.html">IStructure</a> structure, bool isUnderlying=false)</td></tr>
 <tr class="memdesc:ad8c8467d51230a4875debce118c798cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds a structure into the managers care, others will now be able to retrieve it from the manager<br  />
  structures on the map should always be registered with the manager,  <br /></td></tr>
@@ -465,8 +465,8 @@ Action&#160;</td><td class="memItemRight" valign="bottom"><b>Changed</b></td></t
 
 </div>
 </div>
-<a id="af6fc690c647d15acb488bac7cf17f485" name="af6fc690c647d15acb488bac7cf17f485"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6fc690c647d15acb488bac7cf17f485">&#9670;&#160;</a></span>Remove()</h2>
+<a id="a2f2c3fcfd75473ebfca298e8debde973" name="a2f2c3fcfd75473ebfca298e8debde973"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f2c3fcfd75473ebfca298e8debde973">&#9670;&#160;</a></span>Remove()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -475,7 +475,7 @@ Action&#160;</td><td class="memItemRight" valign="bottom"><b>Changed</b></td></t
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int CityBuilderCore.DefaultStructureManager.Remove </td>
+          <td class="memname">IEnumerable&lt; Vector2Int &gt; CityBuilderCore.DefaultStructureManager.Remove </td>
           <td>(</td>
           <td class="paramtype">IEnumerable&lt; Vector2Int &gt;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
         </tr>
@@ -492,7 +492,12 @@ Action&#160;</td><td class="memItemRight" valign="bottom"><b>Changed</b></td></t
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Action&lt; <a class="el" href="interface_city_builder_core_1_1_i_structure.html">IStructure</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>removing</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">Action&lt; <a class="el" href="interface_city_builder_core_1_1_i_structure.html">IStructure</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>removing</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_city_builder_core_1_1_undo_redo_actions.html">UndoRedoActions</a></td>          <td class="paramname"><span class="paramname"><em>undoRedoActions</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -513,9 +518,9 @@ Action&#160;</td><td class="memItemRight" valign="bottom"><b>Changed</b></td></t
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>how many structures were affected</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>the affected points</dd></dl>
 
-<p>Implements <a class="el" href="interface_city_builder_core_1_1_i_structure_manager.html#ad5048a7b571f2cb055a795ccaa72b933">CityBuilderCore.IStructureManager</a>.</p>
+<p>Implements <a class="el" href="interface_city_builder_core_1_1_i_structure_manager.html#a686c2c91c9e915fded93ae8e6506664f">CityBuilderCore.IStructureManager</a>.</p>
 
 </div>
 </div>

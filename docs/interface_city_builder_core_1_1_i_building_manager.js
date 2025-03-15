@@ -1,6 +1,7 @@
 var interface_city_builder_core_1_1_i_building_manager =
 [
-    [ "Add< T >", "interface_city_builder_core_1_1_i_building_manager.html#a6e90e519cc5c60e13c90603d5eddbe14", null ],
+    [ "Add", "interface_city_builder_core_1_1_i_building_manager.html#a84694c6269b7e8f4fb45902ca8184349", null ],
+    [ "Add< T >", "interface_city_builder_core_1_1_i_building_manager.html#aedc70bec2d2d6d4d77a6e410e185ce35", null ],
     [ "DeregisterBuilding", "interface_city_builder_core_1_1_i_building_manager.html#a2402df753752c5f54d301bd2d4dc165e", null ],
     [ "DeregisterBuildingTrait< T >", "interface_city_builder_core_1_1_i_building_manager.html#af3b216e45414fe4a6f17ad61f9c47105", null ],
     [ "GetBuilding", "interface_city_builder_core_1_1_i_building_manager.html#a69c80d1b0717e28fed30590814476d5c", null ],

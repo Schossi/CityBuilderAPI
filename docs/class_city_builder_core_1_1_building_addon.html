@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.9.1</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.9.2</span>
    </div>
   </td>
  </tr>
@@ -118,15 +118,16 @@ Inheritance diagram for CityBuilderCore.BuildingAddon:</div>
  <div class="center">
   <img src="class_city_builder_core_1_1_building_addon.png" usemap="#CityBuilderCore.BuildingAddon_map" alt=""/>
   <map id="CityBuilderCore.BuildingAddon_map" name="CityBuilderCore.BuildingAddon_map">
-<area href="class_city_builder_core_1_1_keyed_behaviour.html" title="behaviour that can be uniquely identified by a string key  it can then be retrieved from KeyedSet&lt;T&gt; ..." alt="CityBuilderCore.KeyedBehaviour" shape="rect" coords="534,56,791,80"/>
-<area href="interface_city_builder_core_1_1_i_save_data.html" title="interface for all kinds of components that contain state that needs saving" alt="CityBuilderCore.ISaveData" shape="rect" coords="801,56,1058,80"/>
-<area href="interface_city_builder_core_1_1_i_keyed.html" title="object that can be uniquely identified by a string key  it can then be retrieved from IKeyedSet&lt;T&gt; by..." alt="CityBuilderCore.IKeyed" shape="rect" coords="667,0,924,24"/>
+<area href="class_city_builder_core_1_1_keyed_behaviour.html" title="behaviour that can be uniquely identified by a string key  it can then be retrieved from KeyedSet&lt;T&gt; ..." alt="CityBuilderCore.KeyedBehaviour" shape="rect" coords="667,56,924,80"/>
+<area href="interface_city_builder_core_1_1_i_save_data.html" title="interface for all kinds of components that contain state that needs saving" alt="CityBuilderCore.ISaveData" shape="rect" coords="934,56,1191,80"/>
+<area href="interface_city_builder_core_1_1_i_keyed.html" title="object that can be uniquely identified by a string key  it can then be retrieved from IKeyedSet&lt;T&gt; by..." alt="CityBuilderCore.IKeyed" shape="rect" coords="801,0,1058,24"/>
 <area href="class_city_builder_core_1_1_building_addon_effect.html" title="blank building addon that can be used to attach particle effects for example  removal is either done ..." alt="CityBuilderCore.BuildingAddonEffect" shape="rect" coords="0,168,257,192"/>
 <area href="class_city_builder_core_1_1_building_addon_material.html" title="changes materials of renderers on the building while active  for example for outline or highlight mat..." alt="CityBuilderCore.BuildingAddonMaterial" shape="rect" coords="267,168,524,192"/>
-<area href="class_city_builder_core_1_1_building_addon_spawn.html" title="addon that visualy spawns in the building by scaling it up and rotating it using a coroutine(no anima..." alt="CityBuilderCore.BuildingAddonSpawn" shape="rect" coords="534,168,791,192"/>
-<area href="class_city_builder_core_1_1_building_addon_transformer.html" title="addon that transfers its scale and rotation to the attached building  this can be used to attach anim..." alt="CityBuilderCore.BuildingAddonTransformer" shape="rect" coords="801,168,1058,192"/>
-<area href="class_city_builder_core_1_1_disease_addon.html" title="addon that simulates a disease" alt="CityBuilderCore.DiseaseAddon" shape="rect" coords="1068,168,1325,192"/>
-<area href="class_city_builder_core_1_1_fire_addon.html" title="addon that simulates a fire" alt="CityBuilderCore.FireAddon" shape="rect" coords="1335,168,1592,192"/>
+<area href="class_city_builder_core_1_1_building_addon_renderer.html" title="copies over materials and properties from a renderer to the building while active  can be used to put..." alt="CityBuilderCore.BuildingAddonRenderer" shape="rect" coords="534,168,791,192"/>
+<area href="class_city_builder_core_1_1_building_addon_spawn.html" title="addon that visualy spawns in the building by scaling it up and rotating it using a coroutine(no anima..." alt="CityBuilderCore.BuildingAddonSpawn" shape="rect" coords="801,168,1058,192"/>
+<area href="class_city_builder_core_1_1_building_addon_transformer.html" title="addon that transfers its scale and rotation to the attached building  this can be used to attach anim..." alt="CityBuilderCore.BuildingAddonTransformer" shape="rect" coords="1068,168,1325,192"/>
+<area href="class_city_builder_core_1_1_disease_addon.html" title="addon that simulates a disease" alt="CityBuilderCore.DiseaseAddon" shape="rect" coords="1335,168,1592,192"/>
+<area href="class_city_builder_core_1_1_fire_addon.html" title="addon that simulates a fire" alt="CityBuilderCore.FireAddon" shape="rect" coords="1602,168,1859,192"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -151,11 +152,13 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> ()<
 <tr class="memitem:a7c1464678d4ae44065f30d2c8856a96f" id="r_a7c1464678d4ae44065f30d2c8856a96f"><td class="memItemLeft" align="right" valign="top"><a id="a7c1464678d4ae44065f30d2c8856a96f" name="a7c1464678d4ae44065f30d2c8856a96f"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> ()</td></tr>
 <tr class="separator:a7c1464678d4ae44065f30d2c8856a96f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8af2ca90252dbe375f362d7e1755471c" id="r_a8af2ca90252dbe375f362d7e1755471c"><td class="memItemLeft" align="right" valign="top"><a id="a8af2ca90252dbe375f362d7e1755471c" name="a8af2ca90252dbe375f362d7e1755471c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Remove</b> ()</td></tr>
-<tr class="memdesc:a8af2ca90252dbe375f362d7e1755471c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the addon from the <a class="el" href="class_city_builder_core_1_1_building.html" title="default implementation for IBuilding">Building</a> it is located on<br  />
+<tr class="memitem:aaca2f2062c3e5c54b2a71fa32c80f4db" id="r_aaca2f2062c3e5c54b2a71fa32c80f4db"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaca2f2062c3e5c54b2a71fa32c80f4db">Add</a> (<a class="el" href="class_city_builder_core_1_1_building.html">Building</a> building)</td></tr>
+<tr class="separator:aaca2f2062c3e5c54b2a71fa32c80f4db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61aaabe4f9a9bf3d5afa832a709baaa4" id="r_a61aaabe4f9a9bf3d5afa832a709baaa4"><td class="memItemLeft" align="right" valign="top"><a id="a61aaabe4f9a9bf3d5afa832a709baaa4" name="a61aaabe4f9a9bf3d5afa832a709baaa4"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Remove</b> ()</td></tr>
+<tr class="memdesc:a61aaabe4f9a9bf3d5afa832a709baaa4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the addon from the <a class="el" href="class_city_builder_core_1_1_building.html" title="default implementation for IBuilding">Building</a> it is located on<br  />
  this will usually result in the termination of the addon. <br /></td></tr>
-<tr class="separator:a8af2ca90252dbe375f362d7e1755471c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a61aaabe4f9a9bf3d5afa832a709baaa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b26eef2a74e684aab6673f894c150ea" id="r_a2b26eef2a74e684aab6673f894c150ea"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b26eef2a74e684aab6673f894c150ea">InitializeAddon</a> ()</td></tr>
 <tr class="memdesc:a2b26eef2a74e684aab6673f894c150ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">called by the <a class="el" href="class_city_builder_core_1_1_building.html" title="default implementation for IBuilding">Building</a> after the addon has been instantiated and <a class="el" href="class_city_builder_core_1_1_building.html" title="default implementation for IBuilding">Building</a> has been set  <br /></td></tr>
 <tr class="separator:a2b26eef2a74e684aab6673f894c150ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -186,6 +189,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>Save</b></td></tr>
 <tr class="memitem:aa0c22b6d15a2bf822a1c0dc362a30b1b" id="r_aa0c22b6d15a2bf822a1c0dc362a30b1b"><td class="memItemLeft" align="right" valign="top"><a id="aa0c22b6d15a2bf822a1c0dc362a30b1b" name="aa0c22b6d15a2bf822a1c0dc362a30b1b"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>Scale</b></td></tr>
 <tr class="separator:aa0c22b6d15a2bf822a1c0dc362a30b1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb9fad6aef1697a9f0c32cb02b22aa99" id="r_afb9fad6aef1697a9f0c32cb02b22aa99"><td class="memItemLeft" align="right" valign="top"><a id="afb9fad6aef1697a9f0c32cb02b22aa99" name="afb9fad6aef1697a9f0c32cb02b22aa99"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>Rotate</b></td></tr>
+<tr class="separator:afb9fad6aef1697a9f0c32cb02b22aa99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_class_city_builder_core_1_1_keyed_behaviour"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_class_city_builder_core_1_1_keyed_behaviour')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_city_builder_core_1_1_keyed_behaviour.html">CityBuilderCore.KeyedBehaviour</a></td></tr>
 <tr class="memitem:ab039c20224607232e0074e6e4f8a77fe inherit pub_attribs_class_city_builder_core_1_1_keyed_behaviour" id="r_ab039c20224607232e0074e6e4f8a77fe"><td class="memItemLeft" align="right" valign="top">
 string&#160;</td><td class="memItemRight" valign="bottom"><b>Key</b></td></tr>
@@ -232,6 +238,37 @@ Properties</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="aaca2f2062c3e5c54b2a71fa32c80f4db" name="aaca2f2062c3e5c54b2a71fa32c80f4db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaca2f2062c3e5c54b2a71fa32c80f4db">&#9670;&#160;</a></span>Add()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void CityBuilderCore.BuildingAddon.Add </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_city_builder_core_1_1_building.html">Building</a></td>          <td class="paramname"><span class="paramname"><em>building</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">building</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a2b26eef2a74e684aab6673f894c150ea" name="a2b26eef2a74e684aab6673f894c150ea"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2b26eef2a74e684aab6673f894c150ea">&#9670;&#160;</a></span>InitializeAddon()</h2>
 
@@ -257,7 +294,7 @@ Properties</h2></td></tr>
 
 <p>called by the <a class="el" href="class_city_builder_core_1_1_building.html" title="default implementation for IBuilding">Building</a> after the addon has been instantiated and <a class="el" href="class_city_builder_core_1_1_building.html" title="default implementation for IBuilding">Building</a> has been set </p>
 
-<p>Reimplemented in <a class="el" href="class_city_builder_core_1_1_building_addon_material.html#a4dab9cd00a6b7136c666356b27fc4e1b">CityBuilderCore.BuildingAddonMaterial</a>, <a class="el" href="class_city_builder_core_1_1_building_addon_spawn.html#a7acf2d21aeb0c96e8ea2e0c6399f60ea">CityBuilderCore.BuildingAddonSpawn</a>, <a class="el" href="class_city_builder_core_1_1_building_addon_transformer.html#aa0e4defce86ddccf0ae6bf8d8844234e">CityBuilderCore.BuildingAddonTransformer</a>, and <a class="el" href="class_city_builder_core_1_1_disease_addon.html#ac3e9526129730241889a26718e9a4f6e">CityBuilderCore.DiseaseAddon</a>.</p>
+<p>Reimplemented in <a class="el" href="class_city_builder_core_1_1_building_addon_material.html#a4dab9cd00a6b7136c666356b27fc4e1b">CityBuilderCore.BuildingAddonMaterial</a>, <a class="el" href="class_city_builder_core_1_1_building_addon_renderer.html#a9dfdce778bc0f6df015b1c020626de19">CityBuilderCore.BuildingAddonRenderer</a>, <a class="el" href="class_city_builder_core_1_1_building_addon_spawn.html#a7acf2d21aeb0c96e8ea2e0c6399f60ea">CityBuilderCore.BuildingAddonSpawn</a>, <a class="el" href="class_city_builder_core_1_1_building_addon_transformer.html#aa0e4defce86ddccf0ae6bf8d8844234e">CityBuilderCore.BuildingAddonTransformer</a>, and <a class="el" href="class_city_builder_core_1_1_disease_addon.html#ac3e9526129730241889a26718e9a4f6e">CityBuilderCore.DiseaseAddon</a>.</p>
 
 </div>
 </div>
@@ -398,7 +435,7 @@ Properties</h2></td></tr>
 <p>called by the <a class="el" href="class_city_builder_core_1_1_building.html" title="default implementation for IBuilding">Building</a> when the addon gets removed<br  />
  this should usually terminate the addon(mark as terminated and Destroy) </p>
 
-<p>Reimplemented in <a class="el" href="class_city_builder_core_1_1_building_addon_material.html#ad3b969ab8eb477d3b0e8b71dc9241d43">CityBuilderCore.BuildingAddonMaterial</a>, <a class="el" href="class_city_builder_core_1_1_building_addon_spawn.html#a579334c875f0f02a29d504fea78260bc">CityBuilderCore.BuildingAddonSpawn</a>, <a class="el" href="class_city_builder_core_1_1_building_addon_transformer.html#a55d9a8105d033b89b1b324fbdecdea99">CityBuilderCore.BuildingAddonTransformer</a>, and <a class="el" href="class_city_builder_core_1_1_disease_addon.html#a9b1df3eacf474a2b3114680774345fb3">CityBuilderCore.DiseaseAddon</a>.</p>
+<p>Reimplemented in <a class="el" href="class_city_builder_core_1_1_building_addon_material.html#ad3b969ab8eb477d3b0e8b71dc9241d43">CityBuilderCore.BuildingAddonMaterial</a>, <a class="el" href="class_city_builder_core_1_1_building_addon_renderer.html#ac0a34e353f6a95111a2cfea87d929755">CityBuilderCore.BuildingAddonRenderer</a>, <a class="el" href="class_city_builder_core_1_1_building_addon_spawn.html#a579334c875f0f02a29d504fea78260bc">CityBuilderCore.BuildingAddonSpawn</a>, <a class="el" href="class_city_builder_core_1_1_building_addon_transformer.html#a55d9a8105d033b89b1b324fbdecdea99">CityBuilderCore.BuildingAddonTransformer</a>, and <a class="el" href="class_city_builder_core_1_1_disease_addon.html#a9b1df3eacf474a2b3114680774345fb3">CityBuilderCore.DiseaseAddon</a>.</p>
 
 </div>
 </div>

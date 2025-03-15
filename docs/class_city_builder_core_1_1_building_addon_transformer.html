@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.9.1</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.9.2</span>
    </div>
   </td>
  </tr>
@@ -100,6 +100,7 @@ $(function(){initNavTree('class_city_builder_core_1_1_building_addon_transformer
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="class_city_builder_core_1_1_building_addon_transformer-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">CityBuilderCore.BuildingAddonTransformer Class Reference</div></div>
 </div><!--header-->
@@ -142,11 +143,13 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Awake</b> ()<
 <tr class="memitem:a8a82d21cf5fb19d219c7d4bb05d378a9 inherit pub_methods_class_city_builder_core_1_1_building_addon" id="r_a8a82d21cf5fb19d219c7d4bb05d378a9"><td class="memItemLeft" align="right" valign="top">
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Start</b> ()</td></tr>
 <tr class="separator:a8a82d21cf5fb19d219c7d4bb05d378a9 inherit pub_methods_class_city_builder_core_1_1_building_addon"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8af2ca90252dbe375f362d7e1755471c inherit pub_methods_class_city_builder_core_1_1_building_addon" id="r_a8af2ca90252dbe375f362d7e1755471c"><td class="memItemLeft" align="right" valign="top">
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Remove</b> ()</td></tr>
-<tr class="memdesc:a8af2ca90252dbe375f362d7e1755471c inherit pub_methods_class_city_builder_core_1_1_building_addon"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the addon from the <a class="el" href="class_city_builder_core_1_1_building.html" title="default implementation for IBuilding">Building</a> it is located on<br  />
+<tr class="memitem:aaca2f2062c3e5c54b2a71fa32c80f4db inherit pub_methods_class_city_builder_core_1_1_building_addon" id="r_aaca2f2062c3e5c54b2a71fa32c80f4db"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_addon.html#aaca2f2062c3e5c54b2a71fa32c80f4db">Add</a> (<a class="el" href="class_city_builder_core_1_1_building.html">Building</a> building)</td></tr>
+<tr class="separator:aaca2f2062c3e5c54b2a71fa32c80f4db inherit pub_methods_class_city_builder_core_1_1_building_addon"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61aaabe4f9a9bf3d5afa832a709baaa4 inherit pub_methods_class_city_builder_core_1_1_building_addon" id="r_a61aaabe4f9a9bf3d5afa832a709baaa4"><td class="memItemLeft" align="right" valign="top">
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Remove</b> ()</td></tr>
+<tr class="memdesc:a61aaabe4f9a9bf3d5afa832a709baaa4 inherit pub_methods_class_city_builder_core_1_1_building_addon"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the addon from the <a class="el" href="class_city_builder_core_1_1_building.html" title="default implementation for IBuilding">Building</a> it is located on<br  />
  this will usually result in the termination of the addon. <br /></td></tr>
-<tr class="separator:a8af2ca90252dbe375f362d7e1755471c inherit pub_methods_class_city_builder_core_1_1_building_addon"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a61aaabe4f9a9bf3d5afa832a709baaa4 inherit pub_methods_class_city_builder_core_1_1_building_addon"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ddf6db8cd421f963109d1a996d7f3ff inherit pub_methods_class_city_builder_core_1_1_building_addon" id="r_a6ddf6db8cd421f963109d1a996d7f3ff"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_addon.html#a6ddf6db8cd421f963109d1a996d7f3ff">OnReplacing</a> (Transform parent, <a class="el" href="interface_city_builder_core_1_1_i_building.html">IBuilding</a> replacement)</td></tr>
 <tr class="memdesc:a6ddf6db8cd421f963109d1a996d7f3ff inherit pub_methods_class_city_builder_core_1_1_building_addon"><td class="mdescLeft">&#160;</td><td class="mdescRight">called be the addons building when the building gets replaced<br  />
  this has to move the addon over to the new building<br  />
@@ -159,16 +162,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>Remove</b> ()</td></t
 <tr class="memdesc:a6280d8af189cd4c92be64d8e1d695284 inherit pub_methods_class_city_builder_core_1_1_building_addon"><td class="mdescLeft">&#160;</td><td class="mdescRight">deserializes the serialized json data and loads the data as its new state  <br /></td></tr>
 <tr class="separator:a6280d8af189cd4c92be64d8e1d695284 inherit pub_methods_class_city_builder_core_1_1_building_addon"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_types_class_city_builder_core_1_1_building_addon"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_types_class_city_builder_core_1_1_building_addon')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="class_city_builder_core_1_1_building_addon.html">CityBuilderCore.BuildingAddon</a></td></tr>
-<tr class="memitem:adfe299d3a778b8e37a0c889ccb197b36 inherit pub_types_class_city_builder_core_1_1_building_addon" id="r_adfe299d3a778b8e37a0c889ccb197b36"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_addon.html#adfe299d3a778b8e37a0c889ccb197b36">AddonAccumulationMode</a> { <a class="el" href="class_city_builder_core_1_1_building_addon.html#adfe299d3a778b8e37a0c889ccb197b36a2187e1021a911b3807cc1bea2eb1a9ca">Stack</a>
-, <a class="el" href="class_city_builder_core_1_1_building_addon.html#adfe299d3a778b8e37a0c889ccb197b36a722ad2d05ecf4868b00c5484b82fd808">Queue</a>
-, <a class="el" href="class_city_builder_core_1_1_building_addon.html#adfe299d3a778b8e37a0c889ccb197b36a0ebe6df8a3ac338e0512acc741823fdb">Replace</a>
-, <a class="el" href="class_city_builder_core_1_1_building_addon.html#adfe299d3a778b8e37a0c889ccb197b36a66ba162102bbf6ae31b522aec561735e">Single</a>
- }</td></tr>
-<tr class="memdesc:adfe299d3a778b8e37a0c889ccb197b36"><td class="mdescLeft">&#160;</td><td class="mdescRight">specifies how the addon behaves when there is more than one at the same time  <a href="class_city_builder_core_1_1_building_addon.html#adfe299d3a778b8e37a0c889ccb197b36">More...</a><br /></td></tr>
-<tr class="separator:adfe299d3a778b8e37a0c889ccb197b36 inherit pub_types_class_city_builder_core_1_1_building_addon"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:aa8ee59c0a7f731e1845adb9dedb4fbb8" id="r_aa8ee59c0a7f731e1845adb9dedb4fbb8"><td class="memItemLeft" align="right" valign="top"><a id="aa8ee59c0a7f731e1845adb9dedb4fbb8" name="aa8ee59c0a7f731e1845adb9dedb4fbb8"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>ResetTransform</b> = true</td></tr>
+<tr class="separator:aa8ee59c0a7f731e1845adb9dedb4fbb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85c95e8f5c9fa5e8afa2ac70bfc09180" id="r_a85c95e8f5c9fa5e8afa2ac70bfc09180"><td class="memItemLeft" align="right" valign="top"><a id="a85c95e8f5c9fa5e8afa2ac70bfc09180" name="a85c95e8f5c9fa5e8afa2ac70bfc09180"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>InitializeHidden</b></td></tr>
+<tr class="separator:a85c95e8f5c9fa5e8afa2ac70bfc09180"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_class_city_builder_core_1_1_building_addon"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_class_city_builder_core_1_1_building_addon')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_city_builder_core_1_1_building_addon.html">CityBuilderCore.BuildingAddon</a></td></tr>
 <tr class="memitem:a7fc96f3d77666571ad6d99b577e21ee5 inherit pub_attribs_class_city_builder_core_1_1_building_addon" id="r_a7fc96f3d77666571ad6d99b577e21ee5"><td class="memItemLeft" align="right" valign="top">
 <a class="el" href="class_city_builder_core_1_1_building_addon.html#adfe299d3a778b8e37a0c889ccb197b36">AddonAccumulationMode</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Accumulation</b></td></tr>
@@ -179,10 +180,24 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>Save</b></td></tr>
 <tr class="memitem:aa0c22b6d15a2bf822a1c0dc362a30b1b inherit pub_attribs_class_city_builder_core_1_1_building_addon" id="r_aa0c22b6d15a2bf822a1c0dc362a30b1b"><td class="memItemLeft" align="right" valign="top">
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>Scale</b></td></tr>
 <tr class="separator:aa0c22b6d15a2bf822a1c0dc362a30b1b inherit pub_attribs_class_city_builder_core_1_1_building_addon"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb9fad6aef1697a9f0c32cb02b22aa99 inherit pub_attribs_class_city_builder_core_1_1_building_addon" id="r_afb9fad6aef1697a9f0c32cb02b22aa99"><td class="memItemLeft" align="right" valign="top">
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>Rotate</b></td></tr>
+<tr class="separator:afb9fad6aef1697a9f0c32cb02b22aa99 inherit pub_attribs_class_city_builder_core_1_1_building_addon"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_class_city_builder_core_1_1_keyed_behaviour"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_attribs_class_city_builder_core_1_1_keyed_behaviour')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_city_builder_core_1_1_keyed_behaviour.html">CityBuilderCore.KeyedBehaviour</a></td></tr>
 <tr class="memitem:ab039c20224607232e0074e6e4f8a77fe inherit pub_attribs_class_city_builder_core_1_1_keyed_behaviour" id="r_ab039c20224607232e0074e6e4f8a77fe"><td class="memItemLeft" align="right" valign="top">
 string&#160;</td><td class="memItemRight" valign="bottom"><b>Key</b></td></tr>
 <tr class="separator:ab039c20224607232e0074e6e4f8a77fe inherit pub_attribs_class_city_builder_core_1_1_keyed_behaviour"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_types_class_city_builder_core_1_1_building_addon"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_types_class_city_builder_core_1_1_building_addon')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="class_city_builder_core_1_1_building_addon.html">CityBuilderCore.BuildingAddon</a></td></tr>
+<tr class="memitem:adfe299d3a778b8e37a0c889ccb197b36 inherit pub_types_class_city_builder_core_1_1_building_addon" id="r_adfe299d3a778b8e37a0c889ccb197b36"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_addon.html#adfe299d3a778b8e37a0c889ccb197b36">AddonAccumulationMode</a> { <a class="el" href="class_city_builder_core_1_1_building_addon.html#adfe299d3a778b8e37a0c889ccb197b36a2187e1021a911b3807cc1bea2eb1a9ca">Stack</a>
+, <a class="el" href="class_city_builder_core_1_1_building_addon.html#adfe299d3a778b8e37a0c889ccb197b36a722ad2d05ecf4868b00c5484b82fd808">Queue</a>
+, <a class="el" href="class_city_builder_core_1_1_building_addon.html#adfe299d3a778b8e37a0c889ccb197b36a0ebe6df8a3ac338e0512acc741823fdb">Replace</a>
+, <a class="el" href="class_city_builder_core_1_1_building_addon.html#adfe299d3a778b8e37a0c889ccb197b36a66ba162102bbf6ae31b522aec561735e">Single</a>
+ }</td></tr>
+<tr class="memdesc:adfe299d3a778b8e37a0c889ccb197b36"><td class="mdescLeft">&#160;</td><td class="mdescRight">specifies how the addon behaves when there is more than one at the same time  <a href="class_city_builder_core_1_1_building_addon.html#adfe299d3a778b8e37a0c889ccb197b36">More...</a><br /></td></tr>
+<tr class="separator:adfe299d3a778b8e37a0c889ccb197b36 inherit pub_types_class_city_builder_core_1_1_building_addon"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_city_builder_core_1_1_building_addon"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_class_city_builder_core_1_1_building_addon')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_city_builder_core_1_1_building_addon.html">CityBuilderCore.BuildingAddon</a></td></tr>
 <tr class="memitem:a3b1671aac68072487e82d51510969242 inherit pro_attribs_class_city_builder_core_1_1_building_addon" id="r_a3b1671aac68072487e82d51510969242"><td class="memItemLeft" align="right" valign="top">
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>_isTerminated</b></td></tr>

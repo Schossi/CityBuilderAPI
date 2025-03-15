@@ -1,10 +1,10 @@
 var interface_city_builder_core_1_1_i_structure =
 [
-    [ "Add", "interface_city_builder_core_1_1_i_structure.html#a2d33fcb5c062b5eb7b538b5762dd3dc7", null ],
+    [ "Add", "interface_city_builder_core_1_1_i_structure.html#a53647b43c2bd6ba9b73f77ada0e380e0", null ],
     [ "GetName", "interface_city_builder_core_1_1_i_structure.html#a7a847968f9fa9eb409fe21ba66d9fba2", null ],
     [ "GetPoints", "interface_city_builder_core_1_1_i_structure.html#a70bc7bc4ca01654d1558e5e3c768c3cb", null ],
     [ "HasPoint", "interface_city_builder_core_1_1_i_structure.html#a3d25c7bb96ec8a69660cd38f7af3caa1", null ],
-    [ "Remove", "interface_city_builder_core_1_1_i_structure.html#ac07f9e496d8e63e503a4a04699a809eb", null ],
+    [ "Remove", "interface_city_builder_core_1_1_i_structure.html#a7af20ca5392dd1a0753242996438d6c0", null ],
     [ "IsDecorator", "interface_city_builder_core_1_1_i_structure.html#afe42447f56eaa9f7aa29ac20d8161a01", null ],
     [ "IsDestructible", "interface_city_builder_core_1_1_i_structure.html#a61a16ff433f78a0604e0c45abd67d647", null ],
     [ "IsMovable", "interface_city_builder_core_1_1_i_structure.html#a56ae77178046777a1c50dfa71a222a87", null ],

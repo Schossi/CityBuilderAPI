@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.9.1</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.9.2</span>
    </div>
   </td>
  </tr>
@@ -127,6 +127,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3a9bc4fa346aa3c3cbcec4474065aead" id="r_a3a9bc4fa346aa3c3cbcec4474065aead"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a9bc4fa346aa3c3cbcec4474065aead">Exit</a> (<a class="el" href="interface_city_builder_core_1_1_i_tooltip_owner.html">ITooltipOwner</a> owner)</td></tr>
 <tr class="memdesc:a3a9bc4fa346aa3c3cbcec4474065aead"><td class="mdescLeft">&#160;</td><td class="mdescRight">the pointer has exited the owners area  <br /></td></tr>
 <tr class="separator:a3a9bc4fa346aa3c3cbcec4474065aead"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5747d1bd7b55bd86da169ca916e78849" id="r_a5747d1bd7b55bd86da169ca916e78849"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5747d1bd7b55bd86da169ca916e78849">Refresh</a> (<a class="el" href="interface_city_builder_core_1_1_i_tooltip_owner.html">ITooltipOwner</a> owner)</td></tr>
+<tr class="memdesc:a5747d1bd7b55bd86da169ca916e78849"><td class="mdescLeft">&#160;</td><td class="mdescRight">text of the tooltip owner has changed<br  />
+ if it is active it needs to be refreshed in the ui  <br /></td></tr>
+<tr class="separator:a5747d1bd7b55bd86da169ca916e78849"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -205,6 +209,42 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>Delay</b> = 0.25f</t
 </dl>
 
 <p>Implements <a class="el" href="interface_city_builder_core_1_1_i_tooltip_manager.html#a421e535e310d564fba6f1e52bcc1f63d">CityBuilderCore.ITooltipManager</a>.</p>
+
+</div>
+</div>
+<a id="a5747d1bd7b55bd86da169ca916e78849" name="a5747d1bd7b55bd86da169ca916e78849"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5747d1bd7b55bd86da169ca916e78849">&#9670;&#160;</a></span>Refresh()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CityBuilderCore.DefaultTooltipManager.Refresh </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interface_city_builder_core_1_1_i_tooltip_owner.html">ITooltipOwner</a></td>          <td class="paramname"><span class="paramname"><em>owner</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>text of the tooltip owner has changed<br  />
+ if it is active it needs to be refreshed in the ui </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">owner</td><td>an object that has a tooltip</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implements <a class="el" href="interface_city_builder_core_1_1_i_tooltip_manager.html#a559032eb7749939efec566f5c00ba062">CityBuilderCore.ITooltipManager</a>.</p>
 
 </div>
 </div>

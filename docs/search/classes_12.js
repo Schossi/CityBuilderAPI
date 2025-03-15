@@ -1,8 +1,28 @@
 var searchData=
 [
-  ['unityanimatorevent_0',['UnityAnimatorEvent',['../class_city_builder_core_1_1_unity_animator_event.html',1,'CityBuilderCore']]],
-  ['unityanimatorevents_1',['UnityAnimatorEvents',['../class_city_builder_core_1_1_unity_animator_events.html',1,'CityBuilderCore']]],
-  ['unityanimatoreventvector_2',['UnityAnimatorEventVector',['../class_city_builder_core_1_1_unity_animator_event_vector.html',1,'CityBuilderCore']]],
-  ['unitykeyevent_3',['UnityKeyEvent',['../class_city_builder_core_1_1_unity_key_event.html',1,'CityBuilderCore']]],
-  ['urbanmanager_4',['UrbanManager',['../class_city_builder_urban_1_1_urban_manager.html',1,'CityBuilderUrban']]]
+  ['undoredoactionbase_0',['UndoRedoActionBase',['../class_city_builder_core_1_1_undo_redo_action_base.html',1,'CityBuilderCore']]],
+  ['undoredoactionbuildingbase_1',['UndoRedoActionBuildingBase',['../class_city_builder_core_1_1_undo_redo_action_building_base.html',1,'CityBuilderCore']]],
+  ['undoredoactiondata_2',['UndoRedoActionData',['../class_city_builder_core_1_1_undo_redo_action_data.html',1,'CityBuilderCore']]],
+  ['undoredoactionitembase_3',['UndoRedoActionItemBase',['../class_city_builder_core_1_1_undo_redo_action_item_base.html',1,'CityBuilderCore']]],
+  ['undoredoactions_4',['UndoRedoActions',['../class_city_builder_core_1_1_undo_redo_actions.html',1,'CityBuilderCore']]],
+  ['undoredoactionsdata_5',['UndoRedoActionsData',['../class_city_builder_core_1_1_undo_redo_actions_1_1_undo_redo_actions_data.html',1,'CityBuilderCore::UndoRedoActions']]],
+  ['undoredoactionstructurebase_6',['UndoRedoActionStructureBase',['../class_city_builder_core_1_1_undo_redo_action_structure_base.html',1,'CityBuilderCore']]],
+  ['undoredoroadbase_7',['UndoRedoRoadBase',['../class_city_builder_core_1_1_road_network_1_1_undo_redo_road_base.html',1,'CityBuilderCore::RoadNetwork']]],
+  ['undoredoroaddata_8',['UndoRedoRoadData',['../class_city_builder_core_1_1_road_network_1_1_undo_redo_road_data.html',1,'CityBuilderCore::RoadNetwork']]],
+  ['undoredoroadpointsdata_9',['UndoRedoRoadPointsData',['../class_city_builder_core_1_1_road_network_1_1_undo_redo_road_points_data.html',1,'CityBuilderCore::RoadNetwork']]],
+  ['undoredostack_10',['UndoRedoStack',['../class_city_builder_core_1_1_undo_redo_stack.html',1,'CityBuilderCore']]],
+  ['undoredostackdata_11',['UndoRedoStackData',['../class_city_builder_core_1_1_undo_redo_stack_1_1_undo_redo_stack_data.html',1,'CityBuilderCore::UndoRedoStack']]],
+  ['undoredostructurecollectionfloatbase_12',['UndoRedoStructureCollectionFloatBase',['../class_city_builder_core_1_1_structure_collection_float_1_1_undo_redo_structure_collection_float_base.html',1,'CityBuilderCore::StructureCollectionFloat']]],
+  ['undoredostructurecollectionfloatdata_13',['UndoRedoStructureCollectionFloatData',['../class_city_builder_core_1_1_structure_collection_float_1_1_undo_redo_structure_collection_float_data.html',1,'CityBuilderCore::StructureCollectionFloat']]],
+  ['undoredostructuredata_14',['UndoRedoStructureData',['../class_city_builder_core_1_1_undo_redo_action_structure_base_1_1_undo_redo_structure_data.html',1,'CityBuilderCore::UndoRedoActionStructureBase']]],
+  ['undoredostructureterrainpointtrees_15',['UndoRedoStructureTerrainPointTrees',['../class_city_builder_core_1_1_structure_terrain_trees_1_1_undo_redo_structure_terrain_point_trees.html',1,'CityBuilderCore.StructureTerrainTrees.UndoRedoStructureTerrainPointTrees'],['../class_city_builder_core_1_1_structure_terrain_tree_variants_1_1_undo_redo_structure_terrain_point_trees.html',1,'CityBuilderCore.StructureTerrainTreeVariants.UndoRedoStructureTerrainPointTrees']]],
+  ['undoredostructureterraintreesbase_16',['UndoRedoStructureTerrainTreesBase',['../class_city_builder_core_1_1_structure_terrain_trees_1_1_undo_redo_structure_terrain_trees_base.html',1,'CityBuilderCore::StructureTerrainTrees']]],
+  ['undoredostructureterraintreesdata_17',['UndoRedoStructureTerrainTreesData',['../class_city_builder_core_1_1_structure_terrain_trees_1_1_undo_redo_structure_terrain_trees_data.html',1,'CityBuilderCore::StructureTerrainTrees']]],
+  ['undoredostructureterraintreevariantsbase_18',['UndoRedoStructureTerrainTreeVariantsBase',['../class_city_builder_core_1_1_structure_terrain_tree_variants_1_1_undo_redo_structure_terrain_tree_variants_base.html',1,'CityBuilderCore::StructureTerrainTreeVariants']]],
+  ['undoredostructureterraintreevariantsdata_19',['UndoRedoStructureTerrainTreeVariantsData',['../class_city_builder_core_1_1_structure_terrain_tree_variants_1_1_undo_redo_structure_terrain_tree_variants_data.html',1,'CityBuilderCore::StructureTerrainTreeVariants']]],
+  ['unityanimatorevent_20',['UnityAnimatorEvent',['../class_city_builder_core_1_1_unity_animator_event.html',1,'CityBuilderCore']]],
+  ['unityanimatorevents_21',['UnityAnimatorEvents',['../class_city_builder_core_1_1_unity_animator_events.html',1,'CityBuilderCore']]],
+  ['unityanimatoreventvector_22',['UnityAnimatorEventVector',['../class_city_builder_core_1_1_unity_animator_event_vector.html',1,'CityBuilderCore']]],
+  ['unitykeyevent_23',['UnityKeyEvent',['../class_city_builder_core_1_1_unity_key_event.html',1,'CityBuilderCore']]],
+  ['urbanmanager_24',['UrbanManager',['../class_city_builder_urban_1_1_urban_manager.html',1,'CityBuilderUrban']]]
 ];

@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.9.1</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.9.2</span>
    </div>
   </td>
  </tr>
@@ -177,6 +177,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building.html">Building</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">default implementation for <a class="el" href="interface_city_builder_core_1_1_i_building.html">IBuilding</a>  <a href="class_city_builder_core_1_1_building.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_addition.html">BuildingAddition</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="interface_city_builder_core_1_1_i_undo_redo_action.html" title="represents an action that can be undone and redone using an IUndoRedoStack">IUndoRedoAction</a> that represents a building being created on the map  <a href="class_city_builder_core_1_1_building_addition.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_addon.html">BuildingAddon</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">temporary building parts that are added(<a class="el" href="class_city_builder_core_1_1_building.html#ae622850bc0d969322b1e9445096a98b9" title="adds and initializes an addon onto the building from a prefab">Building.AddAddon&lt;T&gt;(T)</a>) and removed(<a class="el" href="class_city_builder_core_1_1_building.html#a6aefd86f40a2432c88dc1ac5a6852bc8" title="terminates and removes the addon from the building">Building.RemoveAddon(BuildingAddon)</a>) at runtime and carry over when a building is replaced<br  />
  can be used for effects, statuses, animations, ...  <a href="class_city_builder_core_1_1_building_addon.html#details">More...</a><br /></td></tr>
@@ -193,6 +196,11 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_addon_material.html">BuildingAddonMaterial</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">changes materials of renderers on the building while active<br  />
  for example for outline or highlight materials  <a href="class_city_builder_core_1_1_building_addon_material.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_addon_renderer.html">BuildingAddonRenderer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">copies over materials and properties from a renderer to the building while active<br  />
+ can be used to put things like animated dissolves on a building temporarily<br  />
+ (see BuildingPlayground3D for an example in the BigHouseTool_Appear tool)  <a href="class_city_builder_core_1_1_building_addon_renderer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_addon_set.html">BuildingAddonSet</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">collection of building addons. if any building addons are saved(BuildingAddon.Save)<br  />
@@ -263,6 +271,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_item_score.html">BuildingItemScore</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">item quantity in building storage  <a href="class_city_builder_core_1_1_building_item_score.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_meta_data.html">BuildingMetaData</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_rect_bar.html">BuildingRectBar</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">visualizes a building value by sizing a rect to its ratio and writing the value in a text field<br  />
  used for the building health bar in the Defense demo  <a href="class_city_builder_core_1_1_building_rect_bar.html#details">More...</a><br /></td></tr>
@@ -270,6 +280,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_reference.html">BuildingReference</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">reference to a building that is reset when a building gets replaced<br  />
  never assign buildings directly when there is any chance they might be replaced  <a href="class_city_builder_core_1_1_building_reference.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_removal.html">BuildingRemoval</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="interface_city_builder_core_1_1_i_undo_redo_action.html" title="represents an action that can be undone and redone using an IUndoRedoStack">IUndoRedoAction</a> that represents a building being removed on the map  <a href="class_city_builder_core_1_1_building_removal.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_requirement.html">BuildingRequirement</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">class that expresses what is needed for a building to be placed, used in the regular <a class="el" href="class_city_builder_core_1_1_building_info.html" title="meta info for data that does not change between instances of a building  can be used to compare build...">BuildingInfo</a><br  />
@@ -575,6 +588,10 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_demolish_visual_despawn.html">DemolishVisualDespawn</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">variant of demolish visual that scales down and rotates itself until it finally removes itself(quick and easy animated despawn without needing actual animation)  <a href="class_city_builder_core_1_1_demolish_visual_despawn.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_demolish_visual_renderer.html">DemolishVisualRenderer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">variant of demolish visual that copies over materials and properties from a renderer(similar to <a class="el" href="class_city_builder_core_1_1_building_addon_renderer.html" title="copies over materials and properties from a renderer to the building while active  can be used to put...">BuildingAddonRenderer</a>)<br  />
+ can be used to put things like animated dissolves on the demolish visual  <a href="class_city_builder_core_1_1_demolish_visual_renderer.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>Dependencies</b></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">very rudementary dependency management used to decouple implementations<br  />
  dependencies get cleared whenever the scene changes<br  />
@@ -703,8 +720,12 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_expandable_visual.html">ExpandableVisual</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">behaviour that can be used to adjust an expandable buildings visuals to its actual size<br  />
- also adjust the building pivot position to the expanded size<br  />
+ also adjusts the building pivot position to the expanded size<br  />
  can also be used for the ghost by only filling out the info and leaving the building empty  <a href="class_city_builder_core_1_1_expandable_visual.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_expandable_visual_capped.html">ExpandableVisualCapped</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">alternate variant or <a class="el" href="class_city_builder_core_1_1_expandable_visual.html" title="behaviour that can be used to adjust an expandable buildings visuals to its actual size  also adjusts...">ExpandableVisual</a> that uses caps and sides instead of start and end<br  />
+ caps are places in the corners af the expandable and sides are instantiated between those  <a href="class_city_builder_core_1_1_expandable_visual_capped.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>Extensions</b></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -755,6 +776,10 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_happening_dialog.html">HappeningDialog</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">dialog that shows start/end texts for happenings if they have one  <a href="class_city_builder_core_1_1_happening_dialog.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_height_mapped_terrain_mesh.html">HeightMappedTerrainMesh</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">extended version of <a class="el" href="class_city_builder_core_1_1_height_mapped_terrain_renderer.html" title="applies the heightmap and various other settings of a terrain to the per renderer property of a mater...">HeightMappedTerrainRenderer</a> that can be used when height mapped is used in combination with a regular mesh renderer instead of a tilemap<br  />
+ used in combination with <a class="el" href="class_city_builder_core_1_1_mesh_overlay_generator.html" title="generates a mesh for the referenced mesh filter which has a full quad for every cell of the map  for ...">MeshOverlayGenerator</a> in DebutTerrain of the Three demo in the Overlays_MeshHM overlay variant  <a href="class_city_builder_core_1_1_height_mapped_terrain_mesh.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_height_mapped_terrain_renderer.html">HeightMappedTerrainRenderer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">applies the heightmap and various other settings of a terrain to the per renderer property of a material<br  />
@@ -830,6 +855,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_city_builder_core_1_1_i_evolution.html">IEvolution</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">building component handling evolution(checking the current stage and replacing the building in case it has changed)  <a href="interface_city_builder_core_1_1_i_evolution.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_city_builder_core_1_1_i_expandable_visual.html">IExpandableVisual</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">common interface for visuals that change depending on an <a class="el" href="class_city_builder_core_1_1_expandable_building.html" title="special building that can have different sizes  for example bridges of variable size,...">ExpandableBuilding</a>s expansion size  <a href="interface_city_builder_core_1_1_i_expandable_visual.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_city_builder_core_1_1_i_game_saver.html">IGameSaver</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">interface for the class that handles the games saving and loading  <a href="interface_city_builder_core_1_1_i_game_saver.html#details">More...</a><br /></td></tr>
@@ -1041,6 +1069,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_item.html">Item</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">scriptable object that describes the properties of an item  <a href="class_city_builder_core_1_1_item.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_item_addition.html">ItemAddition</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="interface_city_builder_core_1_1_i_undo_redo_action.html" title="represents an action that can be undone and redone using an IUndoRedoStack">IUndoRedoAction</a> that represents items being added to global storage  <a href="class_city_builder_core_1_1_item_addition.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_item_category.html">ItemCategory</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">bundels of items for whenever instead of a specific item just a general type of item is needed<br  />
  eg people need food not just potatoes specifically  <a href="class_city_builder_core_1_1_item_category.html#details">More...</a><br /></td></tr>
@@ -1082,6 +1113,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_item_recipient.html">ItemRecipient</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">receives a specific item and uses it up over time<br  />
   <a href="class_city_builder_core_1_1_item_recipient.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_item_removal.html">ItemRemoval</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="interface_city_builder_core_1_1_i_undo_redo_action.html" title="represents an action that can be undone and redone using an IUndoRedoStack">IUndoRedoAction</a> that represents items being removed from global storage  <a href="class_city_builder_core_1_1_item_removal.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_item_score.html">ItemScore</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">item quantity in global storage  <a href="class_city_builder_core_1_1_item_score.html#details">More...</a><br /></td></tr>
@@ -1144,6 +1178,12 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_city_builder_core_1_1_i_tooltip_owner.html">ITooltipOwner</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">any object that has a tooltip  <a href="interface_city_builder_core_1_1_i_tooltip_owner.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_city_builder_core_1_1_i_undo_redo_action.html">IUndoRedoAction</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">represents an action that can be undone and redone using an <a class="el" href="interface_city_builder_core_1_1_i_undo_redo_stack.html">IUndoRedoStack</a>  <a href="interface_city_builder_core_1_1_i_undo_redo_action.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_city_builder_core_1_1_i_undo_redo_stack.html">IUndoRedoStack</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">optional interface that manages undo redo in games that support it  <a href="interface_city_builder_core_1_1_i_undo_redo_stack.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_city_builder_core_1_1_i_views_manager.html">IViewsManager</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">manages the active <a class="el" href="class_city_builder_core_1_1_view.html" title="base class for views  views are ways to show additional information in game that can be activated  fo...">View</a>  <a href="interface_city_builder_core_1_1_i_views_manager.html#details">More...</a><br /></td></tr>
@@ -1226,6 +1266,10 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_layer_values.html">LayerValues</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_lazy_dependency.html">LazyDependency</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">provides access to a dependency by resolving it at the moment it is needed and buffering it for further use  <a href="class_city_builder_core_1_1_lazy_dependency.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_lazy_optional_dependency.html">LazyOptionalDependency</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">provides access to an optional dependency by resolving it at the moment it is needed and buffering it for further use  <a href="class_city_builder_core_1_1_lazy_optional_dependency.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_manual_attack_walker_spawner.html">ManualAttackWalkerSpawner</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">concrete implementation for serialization, not needed starting unity 2020.1  <a href="class_city_builder_core_1_1_manual_attack_walker_spawner.html#details">More...</a><br /></td></tr>
@@ -1290,6 +1334,13 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_mesh_highlight_manager.html">MeshHighlightManager</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">implementation of <a class="el" href="interface_city_builder_core_1_1_i_highlight_manager.html" title="highlights tiles as valid, invalid or just as info  primarily used by building tools">IHighlightManager</a> that creates and dynamically adjusts meshes  <a href="class_city_builder_core_1_1_mesh_highlight_manager.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_mesh_overlay_generator.html">MeshOverlayGenerator</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">generates a mesh for the referenced mesh filter which has a full quad for every cell of the map<br  />
+ for example used in DebugTerrain of the Three demo for its building grid and mesh overlays  <a href="class_city_builder_core_1_1_mesh_overlay_generator.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_mesh_overlay_manager.html">MeshOverlayManager</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">implementation of <a class="el" href="interface_city_builder_core_1_1_i_overlay_manager.html" title="overlays the tilemap with coloured tiles that visualize Layer, Connection or Efficiency values  eg de...">IOverlayManager</a> that visualizes values by setting vertex colors  <a href="class_city_builder_core_1_1_mesh_overlay_manager.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_message_action.html">MessageAction</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">action that sends a message to the walker, can be intercepted on the walkers message events for example to play sounds<br  />
  ends immediately so only really makes sense as part of a larger process  <a href="class_city_builder_core_1_1_message_action.html#details">More...</a><br /></td></tr>
@@ -1302,7 +1353,8 @@ Classes</h2></td></tr>
  for example playing a sound or showing some particles when a weapon is swung  <a href="class_city_builder_core_1_1_message_event.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_message_happening.html">MessageHappening</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">an event that sends messages to a named object, leave messages empty to not send  <a href="class_city_builder_core_1_1_message_happening.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">an event that sends messages(calls methods) to a named object, leave messages empty to not send<br  />
+ for example the UrbanTornado calls the SpawnTornado method on the urban manager  <a href="class_city_builder_core_1_1_message_happening.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_message_receiver.html">MessageReceiver</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">behaviour that can receive and pass simple string messages<br  />
@@ -1822,6 +1874,9 @@ Classes</h2></td></tr>
  III: get rid of items that have been configured as <a class="el" href="#ac480382b5060d3901638ea86484575beace2c8aed9c2fa0cfbed56cbda4d8bf07" title="actively get rid of item down to ratio">StorageOrderMode.Empty</a><br  />
   <a href="class_city_builder_core_1_1_storage_walker_component.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_structure_addition.html">StructureAddition</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="interface_city_builder_core_1_1_i_undo_redo_action.html" title="represents an action that can be undone and redone using an IUndoRedoStack">IUndoRedoAction</a> that represents points being added to a structure  <a href="class_city_builder_core_1_1_structure_addition.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_structure_builder.html">StructureBuilder</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">tool for adding points to a <a class="el" href="class_city_builder_core_1_1_structure_collection.html" title="structure made up of a collection of identical gameobjects  if the members of the collection are ISav...">StructureCollection</a> or <a class="el" href="class_city_builder_core_1_1_structure_tiles.html" title="structure made up of a collection of tiles on a tilemap">StructureTiles</a>  <a href="class_city_builder_core_1_1_structure_builder.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1862,6 +1917,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_structure_reference.html">StructureReference</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">holds a reference to a structure which may be replaced(for example buildings being replaced when they evolve)<br  />
  therefore if a structure is replaced by some other equivalent structure references that other entities have on it dont break  <a href="class_city_builder_core_1_1_structure_reference.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_structure_removal.html">StructureRemoval</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="interface_city_builder_core_1_1_i_undo_redo_action.html" title="represents an action that can be undone and redone using an IUndoRedoStack">IUndoRedoAction</a> that represents points being removed to a structure  <a href="class_city_builder_core_1_1_structure_removal.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_structure_replacer.html">StructureReplacer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">tool for adding points to a <a class="el" href="class_city_builder_core_1_1_structure_collection.html" title="structure made up of a collection of identical gameobjects  if the members of the collection are ISav...">StructureCollection</a> or <a class="el" href="class_city_builder_core_1_1_structure_tiles.html" title="structure made up of a collection of tiles on a tilemap">StructureTiles</a>  <a href="class_city_builder_core_1_1_structure_replacer.html#details">More...</a><br /></td></tr>
@@ -2030,6 +2088,33 @@ Classes</h2></td></tr>
  it also resets the height override once the object exits its trigger<br  />
  used in THREE in combination with <a class="el" href="class_city_builder_core_1_1_expandable_collider.html" title="behaviour that expands a box collider in accordance to an ExpandableBuildings size  the bridge in THR...">ExpandableCollider</a> to set the height of walkers passing over bridges  <a href="class_city_builder_core_1_1_trigger_height_override.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_undo_redo_action_base.html">UndoRedoActionBase</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">abstract base class for <a class="el" href="interface_city_builder_core_1_1_i_undo_redo_action.html" title="represents an action that can be undone and redone using an IUndoRedoStack">IUndoRedoAction</a> that provides default implementations for some functions  <a href="class_city_builder_core_1_1_undo_redo_action_base.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_undo_redo_action_building_base.html">UndoRedoActionBuildingBase</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">base class for <a class="el" href="interface_city_builder_core_1_1_i_undo_redo_action.html" title="represents an action that can be undone and redone using an IUndoRedoStack">IUndoRedoAction</a> that adds or removes a building from the map  <a href="class_city_builder_core_1_1_undo_redo_action_building_base.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_undo_redo_action_data.html">UndoRedoActionData</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">holds undo redo data when the game is saved<br  />
+ in addition to the actual data actions also save their name<br  />
+ this is needed to deserialize the correct type using UndoRedoTypes  <a href="class_city_builder_core_1_1_undo_redo_action_data.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_undo_redo_action_item_base.html">UndoRedoActionItemBase</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">base class for <a class="el" href="interface_city_builder_core_1_1_i_undo_redo_action.html" title="represents an action that can be undone and redone using an IUndoRedoStack">IUndoRedoAction</a> that adds or removes items from global storage  <a href="class_city_builder_core_1_1_undo_redo_action_item_base.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_undo_redo_actions.html">UndoRedoActions</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">combines multiple <a class="el" href="interface_city_builder_core_1_1_i_undo_redo_action.html" title="represents an action that can be undone and redone using an IUndoRedoStack">IUndoRedoAction</a> into one<br  />
+ is passed around, for example, during demolish to collect all the different removal actions  <a href="class_city_builder_core_1_1_undo_redo_actions.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_undo_redo_action_structure_base.html">UndoRedoActionStructureBase</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">base class for <a class="el" href="interface_city_builder_core_1_1_i_undo_redo_action.html" title="represents an action that can be undone and redone using an IUndoRedoStack">IUndoRedoAction</a> that adds or removes points from a structure  <a href="class_city_builder_core_1_1_undo_redo_action_structure_base.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_undo_redo_stack.html">UndoRedoStack</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">manages and executes <a class="el" href="interface_city_builder_core_1_1_i_undo_redo_action.html" title="represents an action that can be undone and redone using an IUndoRedoStack">IUndoRedoAction</a>s  <a href="class_city_builder_core_1_1_undo_redo_stack.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>UndoRedoTypes</b></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">stores the types of <a class="el" href="interface_city_builder_core_1_1_i_undo_redo_action.html" title="represents an action that can be undone and redone using an IUndoRedoStack">IUndoRedoAction</a> in the system so they can be deserialized <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_unity_animator_event.html">UnityAnimatorEvent</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">proxy for setting animator values from unityevents  <a href="class_city_builder_core_1_1_unity_animator_event.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2106,6 +2191,12 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_view_layer.html">ViewLayer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">view that displays an overlay for a layer on a tilemap  <a href="class_city_builder_core_1_1_view_layer.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_view_message.html">ViewMessage</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">view that sends messages to a gameobject when activated and deactivated  <a href="class_city_builder_core_1_1_view_message.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_view_renderer.html">ViewRenderer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">view that enables named renderers while active  <a href="class_city_builder_core_1_1_view_renderer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_view_walker_bar.html">ViewWalkerBar</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">base class for views that visualize a <a class="el" href="interface_city_builder_core_1_1_i_walker_value.html" title="any kind of value a walker might have(items, ...)">IWalkerValue</a> with a bar  <a href="class_city_builder_core_1_1_view_walker_bar.html#details">More...</a><br /></td></tr>

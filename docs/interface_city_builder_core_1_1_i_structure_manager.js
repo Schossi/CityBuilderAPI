@@ -5,6 +5,6 @@ var interface_city_builder_core_1_1_i_structure_manager =
     [ "GetStructures", "interface_city_builder_core_1_1_i_structure_manager.html#a7954daa70a16f61bcfdcd590604f8539", null ],
     [ "GetStructures", "interface_city_builder_core_1_1_i_structure_manager.html#a543561d8f4dfdbf0811ba188122072cd", null ],
     [ "RegisterStructure", "interface_city_builder_core_1_1_i_structure_manager.html#a628aabe900e76a0a562ef62dfc6e9e27", null ],
-    [ "Remove", "interface_city_builder_core_1_1_i_structure_manager.html#ad5048a7b571f2cb055a795ccaa72b933", null ],
+    [ "Remove", "interface_city_builder_core_1_1_i_structure_manager.html#a686c2c91c9e915fded93ae8e6506664f", null ],
     [ "Changed", "interface_city_builder_core_1_1_i_structure_manager.html#adac854de7d48c3ae3c9990fae0ab77f6", null ]
 ];

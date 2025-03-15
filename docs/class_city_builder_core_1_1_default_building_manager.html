@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.9.1</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.9.2</span>
    </div>
   </td>
  </tr>
@@ -125,16 +125,17 @@ Inheritance diagram for CityBuilderCore.DefaultBuildingManager:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_default_building_manager_1_1_building_meta_data.html">BuildingMetaData</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_default_building_manager_1_1_buildings_data.html">BuildingsData</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aefe543cebb34702efa553b096357b2cb" id="r_aefe543cebb34702efa553b096357b2cb"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefe543cebb34702efa553b096357b2cb">Add&lt; T &gt;</a> (Vector3 position, Quaternion rotation, T prefab, Action&lt; T &gt; initializer=null)</td></tr>
-<tr class="memdesc:aefe543cebb34702efa553b096357b2cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a new building  <br /></td></tr>
-<tr class="separator:aefe543cebb34702efa553b096357b2cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e2adb35ed68d7780290b047dbd3d3e0" id="r_a9e2adb35ed68d7780290b047dbd3d3e0"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e2adb35ed68d7780290b047dbd3d3e0">Add&lt; T &gt;</a> (Vector3 position, Quaternion rotation, T prefab, Action&lt; T &gt; initializer=null, <a class="el" href="class_city_builder_core_1_1_undo_redo_actions.html">UndoRedoActions</a> undoRedoActions=null)</td></tr>
+<tr class="memdesc:a9e2adb35ed68d7780290b047dbd3d3e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a new building  <br /></td></tr>
+<tr class="separator:a9e2adb35ed68d7780290b047dbd3d3e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2857ba7dfa8d1bd70829cb79de2b38f8" id="r_a2857ba7dfa8d1bd70829cb79de2b38f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_city_builder_core_1_1_i_building.html">IBuilding</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2857ba7dfa8d1bd70829cb79de2b38f8">Add</a> (<a class="el" href="class_city_builder_core_1_1_building_meta_data.html">BuildingMetaData</a> metaData, <a class="el" href="class_city_builder_core_1_1_undo_redo_actions.html">UndoRedoActions</a> undoRedoActions=null)</td></tr>
+<tr class="memdesc:a2857ba7dfa8d1bd70829cb79de2b38f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates a building from save meta data, data is not loaded yet  <br /></td></tr>
+<tr class="separator:a2857ba7dfa8d1bd70829cb79de2b38f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa62baf90be4f3bac408d131696a4839" id="r_afa62baf90be4f3bac408d131696a4839"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa62baf90be4f3bac408d131696a4839">Count</a> (<a class="el" href="class_city_builder_core_1_1_building_info.html">BuildingInfo</a> info)</td></tr>
 <tr class="separator:afa62baf90be4f3bac408d131696a4839"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae084a6e32a7a1ff9122f48ca175de274" id="r_ae084a6e32a7a1ff9122f48ca175de274"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae084a6e32a7a1ff9122f48ca175de274">Count</a> (<a class="el" href="class_city_builder_core_1_1_building_category.html">BuildingCategory</a> category)</td></tr>
@@ -349,8 +350,8 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
 
 </div>
 </div>
-<a id="aefe543cebb34702efa553b096357b2cb" name="aefe543cebb34702efa553b096357b2cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aefe543cebb34702efa553b096357b2cb">&#9670;&#160;</a></span>Add&lt; T &gt;()</h2>
+<a id="a2857ba7dfa8d1bd70829cb79de2b38f8" name="a2857ba7dfa8d1bd70829cb79de2b38f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2857ba7dfa8d1bd70829cb79de2b38f8">&#9670;&#160;</a></span>Add()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -359,7 +360,47 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">T CityBuilderCore.DefaultBuildingManager.Add&lt; T &gt; </td>
+          <td class="memname"><a class="el" href="interface_city_builder_core_1_1_i_building.html">IBuilding</a> CityBuilderCore.DefaultBuildingManager.Add </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_city_builder_core_1_1_building_meta_data.html">BuildingMetaData</a></td>          <td class="paramname"><span class="paramname"><em>metaData</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_city_builder_core_1_1_undo_redo_actions.html">UndoRedoActions</a></td>          <td class="paramname"><span class="paramname"><em>undoRedoActions</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>creates a building from save meta data, data is not loaded yet </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">metaData</td><td>the meta data containing the building type, location, data</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the newly created building</dd></dl>
+
+<p>Implements <a class="el" href="interface_city_builder_core_1_1_i_building_manager.html#a84694c6269b7e8f4fb45902ca8184349">CityBuilderCore.IBuildingManager</a>.</p>
+
+</div>
+</div>
+<a id="a9e2adb35ed68d7780290b047dbd3d3e0" name="a9e2adb35ed68d7780290b047dbd3d3e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e2adb35ed68d7780290b047dbd3d3e0">&#9670;&#160;</a></span>Add&lt; T &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T <a class="el" href="#a2857ba7dfa8d1bd70829cb79de2b38f8">CityBuilderCore.DefaultBuildingManager.Add</a>&lt; T &gt; </td>
           <td>(</td>
           <td class="paramtype">Vector3</td>          <td class="paramname"><span class="paramname"><em>position</em></span>, </td>
         </tr>
@@ -376,7 +417,12 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Action&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>initializer</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+          <td class="paramtype">Action&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>initializer</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_city_builder_core_1_1_undo_redo_actions.html">UndoRedoActions</a></td>          <td class="paramname"><span class="paramname"><em>undoRedoActions</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -403,7 +449,7 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_walker.html">Walker</
 </dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
-<p>Implements <a class="el" href="interface_city_builder_core_1_1_i_building_manager.html#a6e90e519cc5c60e13c90603d5eddbe14">CityBuilderCore.IBuildingManager</a>.</p>
+<p>Implements <a class="el" href="interface_city_builder_core_1_1_i_building_manager.html#aedc70bec2d2d6d4d77a6e410e185ce35">CityBuilderCore.IBuildingManager</a>.</p>
 <div class="typeconstraint">
 <dl><dt><b>Type Constraints</b></dt><dd>
 <table border="0" cellspacing="2" cellpadding="0">

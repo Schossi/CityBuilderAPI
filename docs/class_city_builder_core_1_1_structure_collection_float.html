@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.9.1</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.9.2</span>
    </div>
   </td>
  </tr>
@@ -128,9 +128,17 @@ Inheritance diagram for CityBuilderCore.StructureCollectionFloat:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_structure_collection_float_1_1_structure_collection_float_addition.html">StructureCollectionFloatAddition</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_structure_collection_float_1_1_structure_collection_float_data.html">StructureCollectionFloatData</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_structure_collection_float_1_1_structure_collection_float_removal.html">StructureCollectionFloatRemoval</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_structure_collection_float_1_1_structure_collection_float_variant_data.html">StructureCollectionFloatVariantData</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_structure_collection_float_1_1_undo_redo_structure_collection_float_base.html">UndoRedoStructureCollectionFloatBase</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_structure_collection_float_1_1_undo_redo_structure_collection_float_data.html">UndoRedoStructureCollectionFloatData</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_structure_collection_float_1_1_variant.html">Variant</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -146,27 +154,27 @@ IEnumerable&lt; Vector2Int &gt;&#160;</td><td class="memItemRight" valign="botto
 <tr class="memitem:a99b61d53704ccedd3a4e16bce6704716" id="r_a99b61d53704ccedd3a4e16bce6704716"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99b61d53704ccedd3a4e16bce6704716">HasPoint</a> (Vector2Int point)</td></tr>
 <tr class="memdesc:a99b61d53704ccedd3a4e16bce6704716"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks if the structure occupies a certain point  <br /></td></tr>
 <tr class="separator:a99b61d53704ccedd3a4e16bce6704716"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1b59ca4aac471fa88a6f894367365ee" id="r_af1b59ca4aac471fa88a6f894367365ee"><td class="memItemLeft" align="right" valign="top"><a id="af1b59ca4aac471fa88a6f894367365ee" name="af1b59ca4aac471fa88a6f894367365ee"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Add</b> (Vector2Int point)</td></tr>
-<tr class="separator:af1b59ca4aac471fa88a6f894367365ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90294f3634245eb27d5376e13044d90f" id="r_a90294f3634245eb27d5376e13044d90f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90294f3634245eb27d5376e13044d90f">Add</a> (IEnumerable&lt; Vector2Int &gt; points)</td></tr>
-<tr class="memdesc:a90294f3634245eb27d5376e13044d90f"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds points to a structure, for example a tree to a tree structure collection<br  />
+<tr class="memitem:aa42e4c70315dfc7407bfeb285f89d8bd" id="r_aa42e4c70315dfc7407bfeb285f89d8bd"><td class="memItemLeft" align="right" valign="top"><a id="aa42e4c70315dfc7407bfeb285f89d8bd" name="aa42e4c70315dfc7407bfeb285f89d8bd"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Add</b> (Vector2Int point, <a class="el" href="class_city_builder_core_1_1_undo_redo_actions.html">UndoRedoActions</a> undoRedoActions=null)</td></tr>
+<tr class="separator:aa42e4c70315dfc7407bfeb285f89d8bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c48c0c5097b915f84098a5e00e68df3" id="r_a2c48c0c5097b915f84098a5e00e68df3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2c48c0c5097b915f84098a5e00e68df3">Add</a> (IEnumerable&lt; Vector2Int &gt; points, <a class="el" href="class_city_builder_core_1_1_undo_redo_actions.html">UndoRedoActions</a> undoRedoActions=null)</td></tr>
+<tr class="memdesc:a2c48c0c5097b915f84098a5e00e68df3"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds points to a structure, for example a tree to a tree structure collection<br  />
  this may not be possible for structures with fixed points like buildings<br  />
  typically called in a structures Start method  <br /></td></tr>
-<tr class="separator:a90294f3634245eb27d5376e13044d90f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af46f911aff2f0a7345845bb85e555a91" id="r_af46f911aff2f0a7345845bb85e555a91"><td class="memItemLeft" align="right" valign="top"><a id="af46f911aff2f0a7345845bb85e555a91" name="af46f911aff2f0a7345845bb85e555a91"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Add</b> (Vector2Int point, int variantIndex)</td></tr>
-<tr class="separator:af46f911aff2f0a7345845bb85e555a91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e7b48fa15fef3aab2c91853c2a60e8c" id="r_a7e7b48fa15fef3aab2c91853c2a60e8c"><td class="memItemLeft" align="right" valign="top"><a id="a7e7b48fa15fef3aab2c91853c2a60e8c" name="a7e7b48fa15fef3aab2c91853c2a60e8c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Add</b> (Vector2Int point, Vector3 localPosition, Quaternion localRotation, Vector3 localScale, int? variantIndex=null)</td></tr>
-<tr class="separator:a7e7b48fa15fef3aab2c91853c2a60e8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aecedb978020edd74a86b6a243c8eac41" id="r_aecedb978020edd74a86b6a243c8eac41"><td class="memItemLeft" align="right" valign="top"><a id="aecedb978020edd74a86b6a243c8eac41" name="aecedb978020edd74a86b6a243c8eac41"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>Remove</b> (Vector2Int point)</td></tr>
-<tr class="separator:aecedb978020edd74a86b6a243c8eac41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61b0a710618aafc6caa94a7e7b662797" id="r_a61b0a710618aafc6caa94a7e7b662797"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61b0a710618aafc6caa94a7e7b662797">Remove</a> (IEnumerable&lt; Vector2Int &gt; points)</td></tr>
-<tr class="memdesc:a61b0a710618aafc6caa94a7e7b662797"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes points from the structure, for some structures like buildings removing any point will remove the whole thing<br  />
+<tr class="separator:a2c48c0c5097b915f84098a5e00e68df3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11114b1de5a75be05f4b9ce04ac817c7" id="r_a11114b1de5a75be05f4b9ce04ac817c7"><td class="memItemLeft" align="right" valign="top"><a id="a11114b1de5a75be05f4b9ce04ac817c7" name="a11114b1de5a75be05f4b9ce04ac817c7"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Add</b> (Vector2Int point, int variantIndex, <a class="el" href="class_city_builder_core_1_1_undo_redo_actions.html">UndoRedoActions</a> undoRedoActions=null)</td></tr>
+<tr class="separator:a11114b1de5a75be05f4b9ce04ac817c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35fb5af6eaa05468a7a6254bc4594263" id="r_a35fb5af6eaa05468a7a6254bc4594263"><td class="memItemLeft" align="right" valign="top"><a id="a35fb5af6eaa05468a7a6254bc4594263" name="a35fb5af6eaa05468a7a6254bc4594263"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Add</b> (Vector2Int point, Vector3 localPosition, Quaternion localRotation, Vector3 localScale, int? variantIndex=null, string data=null, <a class="el" href="class_city_builder_core_1_1_undo_redo_actions.html">UndoRedoActions</a> undoRedoActions=null)</td></tr>
+<tr class="separator:a35fb5af6eaa05468a7a6254bc4594263"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54332cada2c7a79ffaa17f3b273bb901" id="r_a54332cada2c7a79ffaa17f3b273bb901"><td class="memItemLeft" align="right" valign="top"><a id="a54332cada2c7a79ffaa17f3b273bb901" name="a54332cada2c7a79ffaa17f3b273bb901"></a>
+IEnumerable&lt; Vector2Int &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Remove</b> (Vector2Int point, <a class="el" href="class_city_builder_core_1_1_undo_redo_actions.html">UndoRedoActions</a> undoRedoActions=null)</td></tr>
+<tr class="separator:a54332cada2c7a79ffaa17f3b273bb901"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae85a69976666d11dde5287c564152587" id="r_ae85a69976666d11dde5287c564152587"><td class="memItemLeft" align="right" valign="top">IEnumerable&lt; Vector2Int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae85a69976666d11dde5287c564152587">Remove</a> (IEnumerable&lt; Vector2Int &gt; points, <a class="el" href="class_city_builder_core_1_1_undo_redo_actions.html">UndoRedoActions</a> undoRedoActions=null)</td></tr>
+<tr class="memdesc:ae85a69976666d11dde5287c564152587"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes points from the structure, for some structures like buildings removing any point will remove the whole thing<br  />
  typically called in a structures OnDestroy method  <br /></td></tr>
-<tr class="separator:a61b0a710618aafc6caa94a7e7b662797"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:ae85a69976666d11dde5287c564152587"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7486ebc15dc3c651c0d251307b2f608" id="r_ae7486ebc15dc3c651c0d251307b2f608"><td class="memItemLeft" align="right" valign="top"><a id="ae7486ebc15dc3c651c0d251307b2f608" name="ae7486ebc15dc3c651c0d251307b2f608"></a>
 GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>GetObject</b> (Vector2Int point)</td></tr>
 <tr class="separator:ae7486ebc15dc3c651c0d251307b2f608"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -244,20 +252,20 @@ Action&lt; <a class="el" href="class_city_builder_core_1_1_points_changed.html">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_static_methods_interface_city_builder_core_1_1_i_structure"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_interface_city_builder_core_1_1_i_structure')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="interface_city_builder_core_1_1_i_structure.html">CityBuilderCore.IStructure</a></td></tr>
-<tr class="memitem:a253d70a787f60f09b6ad76934f076fcc inherit pub_static_methods_interface_city_builder_core_1_1_i_structure" id="r_a253d70a787f60f09b6ad76934f076fcc"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_city_builder_core_1_1_i_structure.html#a253d70a787f60f09b6ad76934f076fcc">ReplacePoints</a> (<a class="el" href="interface_city_builder_core_1_1_i_structure.html">IStructure</a> a, <a class="el" href="interface_city_builder_core_1_1_i_structure.html">IStructure</a> b, Vector2Int point, bool keepRandomization=true, bool keepVariant=true)</td></tr>
-<tr class="memdesc:a253d70a787f60f09b6ad76934f076fcc inherit pub_static_methods_interface_city_builder_core_1_1_i_structure"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes a point from one structure and adds it to another while trying to carry over its look<br  />
+<tr class="memitem:af892bc5683be0e4d303477c4a81b1bdd inherit pub_static_methods_interface_city_builder_core_1_1_i_structure" id="r_af892bc5683be0e4d303477c4a81b1bdd"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_city_builder_core_1_1_i_structure.html#af892bc5683be0e4d303477c4a81b1bdd">ReplacePoints</a> (<a class="el" href="interface_city_builder_core_1_1_i_structure.html">IStructure</a> a, <a class="el" href="interface_city_builder_core_1_1_i_structure.html">IStructure</a> b, Vector2Int point, bool keepRandomization=true, bool keepVariant=true, <a class="el" href="class_city_builder_core_1_1_undo_redo_actions.html">UndoRedoActions</a> undoRedoActions=null)</td></tr>
+<tr class="memdesc:af892bc5683be0e4d303477c4a81b1bdd inherit pub_static_methods_interface_city_builder_core_1_1_i_structure"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes a point from one structure and adds it to another while trying to carry over its look<br  />
  both structures need to be <a class="el" href="class_city_builder_core_1_1_structure_collection_float.html" title="structure made up of a collection of gameobjects each occupying exactly one point on the map  saves f...">StructureCollectionFloat</a>, <a class="el" href="class_city_builder_core_1_1_structure_terrain_trees.html" title="structure that adds and removes terrain trees using a TerrainModifier">StructureTerrainTrees</a> or <a class="el" href="class_city_builder_core_1_1_structure_terrain_tree_variants.html" title="structure that adds and removes terrain trees using a TerrainModifier, can handle multiple tree varia...">StructureTerrainTreeVariants</a>)  <br /></td></tr>
-<tr class="separator:a253d70a787f60f09b6ad76934f076fcc inherit pub_static_methods_interface_city_builder_core_1_1_i_structure"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec5822ac694729319218e35adf8f6196 inherit pub_static_methods_interface_city_builder_core_1_1_i_structure" id="r_aec5822ac694729319218e35adf8f6196"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_city_builder_core_1_1_i_structure.html#aec5822ac694729319218e35adf8f6196">ReplacePoints</a> (<a class="el" href="interface_city_builder_core_1_1_i_structure.html">IStructure</a> a, <a class="el" href="interface_city_builder_core_1_1_i_structure.html">IStructure</a> b, IEnumerable&lt; Vector2Int &gt; points, bool keepRandomization=true, bool keepVariant=true)</td></tr>
-<tr class="memdesc:aec5822ac694729319218e35adf8f6196 inherit pub_static_methods_interface_city_builder_core_1_1_i_structure"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes points from one structure and adds them to another while trying to carry over its look<br  />
+<tr class="separator:af892bc5683be0e4d303477c4a81b1bdd inherit pub_static_methods_interface_city_builder_core_1_1_i_structure"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98e1b620abf92479574828e27a903a81 inherit pub_static_methods_interface_city_builder_core_1_1_i_structure" id="r_a98e1b620abf92479574828e27a903a81"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_city_builder_core_1_1_i_structure.html#a98e1b620abf92479574828e27a903a81">ReplacePoints</a> (<a class="el" href="interface_city_builder_core_1_1_i_structure.html">IStructure</a> a, <a class="el" href="interface_city_builder_core_1_1_i_structure.html">IStructure</a> b, IEnumerable&lt; Vector2Int &gt; points, bool keepRandomization=true, bool keepVariant=true, <a class="el" href="class_city_builder_core_1_1_undo_redo_actions.html">UndoRedoActions</a> undoRedoActions=null)</td></tr>
+<tr class="memdesc:a98e1b620abf92479574828e27a903a81 inherit pub_static_methods_interface_city_builder_core_1_1_i_structure"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes points from one structure and adds them to another while trying to carry over its look<br  />
  both structures need to be <a class="el" href="class_city_builder_core_1_1_structure_collection_float.html" title="structure made up of a collection of gameobjects each occupying exactly one point on the map  saves f...">StructureCollectionFloat</a>, <a class="el" href="class_city_builder_core_1_1_structure_terrain_trees.html" title="structure that adds and removes terrain trees using a TerrainModifier">StructureTerrainTrees</a> or <a class="el" href="class_city_builder_core_1_1_structure_terrain_tree_variants.html" title="structure that adds and removes terrain trees using a TerrainModifier, can handle multiple tree varia...">StructureTerrainTreeVariants</a>)<br  />
  used in town so bushes keep their look(size, rotation, color) when berries grown on them<br  />
  would also carry the variant index for trees in town if there were any  <br /></td></tr>
-<tr class="separator:aec5822ac694729319218e35adf8f6196 inherit pub_static_methods_interface_city_builder_core_1_1_i_structure"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="separator:a98e1b620abf92479574828e27a903a81 inherit pub_static_methods_interface_city_builder_core_1_1_i_structure"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a90294f3634245eb27d5376e13044d90f" name="a90294f3634245eb27d5376e13044d90f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90294f3634245eb27d5376e13044d90f">&#9670;&#160;</a></span>Add()</h2>
+<a id="a2c48c0c5097b915f84098a5e00e68df3" name="a2c48c0c5097b915f84098a5e00e68df3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c48c0c5097b915f84098a5e00e68df3">&#9670;&#160;</a></span>Add()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -268,8 +276,12 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void CityBuilderCore.StructureCollectionFloat.Add </td>
           <td>(</td>
-          <td class="paramtype">IEnumerable&lt; Vector2Int &gt;</td>          <td class="paramname"><span class="paramname"><em>points</em></span></td><td>)</td>
+          <td class="paramtype">IEnumerable&lt; Vector2Int &gt;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="class_city_builder_core_1_1_undo_redo_actions.html">UndoRedoActions</a></td>          <td class="paramname"><span class="paramname"><em>undoRedoActions</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -289,7 +301,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="interface_city_builder_core_1_1_i_structure.html#a2d33fcb5c062b5eb7b538b5762dd3dc7">CityBuilderCore.IStructure</a>.</p>
+<p>Implements <a class="el" href="interface_city_builder_core_1_1_i_structure.html#a53647b43c2bd6ba9b73f77ada0e380e0">CityBuilderCore.IStructure</a>.</p>
 
 </div>
 </div>
@@ -365,8 +377,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a61b0a710618aafc6caa94a7e7b662797" name="a61b0a710618aafc6caa94a7e7b662797"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61b0a710618aafc6caa94a7e7b662797">&#9670;&#160;</a></span>Remove()</h2>
+<a id="ae85a69976666d11dde5287c564152587" name="ae85a69976666d11dde5287c564152587"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae85a69976666d11dde5287c564152587">&#9670;&#160;</a></span>Remove()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -375,10 +387,14 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void CityBuilderCore.StructureCollectionFloat.Remove </td>
+          <td class="memname">IEnumerable&lt; Vector2Int &gt; CityBuilderCore.StructureCollectionFloat.Remove </td>
           <td>(</td>
-          <td class="paramtype">IEnumerable&lt; Vector2Int &gt;</td>          <td class="paramname"><span class="paramname"><em>points</em></span></td><td>)</td>
+          <td class="paramtype">IEnumerable&lt; Vector2Int &gt;</td>          <td class="paramname"><span class="paramname"><em>points</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="class_city_builder_core_1_1_undo_redo_actions.html">UndoRedoActions</a></td>          <td class="paramname"><span class="paramname"><em>undoRedoActions</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -396,8 +412,9 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>the actual removed points</dd></dl>
 
-<p>Implements <a class="el" href="interface_city_builder_core_1_1_i_structure.html#ac07f9e496d8e63e503a4a04699a809eb">CityBuilderCore.IStructure</a>.</p>
+<p>Implements <a class="el" href="interface_city_builder_core_1_1_i_structure.html#a7af20ca5392dd1a0753242996438d6c0">CityBuilderCore.IStructure</a>.</p>
 
 </div>
 </div>

@@ -88,5 +88,6 @@ var searchData=
   ['progressthreshold_85',['ProgressThreshold',['../class_city_builder_core_1_1_progress_threshold.html',1,'CityBuilderCore']]],
   ['progressthresholdvisualizer_86',['ProgressThresholdVisualizer',['../class_city_builder_core_1_1_progress_threshold_visualizer.html',1,'CityBuilderCore']]],
   ['purchasewalker_87',['PurchaseWalker',['../class_city_builder_core_1_1_purchase_walker.html',1,'CityBuilderCore']]],
-  ['purchasewalkerdata_88',['PurchaseWalkerData',['../class_city_builder_core_1_1_purchase_walker_1_1_purchase_walker_data.html',1,'CityBuilderCore::PurchaseWalker']]]
+  ['purchasewalkerdata_88',['PurchaseWalkerData',['../class_city_builder_core_1_1_purchase_walker_1_1_purchase_walker_data.html',1,'CityBuilderCore::PurchaseWalker']]],
+  ['push_89',['Push',['../interface_city_builder_core_1_1_i_undo_redo_stack.html#aaf3da477f69d7030ec1f7a9a99cd5a60',1,'CityBuilderCore.IUndoRedoStack.Push()'],['../class_city_builder_core_1_1_undo_redo_stack.html#ad53d129d4900024b5b26a3eff4755999',1,'CityBuilderCore.UndoRedoStack.Push()']]]
 ];

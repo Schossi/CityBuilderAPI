@@ -49,7 +49,7 @@ var hierarchy =
       [ "CityBuilderCore.ExpandableBuilding.ExpandableBuildingData", "class_city_builder_core_1_1_expandable_building_1_1_expandable_building_data.html", null ]
     ] ],
     [ "CityBuilderCore.BuildingEvaluation", "class_city_builder_core_1_1_building_evaluation.html", null ],
-    [ "CityBuilderCore.DefaultBuildingManager.BuildingMetaData", "class_city_builder_core_1_1_default_building_manager_1_1_building_meta_data.html", null ],
+    [ "CityBuilderCore.BuildingMetaData", "class_city_builder_core_1_1_building_meta_data.html", null ],
     [ "CityBuilderCore.BuildingReference", "class_city_builder_core_1_1_building_reference.html", null ],
     [ "CityBuilderCore.BuildingRequirement", "class_city_builder_core_1_1_building_requirement.html", null ],
     [ "CityBuilderCore.BuildingRotation", "class_city_builder_core_1_1_building_rotation.html", [
@@ -326,6 +326,10 @@ var hierarchy =
     [ "CityBuilderCore.IEmploymentManager", "interface_city_builder_core_1_1_i_employment_manager.html", [
       [ "CityBuilderCore.DefaultPopulationManager", "class_city_builder_core_1_1_default_population_manager.html", null ]
     ] ],
+    [ "CityBuilderCore.IExpandableVisual", "interface_city_builder_core_1_1_i_expandable_visual.html", [
+      [ "CityBuilderCore.ExpandableVisual", "class_city_builder_core_1_1_expandable_visual.html", null ],
+      [ "CityBuilderCore.ExpandableVisualCapped", "class_city_builder_core_1_1_expandable_visual_capped.html", null ]
+    ] ],
     [ "CityBuilderCore.IGameSaver", "interface_city_builder_core_1_1_i_game_saver.html", [
       [ "CityBuilderCore.DefaultGameManager", "class_city_builder_core_1_1_default_game_manager.html", null ],
       [ "CityBuilderCore.GameSaverProxy", "class_city_builder_core_1_1_game_saver_proxy.html", null ]
@@ -464,6 +468,7 @@ var hierarchy =
         [ "CityBuilderCore.BuildingAddon", "class_city_builder_core_1_1_building_addon.html", [
           [ "CityBuilderCore.BuildingAddonEffect", "class_city_builder_core_1_1_building_addon_effect.html", null ],
           [ "CityBuilderCore.BuildingAddonMaterial", "class_city_builder_core_1_1_building_addon_material.html", null ],
+          [ "CityBuilderCore.BuildingAddonRenderer", "class_city_builder_core_1_1_building_addon_renderer.html", null ],
           [ "CityBuilderCore.BuildingAddonSpawn", "class_city_builder_core_1_1_building_addon_spawn.html", null ],
           [ "CityBuilderCore.BuildingAddonTransformer", "class_city_builder_core_1_1_building_addon_transformer.html", null ],
           [ "CityBuilderCore.DiseaseAddon", "class_city_builder_core_1_1_disease_addon.html", null ],
@@ -473,6 +478,7 @@ var hierarchy =
           [ "CityBuilderCore.TaskList", "class_city_builder_core_1_1_task_list.html", null ],
           [ "CityBuilderCore.TerrainModifier", "class_city_builder_core_1_1_terrain_modifier.html", null ],
           [ "CityBuilderCore.TilemapSpawner", "class_city_builder_core_1_1_tilemap_spawner.html", null ],
+          [ "CityBuilderCore.UndoRedoStack", "class_city_builder_core_1_1_undo_redo_stack.html", null ],
           [ "CityBuilderTown.TownManager", "class_city_builder_town_1_1_town_manager.html", null ],
           [ "CityBuilderUrban.UrbanManager", "class_city_builder_urban_1_1_urban_manager.html", null ]
         ] ],
@@ -576,7 +582,8 @@ var hierarchy =
       ] ]
     ] ],
     [ "CityBuilderCore.IOverlayManager", "interface_city_builder_core_1_1_i_overlay_manager.html", [
-      [ "CityBuilderCore.DefaultOverlayManager", "class_city_builder_core_1_1_default_overlay_manager.html", null ]
+      [ "CityBuilderCore.DefaultOverlayManager", "class_city_builder_core_1_1_default_overlay_manager.html", null ],
+      [ "CityBuilderCore.MeshOverlayManager", "class_city_builder_core_1_1_mesh_overlay_manager.html", null ]
     ] ],
     [ "CityBuilderCore.IOverrideHeight", "interface_city_builder_core_1_1_i_override_height.html", [
       [ "CityBuilderCore.Walker", "class_city_builder_core_1_1_walker.html", [
@@ -764,6 +771,39 @@ var hierarchy =
       [ "CityBuilderCore.IStructureManager", "interface_city_builder_core_1_1_i_structure_manager.html", [
         [ "CityBuilderCore.DefaultStructureManager", "class_city_builder_core_1_1_default_structure_manager.html", null ]
       ] ],
+      [ "CityBuilderCore.IUndoRedoAction", "interface_city_builder_core_1_1_i_undo_redo_action.html", [
+        [ "CityBuilderCore.UndoRedoActionBase", "class_city_builder_core_1_1_undo_redo_action_base.html", [
+          [ "CityBuilderCore.RoadNetwork.UndoRedoRoadBase", "class_city_builder_core_1_1_road_network_1_1_undo_redo_road_base.html", [
+            [ "CityBuilderCore.RoadNetwork.RoadAddition", "class_city_builder_core_1_1_road_network_1_1_road_addition.html", null ],
+            [ "CityBuilderCore.RoadNetwork.RoadRemoval", "class_city_builder_core_1_1_road_network_1_1_road_removal.html", null ]
+          ] ],
+          [ "CityBuilderCore.StructureCollectionFloat.UndoRedoStructureCollectionFloatBase", "class_city_builder_core_1_1_structure_collection_float_1_1_undo_redo_structure_collection_float_base.html", [
+            [ "CityBuilderCore.StructureCollectionFloat.StructureCollectionFloatAddition", "class_city_builder_core_1_1_structure_collection_float_1_1_structure_collection_float_addition.html", null ],
+            [ "CityBuilderCore.StructureCollectionFloat.StructureCollectionFloatRemoval", "class_city_builder_core_1_1_structure_collection_float_1_1_structure_collection_float_removal.html", null ]
+          ] ],
+          [ "CityBuilderCore.StructureTerrainTreeVariants.UndoRedoStructureTerrainTreeVariantsBase", "class_city_builder_core_1_1_structure_terrain_tree_variants_1_1_undo_redo_structure_terrain_tree_variants_base.html", [
+            [ "CityBuilderCore.StructureTerrainTreeVariants.StructureTerrainTreeVariantsAddition", "class_city_builder_core_1_1_structure_terrain_tree_variants_1_1_structure_terrain_tree_variants_addition.html", null ],
+            [ "CityBuilderCore.StructureTerrainTreeVariants.StructureTerrainTreeVariantsRemoval", "class_city_builder_core_1_1_structure_terrain_tree_variants_1_1_structure_terrain_tree_variants_removal.html", null ]
+          ] ],
+          [ "CityBuilderCore.StructureTerrainTrees.UndoRedoStructureTerrainTreesBase", "class_city_builder_core_1_1_structure_terrain_trees_1_1_undo_redo_structure_terrain_trees_base.html", [
+            [ "CityBuilderCore.StructureTerrainTrees.StructureTerrainTreesAddition", "class_city_builder_core_1_1_structure_terrain_trees_1_1_structure_terrain_trees_addition.html", null ],
+            [ "CityBuilderCore.StructureTerrainTrees.StructureTerrainTreesRemoval", "class_city_builder_core_1_1_structure_terrain_trees_1_1_structure_terrain_trees_removal.html", null ]
+          ] ],
+          [ "CityBuilderCore.UndoRedoActionBuildingBase", "class_city_builder_core_1_1_undo_redo_action_building_base.html", [
+            [ "CityBuilderCore.BuildingAddition", "class_city_builder_core_1_1_building_addition.html", null ],
+            [ "CityBuilderCore.BuildingRemoval", "class_city_builder_core_1_1_building_removal.html", null ]
+          ] ],
+          [ "CityBuilderCore.UndoRedoActionItemBase", "class_city_builder_core_1_1_undo_redo_action_item_base.html", [
+            [ "CityBuilderCore.ItemAddition", "class_city_builder_core_1_1_item_addition.html", null ],
+            [ "CityBuilderCore.ItemRemoval", "class_city_builder_core_1_1_item_removal.html", null ]
+          ] ],
+          [ "CityBuilderCore.UndoRedoActionStructureBase", "class_city_builder_core_1_1_undo_redo_action_structure_base.html", [
+            [ "CityBuilderCore.StructureAddition", "class_city_builder_core_1_1_structure_addition.html", null ],
+            [ "CityBuilderCore.StructureRemoval", "class_city_builder_core_1_1_structure_removal.html", null ]
+          ] ]
+        ] ],
+        [ "CityBuilderCore.UndoRedoActions", "class_city_builder_core_1_1_undo_redo_actions.html", null ]
+      ] ],
       [ "CityBuilderCore.ItemStore", "class_city_builder_core_1_1_item_store.html", null ],
       [ "CityBuilderCore.ReloadingItemsDispenser", "class_city_builder_core_1_1_reloading_items_dispenser.html", null ],
       [ "CityBuilderCore.Walker", "class_city_builder_core_1_1_walker.html", null ],
@@ -814,6 +854,9 @@ var hierarchy =
     ] ],
     [ "CityBuilderCore.ITooltipOwner", "interface_city_builder_core_1_1_i_tooltip_owner.html", [
       [ "CityBuilderCore.TooltipOwnerBase", "class_city_builder_core_1_1_tooltip_owner_base.html", null ]
+    ] ],
+    [ "CityBuilderCore.IUndoRedoStack", "interface_city_builder_core_1_1_i_undo_redo_stack.html", [
+      [ "CityBuilderCore.UndoRedoStack", "class_city_builder_core_1_1_undo_redo_stack.html", null ]
     ] ],
     [ "CityBuilderCore.IViewsManager", "interface_city_builder_core_1_1_i_views_manager.html", [
       [ "CityBuilderCore.DefaultViewManager", "class_city_builder_core_1_1_default_view_manager.html", null ]
@@ -885,6 +928,9 @@ var hierarchy =
     [ "CityBuilderCore.LazyDependency< CityBuilderCore.ILayerManager >", "class_city_builder_core_1_1_lazy_dependency.html", null ],
     [ "CityBuilderCore.LazyDependency< CityBuilderCore.IMap >", "class_city_builder_core_1_1_lazy_dependency.html", null ],
     [ "CityBuilderCore.LazyDependency< CityBuilderCore.IStructureManager >", "class_city_builder_core_1_1_lazy_dependency.html", null ],
+    [ "CityBuilderCore.LazyDependency< IGridPositions >", "class_city_builder_core_1_1_lazy_dependency.html", null ],
+    [ "CityBuilderCore.LazyOptionalDependency< T >", "class_city_builder_core_1_1_lazy_optional_dependency.html", null ],
+    [ "CityBuilderCore.LazyOptionalDependency< IGridHeights >", "class_city_builder_core_1_1_lazy_optional_dependency.html", null ],
     [ "CityBuilderCore.ManualWalkerSpawner< AttackWalker >", "class_city_builder_core_1_1_manual_walker_spawner.html", [
       [ "CityBuilderCore.ManualAttackWalkerSpawner", "class_city_builder_core_1_1_manual_attack_walker_spawner.html", null ]
     ] ],
@@ -954,6 +1000,7 @@ var hierarchy =
     [ "CityBuilderCore.Migration.MigrationData", "class_city_builder_core_1_1_migration_1_1_migration_data.html", null ],
     [ "CityBuilderCore.MissionParameters", "class_city_builder_core_1_1_mission_parameters.html", null ],
     [ "MonoBehaviour", null, [
+      [ "Assets.SoftLeitner.CityBuilderCore.Utilities.Instantiator", "class_assets_1_1_soft_leitner_1_1_city_builder_core_1_1_utilities_1_1_instantiator.html", null ],
       [ "CityBuilderCore.AudioPool", "class_city_builder_core_1_1_audio_pool.html", null ],
       [ "CityBuilderCore.AudioSlider", "class_city_builder_core_1_1_audio_slider.html", null ],
       [ "CityBuilderCore.BehaviourEventTrigger", "class_city_builder_core_1_1_behaviour_event_trigger.html", null ],
@@ -991,7 +1038,8 @@ var hierarchy =
       [ "CityBuilderCore.DefaultTooltipManager", "class_city_builder_core_1_1_default_tooltip_manager.html", null ],
       [ "CityBuilderCore.DefaultViewManager", "class_city_builder_core_1_1_default_view_manager.html", null ],
       [ "CityBuilderCore.DemolishVisual", "class_city_builder_core_1_1_demolish_visual.html", [
-        [ "CityBuilderCore.DemolishVisualDespawn", "class_city_builder_core_1_1_demolish_visual_despawn.html", null ]
+        [ "CityBuilderCore.DemolishVisualDespawn", "class_city_builder_core_1_1_demolish_visual_despawn.html", null ],
+        [ "CityBuilderCore.DemolishVisualRenderer", "class_city_builder_core_1_1_demolish_visual_renderer.html", null ]
       ] ],
       [ "CityBuilderCore.DialogBase", "class_city_builder_core_1_1_dialog_base.html", [
         [ "CityBuilderCore.EmploymentDialog", "class_city_builder_core_1_1_employment_dialog.html", null ],
@@ -1009,10 +1057,13 @@ var hierarchy =
       [ "CityBuilderCore.ExpandableCollider", "class_city_builder_core_1_1_expandable_collider.html", null ],
       [ "CityBuilderCore.ExpandableStorageVisualizer", "class_city_builder_core_1_1_expandable_storage_visualizer.html", null ],
       [ "CityBuilderCore.ExpandableVisual", "class_city_builder_core_1_1_expandable_visual.html", null ],
+      [ "CityBuilderCore.ExpandableVisualCapped", "class_city_builder_core_1_1_expandable_visual_capped.html", null ],
       [ "CityBuilderCore.Fader", "class_city_builder_core_1_1_fader.html", null ],
       [ "CityBuilderCore.GameSaverProxy", "class_city_builder_core_1_1_game_saver_proxy.html", null ],
       [ "CityBuilderCore.GameSpeedProxy", "class_city_builder_core_1_1_game_speed_proxy.html", null ],
-      [ "CityBuilderCore.HeightMappedTerrainRenderer", "class_city_builder_core_1_1_height_mapped_terrain_renderer.html", null ],
+      [ "CityBuilderCore.HeightMappedTerrainRenderer", "class_city_builder_core_1_1_height_mapped_terrain_renderer.html", [
+        [ "CityBuilderCore.HeightMappedTerrainMesh", "class_city_builder_core_1_1_height_mapped_terrain_mesh.html", null ]
+      ] ],
       [ "CityBuilderCore.ItemPanel", "class_city_builder_core_1_1_item_panel.html", null ],
       [ "CityBuilderCore.ItemStore", "class_city_builder_core_1_1_item_store.html", null ],
       [ "CityBuilderCore.ItemStorer", "class_city_builder_core_1_1_item_storer.html", null ],
@@ -1025,6 +1076,8 @@ var hierarchy =
       [ "CityBuilderCore.MapBase", "class_city_builder_core_1_1_map_base.html", null ],
       [ "CityBuilderCore.MaterialSwitcher", "class_city_builder_core_1_1_material_switcher.html", null ],
       [ "CityBuilderCore.MeshHighlightManager", "class_city_builder_core_1_1_mesh_highlight_manager.html", null ],
+      [ "CityBuilderCore.MeshOverlayGenerator", "class_city_builder_core_1_1_mesh_overlay_generator.html", null ],
+      [ "CityBuilderCore.MeshOverlayManager", "class_city_builder_core_1_1_mesh_overlay_manager.html", null ],
       [ "CityBuilderCore.MessageReceiver", "class_city_builder_core_1_1_message_receiver.html", [
         [ "CityBuilderCore.Building", "class_city_builder_core_1_1_building.html", null ],
         [ "CityBuilderCore.Walker", "class_city_builder_core_1_1_walker.html", null ]
@@ -1327,6 +1380,8 @@ var hierarchy =
         [ "CityBuilderCore.ViewCulling", "class_city_builder_core_1_1_view_culling.html", null ],
         [ "CityBuilderCore.ViewEfficiency", "class_city_builder_core_1_1_view_efficiency.html", null ],
         [ "CityBuilderCore.ViewLayer", "class_city_builder_core_1_1_view_layer.html", null ],
+        [ "CityBuilderCore.ViewMessage", "class_city_builder_core_1_1_view_message.html", null ],
+        [ "CityBuilderCore.ViewRenderer", "class_city_builder_core_1_1_view_renderer.html", null ],
         [ "CityBuilderCore.ViewWalkerBarBase", "class_city_builder_core_1_1_view_walker_bar_base.html", [
           [ "CityBuilderCore.ViewWalkerBar< T >", "class_city_builder_core_1_1_view_walker_bar.html", null ],
           [ "CityBuilderCore.ViewWalkerHealthBar", "class_city_builder_core_1_1_view_walker_health_bar.html", null ],
@@ -1441,6 +1496,17 @@ var hierarchy =
     [ "CityBuilderTown.TownWorkComponent.TownWorkData", "class_city_builder_town_1_1_town_work_component_1_1_town_work_data.html", null ],
     [ "CityBuilderUrban.TrainWalker.TrainWalkerData", "class_city_builder_urban_1_1_train_walker_1_1_train_walker_data.html", null ],
     [ "CityBuilderCore.StateManager.TransitionEntry", "class_city_builder_core_1_1_state_manager_1_1_transition_entry.html", null ],
+    [ "CityBuilderCore.UndoRedoActionData", "class_city_builder_core_1_1_undo_redo_action_data.html", null ],
+    [ "CityBuilderCore.UndoRedoActions.UndoRedoActionsData", "class_city_builder_core_1_1_undo_redo_actions_1_1_undo_redo_actions_data.html", null ],
+    [ "CityBuilderCore.RoadNetwork.UndoRedoRoadData", "class_city_builder_core_1_1_road_network_1_1_undo_redo_road_data.html", null ],
+    [ "CityBuilderCore.RoadNetwork.UndoRedoRoadPointsData", "class_city_builder_core_1_1_road_network_1_1_undo_redo_road_points_data.html", null ],
+    [ "CityBuilderCore.UndoRedoStack.UndoRedoStackData", "class_city_builder_core_1_1_undo_redo_stack_1_1_undo_redo_stack_data.html", null ],
+    [ "CityBuilderCore.StructureCollectionFloat.UndoRedoStructureCollectionFloatData", "class_city_builder_core_1_1_structure_collection_float_1_1_undo_redo_structure_collection_float_data.html", null ],
+    [ "CityBuilderCore.UndoRedoActionStructureBase.UndoRedoStructureData", "class_city_builder_core_1_1_undo_redo_action_structure_base_1_1_undo_redo_structure_data.html", null ],
+    [ "CityBuilderCore.StructureTerrainTrees.UndoRedoStructureTerrainPointTrees", "class_city_builder_core_1_1_structure_terrain_trees_1_1_undo_redo_structure_terrain_point_trees.html", null ],
+    [ "CityBuilderCore.StructureTerrainTreeVariants.UndoRedoStructureTerrainPointTrees", "class_city_builder_core_1_1_structure_terrain_tree_variants_1_1_undo_redo_structure_terrain_point_trees.html", null ],
+    [ "CityBuilderCore.StructureTerrainTrees.UndoRedoStructureTerrainTreesData", "class_city_builder_core_1_1_structure_terrain_trees_1_1_undo_redo_structure_terrain_trees_data.html", null ],
+    [ "CityBuilderCore.StructureTerrainTreeVariants.UndoRedoStructureTerrainTreeVariantsData", "class_city_builder_core_1_1_structure_terrain_tree_variants_1_1_undo_redo_structure_terrain_tree_variants_data.html", null ],
     [ "UnityEvent", null, [
       [ "CityBuilderCore.BoolEvent", "class_city_builder_core_1_1_bool_event.html", null ],
       [ "CityBuilderCore.BuildingEvent", "class_city_builder_core_1_1_building_event.html", null ],

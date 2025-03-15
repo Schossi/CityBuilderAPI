@@ -1,10 +1,10 @@
 var class_city_builder_core_1_1_default_building_manager =
 [
-    [ "BuildingMetaData", "class_city_builder_core_1_1_default_building_manager_1_1_building_meta_data.html", null ],
     [ "BuildingsData", "class_city_builder_core_1_1_default_building_manager_1_1_buildings_data.html", null ],
     [ "ActivateBar", "class_city_builder_core_1_1_default_building_manager.html#a9527160c3727c884c761913ba08aa1f6", null ],
     [ "ActivateBar", "class_city_builder_core_1_1_default_building_manager.html#a3bc33248e8a36964e6a6a957505e0c6b", null ],
-    [ "Add< T >", "class_city_builder_core_1_1_default_building_manager.html#aefe543cebb34702efa553b096357b2cb", null ],
+    [ "Add", "class_city_builder_core_1_1_default_building_manager.html#a2857ba7dfa8d1bd70829cb79de2b38f8", null ],
+    [ "Add< T >", "class_city_builder_core_1_1_default_building_manager.html#a9e2adb35ed68d7780290b047dbd3d3e0", null ],
     [ "DeactivateBar", "class_city_builder_core_1_1_default_building_manager.html#a7984e4942d67421b92333f5ddfac9795", null ],
     [ "DeactivateBar", "class_city_builder_core_1_1_default_building_manager.html#af017bf73d4643e2b3ece47675b5c5f21", null ],
     [ "DeregisterBuilding", "class_city_builder_core_1_1_default_building_manager.html#a8bb44528bd9a7d17c633b68b7c64ea97", null ],

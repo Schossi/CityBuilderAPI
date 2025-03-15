@@ -36,6 +36,7 @@ var searchData=
   ['expandableoffgridlink_33',['ExpandableOffGridLink',['../class_city_builder_core_1_1_expandable_off_grid_link.html',1,'CityBuilderCore']]],
   ['expandablestoragevisualizer_34',['ExpandableStorageVisualizer',['../class_city_builder_core_1_1_expandable_storage_visualizer.html',1,'CityBuilderCore']]],
   ['expandablevisual_35',['ExpandableVisual',['../class_city_builder_core_1_1_expandable_visual.html',1,'CityBuilderCore']]],
-  ['extradatabehaviour_36',['ExtraDataBehaviour',['../class_city_builder_core_1_1_extra_data_behaviour.html',1,'CityBuilderCore']]],
-  ['extrasavedata_37',['ExtraSaveData',['../class_city_builder_core_1_1_default_game_manager_1_1_extra_save_data.html',1,'CityBuilderCore::DefaultGameManager']]]
+  ['expandablevisualcapped_36',['ExpandableVisualCapped',['../class_city_builder_core_1_1_expandable_visual_capped.html',1,'CityBuilderCore']]],
+  ['extradatabehaviour_37',['ExtraDataBehaviour',['../class_city_builder_core_1_1_extra_data_behaviour.html',1,'CityBuilderCore']]],
+  ['extrasavedata_38',['ExtraSaveData',['../class_city_builder_core_1_1_default_game_manager_1_1_extra_save_data.html',1,'CityBuilderCore::DefaultGameManager']]]
 ];
