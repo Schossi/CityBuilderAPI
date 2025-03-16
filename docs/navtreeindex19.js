@@ -1,15 +1,5 @@
 var NAVTREEINDEX19 =
 {
-"class_city_builder_town_1_1_town_work_component.html#a21936300fc7b5588b8eff26689dd0843":[1,0,5,53,1],
-"class_city_builder_town_1_1_town_work_component.html#a39c2dd16decc073835fe435bf6836301":[0,0,5,53,4],
-"class_city_builder_town_1_1_town_work_component.html#a39c2dd16decc073835fe435bf6836301":[1,0,5,53,4],
-"class_city_builder_town_1_1_town_work_component.html#a5e6ce9be42f6b731a0da56ead18321ab":[0,0,5,53,5],
-"class_city_builder_town_1_1_town_work_component.html#a5e6ce9be42f6b731a0da56ead18321ab":[1,0,5,53,5],
-"class_city_builder_town_1_1_town_work_component.html#a71aeec6aa41f4b6bd64b8f7df45a6b10":[0,0,5,53,9],
-"class_city_builder_town_1_1_town_work_component.html#a71aeec6aa41f4b6bd64b8f7df45a6b10":[1,0,5,53,9],
-"class_city_builder_town_1_1_town_work_component.html#a843a3698d81a550ecb3664ae4382a285":[0,0,5,53,6],
-"class_city_builder_town_1_1_town_work_component.html#a843a3698d81a550ecb3664ae4382a285":[1,0,5,53,6],
-"class_city_builder_town_1_1_town_work_component.html#a8582010b5dee19839d713200a0baf7d8":[0,0,5,53,8],
 "class_city_builder_town_1_1_town_work_component.html#a8582010b5dee19839d713200a0baf7d8":[1,0,5,53,8],
 "class_city_builder_town_1_1_town_work_component.html#a94356585a3fe63dcb9cdf299dce3c2e3":[0,0,5,53,2],
 "class_city_builder_town_1_1_town_work_component.html#a94356585a3fe63dcb9cdf299dce3c2e3":[1,0,5,53,2],
@@ -249,5 +239,15 @@ var NAVTREEINDEX19 =
 "interface_city_builder_core_1_1_i_building.html#a2fc9882a58a22be05d5b68de21049c13":[1,0,1,195,6],
 "interface_city_builder_core_1_1_i_building.html#a37a54db255993375143f8e37dee88b45":[0,0,1,195,23],
 "interface_city_builder_core_1_1_i_building.html#a37a54db255993375143f8e37dee88b45":[1,0,1,195,23],
-"interface_city_builder_core_1_1_i_building.html#a3b9d7b17fd89c72f060377cc7d5b4d53":[0,0,1,195,13]
+"interface_city_builder_core_1_1_i_building.html#a3b9d7b17fd89c72f060377cc7d5b4d53":[0,0,1,195,13],
+"interface_city_builder_core_1_1_i_building.html#a3b9d7b17fd89c72f060377cc7d5b4d53":[1,0,1,195,13],
+"interface_city_builder_core_1_1_i_building.html#a3bc928dd560fb6155956c0af0a4746eb":[0,0,1,195,10],
+"interface_city_builder_core_1_1_i_building.html#a3bc928dd560fb6155956c0af0a4746eb":[1,0,1,195,10],
+"interface_city_builder_core_1_1_i_building.html#a401b439e4e658241e9f823ae4e6625ff":[0,0,1,195,4],
+"interface_city_builder_core_1_1_i_building.html#a401b439e4e658241e9f823ae4e6625ff":[1,0,1,195,4],
+"interface_city_builder_core_1_1_i_building.html#a4e9af6413e3dfd9e7bfbea4161463744":[0,0,1,195,1],
+"interface_city_builder_core_1_1_i_building.html#a4e9af6413e3dfd9e7bfbea4161463744":[1,0,1,195,1],
+"interface_city_builder_core_1_1_i_building.html#a56789be929e167af6ec54f4756388f58":[0,0,1,195,5],
+"interface_city_builder_core_1_1_i_building.html#a56789be929e167af6ec54f4756388f58":[1,0,1,195,5],
+"interface_city_builder_core_1_1_i_building.html#a633c9738d72724f67d0e03161b61ebbd":[0,0,1,195,36]
 };

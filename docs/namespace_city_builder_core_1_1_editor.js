@@ -8,6 +8,7 @@ var namespace_city_builder_core_1_1_editor =
     [ "BuildingsWindow", "class_city_builder_core_1_1_editor_1_1_buildings_window.html", null ],
     [ "DebugEditor", "class_city_builder_core_1_1_editor_1_1_debug_editor.html", null ],
     [ "DefaultBuildingManagerEditor", "class_city_builder_core_1_1_editor_1_1_default_building_manager_editor.html", null ],
+    [ "DefaultItemManagerEditor", "class_city_builder_core_1_1_editor_1_1_default_item_manager_editor.html", null ],
     [ "DistributionComponentEditor", "class_city_builder_core_1_1_editor_1_1_distribution_component_editor.html", null ],
     [ "EditorDialog", "class_city_builder_core_1_1_editor_1_1_editor_dialog.html", null ],
     [ "EffectPoolEditor", "class_city_builder_core_1_1_editor_1_1_effect_pool_editor.html", null ],

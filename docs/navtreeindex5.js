@@ -1,5 +1,7 @@
 var NAVTREEINDEX5 =
 {
+"class_city_builder_core_1_1_evolution_sequence.html#a8f1bdf1437cc31541d38549b07f79009":[1,0,1,160,0],
+"class_city_builder_core_1_1_evolution_sequence.html#ae8b4a937ae2c6d91b2e196af4fa2d99a":[0,0,1,160,1],
 "class_city_builder_core_1_1_evolution_sequence.html#ae8b4a937ae2c6d91b2e196af4fa2d99a":[1,0,1,160,1],
 "class_city_builder_core_1_1_evolution_stage.html":[0,0,1,161],
 "class_city_builder_core_1_1_evolution_stage.html":[1,0,1,161],
@@ -247,7 +249,5 @@ var NAVTREEINDEX5 =
 "class_city_builder_core_1_1_inventory_visualizer.html#aaedec6229ffb70a78de6527d2b12c3ada4cc6684df7b4a92b1dec6fce3264fac8":[1,0,1,248,0,0],
 "class_city_builder_core_1_1_inventory_visualizer.html#aaedec6229ffb70a78de6527d2b12c3ada5207eeeccafd72f1b52a092beae4ead7":[0,0,1,248,0,3],
 "class_city_builder_core_1_1_inventory_visualizer.html#aaedec6229ffb70a78de6527d2b12c3ada5207eeeccafd72f1b52a092beae4ead7":[1,0,1,248,0,3],
-"class_city_builder_core_1_1_inventory_visualizer.html#aaedec6229ffb70a78de6527d2b12c3ada60848c692f8ddb0363e500da44563bae":[0,0,1,248,0,2],
-"class_city_builder_core_1_1_inventory_visualizer.html#aaedec6229ffb70a78de6527d2b12c3ada60848c692f8ddb0363e500da44563bae":[1,0,1,248,0,2],
-"class_city_builder_core_1_1_inventory_visualizer.html#aaedec6229ffb70a78de6527d2b12c3ada7bf2d26eab899c413218b729d4d914b7":[0,0,1,248,0,1]
+"class_city_builder_core_1_1_inventory_visualizer.html#aaedec6229ffb70a78de6527d2b12c3ada60848c692f8ddb0363e500da44563bae":[0,0,1,248,0,2]
 };

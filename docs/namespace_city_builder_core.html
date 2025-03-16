@@ -1069,9 +1069,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_item.html">Item</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">scriptable object that describes the properties of an item  <a href="class_city_builder_core_1_1_item.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_item_addition.html">ItemAddition</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="interface_city_builder_core_1_1_i_undo_redo_action.html" title="represents an action that can be undone and redone using an IUndoRedoStack">IUndoRedoAction</a> that represents items being added to global storage  <a href="class_city_builder_core_1_1_item_addition.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_item_category.html">ItemCategory</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">bundels of items for whenever instead of a specific item just a general type of item is needed<br  />
  eg people need food not just potatoes specifically  <a href="class_city_builder_core_1_1_item_category.html#details">More...</a><br /></td></tr>
@@ -1113,9 +1110,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_item_recipient.html">ItemRecipient</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">receives a specific item and uses it up over time<br  />
   <a href="class_city_builder_core_1_1_item_recipient.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_item_removal.html">ItemRemoval</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="interface_city_builder_core_1_1_i_undo_redo_action.html" title="represents an action that can be undone and redone using an IUndoRedoStack">IUndoRedoAction</a> that represents items being removed from global storage  <a href="class_city_builder_core_1_1_item_removal.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_item_score.html">ItemScore</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">item quantity in global storage  <a href="class_city_builder_core_1_1_item_score.html#details">More...</a><br /></td></tr>
@@ -2099,15 +2093,15 @@ Classes</h2></td></tr>
  in addition to the actual data actions also save their name<br  />
  this is needed to deserialize the correct type using UndoRedoTypes  <a href="class_city_builder_core_1_1_undo_redo_action_data.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_undo_redo_action_item_base.html">UndoRedoActionItemBase</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">base class for <a class="el" href="interface_city_builder_core_1_1_i_undo_redo_action.html" title="represents an action that can be undone and redone using an IUndoRedoStack">IUndoRedoAction</a> that adds or removes items from global storage  <a href="class_city_builder_core_1_1_undo_redo_action_item_base.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_undo_redo_actions.html">UndoRedoActions</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">combines multiple <a class="el" href="interface_city_builder_core_1_1_i_undo_redo_action.html" title="represents an action that can be undone and redone using an IUndoRedoStack">IUndoRedoAction</a> into one<br  />
  is passed around, for example, during demolish to collect all the different removal actions  <a href="class_city_builder_core_1_1_undo_redo_actions.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_undo_redo_action_structure_base.html">UndoRedoActionStructureBase</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">base class for <a class="el" href="interface_city_builder_core_1_1_i_undo_redo_action.html" title="represents an action that can be undone and redone using an IUndoRedoStack">IUndoRedoAction</a> that adds or removes points from a structure  <a href="class_city_builder_core_1_1_undo_redo_action_structure_base.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_undo_redo_global_items.html">UndoRedoGlobalItems</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">base class for <a class="el" href="interface_city_builder_core_1_1_i_undo_redo_action.html" title="represents an action that can be undone and redone using an IUndoRedoStack">IUndoRedoAction</a> that adds or removes items from global storage  <a href="class_city_builder_core_1_1_undo_redo_global_items.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_undo_redo_stack.html">UndoRedoStack</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">manages and executes <a class="el" href="interface_city_builder_core_1_1_i_undo_redo_action.html" title="represents an action that can be undone and redone using an IUndoRedoStack">IUndoRedoAction</a>s  <a href="class_city_builder_core_1_1_undo_redo_stack.html#details">More...</a><br /></td></tr>

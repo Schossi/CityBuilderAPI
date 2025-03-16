@@ -153,6 +153,7 @@ var hierarchy =
         [ "CityBuilderCore.Editor.TimingHappeningEditor", "class_city_builder_core_1_1_editor_1_1_timing_happening_editor.html", null ]
       ] ],
       [ "CityBuilderCore.Editor.DefaultBuildingManagerEditor", "class_city_builder_core_1_1_editor_1_1_default_building_manager_editor.html", null ],
+      [ "CityBuilderCore.Editor.DefaultItemManagerEditor", "class_city_builder_core_1_1_editor_1_1_default_item_manager_editor.html", null ],
       [ "CityBuilderCore.Editor.HeightMappedTerrainRendererEditor", "class_city_builder_core_1_1_editor_1_1_height_mapped_terrain_renderer_editor.html", null ],
       [ "CityBuilderCore.Editor.StructureCollectionEditor", "class_city_builder_core_1_1_editor_1_1_structure_collection_editor.html", null ],
       [ "CityBuilderCore.Editor.StructureCollectionFloatEditor", "class_city_builder_core_1_1_editor_1_1_structure_collection_float_editor.html", null ],
@@ -793,14 +794,11 @@ var hierarchy =
             [ "CityBuilderCore.BuildingAddition", "class_city_builder_core_1_1_building_addition.html", null ],
             [ "CityBuilderCore.BuildingRemoval", "class_city_builder_core_1_1_building_removal.html", null ]
           ] ],
-          [ "CityBuilderCore.UndoRedoActionItemBase", "class_city_builder_core_1_1_undo_redo_action_item_base.html", [
-            [ "CityBuilderCore.ItemAddition", "class_city_builder_core_1_1_item_addition.html", null ],
-            [ "CityBuilderCore.ItemRemoval", "class_city_builder_core_1_1_item_removal.html", null ]
-          ] ],
           [ "CityBuilderCore.UndoRedoActionStructureBase", "class_city_builder_core_1_1_undo_redo_action_structure_base.html", [
             [ "CityBuilderCore.StructureAddition", "class_city_builder_core_1_1_structure_addition.html", null ],
             [ "CityBuilderCore.StructureRemoval", "class_city_builder_core_1_1_structure_removal.html", null ]
-          ] ]
+          ] ],
+          [ "CityBuilderCore.UndoRedoGlobalItems", "class_city_builder_core_1_1_undo_redo_global_items.html", null ]
         ] ],
         [ "CityBuilderCore.UndoRedoActions", "class_city_builder_core_1_1_undo_redo_actions.html", null ]
       ] ],
@@ -1498,6 +1496,7 @@ var hierarchy =
     [ "CityBuilderCore.StateManager.TransitionEntry", "class_city_builder_core_1_1_state_manager_1_1_transition_entry.html", null ],
     [ "CityBuilderCore.UndoRedoActionData", "class_city_builder_core_1_1_undo_redo_action_data.html", null ],
     [ "CityBuilderCore.UndoRedoActions.UndoRedoActionsData", "class_city_builder_core_1_1_undo_redo_actions_1_1_undo_redo_actions_data.html", null ],
+    [ "CityBuilderCore.UndoRedoGlobalItems.UndoRedoGlobalItemsData", "class_city_builder_core_1_1_undo_redo_global_items_1_1_undo_redo_global_items_data.html", null ],
     [ "CityBuilderCore.RoadNetwork.UndoRedoRoadData", "class_city_builder_core_1_1_road_network_1_1_undo_redo_road_data.html", null ],
     [ "CityBuilderCore.RoadNetwork.UndoRedoRoadPointsData", "class_city_builder_core_1_1_road_network_1_1_undo_redo_road_points_data.html", null ],
     [ "CityBuilderCore.UndoRedoStack.UndoRedoStackData", "class_city_builder_core_1_1_undo_redo_stack_1_1_undo_redo_stack_data.html", null ],
