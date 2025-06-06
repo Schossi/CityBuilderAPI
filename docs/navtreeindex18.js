@@ -1,5 +1,9 @@
 var NAVTREEINDEX18 =
 {
+"class_city_builder_town_1_1_town_gathering_component_1_1_town_farming_data.html":[1,0,5,14,0],
+"class_city_builder_town_1_1_town_harvest_task.html":[0,0,5,16],
+"class_city_builder_town_1_1_town_harvest_task.html":[1,0,5,16],
+"class_city_builder_town_1_1_town_harvest_task_1_1_town_harvest_task_data.html":[0,0,5,16,0],
 "class_city_builder_town_1_1_town_harvest_task_1_1_town_harvest_task_data.html":[1,0,5,16,0],
 "class_city_builder_town_1_1_town_harvest_tool.html":[0,0,5,17],
 "class_city_builder_town_1_1_town_harvest_tool.html":[1,0,5,17],
@@ -245,9 +249,5 @@ var NAVTREEINDEX18 =
 "class_city_builder_town_1_1_town_work_component.html#a39c2dd16decc073835fe435bf6836301":[1,0,5,53,4],
 "class_city_builder_town_1_1_town_work_component.html#a5e6ce9be42f6b731a0da56ead18321ab":[0,0,5,53,5],
 "class_city_builder_town_1_1_town_work_component.html#a5e6ce9be42f6b731a0da56ead18321ab":[1,0,5,53,5],
-"class_city_builder_town_1_1_town_work_component.html#a71aeec6aa41f4b6bd64b8f7df45a6b10":[0,0,5,53,9],
-"class_city_builder_town_1_1_town_work_component.html#a71aeec6aa41f4b6bd64b8f7df45a6b10":[1,0,5,53,9],
-"class_city_builder_town_1_1_town_work_component.html#a843a3698d81a550ecb3664ae4382a285":[0,0,5,53,6],
-"class_city_builder_town_1_1_town_work_component.html#a843a3698d81a550ecb3664ae4382a285":[1,0,5,53,6],
-"class_city_builder_town_1_1_town_work_component.html#a8582010b5dee19839d713200a0baf7d8":[0,0,5,53,8]
+"class_city_builder_town_1_1_town_work_component.html#a71aeec6aa41f4b6bd64b8f7df45a6b10":[0,0,5,53,9]
 };

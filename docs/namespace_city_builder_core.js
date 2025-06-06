@@ -457,6 +457,7 @@ var namespace_city_builder_core =
     [ "SaleWalker", "class_city_builder_core_1_1_sale_walker.html", "class_city_builder_core_1_1_sale_walker" ],
     [ "SaveVisualizer", "class_city_builder_core_1_1_save_visualizer.html", null ],
     [ "SaveVisualizerItem", "class_city_builder_core_1_1_save_visualizer_item.html", null ],
+    [ "SceneExplainer", "class_city_builder_core_1_1_scene_explainer.html", null ],
     [ "Score", "class_city_builder_core_1_1_score.html", "class_city_builder_core_1_1_score" ],
     [ "ScoreEfficiencyComponent", "class_city_builder_core_1_1_score_efficiency_component.html", "class_city_builder_core_1_1_score_efficiency_component" ],
     [ "ScoreModifierHappening", "class_city_builder_core_1_1_score_modifier_happening.html", "class_city_builder_core_1_1_score_modifier_happening" ],

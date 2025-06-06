@@ -1101,6 +1101,7 @@ var hierarchy =
       [ "CityBuilderCore.RoadManagerBaseMulti", "class_city_builder_core_1_1_road_manager_base_multi.html", null ],
       [ "CityBuilderCore.SaveVisualizer", "class_city_builder_core_1_1_save_visualizer.html", null ],
       [ "CityBuilderCore.SaveVisualizerItem", "class_city_builder_core_1_1_save_visualizer_item.html", null ],
+      [ "CityBuilderCore.SceneExplainer", "class_city_builder_core_1_1_scene_explainer.html", null ],
       [ "CityBuilderCore.ScorePanel", "class_city_builder_core_1_1_score_panel.html", null ],
       [ "CityBuilderCore.SelectionSwitcher", "class_city_builder_core_1_1_selection_switcher.html", [
         [ "CityBuilderTown.TownSelectionSwitcher", "class_city_builder_town_1_1_town_selection_switcher.html", null ]
@@ -1448,6 +1449,7 @@ var hierarchy =
       [ "CityBuilderCore.Tests.StorageTesting", "class_city_builder_core_1_1_tests_1_1_storage_testing.html", null ],
       [ "CityBuilderCore.Tests.StructurePathTesting", "class_city_builder_core_1_1_tests_1_1_structure_path_testing.html", null ],
       [ "CityBuilderCore.Tests.SwitchRoadTesting", "class_city_builder_core_1_1_tests_1_1_switch_road_testing.html", null ],
+      [ "CityBuilderCore.Tests.TownCollectionTest", "class_city_builder_core_1_1_tests_1_1_town_collection_test.html", null ],
       [ "CityBuilderCore.Tests.TownConstructionTest", "class_city_builder_core_1_1_tests_1_1_town_construction_test.html", null ],
       [ "CityBuilderCore.Tests.TownForresterTest", "class_city_builder_core_1_1_tests_1_1_town_forrester_test.html", null ],
       [ "CityBuilderCore.Tests.TownGathererTest", "class_city_builder_core_1_1_tests_1_1_town_gatherer_test.html", null ],

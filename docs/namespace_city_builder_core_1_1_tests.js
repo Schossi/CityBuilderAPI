@@ -57,6 +57,7 @@ var namespace_city_builder_core_1_1_tests =
     [ "TerrainMovementAgent", "class_city_builder_core_1_1_tests_1_1_terrain_movement_agent.html", null ],
     [ "TestingBase", "class_city_builder_core_1_1_tests_1_1_testing_base.html", null ],
     [ "TimingTesting", "class_city_builder_core_1_1_tests_1_1_timing_testing.html", null ],
+    [ "TownCollectionTest", "class_city_builder_core_1_1_tests_1_1_town_collection_test.html", null ],
     [ "TownConstructionTest", "class_city_builder_core_1_1_tests_1_1_town_construction_test.html", null ],
     [ "TownForresterTest", "class_city_builder_core_1_1_tests_1_1_town_forrester_test.html", null ],
     [ "TownGathererTest", "class_city_builder_core_1_1_tests_1_1_town_gatherer_test.html", null ],
