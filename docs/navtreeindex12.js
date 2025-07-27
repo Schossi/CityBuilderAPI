@@ -1,5 +1,7 @@
 var NAVTREEINDEX12 =
 {
+"class_city_builder_core_1_1_structure_collection_float.html#ae85a69976666d11dde5287c564152587":[1,0,1,497,11],
+"class_city_builder_core_1_1_structure_collection_float_1_1_structure_collection_float_addition.html":[0,0,1,497,0],
 "class_city_builder_core_1_1_structure_collection_float_1_1_structure_collection_float_addition.html":[1,0,1,497,0],
 "class_city_builder_core_1_1_structure_collection_float_1_1_structure_collection_float_addition.html#a43765874d903bb6fc4e9f4a1df905dae":[0,0,1,497,0,0],
 "class_city_builder_core_1_1_structure_collection_float_1_1_structure_collection_float_addition.html#a43765874d903bb6fc4e9f4a1df905dae":[1,0,1,497,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX12 =
 "class_city_builder_core_1_1_terrain_modifier.html":[1,0,1,523],
 "class_city_builder_core_1_1_terrain_modifier.html#a65c640621dacad0ab54e1d391b3e7364":[0,0,1,523,2],
 "class_city_builder_core_1_1_terrain_modifier.html#a65c640621dacad0ab54e1d391b3e7364":[1,0,1,523,2],
-"class_city_builder_core_1_1_terrain_modifier.html#abb2d02c60c34876c429dbf49d9f49965":[0,0,1,523,3],
-"class_city_builder_core_1_1_terrain_modifier.html#abb2d02c60c34876c429dbf49d9f49965":[1,0,1,523,3],
-"class_city_builder_core_1_1_terrain_modifier_1_1_terrain_modifier_data.html":[0,0,1,523,0]
+"class_city_builder_core_1_1_terrain_modifier.html#abb2d02c60c34876c429dbf49d9f49965":[0,0,1,523,3]
 };

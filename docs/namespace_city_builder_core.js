@@ -146,7 +146,7 @@ var namespace_city_builder_core =
     [ "DistributionOrder", "class_city_builder_core_1_1_distribution_order.html", null ],
     [ "DistributionOrderPanel", "class_city_builder_core_1_1_distribution_order_panel.html", null ],
     [ "DistributionOrdersPanel", "class_city_builder_core_1_1_distribution_orders_panel.html", null ],
-    [ "EmigrationWalker", "class_city_builder_core_1_1_emigration_walker.html", null ],
+    [ "EmigrationWalker", "class_city_builder_core_1_1_emigration_walker.html", "class_city_builder_core_1_1_emigration_walker" ],
     [ "EmploymentComponent", "class_city_builder_core_1_1_employment_component.html", "class_city_builder_core_1_1_employment_component" ],
     [ "EmploymentDialog", "class_city_builder_core_1_1_employment_dialog.html", null ],
     [ "EmploymentGroup", "class_city_builder_core_1_1_employment_group.html", null ],

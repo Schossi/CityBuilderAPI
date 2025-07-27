@@ -1,5 +1,7 @@
 var NAVTREEINDEX15 =
 {
+"class_city_builder_core_1_1_view_activator.html":[1,0,1,567],
+"class_city_builder_core_1_1_view_activator.html#a9f6125a63ae94b7b379170a579676c7d":[0,0,1,567,0],
 "class_city_builder_core_1_1_view_activator.html#a9f6125a63ae94b7b379170a579676c7d":[1,0,1,567,0],
 "class_city_builder_core_1_1_view_building_bar.html":[0,0,1,568],
 "class_city_builder_core_1_1_view_building_bar.html":[1,0,1,568],
@@ -247,7 +249,5 @@ var NAVTREEINDEX15 =
 "class_city_builder_core_1_1_walker.html#aa1ffbe9a4a5d7ba0a35b585b48ac17d6":[1,0,1,600,81],
 "class_city_builder_core_1_1_walker.html#aa30a884d6f9fbf216203e316a8ef1bb3":[0,0,1,600,43],
 "class_city_builder_core_1_1_walker.html#aa30a884d6f9fbf216203e316a8ef1bb3":[1,0,1,600,43],
-"class_city_builder_core_1_1_walker.html#aa90c664eead787af7b4cd8ba06a8a105":[0,0,1,600,30],
-"class_city_builder_core_1_1_walker.html#aa90c664eead787af7b4cd8ba06a8a105":[1,0,1,600,30],
-"class_city_builder_core_1_1_walker.html#aafd1545fe63c424d8f1c150b1a04a519":[0,0,1,600,24]
+"class_city_builder_core_1_1_walker.html#aa90c664eead787af7b4cd8ba06a8a105":[0,0,1,600,30]
 };

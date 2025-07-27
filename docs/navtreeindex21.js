@@ -1,5 +1,7 @@
 var NAVTREEINDEX21 =
 {
+"interface_city_builder_core_1_1_i_game_speed.html#a4b7543f2592ddb1dd84c156e9f1140e5":[1,0,1,212,3],
+"interface_city_builder_core_1_1_i_game_speed.html#a6eba5adb1dc3c644ae57a981058223dd":[0,0,1,212,2],
 "interface_city_builder_core_1_1_i_game_speed.html#a6eba5adb1dc3c644ae57a981058223dd":[1,0,1,212,2],
 "interface_city_builder_core_1_1_i_game_speed.html#a7b54b843bb3934fb62ac1f0f8cb742fc":[0,0,1,212,0],
 "interface_city_builder_core_1_1_i_game_speed.html#a7b54b843bb3934fb62ac1f0f8cb742fc":[1,0,1,212,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX21 =
 "interface_city_builder_core_1_1_i_map.html#a13cbec2deef52d239d32bf40096c2fa9":[1,0,1,239,7],
 "interface_city_builder_core_1_1_i_map.html#a15d6fc4dcd747fc2dbba273ba41aefc1":[0,0,1,239,9],
 "interface_city_builder_core_1_1_i_map.html#a15d6fc4dcd747fc2dbba273ba41aefc1":[1,0,1,239,9],
-"interface_city_builder_core_1_1_i_map.html#a28aae437cede394b799bdb3997e2e952":[0,0,1,239,4],
-"interface_city_builder_core_1_1_i_map.html#a28aae437cede394b799bdb3997e2e952":[1,0,1,239,4],
-"interface_city_builder_core_1_1_i_map.html#a3d85c2270bcdd5124027a6ebefc926af":[0,0,1,239,5]
+"interface_city_builder_core_1_1_i_map.html#a28aae437cede394b799bdb3997e2e952":[0,0,1,239,4]
 };

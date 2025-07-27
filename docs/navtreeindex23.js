@@ -1,5 +1,7 @@
 var NAVTREEINDEX23 =
 {
+"interface_city_builder_core_1_1_i_views_manager.html#a7c751e95001687e8ef9c69585496a23a":[1,0,1,301,1],
+"interface_city_builder_core_1_1_i_views_manager.html#a8b4cc346274db2ac0498faabd8dca7cc":[0,0,1,301,0],
 "interface_city_builder_core_1_1_i_views_manager.html#a8b4cc346274db2ac0498faabd8dca7cc":[1,0,1,301,0],
 "interface_city_builder_core_1_1_i_walker_manager.html":[0,0,1,302],
 "interface_city_builder_core_1_1_i_walker_manager.html":[1,0,1,302],

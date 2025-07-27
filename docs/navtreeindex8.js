@@ -1,5 +1,7 @@
 var NAVTREEINDEX8 =
 {
+"class_city_builder_core_1_1_map_base.html#aebd1750cfc707ae66b67dada64238d93":[1,0,1,344,4],
+"class_city_builder_core_1_1_map_base.html#aed999e1c9a1ad39213e45d9398a47e11":[0,0,1,344,5],
 "class_city_builder_core_1_1_map_base.html#aed999e1c9a1ad39213e45d9398a47e11":[1,0,1,344,5],
 "class_city_builder_core_1_1_material_switcher.html":[0,0,1,345],
 "class_city_builder_core_1_1_material_switcher.html":[1,0,1,345],
@@ -247,7 +249,5 @@ var NAVTREEINDEX8 =
 "class_city_builder_core_1_1_pooled_risk_walker_spawner.html":[1,0,1,396],
 "class_city_builder_core_1_1_pooled_roaming_walker_spawner.html":[0,0,1,397],
 "class_city_builder_core_1_1_pooled_roaming_walker_spawner.html":[1,0,1,397],
-"class_city_builder_core_1_1_pooled_sale_walker_spawner.html":[0,0,1,398],
-"class_city_builder_core_1_1_pooled_sale_walker_spawner.html":[1,0,1,398],
-"class_city_builder_core_1_1_pooled_service_walker_spawner.html":[0,0,1,399]
+"class_city_builder_core_1_1_pooled_sale_walker_spawner.html":[0,0,1,398]
 };
