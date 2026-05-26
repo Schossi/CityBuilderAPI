@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.9.5</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.10.0</span>
    </div>
   </td>
  </tr>
@@ -117,12 +117,16 @@ Inheritance diagram for CityBuilderCore.WalkerAddon:</div>
  <div class="center">
   <img src="class_city_builder_core_1_1_walker_addon.png" usemap="#CityBuilderCore.WalkerAddon_map" alt=""/>
   <map id="CityBuilderCore.WalkerAddon_map" name="CityBuilderCore.WalkerAddon_map">
-<area href="class_city_builder_core_1_1_keyed_behaviour.html" title="behaviour that can be uniquely identified by a string key  it can then be retrieved from KeyedSet&lt;T&gt; ..." alt="CityBuilderCore.KeyedBehaviour" shape="rect" coords="119,56,347,80"/>
-<area href="interface_city_builder_core_1_1_i_save_data.html" title="interface for all kinds of components that contain state that needs saving" alt="CityBuilderCore.ISaveData" shape="rect" coords="357,56,585,80"/>
-<area href="interface_city_builder_core_1_1_i_keyed.html" title="object that can be uniquely identified by a string key  it can then be retrieved from IKeyedSet&lt;T&gt; by..." alt="CityBuilderCore.IKeyed" shape="rect" coords="238,0,466,24"/>
-<area href="class_city_builder_core_1_1_attack_slow_addon.html" title="walker addon that slows down the attack walker it is attached to  the speed calculation itself is don..." alt="CityBuilderCore.AttackSlowAddon" shape="rect" coords="0,168,228,192"/>
-<area href="class_city_builder_core_1_1_walker_addon_effect.html" title="blank walker addon that can be used to attach particle effects for example" alt="CityBuilderCore.WalkerAddonEffect" shape="rect" coords="238,168,466,192"/>
-<area href="class_city_builder_core_1_1_walker_addon_material.html" title="changes materials of renderers on the walker while active  for example for outline or highlight mater..." alt="CityBuilderCore.WalkerAddonMaterial" shape="rect" coords="476,168,704,192"/>
+<area href="class_city_builder_core_1_1_keyed_behaviour.html" title="behaviour that can be uniquely identified by a string key  it can then be retrieved from KeyedSet&lt;T&gt; ..." alt="CityBuilderCore.KeyedBehaviour" shape="rect" coords="687,56,952,80"/>
+<area href="interface_city_builder_core_1_1_i_save_data.html" title="interface for all kinds of components that contain state that needs saving" alt="CityBuilderCore.ISaveData" shape="rect" coords="962,56,1227,80"/>
+<area href="interface_city_builder_core_1_1_i_keyed.html" title="object that can be uniquely identified by a string key  it can then be retrieved from IKeyedSet&lt;T&gt; by..." alt="CityBuilderCore.IKeyed" shape="rect" coords="825,0,1090,24"/>
+<area href="class_city_builder_core_1_1_attack_slow_addon.html" title="walker addon that slows down the attack walker it is attached to  the speed calculation itself is don..." alt="CityBuilderCore.AttackSlowAddon" shape="rect" coords="0,168,265,192"/>
+<area href="class_city_builder_core_1_1_walker_addon_bool_parameter.html" title="sets a bool parameter on the walkers animator to true while active" alt="CityBuilderCore.WalkerAddonBoolParameter" shape="rect" coords="275,168,540,192"/>
+<area href="class_city_builder_core_1_1_walker_addon_despawn.html" title="addon that visualy despawns a walker by scaling it down to 0  can be set globally in DefaultBuildingM..." alt="CityBuilderCore.WalkerAddonDespawn" shape="rect" coords="550,168,815,192"/>
+<area href="class_city_builder_core_1_1_walker_addon_effect.html" title="blank walker addon that can be used to attach particle effects for example" alt="CityBuilderCore.WalkerAddonEffect" shape="rect" coords="825,168,1090,192"/>
+<area href="class_city_builder_core_1_1_walker_addon_material.html" title="changes materials of renderers on the walker while active  for example for outline or highlight mater..." alt="CityBuilderCore.WalkerAddonMaterial" shape="rect" coords="1100,168,1365,192"/>
+<area href="class_city_builder_core_1_1_walker_addon_renderer.html" title="copies over materials and properties from a renderer to the walker while active  can be used to put t..." alt="CityBuilderCore.WalkerAddonRenderer" shape="rect" coords="1375,168,1640,192"/>
+<area href="class_city_builder_core_1_1_walker_addon_spawn.html" title="addon that visualy spawns a walker by scaling it up from 0  can be set globally in DefaultBuildingMan..." alt="CityBuilderCore.WalkerAddonSpawn" shape="rect" coords="1650,168,1915,192"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -208,7 +212,7 @@ Properties</h2></td></tr>
 
 <p>called by the walker after the addon has been instantiated and <a class="el" href="class_city_builder_core_1_1_walker.html" title="base class for entites moving about the map  typically created by some kind of WalkerSpawner&lt;T&gt; on a ...">Walker</a> has been set </p>
 
-<p>Reimplemented in <a class="el" href="class_city_builder_core_1_1_attack_slow_addon.html#a27b061ff880db58db198ce0c68786193">CityBuilderCore.AttackSlowAddon</a>, and <a class="el" href="class_city_builder_core_1_1_walker_addon_material.html#a662c7c1249ca4cfa122d147ee34e1f0c">CityBuilderCore.WalkerAddonMaterial</a>.</p>
+<p>Reimplemented in <a class="el" href="class_city_builder_core_1_1_attack_slow_addon.html#a27b061ff880db58db198ce0c68786193">CityBuilderCore.AttackSlowAddon</a>, <a class="el" href="class_city_builder_core_1_1_walker_addon_bool_parameter.html#ae1c0bcb43f9fd7e2853b3b1eb8dc6d41">CityBuilderCore.WalkerAddonBoolParameter</a>, <a class="el" href="class_city_builder_core_1_1_walker_addon_despawn.html#ab0aac1c5410324ebec7f8f921c4b79bb">CityBuilderCore.WalkerAddonDespawn</a>, <a class="el" href="class_city_builder_core_1_1_walker_addon_material.html#a662c7c1249ca4cfa122d147ee34e1f0c">CityBuilderCore.WalkerAddonMaterial</a>, <a class="el" href="class_city_builder_core_1_1_walker_addon_renderer.html#ac8d5a76e4b2f7e9e8f3d2a4326163fb5">CityBuilderCore.WalkerAddonRenderer</a>, and <a class="el" href="class_city_builder_core_1_1_walker_addon_spawn.html#a951ca45943d96c7073d32fb8eca9ef1f">CityBuilderCore.WalkerAddonSpawn</a>.</p>
 
 </div>
 </div>
@@ -307,7 +311,7 @@ Properties</h2></td></tr>
 <p>called by the walker when the addon gets removed<br  />
  this should usually terminate the addon(mark as terminated and Destroy) </p>
 
-<p>Reimplemented in <a class="el" href="class_city_builder_core_1_1_attack_slow_addon.html#af76e635d09ee7d24237ca71d9938a56b">CityBuilderCore.AttackSlowAddon</a>, and <a class="el" href="class_city_builder_core_1_1_walker_addon_material.html#ae7ba34b8c5dd29df619d8bbc7b8b6fac">CityBuilderCore.WalkerAddonMaterial</a>.</p>
+<p>Reimplemented in <a class="el" href="class_city_builder_core_1_1_attack_slow_addon.html#af76e635d09ee7d24237ca71d9938a56b">CityBuilderCore.AttackSlowAddon</a>, <a class="el" href="class_city_builder_core_1_1_walker_addon_bool_parameter.html#a0b6c0763e04e2b5b2c4c221dbe50213d">CityBuilderCore.WalkerAddonBoolParameter</a>, <a class="el" href="class_city_builder_core_1_1_walker_addon_despawn.html#acb2a0a887d7308357cf085df5f06d11b">CityBuilderCore.WalkerAddonDespawn</a>, <a class="el" href="class_city_builder_core_1_1_walker_addon_material.html#ae7ba34b8c5dd29df619d8bbc7b8b6fac">CityBuilderCore.WalkerAddonMaterial</a>, <a class="el" href="class_city_builder_core_1_1_walker_addon_renderer.html#a874719ed4b1f4e0aa6217927915c2ec2">CityBuilderCore.WalkerAddonRenderer</a>, and <a class="el" href="class_city_builder_core_1_1_walker_addon_spawn.html#a727de8b442b85e0bff1b3b241f0de573">CityBuilderCore.WalkerAddonSpawn</a>.</p>
 
 </div>
 </div>

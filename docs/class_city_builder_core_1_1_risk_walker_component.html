@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.9.5</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.10.0</span>
    </div>
   </td>
  </tr>
@@ -129,6 +129,9 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a51f511b47d7310d6309283cd51eb5557" id="r_a51f511b47d7310d6309283cd51eb5557"><td class="memItemLeft" align="right" valign="top">override string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51f511b47d7310d6309283cd51eb5557">GetDebugText</a> ()</td></tr>
+<tr class="memdesc:a51f511b47d7310d6309283cd51eb5557"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns text that gets displayed for debugging in the scene editor  <br /></td></tr>
+<tr class="separator:a51f511b47d7310d6309283cd51eb5557"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac925d6411c71f8130cf097edcf238a08" id="r_ac925d6411c71f8130cf097edcf238a08"><td class="memItemLeft" align="right" valign="top">override string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac925d6411c71f8130cf097edcf238a08">SaveData</a> ()</td></tr>
 <tr class="memdesc:ac925d6411c71f8130cf097edcf238a08"><td class="mdescLeft">&#160;</td><td class="mdescRight">serializes the objects state(usually to json) and returns it  <br /></td></tr>
 <tr class="separator:ac925d6411c71f8130cf097edcf238a08"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -165,9 +168,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abbd71df9c933de57c04c38876533d595 inherit pub_methods_class_city_builder_core_1_1_building_component" id="r_abbd71df9c933de57c04c38876533d595"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_component.html#abbd71df9c933de57c04c38876533d595">ResumeComponent</a> ()</td></tr>
 <tr class="memdesc:abbd71df9c933de57c04c38876533d595 inherit pub_methods_class_city_builder_core_1_1_building_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">resumes work in the component after <a class="el" href="class_city_builder_core_1_1_building_component.html#a7c3902d76a882d33f5fbb4bd008ed64a" title="temporarily stops the component from working">SuspendComponent</a> has been called  <br /></td></tr>
 <tr class="separator:abbd71df9c933de57c04c38876533d595 inherit pub_methods_class_city_builder_core_1_1_building_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a527b162241ba966b2d967e7fb3844c5a inherit pub_methods_class_city_builder_core_1_1_building_component" id="r_a527b162241ba966b2d967e7fb3844c5a"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_component.html#a527b162241ba966b2d967e7fb3844c5a">GetDebugText</a> ()</td></tr>
-<tr class="memdesc:a527b162241ba966b2d967e7fb3844c5a inherit pub_methods_class_city_builder_core_1_1_building_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns text that gets displayed for debugging in the scene editor  <br /></td></tr>
-<tr class="separator:a527b162241ba966b2d967e7fb3844c5a inherit pub_methods_class_city_builder_core_1_1_building_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb721970df963c9ae2fb4a7526d208fe inherit pub_methods_class_city_builder_core_1_1_building_component" id="r_acb721970df963c9ae2fb4a7526d208fe"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_building_component.html#acb721970df963c9ae2fb4a7526d208fe">GetDescription</a> ()</td></tr>
 <tr class="memdesc:acb721970df963c9ae2fb4a7526d208fe inherit pub_methods_class_city_builder_core_1_1_building_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets displayed in dialogs to show the component status to players  <br /></td></tr>
 <tr class="separator:acb721970df963c9ae2fb4a7526d208fe inherit pub_methods_class_city_builder_core_1_1_building_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -216,6 +216,36 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:ac6be13cf8e5596085d10c57416257738 inherit pro_methods_class_city_builder_core_1_1_building_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a51f511b47d7310d6309283cd51eb5557" name="a51f511b47d7310d6309283cd51eb5557"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51f511b47d7310d6309283cd51eb5557">&#9670;&#160;</a></span>GetDebugText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override string CityBuilderCore.RiskWalkerComponent.GetDebugText </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns text that gets displayed for debugging in the scene editor </p>
+<dl class="section return"><dt>Returns</dt><dd>a debugging string or null</dd></dl>
+
+<p>Reimplemented from <a class="el" href="class_city_builder_core_1_1_building_component.html#a527b162241ba966b2d967e7fb3844c5a">CityBuilderCore.BuildingComponent</a>.</p>
+
+</div>
+</div>
 <a id="ab7f11647818813766f4b3b381cc2e67b" name="ab7f11647818813766f4b3b381cc2e67b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab7f11647818813766f4b3b381cc2e67b">&#9670;&#160;</a></span>LoadData()</h2>
 

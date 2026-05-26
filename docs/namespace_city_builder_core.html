@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.9.5</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.10.0</span>
    </div>
   </td>
  </tr>
@@ -337,6 +337,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_camera_mouse_input.html">CameraMouseInput</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">provides access to the position of the players pointer position using the <a class="el" href="interface_city_builder_core_1_1_i_mouse_input.html" title="provides access to the current location of the players pointer">IMouseInput</a> interface<br  />
  usually this is done by the <a class="el" href="class_city_builder_core_1_1_camera_controller.html" title="camera controller that works with various setups and provides mouse inpurt and main camera interfaces">CameraController</a>, this behaviour can be used instead when the camera is static  <a href="class_city_builder_core_1_1_camera_mouse_input.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_city_input_actions.html">CityInputActions</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides programmatic access to InputActionAsset, InputActionMap, InputAction and InputControlScheme instances defined in asset "Assets/SoftLeitner/CityBuilderCore/Settings/CityInputActions.inputactions".  <a href="class_city_builder_core_1_1_city_input_actions.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_collection_component.html">CollectionComponent</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">building component that spawns walkers that collect items from <a class="el" href="interface_city_builder_core_1_1_i_generation_component.html" title="a building component that generates items">IGenerationComponent</a><br  />
@@ -2248,6 +2251,13 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">temporary objects that are added(<a class="el" href="class_city_builder_core_1_1_walker.html#aa022e472b625abb54c85fb353f949aad" title="adds and initializes an addon onto the walker from a prefab">Walker.AddAddon&lt;T&gt;(T)</a>) and removed(<a class="el" href="class_city_builder_core_1_1_walker.html#ac39f6719cfd37698dfa35c7c1c2dbab6" title="terminates and removes an addon from the walker">Walker.RemoveAddon(WalkerAddon)</a>) at runtime<br  />
  can be used for effects, statuses, animations, ...  <a href="class_city_builder_core_1_1_walker_addon.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_walker_addon_bool_parameter.html">WalkerAddonBoolParameter</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets a bool parameter on the walkers animator to true while active  <a href="class_city_builder_core_1_1_walker_addon_bool_parameter.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_walker_addon_despawn.html">WalkerAddonDespawn</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">addon that visualy despawns a walker by scaling it down to 0<br  />
+ can be set globally in DefaultBuildingManager.WalkerFinishAddon or walker specific in Walker.FinishAddon  <a href="class_city_builder_core_1_1_walker_addon_despawn.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_walker_addon_effect.html">WalkerAddonEffect</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">blank walker addon that can be used to attach particle effects for example  <a href="class_city_builder_core_1_1_walker_addon_effect.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2260,9 +2270,18 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">changes materials of renderers on the walker while active<br  />
  for example for outline or highlight materials  <a href="class_city_builder_core_1_1_walker_addon_material.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_walker_addon_renderer.html">WalkerAddonRenderer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">copies over materials and properties from a renderer to the walker while active<br  />
+ can be used to put things like animated dissolves on a walkers temporarily<br  />
+ (see BuildingPlayground3D for an example in walkers spawned from the Roamer House tool)  <a href="class_city_builder_core_1_1_walker_addon_renderer.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_walker_addon_set.html">WalkerAddonSet</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">a collection of walker addons<br  />
  if any walker addons are saved(WalkerAddon.Save) a set of all walker addons in the game is needed by <a class="el" href="class_city_builder_core_1_1_object_repository.html" title="repository used to define and find the objects available to a scene">ObjectRepository</a> so addons can be found when a game gets loaded  <a href="class_city_builder_core_1_1_walker_addon_set.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_walker_addon_spawn.html">WalkerAddonSpawn</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">addon that visualy spawns a walker by scaling it up from 0<br  />
+ can be set globally in DefaultBuildingManager.WalkerSpawnAddon or walker specific in Walker.SpawnAddon  <a href="class_city_builder_core_1_1_walker_addon_spawn.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_city_builder_core_1_1_walker_area_mask.html">WalkerAreaMask</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">object that just contains a NavMesh area mask<br  />

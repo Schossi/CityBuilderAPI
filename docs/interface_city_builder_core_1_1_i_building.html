@@ -29,7 +29,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.9.5</span>
+   <div id="projectname"><a href="https://citybuilder.softleitner.com/manual">ClassicCityBuilderKit</a><span id="projectnumber">&#160;1.10.0</span>
    </div>
   </td>
  </tr>
@@ -101,6 +101,7 @@ $(function(){initNavTree('interface_city_builder_core_1_1_i_building.html',''); 
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#properties">Properties</a> &#124;
+<a href="#events">Events</a> &#124;
 <a href="interface_city_builder_core_1_1_i_building-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">CityBuilderCore.IBuilding Interface Reference</div></div>
 </div><!--header-->
@@ -300,6 +301,24 @@ Transform&#160;</td><td class="memItemRight" valign="bottom"><b>Pivot</b><code> 
 <tr class="memdesc:aba1817e99fe62e960b56e794ad577f21 inherit properties_interface_city_builder_core_1_1_i_keyed"><td class="mdescLeft">&#160;</td><td class="mdescRight">unique identifier among a type of objects(might be used in savegames, be careful when changing)  <br /></td></tr>
 <tr class="separator:aba1817e99fe62e960b56e794ad577f21 inherit properties_interface_city_builder_core_1_1_i_keyed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="events" name="events"></a>
+Events</h2></td></tr>
+<tr class="memitem:ae86311e32841ff0ef9f7e79fc8a2a358" id="r_ae86311e32841ff0ef9f7e79fc8a2a358"><td class="memItemLeft" align="right" valign="top"><a id="ae86311e32841ff0ef9f7e79fc8a2a358" name="ae86311e32841ff0ef9f7e79fc8a2a358"></a>
+Action&lt; <a class="el" href="interface_city_builder_core_1_1_i_building.html">IBuilding</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Moving</b></td></tr>
+<tr class="memdesc:ae86311e32841ff0ef9f7e79fc8a2a358"><td class="mdescLeft">&#160;</td><td class="mdescRight">fired when the building is moved <br /></td></tr>
+<tr class="separator:ae86311e32841ff0ef9f7e79fc8a2a358"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a781afb212912f872cb9b0d76c17ffa2d" id="r_a781afb212912f872cb9b0d76c17ffa2d"><td class="memItemLeft" align="right" valign="top"><a id="a781afb212912f872cb9b0d76c17ffa2d" name="a781afb212912f872cb9b0d76c17ffa2d"></a>
+Action&lt; <a class="el" href="interface_city_builder_core_1_1_i_building.html">IBuilding</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Terminating</b></td></tr>
+<tr class="memdesc:a781afb212912f872cb9b0d76c17ffa2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">fired when the building is terminating <br /></td></tr>
+<tr class="separator:a781afb212912f872cb9b0d76c17ffa2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header events_interface_city_builder_core_1_1_i_structure"><td colspan="2" onclick="javascript:dynsection.toggleInherit('events_interface_city_builder_core_1_1_i_structure')"><img src="closed.png" alt="-"/>&#160;Events inherited from <a class="el" href="interface_city_builder_core_1_1_i_structure.html">CityBuilderCore.IStructure</a></td></tr>
+<tr class="memitem:a5a8617a30380c9efa63047c778e8e7ef inherit events_interface_city_builder_core_1_1_i_structure" id="r_a5a8617a30380c9efa63047c778e8e7ef"><td class="memItemLeft" align="right" valign="top">
+Action&lt; <a class="el" href="class_city_builder_core_1_1_points_changed.html">PointsChanged</a>&lt; <a class="el" href="interface_city_builder_core_1_1_i_structure.html">IStructure</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>PointsChanged</b></td></tr>
+<tr class="memdesc:a5a8617a30380c9efa63047c778e8e7ef inherit events_interface_city_builder_core_1_1_i_structure"><td class="mdescLeft">&#160;</td><td class="mdescRight">has to be fired when a structures points changed so the manager can readjust paths<br  />
+ only viable for structures that are stored in list form like underlying, collections and tiles<br  />
+ other structures have to be reregistered <br /></td></tr>
+<tr class="separator:a5a8617a30380c9efa63047c778e8e7ef inherit events_interface_city_builder_core_1_1_i_structure"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_static_methods_interface_city_builder_core_1_1_i_structure"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_static_methods_interface_city_builder_core_1_1_i_structure')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="interface_city_builder_core_1_1_i_structure.html">CityBuilderCore.IStructure</a></td></tr>
@@ -313,13 +332,6 @@ Additional Inherited Members</h2></td></tr>
  used in town so bushes keep their look(size, rotation, color) when berries grown on them<br  />
  would also carry the variant index for trees in town if there were any  <br /></td></tr>
 <tr class="separator:a98e1b620abf92479574828e27a903a81 inherit pub_static_methods_interface_city_builder_core_1_1_i_structure"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header events_interface_city_builder_core_1_1_i_structure"><td colspan="2" onclick="javascript:dynsection.toggleInherit('events_interface_city_builder_core_1_1_i_structure')"><img src="closed.png" alt="-"/>&#160;Events inherited from <a class="el" href="interface_city_builder_core_1_1_i_structure.html">CityBuilderCore.IStructure</a></td></tr>
-<tr class="memitem:a5a8617a30380c9efa63047c778e8e7ef inherit events_interface_city_builder_core_1_1_i_structure" id="r_a5a8617a30380c9efa63047c778e8e7ef"><td class="memItemLeft" align="right" valign="top">
-Action&lt; <a class="el" href="class_city_builder_core_1_1_points_changed.html">PointsChanged</a>&lt; <a class="el" href="interface_city_builder_core_1_1_i_structure.html">IStructure</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>PointsChanged</b></td></tr>
-<tr class="memdesc:a5a8617a30380c9efa63047c778e8e7ef inherit events_interface_city_builder_core_1_1_i_structure"><td class="mdescLeft">&#160;</td><td class="mdescRight">has to be fired when a structures points changed so the manager can readjust paths<br  />
- only viable for structures that are stored in list form like underlying, collections and tiles<br  />
- other structures have to be reregistered <br /></td></tr>
-<tr class="separator:a5a8617a30380c9efa63047c778e8e7ef inherit events_interface_city_builder_core_1_1_i_structure"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="ac5beb2ceefe175187bd42b874c31486d" name="ac5beb2ceefe175187bd42b874c31486d"></a>

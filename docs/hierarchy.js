@@ -303,6 +303,9 @@ var hierarchy =
       ] ],
       [ "CityBuilderCore.DifficultyFactorHappening", "class_city_builder_core_1_1_difficulty_factor_happening.html", null ]
     ] ],
+    [ "IDisposable", null, [
+      [ "CityBuilderCore.CityInputActions", "class_city_builder_core_1_1_city_input_actions.html", null ]
+    ] ],
     [ "IDragHandler", null, [
       [ "CityBuilderCore.Minimap", "class_city_builder_core_1_1_minimap.html", null ]
     ] ],
@@ -399,6 +402,9 @@ var hierarchy =
       [ "CityBuilderCore.MeshHighlightManager", "class_city_builder_core_1_1_mesh_highlight_manager.html", null ],
       [ "CityBuilderCore.SpriteHighlightManager", "class_city_builder_core_1_1_sprite_highlight_manager.html", null ]
     ] ],
+    [ "IInputActionCollection2", null, [
+      [ "CityBuilderCore.CityInputActions", "class_city_builder_core_1_1_city_input_actions.html", null ]
+    ] ],
     [ "CityBuilderCore.IItemContainer", "interface_city_builder_core_1_1_i_item_container.html", [
       [ "CityBuilderCore.ItemStorage", "class_city_builder_core_1_1_item_storage.html", null ],
       [ "CityBuilderCore.MultiItemContainer", "class_city_builder_core_1_1_multi_item_container.html", null ],
@@ -493,8 +499,12 @@ var hierarchy =
         [ "CityBuilderCore.Tests.DebugStructure", "class_city_builder_core_1_1_tests_1_1_debug_structure.html", null ],
         [ "CityBuilderCore.WalkerAddon", "class_city_builder_core_1_1_walker_addon.html", [
           [ "CityBuilderCore.AttackSlowAddon", "class_city_builder_core_1_1_attack_slow_addon.html", null ],
+          [ "CityBuilderCore.WalkerAddonBoolParameter", "class_city_builder_core_1_1_walker_addon_bool_parameter.html", null ],
+          [ "CityBuilderCore.WalkerAddonDespawn", "class_city_builder_core_1_1_walker_addon_despawn.html", null ],
           [ "CityBuilderCore.WalkerAddonEffect", "class_city_builder_core_1_1_walker_addon_effect.html", null ],
-          [ "CityBuilderCore.WalkerAddonMaterial", "class_city_builder_core_1_1_walker_addon_material.html", null ]
+          [ "CityBuilderCore.WalkerAddonMaterial", "class_city_builder_core_1_1_walker_addon_material.html", null ],
+          [ "CityBuilderCore.WalkerAddonRenderer", "class_city_builder_core_1_1_walker_addon_renderer.html", null ],
+          [ "CityBuilderCore.WalkerAddonSpawn", "class_city_builder_core_1_1_walker_addon_spawn.html", null ]
         ] ],
         [ "CityBuilderTown.TownTask", "class_city_builder_town_1_1_town_task.html", [
           [ "CityBuilderTown.TownBuildTask", "class_city_builder_town_1_1_town_build_task.html", null ],
@@ -632,6 +642,7 @@ var hierarchy =
       ] ],
       [ "CityBuilderCore.NoPathfinding", "class_city_builder_core_1_1_no_pathfinding.html", null ]
     ] ],
+    [ "CityBuilderCore.CityInputActions.IPlayerActions", "interface_city_builder_core_1_1_city_input_actions_1_1_i_player_actions.html", null ],
     [ "IPointerClickHandler", null, [
       [ "CityBuilderCore.NotificationPanel", "class_city_builder_core_1_1_notification_panel.html", null ],
       [ "CityBuilderCore.SaveVisualizerItem", "class_city_builder_core_1_1_save_visualizer_item.html", null ],
@@ -853,6 +864,7 @@ var hierarchy =
     [ "CityBuilderCore.ITooltipOwner", "interface_city_builder_core_1_1_i_tooltip_owner.html", [
       [ "CityBuilderCore.TooltipOwnerBase", "class_city_builder_core_1_1_tooltip_owner_base.html", null ]
     ] ],
+    [ "CityBuilderCore.CityInputActions.IUIActions", "interface_city_builder_core_1_1_city_input_actions_1_1_i_u_i_actions.html", null ],
     [ "CityBuilderCore.IUndoRedoStack", "interface_city_builder_core_1_1_i_undo_redo_stack.html", [
       [ "CityBuilderCore.UndoRedoStack", "class_city_builder_core_1_1_undo_redo_stack.html", null ]
     ] ],
@@ -1213,6 +1225,7 @@ var hierarchy =
       [ "CityBuilderCore.NoPathfinding.NoPathQuery", "class_city_builder_core_1_1_no_pathfinding_1_1_no_path_query.html", null ]
     ] ],
     [ "CityBuilderUrban.PickupWalker.PickupWalkerData", "class_city_builder_urban_1_1_pickup_walker_1_1_pickup_walker_data.html", null ],
+    [ "CityBuilderCore.CityInputActions.PlayerActions", "struct_city_builder_core_1_1_city_input_actions_1_1_player_actions.html", null ],
     [ "CityBuilderCore.PointsChanged< T >", "class_city_builder_core_1_1_points_changed.html", null ],
     [ "CityBuilderCore.PooledWalkerSeat", "class_city_builder_core_1_1_pooled_walker_seat.html", null ],
     [ "CityBuilderCore.PooledWalkerSeat.PooledWalkerSeatData", "class_city_builder_core_1_1_pooled_walker_seat_1_1_pooled_walker_seat_data.html", null ],
@@ -1496,6 +1509,7 @@ var hierarchy =
     [ "CityBuilderTown.TownWorkComponent.TownWorkData", "class_city_builder_town_1_1_town_work_component_1_1_town_work_data.html", null ],
     [ "CityBuilderUrban.TrainWalker.TrainWalkerData", "class_city_builder_urban_1_1_train_walker_1_1_train_walker_data.html", null ],
     [ "CityBuilderCore.StateManager.TransitionEntry", "class_city_builder_core_1_1_state_manager_1_1_transition_entry.html", null ],
+    [ "CityBuilderCore.CityInputActions.UIActions", "struct_city_builder_core_1_1_city_input_actions_1_1_u_i_actions.html", null ],
     [ "CityBuilderCore.UndoRedoActionData", "class_city_builder_core_1_1_undo_redo_action_data.html", null ],
     [ "CityBuilderCore.UndoRedoActions.UndoRedoActionsData", "class_city_builder_core_1_1_undo_redo_actions_1_1_undo_redo_actions_data.html", null ],
     [ "CityBuilderCore.UndoRedoGlobalItems.UndoRedoGlobalItemsData", "class_city_builder_core_1_1_undo_redo_global_items_1_1_undo_redo_global_items_data.html", null ],

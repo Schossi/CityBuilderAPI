@@ -68,7 +68,7 @@ var class_city_builder_core_1_1_walker =
     [ "_current", "class_city_builder_core_1_1_walker.html#a5aa1c84ec5206d4a44fd686bdac5924b", null ],
     [ "_isFinished", "class_city_builder_core_1_1_walker.html#a18d79c968bc7d9f23d58821a17b46193", null ],
     [ "_start", "class_city_builder_core_1_1_walker.html#acbdfc0c994471f33fa5cb52e1fb85f8a", null ],
-    [ "Addons", "class_city_builder_core_1_1_walker.html#a7935b1527cc167b3f5d934f4227ef74c", null ],
+    [ "Addons", "class_city_builder_core_1_1_walker.html#a3218976959974381f4e6beb5e29070cb", null ],
     [ "CurrentAction", "class_city_builder_core_1_1_walker.html#a99b058c5b27e3f32f9276b0070b544a3", null ],
     [ "CurrentAgentWalking", "class_city_builder_core_1_1_walker.html#aec0436fbd11cfc30f9474d9f164af582", null ],
     [ "CurrentPoint", "class_city_builder_core_1_1_walker.html#a4b0ab0a3e851cebeadd87518f702a133", null ],

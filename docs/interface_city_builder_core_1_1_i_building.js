@@ -36,5 +36,7 @@ var interface_city_builder_core_1_1_i_building =
     [ "Root", "interface_city_builder_core_1_1_i_building.html#a8a6541ca5eadce025eb3032ba5dc5d05", null ],
     [ "Rotation", "interface_city_builder_core_1_1_i_building.html#adc5e2ab0e60e5a62eec74722fb96a096", null ],
     [ "Size", "interface_city_builder_core_1_1_i_building.html#a051dd96765387ae61d4fb3c37758c426", null ],
-    [ "WorldCenter", "interface_city_builder_core_1_1_i_building.html#a633c9738d72724f67d0e03161b61ebbd", null ]
+    [ "WorldCenter", "interface_city_builder_core_1_1_i_building.html#a633c9738d72724f67d0e03161b61ebbd", null ],
+    [ "Moving", "interface_city_builder_core_1_1_i_building.html#ae86311e32841ff0ef9f7e79fc8a2a358", null ],
+    [ "Terminating", "interface_city_builder_core_1_1_i_building.html#a781afb212912f872cb9b0d76c17ffa2d", null ]
 ];
