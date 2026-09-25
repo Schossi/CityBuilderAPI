@@ -1,5 +1,7 @@
 var NAVTREEINDEX18 =
 {
+"class_city_builder_town_1_1_town_construction_component.html#ab27e7d9f7607d13eeecadae0d4be4082":[1,0,5,5,2],
+"class_city_builder_town_1_1_town_construction_component.html#abad70a52e578ef2be62c5c00bd621391":[0,0,5,5,7],
 "class_city_builder_town_1_1_town_construction_component.html#abad70a52e578ef2be62c5c00bd621391":[1,0,5,5,7],
 "class_city_builder_town_1_1_town_construction_component.html#abaebb6311cc4fab9dba7a72bf9e584b4":[0,0,5,5,9],
 "class_city_builder_town_1_1_town_construction_component.html#abaebb6311cc4fab9dba7a72bf9e584b4":[1,0,5,5,9],
@@ -21,8 +23,8 @@ var NAVTREEINDEX18 =
 "class_city_builder_town_1_1_town_difficulty.html":[1,0,5,9],
 "class_city_builder_town_1_1_town_distribution_task.html":[0,0,5,10],
 "class_city_builder_town_1_1_town_distribution_task.html":[1,0,5,10],
-"class_city_builder_town_1_1_town_distribution_task_1_1_town_build_task_data.html":[0,0,5,10,0],
-"class_city_builder_town_1_1_town_distribution_task_1_1_town_build_task_data.html":[1,0,5,10,0],
+"class_city_builder_town_1_1_town_distribution_task_1_1_town_distribution_task_data.html":[0,0,5,10,0],
+"class_city_builder_town_1_1_town_distribution_task_1_1_town_distribution_task_data.html":[1,0,5,10,0],
 "class_city_builder_town_1_1_town_farming_component.html":[0,0,5,11],
 "class_city_builder_town_1_1_town_farming_component.html":[1,0,5,11],
 "class_city_builder_town_1_1_town_farming_component.html#a3b14dee14cf3fffb16b7c8fe459c7bc5":[0,0,5,11,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX18 =
 "class_city_builder_town_1_1_town_task.html#a5574385aa42bcea26ea2b443844a227e":[1,0,5,42,1],
 "class_city_builder_town_1_1_town_task.html#ad8c1e044a1e4e917899eee2f25c5f32b":[0,0,5,42,0],
 "class_city_builder_town_1_1_town_task.html#ad8c1e044a1e4e917899eee2f25c5f32b":[1,0,5,42,0],
-"class_city_builder_town_1_1_town_task_data.html":[0,0,5,43],
-"class_city_builder_town_1_1_town_task_data.html":[1,0,5,43],
-"class_city_builder_town_1_1_town_task_set.html":[0,0,5,44]
+"class_city_builder_town_1_1_town_task_data.html":[0,0,5,43]
 };

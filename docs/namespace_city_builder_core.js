@@ -63,6 +63,7 @@ var namespace_city_builder_core =
     [ "CameraArea", "class_city_builder_core_1_1_camera_area.html", null ],
     [ "CameraController", "class_city_builder_core_1_1_camera_controller.html", "class_city_builder_core_1_1_camera_controller" ],
     [ "CameraMouseInput", "class_city_builder_core_1_1_camera_mouse_input.html", "class_city_builder_core_1_1_camera_mouse_input" ],
+    [ "CityBuilderSetupState", "class_city_builder_core_1_1_city_builder_setup_state.html", null ],
     [ "CityInputActions", "class_city_builder_core_1_1_city_input_actions.html", "class_city_builder_core_1_1_city_input_actions" ],
     [ "CollectionComponent", "class_city_builder_core_1_1_collection_component.html", "class_city_builder_core_1_1_collection_component" ],
     [ "CollectionWalker", "class_city_builder_core_1_1_collection_walker.html", "class_city_builder_core_1_1_collection_walker" ],

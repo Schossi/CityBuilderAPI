@@ -831,6 +831,7 @@ var hierarchy =
       [ "CityBuilderCore.ItemsReceiverAction", "class_city_builder_core_1_1_items_receiver_action.html", null ],
       [ "CityBuilderCore.ReceiveItemsAction", "class_city_builder_core_1_1_receive_items_action.html", null ],
       [ "CityBuilderCore.TakeItemsAction", "class_city_builder_core_1_1_take_items_action.html", null ],
+      [ "CityBuilderCore.WalkAgentAction", "class_city_builder_core_1_1_walk_agent_action.html", null ],
       [ "CityBuilderCore.WalkBuildingAction", "class_city_builder_core_1_1_walk_building_action.html", null ],
       [ "CityBuilderCore.WalkPathAction", "class_city_builder_core_1_1_walk_path_action.html", null ],
       [ "CityBuilderTown.TownProvisionAction", "class_city_builder_town_1_1_town_provision_action.html", null ]
@@ -1337,6 +1338,7 @@ var hierarchy =
     [ "CityBuilderCore.DefaultGameManager.SaveData", "class_city_builder_core_1_1_default_game_manager_1_1_save_data.html", null ],
     [ "CityBuilderCore.DefaultGameManager.SaveDataMeta", "class_city_builder_core_1_1_default_game_manager_1_1_save_data_meta.html", null ],
     [ "ScriptableObject", null, [
+      [ "CityBuilderCore.CityBuilderSetupState", "class_city_builder_core_1_1_city_builder_setup_state.html", null ],
       [ "CityBuilderCore.Editor.SetupGenerator", "class_city_builder_core_1_1_editor_1_1_setup_generator.html", null ],
       [ "CityBuilderCore.EvolutionSequence", "class_city_builder_core_1_1_evolution_sequence.html", null ],
       [ "CityBuilderCore.KeyedObject", "class_city_builder_core_1_1_keyed_object.html", null ],
@@ -1495,8 +1497,8 @@ var hierarchy =
     [ "CityBuilderCore.Tests.TimingTesting", "class_city_builder_core_1_1_tests_1_1_timing_testing.html", null ],
     [ "CityBuilderTown.TownHomeComponent.TomeHomeData", "class_city_builder_town_1_1_town_home_component_1_1_tome_home_data.html", null ],
     [ "CityBuilderTown.TownBuildTask.TownBuildTaskData", "class_city_builder_town_1_1_town_build_task_1_1_town_build_task_data.html", null ],
-    [ "CityBuilderTown.TownDistributionTask.TownBuildTaskData", "class_city_builder_town_1_1_town_distribution_task_1_1_town_build_task_data.html", null ],
     [ "CityBuilderTown.TownConstructionComponent.TownConstructionData", "class_city_builder_town_1_1_town_construction_component_1_1_town_construction_data.html", null ],
+    [ "CityBuilderTown.TownDistributionTask.TownDistributionTaskData", "class_city_builder_town_1_1_town_distribution_task_1_1_town_distribution_task_data.html", null ],
     [ "CityBuilderTown.TownFarmingComponent.TownFarmingData", "class_city_builder_town_1_1_town_farming_component_1_1_town_farming_data.html", null ],
     [ "CityBuilderTown.TownGatheringComponent.TownFarmingData", "class_city_builder_town_1_1_town_gathering_component_1_1_town_farming_data.html", null ],
     [ "CityBuilderTown.TownFieldTask.TownFieldData", "class_city_builder_town_1_1_town_field_task_1_1_town_field_data.html", null ],

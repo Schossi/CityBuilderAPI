@@ -1,5 +1,7 @@
 var NAVTREEINDEX19 =
 {
+"class_city_builder_town_1_1_town_task_data.html":[1,0,5,43],
+"class_city_builder_town_1_1_town_task_set.html":[0,0,5,44],
 "class_city_builder_town_1_1_town_task_set.html":[1,0,5,44],
 "class_city_builder_town_1_1_town_view_walker_energy_bar.html":[0,0,5,45],
 "class_city_builder_town_1_1_town_view_walker_energy_bar.html":[1,0,5,45],
@@ -247,7 +249,5 @@ var NAVTREEINDEX19 =
 "functions_prop_o.html":[1,3,4,13],
 "functions_prop_p.html":[1,3,4,14],
 "functions_prop_r.html":[1,3,4,15],
-"functions_prop_s.html":[1,3,4,16],
-"functions_prop_t.html":[1,3,4,17],
-"functions_prop_u.html":[1,3,4,18]
+"functions_prop_s.html":[1,3,4,16]
 };
